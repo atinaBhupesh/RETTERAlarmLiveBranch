@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="live_functions.AA_TestclassForNewData"/>
+      
+       <methods>
+				<include name="userDetails"  />
+			
+			
+				<include name="addFireStation"  />
+			
+		
+			
+			
+			
+			
+			
+			<include name="CreateAttributeForDepartment"  />
+			<include name="addFireStation"  />
+			<include name="addVehicleUserForNewStation"  />
+			<include name="addResourceForNewStation"  />
+			 <include name="createNewStationMonitorUser" />
+			<include name="addFirefighterForNewStation" />
+			<include name="addNewStationUserForNewStation"  />
+		    <include name="createManualAlarmByNewAttributeForNewStation" />
+			<include name="createManualAlarmByNewResourceForNewStation" />
+			<include name="createManualAlarmByNewFireighterForNewStation" />
+
+			
+			
+			
+			 <include name="detailsAboutScript"  /> 
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

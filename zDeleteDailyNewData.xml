@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="live_functions.AAAA_testClass_deleteNewData"/>
+      <methods>
+					<include name="userDetails"  />
+				
+				
+			    <include name="deactiveManualAlarm" />
+			  
+				<include name="deactiveTestAlarmFromOverview" />
+			
+				<include name="deleteManualAlarm" />
+				
+			    <include name="deleteTestAlarmFromList" />
+			    <include name="deleteTestAlarmFromOverview" />
+			    
+				<include name="delteInfoEvent" />
+				
+				<include name="deleteCalendarEventCreatedByAttribute" />
+				<include name="deleteCalendarEventCreatedByResource" />
+				<include name="deleteCalendarEventCreatedByFirefighter" />
+				
+				<include name="deleteARFromList" />
+				<include name="deleteARFromHistory" />
+				
+				
+				
+				<include name="deleteChatGroup" />
+				<include name="deleteCheckList" />
+				<include name="deletePermissionGroup" />
+				
+				<include name="deleteAlarmLoop" />
+				
+				
+				<include name="deleteUers" />
+				<include name="deleteResource" />
+				<include name="deleteAttribute" />
+				<include name="deleteVehicleUser" />
+				<include name="deleteChatGroup" />
+				<include name="deleteAlarmLoop" />
+				<include name="deleteMonitorUser" />
+				<include name="deleteFireStation" />
+				<include name="deleteAlarmTemplate" />
+				<include name="deleteEventCategory" />
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+
+				<include name="detailsAboutScript"  /> 
+			</methods>
+
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
