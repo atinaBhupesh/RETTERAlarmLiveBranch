@@ -378,7 +378,7 @@ public class G_InfoEvent extends B_baseClass {
 		act.sendKeys(Keys.PAGE_DOWN).build().perform();
 		userTypeFireFighter.click();
 		selectAllCheckBox.click();
-		act.sendKeys(Keys.PAGE_DOWN).build().perform();
+		Thread.sleep(2000);
 		selectAllCheckBox.click();
 		Thread.sleep(2000);
 		jonas3.click();

@@ -1,5 +1,10 @@
 package live_functions;
 
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -71,6 +76,8 @@ public class E_manualAlarm extends B_baseClass
 	private WebElement writemessageField;
 	@FindBy(xpath = "//button[@id=\"actionSendMessage\"]")
 	private WebElement sendmessageButton;
+	@FindBy(xpath="//input[@class=\"upload\"]")private WebElement attachFile;
+	
 	@FindBy(xpath = "(//i[@class=\"fa fa-user-plus\"])[1]")
 	private WebElement extendAlarmButton;
 
@@ -989,7 +996,7 @@ public class E_manualAlarm extends B_baseClass
 
 		searchField.click();
 
-		act.sendKeys("BG-low priority manual").build().perform();
+		act.sendKeys("BG-low priority manual alarm by attribute").build().perform();
 		
 		searchButton.click();
 		Thread.sleep(2000);
@@ -1000,6 +1007,88 @@ public class E_manualAlarm extends B_baseClass
 		act.sendKeys("message-alarm users").build().perform();
 		
 		sendmessageButton.click();
+		
+		Thread.sleep(1000);
+		act.moveToElement(attachFile).click().build().perform();
+		Thread.sleep(1000);
+		
+		StringSelection ss= new StringSelection("C:\\Users\\BHUPESH\\Desktop\\New folder\\FireFighter.png");
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
+		
+		
+		Robot rc=new Robot();
+		Thread.sleep(2000);
+		rc.keyPress(KeyEvent.VK_CONTROL);
+		rc.keyPress(KeyEvent.VK_V);
+		Thread.sleep(2000);
+		rc.keyRelease(KeyEvent.VK_CONTROL);
+		rc.keyRelease(KeyEvent.VK_V);
+		Thread.sleep(2000);
+		rc.keyPress(KeyEvent.VK_ENTER);
+		rc.keyRelease(KeyEvent.VK_ENTER);
+		Thread.sleep(2000);
+		
+		writemessageField.click();
+		
+		act.sendKeys("image-alarm users").build().perform();
+		Thread.sleep(2000);
+		sendmessageButton.click();
+		Reporter.log("image attached properly",true);
+		
+		
+		Thread.sleep(1000);
+		act.moveToElement(attachFile).click().build().perform();
+		Thread.sleep(1000);
+		
+		StringSelection ss1= new StringSelection("C:\\Users\\BHUPESH\\Desktop\\New folder\\Automation Test.pdf");
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss1, null);
+		
+		
+
+		Thread.sleep(2000);
+		rc.keyPress(KeyEvent.VK_CONTROL);
+		rc.keyPress(KeyEvent.VK_V);
+		Thread.sleep(2000);
+		rc.keyRelease(KeyEvent.VK_CONTROL);
+		rc.keyRelease(KeyEvent.VK_V);
+		Thread.sleep(2000);
+		rc.keyPress(KeyEvent.VK_ENTER);
+		rc.keyRelease(KeyEvent.VK_ENTER);
+		Thread.sleep(2000);
+		
+		writemessageField.click();
+		
+		act.sendKeys("pdf-alarm users").build().perform();
+		Thread.sleep(2000);
+		sendmessageButton.click();
+		Reporter.log("pdf attached properly",true);
+		
+		Thread.sleep(1000);
+		act.moveToElement(attachFile).click().build().perform();
+		Thread.sleep(1000);
+		
+		StringSelection ss2= new StringSelection("C:\\Users\\BHUPESH\\Desktop\\New folder\\Notes.docx");
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss2, null);
+		
+		
+
+		Thread.sleep(2000);
+		rc.keyPress(KeyEvent.VK_CONTROL);
+		rc.keyPress(KeyEvent.VK_V);
+		Thread.sleep(2000);
+		rc.keyRelease(KeyEvent.VK_CONTROL);
+		rc.keyRelease(KeyEvent.VK_V);
+		Thread.sleep(2000);
+		rc.keyPress(KeyEvent.VK_ENTER);
+		rc.keyRelease(KeyEvent.VK_ENTER);
+		Thread.sleep(2000);
+		
+		writemessageField.click();
+		
+		act.sendKeys("word file -alarm users").build().perform();
+		Thread.sleep(2000);
+		sendmessageButton.click();
+		Reporter.log("word file attached properly",true);
 	
 		
 	}

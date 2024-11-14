@@ -12,7 +12,7 @@
 			  
 				<include name="deactiveTestAlarmFromOverview" />
 			
-				<include name="deleteManualAlarm" />
+				<exclude name="deleteManualAlarm" />
 				
 			    <include name="deleteTestAlarmFromList" />
 			    <include name="deleteTestAlarmFromOverview" />

@@ -10,7 +10,7 @@
 				
 			
 				
-    <include name="sendmessageToAlarmUser"/>
+    <include name="createInfoEventByFirefighter"/>
         	`
 			
         	
