@@ -10,7 +10,7 @@
 				
 			
 				
-    <include name="createInfoEventByFirefighter"/>
+    	<include name="createLowPriorityManualAlarmByAttribute"  />
         	`
 			
         	

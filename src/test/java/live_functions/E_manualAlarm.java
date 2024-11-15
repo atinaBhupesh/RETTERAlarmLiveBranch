@@ -1116,8 +1116,11 @@ public class E_manualAlarm extends B_baseClass
 			
 			searchButton.click();
 			Thread.sleep(2000);
-		
-			deactiveAlarm.click();
+			
+			
+			
+	
+			{deactiveAlarm.click();
 			Thread.sleep(1000);
 			changeStatusYes.click();
 			Thread.sleep(1000);
@@ -1125,6 +1128,8 @@ public class E_manualAlarm extends B_baseClass
 			Thread.sleep(8000);
 		   driver.navigate().refresh();
 		   Thread.sleep(2000);;
+		  
+			}
 
 		}
 
