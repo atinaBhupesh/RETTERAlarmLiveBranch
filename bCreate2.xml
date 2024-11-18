@@ -8,12 +8,9 @@
        <methods>
 				<include name="userDetails"  />
 				
-			
-				
-    	<include name="createLowPriorityManualAlarmByAttribute"  />
-        	`
-			
-        	
+		
+		
+		
 			 <include name="detailsAboutScript"  /> 
       </methods>
     </classes>

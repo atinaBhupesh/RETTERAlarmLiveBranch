@@ -120,7 +120,7 @@
 			
 			
 			
-			
+				<exclude name="ManulaAlarmRepeate"  />
 			
 			<exclude name="createAvailabilityRequestSendImmediat"  />
 			<exclude name="createAvailabilityRequestSendSchedule"  />

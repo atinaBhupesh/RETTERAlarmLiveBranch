@@ -535,7 +535,17 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	
 
 	
-	
+	@Test
+
+	public void ManulaAlarmRepeate() throws Throwable {
+		Reporter.log(" ", true);
+		Reporter.log("The process of creating a manual alarm by new firefighter is started.", true);
+		ma.manualAlarmCommon(driver);
+		ma.ManulaAlarmRepeate(driver, date);
+		Reporter.log("The process of creating a manual alarm by new firefighter is complete.", true);
+		Reporter.log(" ", true);
+		Thread.sleep(3000);
+	}
 	
 
 	

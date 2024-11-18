@@ -7,9 +7,11 @@
         <methods>
           <include name="logOut"/>
           <include name="backToHomePage2"/>
+          <include name="BeforeSuite"/>
+          <include name="AfterTest"/>
           <include name="backToHomePage"/>
-          <include name="createPermissionGroupDefaultStation"/>
-          <include name="createManualAlarmByEscalationResource"/>
+          <include name="BeforeTest"/>
+          <include name="AfterSute"/>
           <include name="createTestAlarmByAttributeOneTime"/>
           <include name="lounchBrowser"/>
         </methods>

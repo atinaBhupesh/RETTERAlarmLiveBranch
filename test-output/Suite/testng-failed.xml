@@ -8,8 +8,8 @@
           <include name="lounchBrowser"/>
           <include name="backToHomePage2"/>
           <include name="logOut"/>
+          <include name="deleteManualAlarm"/>
           <include name="backToHomePage"/>
-          <include name="deactiveTestAlarmFromOverview"/>
         </methods>
       </class> <!-- live_functions.AAA_testClass_delete -->
     </classes>

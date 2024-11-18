@@ -113,7 +113,7 @@ public class E_manualAlarm extends B_baseClass
 
 	@FindBy(xpath = "//input[@value=\"18480\"]")private WebElement ADST07A2;
 	 @FindBy(xpath="//input[@value=\"3137\"]")private WebElement ADST07R2;
-	// @FindBy(xpath="")private WebElement ;
+	@FindBy(xpath="//input[@value=\"27698\"]")private WebElement RahulVbc3;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -171,6 +171,88 @@ public class E_manualAlarm extends B_baseClass
 		manageAlarm.click();
 		
 
+	}
+	
+	
+	public void ManulaAlarmRepeate (WebDriver driver, String date) throws Throwable
+	
+	{
+		
+		Actions act = new Actions(driver);
+
+		for  (int i=0;i<=20;i++)
+		{
+		createNewButton.click();
+		
+		fireDepartmentField.click();
+		
+		act.sendKeys("Andrew").build().perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(2000);
+		fireStationField.click();
+		
+		act.sendKeys("06").build().perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(2000);
+		titlefield.click();
+		
+		act.sendKeys("BG-manual alarm by firefighter-" + date).build().perform();
+	
+		descriptionField.click();
+		
+		act.sendKeys("BG-manual alarm by firefighter checking.").build().perform();
+	
+		
+	
+		userTypeFireFighter.click();
+		Thread.sleep(2000);
+		
+//		vehicleField.click();
+//		Thread.sleep(1000);
+//		
+//		act.sendKeys("06v1").build().perform();
+//		Thread.sleep(3000);
+//		act.sendKeys(Keys.ENTER).build().perform();
+//		Thread.sleep(2000);
+//
+//		act.sendKeys(Keys.TAB).build().perform();
+//		Thread.sleep(2000);
+//		act.sendKeys("06v3").build().perform();
+//		Thread.sleep(3000);
+//		act.sendKeys(Keys.ENTER).build().perform();
+//		Thread.sleep(2000);
+
+		
+//		selectAllCheckBox.click();
+//		Thread.sleep(1000);
+//		selectAllCheckBox.click();
+//		Thread.sleep(1000);
+		RahulVbc3.click();
+		Thread.sleep(1000);
+		
+		
+		
+
+		adressFeild.click();
+	
+		act.sendKeys("Imperial Celebration Hall, Power House, 35, Mankapur Ring Rd, Mhalgi Nagar, Nagpur, Maharashtra 440034").build().perform();
+		
+		
+	
+		dragMarkerOnMapCheckBox.click();
+	
+		grenrateAlarmButton.click();
+		
+		alarmYesButton.click();
+		
+		Thread.sleep(5000);
+		Reporter.log("alarm bnumber "+i,true);
+		
+	}
+		
+		
 	}
 
 	public void manualAlarmByAttribute(WebDriver driver, String date) throws Throwable {
