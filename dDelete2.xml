@@ -9,7 +9,8 @@
 						<include name="userDetails"  />	
 					
 			
-					     		    <include name="deactiveManualAlarm" />
+					     				
+				<include name="deleteManualAlarm" />
 					        
 					    
 					    

@@ -90,8 +90,8 @@
 			<include name="sendMessageChatGrouCreatedByAlarmLoop"  />
 			
 			 <include name="addStationUserForStation06"/>
-			  <include name="addFirefighterForNewStation06"/>
-			  	<include name="addVehicleUserForStation06"  />
+			 <include name="addFirefighterForNewStation06"/>
+			 <include name="addVehicleUserForStation06"  />
 					
 			
             <include name="createPermissionGroupDefaultStation"  />
@@ -120,7 +120,7 @@
 			
 			
 			
-				<exclude name="ManulaAlarmRepeate"  />
+			<exclude name="ManulaAlarmRepeate"  />
 			
 			<exclude name="createAvailabilityRequestSendImmediat"  />
 			<exclude name="createAvailabilityRequestSendSchedule"  />

@@ -8,8 +8,10 @@
        <methods>
 				<include name="userDetails"  />
 				
-		
-		
+			 	<include name="createInfoEventByFighterSchedule"  /> 
+			  
+			  
+		    <include name="sendmessageToAlarmUser"/>
 		
 			 <include name="detailsAboutScript"  /> 
       </methods>

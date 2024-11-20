@@ -1263,6 +1263,10 @@ public class E_manualAlarm extends B_baseClass
 			
 			searchButton.click();
 			Thread.sleep(3000);
+			
+			
+			if (delete.isDisplayed())
+			{
 		
 			delete.click();
 		
@@ -1272,6 +1276,12 @@ public class E_manualAlarm extends B_baseClass
 			Thread.sleep(2000);
 		   driver.navigate().refresh();
 		   Thread.sleep(1000);;
+			}
+			else 
+			{
+				Reporter.log("now no alarm to delete.",true);
+			}
+			
 
 		}
 
