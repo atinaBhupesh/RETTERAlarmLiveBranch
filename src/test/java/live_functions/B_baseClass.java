@@ -53,7 +53,7 @@ public class B_baseClass {
 		driver.manage().window().maximize();
 		
 		
-		userName= sheet.getRow(2).getCell(1).getStringCellValue();
+		 userName= sheet.getRow(2).getCell(1).getStringCellValue();
 //		 System.out.println(userName);
 //		 pw= sheet.getRow(4).getCell(1).getStringCellValue();
 		 password="123456";
@@ -79,7 +79,7 @@ public class B_baseClass {
 //		 System.out.println(Station06Resource);
 		 
 		 
-		 System.out.println( info);
+//		 System.out.println( info);
 		
 		
 		

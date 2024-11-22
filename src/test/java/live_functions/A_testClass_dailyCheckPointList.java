@@ -12,8 +12,6 @@ import org.testng.annotations.Test;
 
 public class A_testClass_dailyCheckPointList extends B_baseClass {
 
-	String dept="Andrew";
-	String sta="06";
 	
 	String date;
 	String gCurrntTime;

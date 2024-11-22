@@ -19,7 +19,7 @@
 			<include name="extendAlarmToSecondStation"/>
 			<include name="createStormAlarm"/> 
 			
-			<include name="extendAlarmFrom07To06ByAttribute"  /> 
+			<include name="extendAlarmFrom07To06ByAttribute"  /> C:\Users\BHUPESH\Desktop\New folder\Automation Test.pdf
 			<include name="extendLowPriorityAlarmFrom07To06ByAttribute"  />
 			<include name="lowPriorityAlarmWithEscalationResource"  /> 
 			  

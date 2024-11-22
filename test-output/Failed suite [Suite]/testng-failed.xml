@@ -5,15 +5,34 @@
     <classes>
       <class name="live_functions.A_testClass_dailyCheckPointList">
         <methods>
-          <include name="logOut"/>
-          <include name="backToHomePage2"/>
-          <include name="BeforeSuite"/>
-          <include name="AfterTest"/>
           <include name="backToHomePage"/>
-          <include name="BeforeTest"/>
+          <include name="createResource"/>
+          <include name="backToHomePage2"/>
+          <include name="AfterTest"/>
+          <include name="cretecalendarEventFirefighterSchedule"/>
+          <include name="sendMessageChatGrouCreatedByFirefighter"/>
           <include name="AfterSute"/>
-          <include name="createTestAlarmByAttributeOneTime"/>
+          <include name="createInformationByAttribute"/>
+          <include name="sendMessageChatGrouCreatedByResource"/>
+          <include name="cretecalendarEventAttributeSchedule"/>
+          <include name="SendmessagetoARUsers"/>
+          <include name="CreateAttributeForDepartment"/>
+          <include name="BeforeSuite"/>
+          <include name="addVehicleUserForStation06"/>
+          <include name="BeforeTest"/>
+          <include name="createChatgroupByFirefighter"/>
+          <include name="createAlarmCheckList"/>
+          <include name="createAlamLoop"/>
           <include name="lounchBrowser"/>
+          <include name="logOut"/>
+          <include name="createChatgroupByAlarmloop"/>
+          <include name="detailsAboutScript"/>
+          <include name="createAvailabilityRequestSendSchedule"/>
+          <include name="createAvailabilityRequestSendRecursive"/>
+          <include name="createChatgroupByAttribute"/>
+          <include name="sendMessageChatGrouCreatedByAlarmLoop"/>
+          <include name="createTestAlarmByAttributeRecursiveWeekly"/>
+          <include name="sendMessageChatGrouCreatedByAttribute"/>
         </methods>
       </class> <!-- live_functions.A_testClass_dailyCheckPointList -->
     </classes>
