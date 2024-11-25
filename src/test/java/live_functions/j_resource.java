@@ -1,5 +1,7 @@
 package live_functions;
 
+import java.util.List;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -25,7 +27,9 @@ public class j_resource {
 		@FindBy(xpath="(//i[@class=\"fa fa-trash-o\"])[1]")private WebElement delete ;
 		 @FindBy(xpath="//button[@id=\"delYes\"]")private WebElement deleteYes;
 
-		// @FindBy(xpath="")private WebElement ;
+		@FindBy(xpath="//td[contains(text(),\"BG\")]")private List<WebElement> availableDataCount ;
+		
+		
 		// @FindBy(xpath="")private WebElement ;
 		// @FindBy(xpath="")private WebElement ;
 		// @FindBy(xpath="")private WebElement ;
@@ -113,8 +117,10 @@ public class j_resource {
 			Actions act = new Actions(driver);
 			manualAlarmModule.click();
 			alarmResource.click();
+			int z=availableDataCount.size();
+			Reporter.log("The available resorce countt is-"+z+" in the list for delete.",true);
 
-			for (int i = 1; i <= 15; i++) {
+			for (int i = 1; i <= z; i++) {
 				searchField.click();
 				act.sendKeys("BG").build().perform();
 			

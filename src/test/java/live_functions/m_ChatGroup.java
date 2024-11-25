@@ -63,7 +63,7 @@ public class m_ChatGroup {
 		@FindBy(xpath="//input[@value=\"3497\"]")private WebElement ADST06AL2;
 	 
 	@FindBy(xpath="(//td[starts-with(text(),'BG-chatGroup')])[1]")private WebElement sm;
-	// @FindBy(xpath="")private WebElement ;
+	@FindBy(xpath="//td[contains(text(), 'BG')]")private List<WebElement> availableDataCount;
 	 // @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -476,11 +476,22 @@ public class m_ChatGroup {
     	   
     	   groupList.click();
     	   
-    	   for (int i=1;i<=20;i++)
+    	
+    	   
+    	   int z=availableDataCount.size();
+    	   
+    		Reporter.log("The total available chat group count is-"+z+" in the list for delete.",true);
+    	   
+    	   for (int i=1;i<=z;i++)
     	   {
+    		  
     	   searchField.click();
     	   act.sendKeys("BG").build().perform();
     	   Thread.sleep(3000);
+    	   
+    	 
+    	 
+  	
     	   delete.click();
    		
 			deleteYes.click();

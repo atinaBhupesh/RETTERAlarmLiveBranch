@@ -1,6 +1,7 @@
 package live_functions;
 
 import java.awt.Desktop.Action;
+import java.util.List;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -111,7 +112,9 @@ public class I_availabilityRequest {
 	
 	@FindBy(xpath = "//input[@id=\"ff_6286_23001\"]")private WebElement jonas3;
 	@FindBy(xpath="//input[@id=\"ff_6286_22999\"]")private WebElement jonas2 ;
-	// @FindBy(xpath="")private WebElement ;
+	
+	
+	@FindBy(xpath="//td[contains(text(),\"BG-AR\")]")private List<WebElement> availableDataCount;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -484,10 +487,14 @@ public class I_availabilityRequest {
 	}
 
 	public void deleteAvailabilityRequestFromList(WebDriver driver) throws Throwable {
+		
+		int z = availableDataCount.size();
+		Reporter.log("The total available availability request count is-"+z+" in the list for delete.",true);
+
 
 		Actions act = new Actions(driver);
 
-		for (int i = 1; i <= 20; i++) 
+		for (int i = 1; i <= z; i++) 
 		
 		{
 			searchField.click();
@@ -512,7 +519,10 @@ public class I_availabilityRequest {
 
 		Actions act = new Actions(driver);
 
-		for (int i = 1; i <= 20; i++) {
+		int z = availableDataCount.size();
+		Reporter.log("The total available availability request count is-"+z+" in the history for delete.",true);
+		
+		for (int i = 1; i <= z; i++) {
 			searFieldHistory.click();
 			Thread.sleep(2000);
 			act.sendKeys("BG").perform();

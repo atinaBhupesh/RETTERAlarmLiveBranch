@@ -1,5 +1,7 @@
 package live_functions;
 
+import java.util.List;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -27,7 +29,7 @@ public class j_alarmLoop {
 	 @FindBy(xpath="(//i[@class=\"fa fa-trash-o\"])[1]")private WebElement delete;
 	@FindBy(xpath="//button[@id=\"delYes\"]")private WebElement deleteYes;
 	
-	// @FindBy(xpath="")private WebElement ;
+	@FindBy(xpath="//td[contains(text(),\"BG\")]")private List<WebElement> availableDataCount ;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -76,7 +78,9 @@ public class j_alarmLoop {
 	
 	public void deleteAlarmLoop(WebDriver driver) throws Throwable 
 	{
-		for (int i=1;i<=10;i++)
+		int z=availableDataCount.size();
+		Reporter.log("The total availabe alarm loop cout is -"+z+" in the list for delete.",true);
+		for (int i=1;i<=z;i++)
 		{
 		Actions act = new Actions(driver);
 		searchfield.click();

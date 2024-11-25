@@ -1,5 +1,7 @@
 package live_functions;
 
+import java.util.List;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -259,7 +261,7 @@ public class r_permissionGroup {
 		 
 		 
 		 
-		// @FindBy(xpath="")private WebElement ;
+		@FindBy(xpath="//td[contains(text(),\"BG\")]")private List<WebElement> availableDataCount ;
 		// @FindBy(xpath="")private WebElement ;
 		// @FindBy(xpath="")private WebElement ;
 		// @FindBy(xpath="")private WebElement ;
@@ -791,8 +793,9 @@ public class r_permissionGroup {
 			
 			Actions act = new Actions(driver);
 			permissionModule.click();
-			
-			 for (int i=1;i<=30;i++)
+			int z =availableDataCount.size();
+			Reporter.log("The total available permission count is-"+z+" in the list for delete.",true);
+			 for (int i=1;i<=z;i++)
 			    {
 				searchField.click();
 				act.sendKeys("BG").perform();

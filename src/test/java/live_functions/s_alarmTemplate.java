@@ -1,5 +1,7 @@
 package live_functions;
 
+import java.util.List;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -34,6 +36,9 @@ public class s_alarmTemplate {
 			 
 			 
 			 @FindBy(xpath = "//input[@value=\"15429\"]") private WebElement ADST06A2;
+			 
+			 @FindBy(xpath = "//td[contains(text(),\"BG-Template\")]")
+				private List<WebElement> availableDataCount; 
 			// @FindBy(xpath="")private WebElement ;
 			// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -111,7 +116,10 @@ public class s_alarmTemplate {
 		}
 		public void deleteAlarmTemplate(WebDriver driver) throws Throwable 
 		{
-			for (int i=1;i<=10;i++)
+			
+			int z = availableDataCount.size();
+			Reporter.log("The availabler alarm template count is-" + z + " in the list for delete.", true);
+			for (int i=1;i<=z;i++)
 			{
 			searchField.click();
 			Actions act = new Actions(driver);

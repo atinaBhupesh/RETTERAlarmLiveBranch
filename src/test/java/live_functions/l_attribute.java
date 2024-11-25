@@ -1,5 +1,7 @@
 package live_functions;
 
+import java.util.List;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -24,8 +26,7 @@ public class l_attribute {
 	private WebElement attributeShortNameField;
 	@FindBy(xpath = "//button[@id=\"addSubmit\"]")
 	private WebElement Save;
-	
-	
+
 	@FindBy(xpath = "//input[@aria-controls=\"example12\"]")
 	private WebElement searchField;
 	@FindBy(xpath = "(//i[@class=\"fa fa-trash-o\"])[1]")
@@ -33,90 +34,89 @@ public class l_attribute {
 	@FindBy(xpath = "//button[@id=\"call_delete_ajax\"]")
 	private WebElement deleteYes;
 
+	@FindBy(xpath = "//td[contains(text(),\"BG:Attribute\")]")
+	private List<WebElement> availableDataCount;
+
+	// @FindBy(xpath="")private WebElement ;
+	// @FindBy(xpath="")private WebElement ;
+	// @FindBy(xpath="")private WebElement ;
+
 	public l_attribute(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void addAttribute(WebDriver driver,  String dateDDMMYY, String gTimeHHMM) throws Throwable {
+	public void addAttribute(WebDriver driver, String dateDDMMYY, String gTimeHHMM) throws Throwable {
 
 		attributeModule.click();
 		manageAttribute.click();
 
-		
-			createNew.click();
-			departmentField.click();
-			Actions act = new Actions(driver);
+		createNew.click();
+		departmentField.click();
+		Actions act = new Actions(driver);
 
-			act.sendKeys("Andrew").build().perform();
-			Thread.sleep(2000);
-			act.sendKeys(Keys.ENTER).build().perform();
-			Thread.sleep(2000);
-			attributeTitleField.click();
-			Thread.sleep(1000);
-			act.sendKeys("BG:Attribute>"+ dateDDMMYY+gTimeHHMM).build().perform();
-			Thread.sleep(1000);
-			attributeShortNameField.click();
-			Thread.sleep(1000);
-			act.sendKeys("BG:Attri>" + dateDDMMYY+gTimeHHMM).build().perform();
-			Thread.sleep(1000);
-			Save.click();
-			Thread.sleep(1000);
-			Reporter.log("BG:Attri>" + dateDDMMYY+gTimeHHMM+">"+"added successfully", true);
-			driver.navigate().refresh();
-			
-
-	
+		act.sendKeys("Andrew").build().perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(2000);
+		attributeTitleField.click();
+		Thread.sleep(1000);
+		act.sendKeys("BG:Attribute>" + dateDDMMYY + gTimeHHMM).build().perform();
+		Thread.sleep(1000);
+		attributeShortNameField.click();
+		Thread.sleep(1000);
+		act.sendKeys("BG:Attri>" + dateDDMMYY + gTimeHHMM).build().perform();
+		Thread.sleep(1000);
+		Save.click();
+		Thread.sleep(1000);
+		Reporter.log("BG:Attri>" + dateDDMMYY + gTimeHHMM + ">" + "added successfully", true);
+		driver.navigate().refresh();
 
 	}
-	
-	public void addAttribute2(WebDriver driver,  String dateDDMMYY, String gTimeHHMM) throws Throwable {
+
+	public void addAttribute2(WebDriver driver, String dateDDMMYY, String gTimeHHMM) throws Throwable {
 
 		attributeModule.click();
 		manageAttribute.click();
 
-		
-			createNew.click();
-			departmentField.click();
-			Actions act = new Actions(driver);
+		createNew.click();
+		departmentField.click();
+		Actions act = new Actions(driver);
 
-			act.sendKeys("bhupesh").build().perform();
-			Thread.sleep(2000);
-			act.sendKeys(Keys.ENTER).build().perform();
-			Thread.sleep(2000);
-			attributeTitleField.click();
-			Thread.sleep(1000);
-			act.sendKeys("BG:Attribute>"+ dateDDMMYY+gTimeHHMM).build().perform();
-			Thread.sleep(1000);
-			attributeShortNameField.click();
-			Thread.sleep(1000);
-			act.sendKeys("BG:Attri>" + dateDDMMYY+gTimeHHMM).build().perform();
-			Thread.sleep(1000);
-			Save.click();
-			Thread.sleep(1000);
-			Reporter.log("BG:Attri>" + dateDDMMYY+gTimeHHMM+">"+"added successfully", true);
-			driver.navigate().refresh();
-			
-
-	
+		act.sendKeys("bhupesh").build().perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(2000);
+		attributeTitleField.click();
+		Thread.sleep(1000);
+		act.sendKeys("BG:Attribute>" + dateDDMMYY + gTimeHHMM).build().perform();
+		Thread.sleep(1000);
+		attributeShortNameField.click();
+		Thread.sleep(1000);
+		act.sendKeys("BG:Attri>" + dateDDMMYY + gTimeHHMM).build().perform();
+		Thread.sleep(1000);
+		Save.click();
+		Thread.sleep(1000);
+		Reporter.log("BG:Attri>" + dateDDMMYY + gTimeHHMM + ">" + "added successfully", true);
+		driver.navigate().refresh();
 
 	}
-	
 
 	public void deleteAttribute(WebDriver driver) throws Throwable {
 
 		attributeModule.click();
 		manageAttribute.click();
-
-		for (int i = 1; i <= 15; i++) {
+		int z = availableDataCount.size();
+		Reporter.log("The availabler attribute count is-" + z + " in the list for delete.", true);
+		for (int i = 1; i <= z; i++) {
 			searchField.click();
 
 			Actions act = new Actions(driver);
 
 			act.sendKeys("BG").build().perform();
-		
+
 			act.sendKeys(Keys.ENTER).build().perform();
 			Thread.sleep(2000);
-			
+
 			delete.click();
 			Thread.sleep(2000);
 			deleteYes.click();

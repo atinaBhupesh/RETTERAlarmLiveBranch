@@ -1,5 +1,7 @@
 package live_functions;
 
+import java.util.List;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -29,7 +31,7 @@ public class o_fireStation {
 	 @FindBy(xpath="//button[@id=\"dt_actionSearch\"]")private WebElement searchButton;
 	 @FindBy(xpath="(//i[@class=\"fa fa-trash-o\"])[1]")private WebElement deleteStation;
 	 @FindBy(xpath="//button[@id=\"delYes\"]")private WebElement deleteYes;
-		// @FindBy(xpath="")private WebElement ;
+		@FindBy(xpath="//td[contains(text(),\"BG andrew\")]")private List<WebElement> availabeDataCount ;
 		// @FindBy(xpath="")private WebElement ;
 		// @FindBy(xpath="")private WebElement ;
 		// @FindBy(xpath="")private WebElement ;
@@ -60,7 +62,7 @@ public class o_fireStation {
 		
 		createNew.click();
 		departmentField.click();
-		act.sendKeys("bhupesh").perform();
+		act.sendKeys("Andrew").perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
@@ -105,10 +107,11 @@ public class o_fireStation {
 	public void deleteStation (WebDriver driver) throws Throwable
 	{
 		Actions act = new Actions(driver);
+		int z=availabeDataCount.size();
+		Reporter.log("The available station count is-"+z+" in the list for delete.",true);
 		
 		
-		
-		for (int i=1;i<=15;i++)
+		for (int i=1;i<=z;i++)
 		{
 		
 		searchField.click();

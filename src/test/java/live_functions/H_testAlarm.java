@@ -1,5 +1,7 @@
 package live_functions;
 
+import java.util.List;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -106,9 +108,11 @@ public class H_testAlarm extends B_baseClass
 //	@FindBy(xpath = "//input[@value=\"27249\"]")private WebElement bhupeshLive2;
 	@FindBy(xpath="//input[@value=\"3497\"]")private WebElement ADST06AL2;
 	@FindBy(xpath="//input[@value=\"4220\"]")private WebElement ADST06ALEsc ;
+	
+	
 
 
-	// @FindBy(xpath="")private WebElement ;
+	@FindBy(xpath="//span[contains(text(),\"BG\")]")private List<WebElement> availableDataCount;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -188,7 +192,7 @@ public class H_testAlarm extends B_baseClass
 		Thread.sleep(2000);
 	
 		act.sendKeys(Keys.ENTER).build().perform();
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		fireStationField.click();
 	
 		act.sendKeys("06").build().perform();
@@ -274,7 +278,7 @@ public class H_testAlarm extends B_baseClass
 		Thread.sleep(2000);
 	
 		act.sendKeys(Keys.ENTER).build().perform();
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		fireStationField.click();
 	
 		act.sendKeys("06").build().perform();
@@ -368,7 +372,7 @@ public class H_testAlarm extends B_baseClass
 		Thread.sleep(2000);
 	
 		act.sendKeys(Keys.ENTER).build().perform();
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		fireStationField.click();
 	
 		act.sendKeys("06").build().perform();
@@ -473,7 +477,7 @@ public class H_testAlarm extends B_baseClass
 		Thread.sleep(2000);
 	
 		act.sendKeys(Keys.ENTER).build().perform();
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		fireStationField.click();
 	
 		act.sendKeys("06").build().perform();
@@ -557,7 +561,7 @@ public class H_testAlarm extends B_baseClass
 		Thread.sleep(2000);
 	
 		act.sendKeys(Keys.ENTER).build().perform();
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		fireStationField.click();
 	
 		act.sendKeys("06").build().perform();
@@ -661,8 +665,11 @@ public class H_testAlarm extends B_baseClass
 		Thread.sleep(2000);
 		testAlarmList.click();
 		Thread.sleep(2000);
+		
+		int z=availableDataCount.size();
+		Reporter.log("The total available test alarms count is-"+z+" in the list for delete.",true);
 
-		for (int i = 1; i <= 100; i++) {
+		for (int i = 1; i <= z; i++) {
 			searchField.click();
 			Actions act = new Actions(driver);
 			act.sendKeys("BG").perform();
@@ -681,13 +688,15 @@ public class H_testAlarm extends B_baseClass
 	}
 
 	public void deleteTestAlarmFromOverview(WebDriver driver) throws Throwable {
-
-		for (int i = 1; i <= 100; i++) {
+		
+		int z=availableDataCount.size();
+		Reporter.log("The total available test alarms count is-"+z+" in the overview for delete.",true);
+		for (int i = 1; i <= z; i++) {
 
 			searchField.click();
 			Thread.sleep(2000);
 			Actions act = new Actions(driver);
-			act.sendKeys("bg").perform();
+			act.sendKeys("BG").perform();
 			Thread.sleep(2000);
 			searchButton.click();
 			Thread.sleep(5000);
@@ -713,9 +722,11 @@ public class H_testAlarm extends B_baseClass
 		se.selectByVisibleText("100");
 		Thread.sleep(2000);
 	
+		int z=availableDataCount.size();
 	
+		Reporter.log("The total available test alarms count is-"+z+" in the overview for deactive.",true);
 
-		for (int i = 1; i <= 100; i++) {
+		for (int i = 1; i <= z; i++) {
 			searchField.click();
 			
 			act.sendKeys("BG").build().perform();

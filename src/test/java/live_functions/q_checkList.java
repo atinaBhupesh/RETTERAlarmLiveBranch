@@ -1,5 +1,7 @@
 package live_functions;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -42,7 +44,7 @@ public class q_checkList {
 		 @FindBy(xpath="//input[@class=\"form-control input-sm\"]")private WebElement searchField;
 		 @FindBy(xpath = "(//i[@class=\"fa fa-trash-o\"])[1]")private WebElement delete;
 		 @FindBy(xpath = "//button[@id=\"delRec\"]")private WebElement deleteYes;
-		// @FindBy(xpath="")private WebElement ;
+		@FindBy(xpath="//td[contains(text(),\"BG\")]")private List<WebElement> availabeDataCount ;
 		// @FindBy(xpath="")private WebElement ;
 		// @FindBy(xpath="")private WebElement ;
 	
@@ -145,7 +147,10 @@ public void deleteCheckLis (WebDriver driver) throws Throwable {
 	
 	    Actions act = new Actions(driver);
 	    
-	    for (int i=1;i<=30;i++)
+	    int z=availabeDataCount.size();
+		Reporter.log("The total available check list count is-"+z+" in the list for delete.",true);
+	    
+	    for (int i=1;i<=z;i++)
 	    {
 		searchField.click();
 		act.sendKeys("BG").perform();

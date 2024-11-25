@@ -1,5 +1,7 @@
 package live_functions;
 
+import java.util.List;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -29,7 +31,7 @@ public class p_vehicleUser {
 		 
 		
 	
-		// @FindBy(xpath="")private WebElement ;
+		@FindBy(xpath="//td[contains(text(),\"BG_adst\")]")private List<WebElement> availabeDataCount ;
 		// @FindBy(xpath="")private WebElement ; 
 		// @FindBy(xpath="")private WebElement ;
 		// @FindBy(xpath="")private WebElement ;
@@ -113,6 +115,7 @@ public class p_vehicleUser {
 		public void addVehicleUserForNewStation(WebDriver driver,String dateDDMMYY,String gTimeHHMM,String vehicleEmailId) throws Throwable 
 		{
 			
+			
 			for (int i=1;i<=2;i++)
 			{
 			Actions act = new Actions(driver);
@@ -150,8 +153,10 @@ public class p_vehicleUser {
 		}
 		public void deleteVehicleUser(WebDriver driver) throws Throwable 
 		{
+			int z=availabeDataCount.size();
+			Reporter.log("the availabe vehicle count is -"+z+"in the list for delete.", true);
 			Actions act = new Actions(driver);
-			for (int i=1;i<=15;i++)
+			for (int i=1;i<=z;i++)
 			{
 			
 			searchField.click();

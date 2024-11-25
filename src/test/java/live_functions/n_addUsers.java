@@ -1,5 +1,7 @@
 package live_functions;
 
+import java.util.List;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -68,11 +70,11 @@ public class n_addUsers {
 			@FindBy(xpath="//button[@id=\"actionEditSubmit\"]")private WebElement saveStationUserPermission;
 			 @FindBy(xpath="//div[@style=\"text-align: center; font-size: 22px;\"]")private WebElement StationUserName;
 			// @FindBy(xpath="")private WebElement ;
-			// @FindBy(xpath="")private WebElement ;
+			@FindBy(xpath="//td[contains(text(),\"RojLive\")]")private List<WebElement> availabledatCount ;
 		 
 		 
-		 @FindBy(xpath="//input[@aria-controls=\"actionUser\"]")private WebElement searchField ;
-		 @FindBy(xpath="//button[@id=\"dt_actionSearch\"]")private WebElement searchButton;
+		   @FindBy(xpath="//input[@aria-controls=\"actionUser\"]")private WebElement searchField ;
+		    @FindBy(xpath="//button[@id=\"dt_actionSearch\"]")private WebElement searchButton;
 			 @FindBy(xpath="(//i[@class=\"fa fa-trash-o\"])[1]")private WebElement deleteUser1;
 			 @FindBy(xpath="//button[text()=\"Remove\"]")private WebElement remove;
 			 @FindBy(xpath="//button[text()=\"Yes, Please\"]")private WebElement yesPlease;
@@ -102,7 +104,7 @@ public class n_addUsers {
 			Thread.sleep(1000);
             emailField.click();
             Thread.sleep(1000);
-			act.sendKeys("ghatole.NewStUser@atpl.in").perform();
+			act.sendKeys("bhupesh+liveStationUser1@atinatechnology.in").perform();
 			act.sendKeys(Keys.TAB).perform();
 			Thread.sleep(1000);
 			
@@ -198,7 +200,7 @@ public class n_addUsers {
 				emailField.click();
 				
 				
-			act.sendKeys("ghatole.ff"+i+"@atpl.in").perform();
+			act.sendKeys("bhupesh+livefirefighter"+i+"@atinatechnology.in").perform();
 			act.sendKeys(Keys.TAB).perform();
 			Thread.sleep(1000);
 			
@@ -361,12 +363,13 @@ public class n_addUsers {
 		public void deletfireFighter (WebDriver driver) throws Throwable
 		{
 			Actions act = new Actions(driver);
-			
+			int z=availabledatCount.size();
+			Reporter.log("The available user cout is "+z+" in the list for delete",true );
 		
-			for (int i=1;i<=100;i++)
+			for (int i=1;i<=z;i++)
 					{
 			searchField.click();
-			act.sendKeys("ghatole").perform();
+			act.sendKeys("RojLive").perform();
 			Thread.sleep(2000);
 			searchButton.click();
 			Thread.sleep(2000);

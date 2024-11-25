@@ -4,6 +4,7 @@ import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
+import java.util.List;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -82,6 +83,9 @@ public class F_information extends B_baseClass {
 //	@FindBy(xpath = "//input[@value=\"25512\"]")private WebElement bhupeshLive2;
 	
 	@FindBy(xpath="//i[@class=\"fa fa-upload\"]")private WebElement uplod;
+	
+	 @FindBy(xpath="//span[contains(text(),\"BG\")]")private List<WebElement> availableDataCount; 
+	 
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -290,8 +294,11 @@ public class F_information extends B_baseClass {
 		Actions act = new Actions(driver);
 		calendarModule.click();
 		manageInformation.click();
+		
+		int z=availableDataCount.size();
+		Reporter.log("The total available information or event count is-"+z+" in the list for delate.",true);
 
-		for (int i = 1; i <= 100; i++) {
+		for (int i = 1; i <= z; i++) {
 
 			searchField.click();
 			act.sendKeys("BG").build().perform();
@@ -300,7 +307,9 @@ public class F_information extends B_baseClass {
 			delete.click();
 			deleteYes.click();
 			Reporter.log("information number-" + i + " is deleted sucessfully.", true);
-			driver.navigate().refresh();			
+			driver.navigate().refresh();	
+			Thread.sleep(3000);
+			
 			
 
 		}
