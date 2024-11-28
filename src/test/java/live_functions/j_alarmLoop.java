@@ -52,7 +52,7 @@ public class j_alarmLoop extends  B_baseClass {
 	
 	
 	
-	public void commonForAlarmLoop(WebDriver driver) throws Throwable 
+	public void commonForAlarmLoop(WebDriver driver, String BranchNameB) throws Throwable 
 	{
 		manualAlarmModule.click();
 		
@@ -79,31 +79,8 @@ public class j_alarmLoop extends  B_baseClass {
 	}
 	
 	
-	public void addAlarmLoop(WebDriver driver,String dateDDMMYY,String gTimeHHMM) throws Throwable 
-	{
-		Actions act = new Actions(driver);
-		createNew.click();
-		
-		fireDepartmentField.click();
-		act.sendKeys("Andrew").build().perform();
-		Thread.sleep(2000);
-		act.sendKeys(Keys.ENTER).build().perform();
-		fireStationField.click();
-		act.sendKeys("06").build().perform();
-		//act.sendKeys(dateDDMMYY).sendKeys(gTimeHHMM).build().perform();
-		act.sendKeys(Keys.ENTER).build().perform();
-		alarmLoopNikName.click();
-		act.sendKeys("BG:AlarmLoop-"+ dateDDMMYY+"_"+gTimeHHMM).build().perform();
-		alarmLoopCode.click();
-		act.sendKeys("BG:AlarmLoop-"+ dateDDMMYY+"_"+gTimeHHMM).build().perform();
-		resourceField.click();
-		act.sendKeys("BG").build().perform();
-		act.sendKeys(Keys.ENTER).build().perform();
-		save.click();
-		Reporter.log("Alarm Loop >BG:AlarmLoop-"+ dateDDMMYY+"_"+gTimeHHMM+" added successfully.",true);
-	}
 	
-	public void deleteAlarmLoop(WebDriver driver) throws Throwable 
+	public void deleteAlarmLoop(WebDriver driver, String BranchNameB) throws Throwable 
 	{
 		int z=availableDataCount.size();
 		Reporter.log("The total availabe alarm loop cout is -"+z+" in the list for delete.",true);
@@ -125,6 +102,34 @@ public class j_alarmLoop extends  B_baseClass {
 		
 	}
 	
+	}
+
+
+
+
+
+	public void addAlarmLoop(WebDriver driver, String dateDDMMYY, String gTimeHHMM, String branchNameB) throws Throwable {
+
+		Actions act = new Actions(driver);
+		createNew.click();
+		
+		fireDepartmentField.click();
+		act.sendKeys("Andrew").build().perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		fireStationField.click();
+		act.sendKeys("06").build().perform();
+		//act.sendKeys(dateDDMMYY).sendKeys(gTimeHHMM).build().perform();
+		act.sendKeys(Keys.ENTER).build().perform();
+		alarmLoopNikName.click();
+		act.sendKeys("BG:AlarmLoop-"+ dateDDMMYY+"_"+gTimeHHMM).build().perform();
+		alarmLoopCode.click();
+		act.sendKeys("BG:AlarmLoop-"+ dateDDMMYY+"_"+gTimeHHMM).build().perform();
+		resourceField.click();
+		act.sendKeys("BG").build().perform();
+		act.sendKeys(Keys.ENTER).build().perform();
+		save.click();
+		Reporter.log("Alarm Loop >BG:AlarmLoop-"+ dateDDMMYY+"_"+gTimeHHMM+" added successfully.",true);
 	}
 	
 	

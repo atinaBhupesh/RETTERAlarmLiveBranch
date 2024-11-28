@@ -47,7 +47,7 @@ public class l_attribute  extends  B_baseClass{
 		PageFactory.initElements(driver, this);
 	}
 
-	public void addAttribute(WebDriver driver, String dateDDMMYY, String gTimeHHMM) throws Throwable {
+	public void addAttribute(WebDriver driver, String dateDDMMYY, String gTimeHHMM, String BranchNameB) throws Throwable {
 
 		attributeModule.click();
 	
@@ -94,7 +94,7 @@ public class l_attribute  extends  B_baseClass{
 
 	}
 
-	public void addAttribute2(WebDriver driver, String dateDDMMYY, String gTimeHHMM) throws Throwable {
+	public void addAttribute2(WebDriver driver, String dateDDMMYY, String gTimeHHMM, String BranchNameB) throws Throwable {
 
 		attributeModule.click();
 Thread.sleep(1000);
@@ -139,7 +139,7 @@ Thread.sleep(1000);
 
 	}
 
-	public void deleteAttribute(WebDriver driver) throws Throwable {
+	public void deleteAttribute(WebDriver driver, String BranchNameB) throws Throwable {
 
 		attributeModule.click();
 Thread.sleep(1000);

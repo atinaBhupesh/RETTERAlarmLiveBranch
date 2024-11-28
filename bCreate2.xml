@@ -8,10 +8,8 @@
        <methods>
 				<include name="userDetails"  />
 	     	
-	     	
-	   	 	
- 		     <include name="createPermissionGroupDefaultStation"  />
-		
+						 <include name="addVehicleUserForStation06"  />
+			
 			 <include name="detailsAboutScript"  /> 
       </methods>
     </classes>

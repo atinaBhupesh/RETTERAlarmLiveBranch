@@ -137,7 +137,7 @@ public class j_calendarEvent extends B_baseClass {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void calendarEventCommon(WebDriver driver) throws Throwable {
+	public void calendarEventCommon(WebDriver driver, String BranchNameB) throws Throwable {
 		calendarModule.click();
 		Thread.sleep(2000);
 		manageEvent.click();
@@ -145,8 +145,7 @@ public class j_calendarEvent extends B_baseClass {
 
 	}
 
-	public void calendarEventByAttributeSchedul(WebDriver driver, String date, String gCurrntTime, String gTimeA7min,
-			String gTimeA22min) throws Throwable {
+	public void calendarEventByAttributeSchedul(WebDriver driver, String date, String gCurrntTime, String gTimeA7min,String gTimeA22min, String BranchNameB) throws Throwable {
 	
 		
 		Thread.sleep(2000);
@@ -251,8 +250,7 @@ public class j_calendarEvent extends B_baseClass {
 
 	}
 
-	public void calendarEventByResorceSchedul(WebDriver driver, String date, String gCurrntTime, String gTimeA7min,
-			String gTimeA22min) throws Throwable {
+	public void calendarEventByResorceSchedul(WebDriver driver, String date, String gCurrntTime, String gTimeA7min, String gTimeA22min,String BranchNameB) throws Throwable {
 		Thread.sleep(2000);
 		if  (BranchNameB.equals("live"))
 		{
@@ -353,8 +351,7 @@ public class j_calendarEvent extends B_baseClass {
 
 	}
 
-	public void calendarEventByFirefighterSchedul(WebDriver driver, String date, String date2, String gCurrntTime,
-			String gTimeA7min, String gTimeA22min) throws Throwable {
+	public void calendarEventByFirefighterSchedul(WebDriver driver, String date, String date2, String gCurrntTime,String gTimeA7min, String gTimeA22min,String BranchNameB) throws Throwable {
 
 		Thread.sleep(2000);
 		if  (BranchNameB.equals("live"))
@@ -462,7 +459,7 @@ public class j_calendarEvent extends B_baseClass {
 
 	}
 
-	public void addEventCategory(WebDriver driver, String dateDDMMYY, String gTimeHHMM) throws Throwable {
+	public void addEventCategory(WebDriver driver, String dateDDMMYY, String gTimeHHMM,String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 		
 		
@@ -507,7 +504,7 @@ public class j_calendarEvent extends B_baseClass {
 
 	}
 
-	public void deletecalendarEventByAttribute(WebDriver driver) throws Throwable {
+	public void deletecalendarEventByAttribute(WebDriver driver,String BranchNameB) throws Throwable {
 
 		Thread.sleep(2000);
 		if  (BranchNameB.equals("live"))
@@ -549,7 +546,7 @@ public class j_calendarEvent extends B_baseClass {
 
 	}
 
-	public void deletecalendarEventByResource(WebDriver driver) throws Throwable {
+	public void deletecalendarEventByResource(WebDriver driver,String BranchNameB) throws Throwable {
 		Thread.sleep(2000);
 		if  (BranchNameB.equals("live"))
 		{
@@ -590,7 +587,7 @@ public class j_calendarEvent extends B_baseClass {
 
 	}
 
-	public void deletecalendarEventByFirefighter(WebDriver driver) throws Throwable {
+	public void deletecalendarEventByFirefighter(WebDriver driver,String BranchNameB) throws Throwable {
 
 		Thread.sleep(2000);
 		if  (BranchNameB.equals("live"))
@@ -633,7 +630,7 @@ public class j_calendarEvent extends B_baseClass {
 		}
 	}
 
-	public void deleteEventCategory(WebDriver driver) throws Throwable {
+	public void deleteEventCategory(WebDriver driver,String BranchNameB) throws Throwable {
 Thread.sleep(1000);
 		
 		

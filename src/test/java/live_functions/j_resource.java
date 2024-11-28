@@ -45,7 +45,7 @@ public class j_resource extends  B_baseClass {
 		
 		
 		
-		public void addResource(WebDriver driver,String dateDDMMYY,String gTimeHHMM ) throws Throwable {
+		public void addResource(WebDriver driver,String dateDDMMYY,String gTimeHHMM, String BranchNameB ) throws Throwable {
 			
 			Actions act = new Actions(driver);
 			manualAlarmModule.click();
@@ -104,7 +104,7 @@ public class j_resource extends  B_baseClass {
 		
 		
 		
-		public void addResourceForNewStation(WebDriver driver,String dateDDMMYY,String gTimeHHMM ) throws Throwable {
+		public void addResourceForNewStation(WebDriver driver,String dateDDMMYY,String gTimeHHMM, String BranchNameB ) throws Throwable {
 			
 		Actions act = new Actions(driver);
 		manualAlarmModule.click();
@@ -150,7 +150,7 @@ public class j_resource extends  B_baseClass {
 		
 		}
 		
-		public void deleteResource(WebDriver driver) throws Throwable {
+		public void deleteResource(WebDriver driver, String BranchNameB) throws Throwable {
 
 			Actions act = new Actions(driver);
 			manualAlarmModule.click();

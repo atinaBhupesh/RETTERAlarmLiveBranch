@@ -125,7 +125,7 @@ public class I_availabilityRequest extends B_baseClass {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void availabilityRequestCommon(WebDriver driver) throws Throwable {
+	public void availabilityRequestCommon(WebDriver driver, String BranchNameB) throws Throwable {
 	
 
 		availabilityRequestModule.click();
@@ -152,7 +152,7 @@ public class I_availabilityRequest extends B_baseClass {
 
 	}
 
-	public void availabilityRequestCommonDashboard(WebDriver driver) throws Throwable {
+	public void availabilityRequestCommonDashboard(WebDriver driver, String BranchNameB) throws Throwable {
 
 
 	
@@ -183,7 +183,7 @@ public class I_availabilityRequest extends B_baseClass {
 	}
 
 	public void ARSendImmediate(WebDriver driver,String date, String date2, String gTimeA7min, String dateAft2Days,
-			String gTimeA22min) throws Throwable {
+			String gTimeA22min, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
@@ -273,7 +273,7 @@ public class I_availabilityRequest extends B_baseClass {
 	}
 
 	public void ARSendSchedule(WebDriver driver, String date, String date2, String gTimeA7min, String dateAft2Days,
-			String gTimeA22min) throws Throwable {
+			String gTimeA22min, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
@@ -348,7 +348,7 @@ public class I_availabilityRequest extends B_baseClass {
 	}
 
 	public void ARRecursivee(WebDriver driver,String date, String today, String gTimeA7min, String gTimeA22min, String dayAf2day,
-			String dayAf4day) throws Throwable {
+			String dayAf4day, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
@@ -418,7 +418,7 @@ public class I_availabilityRequest extends B_baseClass {
 	}
 
 	public void ARSendMultiple(WebDriver driver,String date, String gTimeA7min, String gTimeA9min, String gTimeA11min,
-			String dayAf2day, String dayAf4day, String gTimeA22min) throws Throwable {
+			String dayAf2day, String dayAf4day, String gTimeA22min, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
@@ -505,7 +505,7 @@ public class I_availabilityRequest extends B_baseClass {
 		
 	}
 
-	public void messageToARUser(WebDriver driver) throws Throwable {
+	public void messageToARUser(WebDriver driver, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		ARHistorySearchField.click();
@@ -523,7 +523,7 @@ public class I_availabilityRequest extends B_baseClass {
 		
 	}
 
-	public void deleteAvailabilityRequestFromList(WebDriver driver) throws Throwable {
+	public void deleteAvailabilityRequestFromList(WebDriver driver, String BranchNameB) throws Throwable {
 		
 		int z = availableDataCount.size();
 		Reporter.log("The total available availability request count is-"+z+" in the list for delete.",true);
@@ -552,7 +552,7 @@ public class I_availabilityRequest extends B_baseClass {
 		}
 	}
 
-	public void deleteAvailabilityRequestFromHistory(WebDriver driver) throws Throwable {
+	public void deleteAvailabilityRequestFromHistory(WebDriver driver, String BranchNameB) throws Throwable {
 
 		Actions act = new Actions(driver);
 

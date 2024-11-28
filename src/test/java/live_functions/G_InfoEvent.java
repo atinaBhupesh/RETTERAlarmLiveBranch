@@ -81,7 +81,7 @@ public class G_InfoEvent extends B_baseClass {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void createEventByAttributeSchedule(WebDriver driver, String date, String gTimeA7min, String gTimeA22min,String deptName,String stName1)
+	public void createEventByAttributeSchedule(WebDriver driver, String date, String gTimeA7min, String gTimeA22min,String deptName,String stName1,String BranchNameB)
 			throws Throwable {
 		Actions act = new Actions(driver);
 
@@ -139,7 +139,7 @@ public class G_InfoEvent extends B_baseClass {
 	
 	}
 
-	public void createEventByResourceSchedule(WebDriver driver, String date, String gTimeA67min, String gTimeA82min,String deptName,String stName1)
+	public void createEventByResourceSchedule(WebDriver driver, String date, String gTimeA67min, String gTimeA82min,String deptName,String stName1,String BranchNameB)
 			throws Throwable {
 		Actions act = new Actions(driver);
 
@@ -197,7 +197,7 @@ public class G_InfoEvent extends B_baseClass {
 	
 	}
 
-	public void createEventByFireFightrSchedule(WebDriver driver, String date2, String gTimeA7min, String gTimeA22min,String deptName,String stName1)
+	public void createEventByFireFightrSchedule(WebDriver driver, String date2, String gTimeA7min, String gTimeA22min,String deptName,String stName1,String BranchNameB)
 			throws Throwable {
 		Actions act = new Actions(driver);
 		createNewButton.click();
@@ -259,7 +259,7 @@ public class G_InfoEvent extends B_baseClass {
 
 	}
 
-	public void createEventByAttribute(WebDriver driver, String date,String deptName,String stName1) throws Throwable {
+	public void createEventByAttribute(WebDriver driver, String date,String deptName,String stName1,String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 		createNewButton.click();
 		fireDepartmentField.click();
@@ -302,7 +302,7 @@ public class G_InfoEvent extends B_baseClass {
 
 	}
 
-	public void createEventByResource(WebDriver driver, String date,String deptName,String stName1) throws Throwable {
+	public void createEventByResource(WebDriver driver, String date,String deptName,String stName1,String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 		createNewButton.click();
 		fireDepartmentField.click();
@@ -346,7 +346,7 @@ public class G_InfoEvent extends B_baseClass {
 
 	}
 
-	public void createEventByFirefighter(WebDriver driver, String date,String deptName,String stName1) throws Throwable {
+	public void createEventByFirefighter(WebDriver driver, String date,String deptName,String stName1,String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 		createNewButton.click();
 		fireDepartmentField.click();
@@ -395,7 +395,7 @@ public class G_InfoEvent extends B_baseClass {
 
 	}
 
-public void sendmessageToInfoEventUsers(WebDriver driver) throws Throwable {
+public void sendmessageToInfoEventUsers(WebDriver driver,String BranchNameB) throws Throwable {
 		
 		Actions act = new Actions(driver);
 		searchField.click();

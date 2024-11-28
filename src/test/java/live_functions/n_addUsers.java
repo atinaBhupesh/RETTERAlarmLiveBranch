@@ -88,7 +88,7 @@ public class n_addUsers extends  B_baseClass {
 			PageFactory.initElements(driver, this);
 		}
 
-		public void commonForAddUers (WebDriver driver) throws Throwable
+		public void commonForAddUers (WebDriver driver, String BranchNameB) throws Throwable
 		{
             admin.click();
 			
@@ -119,7 +119,7 @@ public class n_addUsers extends  B_baseClass {
 		}
 		
 		
-		public void addStationUserForStation06 (WebDriver driver,String dateDDMMYY,String gTimeHHMM) throws Throwable
+		public void addStationUserForStation06 (WebDriver driver,String dateDDMMYY,String gTimeHHMM, String BranchNameB) throws Throwable
 		{
 			Actions act = new Actions(driver);
 			
@@ -212,7 +212,7 @@ public class n_addUsers extends  B_baseClass {
 		}
 		
 		
-		public void addfireFighterForStation06 (WebDriver driver,String dateDDMMYY,String gTimeHHMM) throws Throwable
+		public void addfireFighterForStation06 (WebDriver driver,String dateDDMMYY,String gTimeHHMM, String BranchNameB) throws Throwable
 		{
 			Actions act = new Actions(driver);
 			
@@ -383,7 +383,7 @@ public class n_addUsers extends  B_baseClass {
 
 		}
 		
-		public void deletfireFighter (WebDriver driver) throws Throwable
+		public void deletfireFighter (WebDriver driver, String BranchNameB) throws Throwable
 		{
 			Actions act = new Actions(driver);
 			int z=availabledatCount.size();

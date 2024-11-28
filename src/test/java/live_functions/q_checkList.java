@@ -54,7 +54,7 @@ public class q_checkList extends  B_baseClass {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void commonForCheckList(WebDriver driver) throws Throwable {
+	public void commonForCheckList(WebDriver driver, String BranchNameB) throws Throwable {
 		
 		documentation.click();
 	
@@ -82,7 +82,7 @@ public class q_checkList extends  B_baseClass {
 		
 	}
 	
-	public void createCheckListNormal (WebDriver driver,String dateDDMMYY,String gTimeHHMM) throws Throwable {
+	public void createCheckListNormal (WebDriver driver,String dateDDMMYY,String gTimeHHMM, String BranchNameB) throws Throwable {
 		
 		Actions act = new Actions(driver);
 		
@@ -122,7 +122,7 @@ public class q_checkList extends  B_baseClass {
 		 
 		 
 		 
-		 public void createCheckListAlarm (WebDriver driver,String dateDDMMYY,String gTimeHHMM) throws Throwable {
+		 public void createCheckListAlarm (WebDriver driver,String dateDDMMYY,String gTimeHHMM, String BranchNameB) throws Throwable {
 				
 				Actions act = new Actions(driver);
 				
@@ -163,7 +163,7 @@ public class q_checkList extends  B_baseClass {
 		
 	}
 		
-public void deleteCheckLis (WebDriver driver) throws Throwable {
+public void deleteCheckLis (WebDriver driver, String BranchNameB) throws Throwable {
 		
 		
 	

@@ -51,7 +51,7 @@ public class o_fireStation extends  B_baseClass {
 	PageFactory.initElements(driver, this);
 	}
    
-	public void CommonForStation(WebDriver driver) throws Throwable 
+	public void CommonForStation(WebDriver driver, String BranchNameB) throws Throwable 
 	{
 		admin.click();
 	
@@ -79,7 +79,7 @@ public class o_fireStation extends  B_baseClass {
 	}
 	
 	
-	public void createStation (WebDriver driver,String dateDDMMYY,String gTimeHHMM) throws Throwable
+	public void createStation (WebDriver driver,String dateDDMMYY,String gTimeHHMM, String BranchNameB) throws Throwable
 	{
 		Actions act = new Actions(driver);
 		
@@ -127,7 +127,7 @@ public class o_fireStation extends  B_baseClass {
 	
 	
 	
-	public void deleteStation (WebDriver driver) throws Throwable
+	public void deleteStation (WebDriver driver, String BranchNameB) throws Throwable
 	{
 		Actions act = new Actions(driver);
 		int z=availabeDataCount.size();

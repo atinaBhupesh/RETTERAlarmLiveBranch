@@ -7,11 +7,14 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class t_stormAlarm {
+public class t_stormAlarm  extends B_baseClass{
 	
 	
 	    @FindBy(xpath="//i[@class=\"fa fa-bolt\"]")private WebElement storm;
-		@FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/Emergencies/index\"]")private WebElement manageEmergencies;
+		@FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/Emergencies/index\"]")private WebElement manageEmergenciesL;
+		@FindBy(xpath="//a[@href=\"http://testing.retteralarm.de/admin/Emergencies/index\"]")private WebElement manageEmergenciesT;
+		@FindBy(xpath="//a[@href=\"http://development.retteralarm.de/admin/Emergencies/index\"]")private WebElement manageEmergenciesD;
+		
 		@FindBy(xpath="//button[@class=\"btn btn-success\"]")private WebElement createNew;
 		@FindBy(xpath="//span[@class=\"select2-selection__placeholder\"]")private WebElement selectDepartment ;
 		@FindBy(xpath="//span[@class=\"select2-selection select2-selection--multiple\"]")private WebElement selectStation;
@@ -46,21 +49,38 @@ public class t_stormAlarm {
 			
 			
 			
-			public void stormAlarm(WebDriver driver,String dateDDMMYY,String gTimeHHMM) throws Throwable 
+			public void stormAlarm(WebDriver driver,String dateDDMMYY,String gTimeHHMM, String deptName, String St1N, String BranchNameB) throws Throwable 
 			{
 				Actions act = new Actions(driver);
 				
 				
 				storm.click();
-				manageEmergencies.click();
+			
+				
+				if  (BranchNameB.equals("live"))
+				{
+					manageEmergenciesL.click();
+				}
+				
+				else if (BranchNameB.equals("testing"))
+				{
+					manageEmergenciesT.click();
+				}
+				
+				else if (BranchNameB.equals("dev"))
+				{
+					manageEmergenciesD.click();
+					
+				}
+				
 				createNew.click();
 				selectDepartment.click();
-				act.sendKeys("andrew").build().perform();
+				act.sendKeys(deptName).build().perform();
 				Thread.sleep(2000);
 				act.sendKeys(Keys.ENTER).build().perform();
 				Thread.sleep(2000);
 				selectStation.click();
-				act.sendKeys("06").build().perform();
+				act.sendKeys(St1N).build().perform();
 				Thread.sleep(2000);
 				act.sendKeys(Keys.ENTER).build().perform();
 				
@@ -75,7 +95,35 @@ public class t_stormAlarm {
 				userTypeResource.click();
 				Thread.sleep(2000);
 				
-				ADST06REsc.click();
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				if  (BranchNameB.equals("live"))
+				{
+					ADST06REsc.click();
+				}
+				
+				else if (BranchNameB.equals("testing"))
+				{
+					manageEmergenciesT.click();
+				}
+				
+				else if (BranchNameB.equals("dev"))
+				{
+					manageEmergenciesD.click();
+					
+				}
+				
+				
 				
 				alarmAddress.click();
 				
@@ -99,15 +147,35 @@ public class t_stormAlarm {
 			}
 			
 			
-			public void extendStormAlarm(WebDriver driver) throws Throwable 
+			public void extendStormAlarm(WebDriver driver, String BranchNameB) throws Throwable 
 			{
 				Actions act = new Actions(driver);
 				
 				storm.click();
 				extendStormAlarm.click();
 				searchField.click();
-				act.sendKeys("ADST07R2").build().perform();
-				Thread.sleep(2000);
+				
+				
+				if  (BranchNameB.equals("live"))
+				{
+					act.sendKeys("ADST07R2").build().perform();
+					Thread.sleep(2000);
+				}
+				
+				else if (BranchNameB.equals("testing"))
+				{
+					manageEmergenciesT.click();
+				}
+				
+				else if (BranchNameB.equals("dev"))
+				{
+					manageEmergenciesD.click();
+					
+				}
+				
+				
+				
+				
 				
 				act.dragAndDrop(dragADST07R2, dropADST06R2).build().perform();
 				Thread.sleep(1000);

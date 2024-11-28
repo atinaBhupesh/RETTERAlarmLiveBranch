@@ -50,7 +50,7 @@ public class p_vehicleUser extends  B_baseClass {
 		}
 	   
 	   
-		public void commonForVehicleUser(WebDriver driver) throws Throwable 
+		public void commonForVehicleUser(WebDriver driver, String BranchNameB) throws Throwable 
 		{
 			admin.click();
 	
@@ -78,7 +78,7 @@ public class p_vehicleUser extends  B_baseClass {
 		
 		
 		
-		public void addVehicleUser(WebDriver driver,String vehicleEmailId,String deptName,String stName1, String Station06Resource) throws Throwable 
+		public void addVehicleUser(WebDriver driver,String dailyVehicleEmailId1,String dailyVehicleEmailId2,String  deptName,String stName1, String BranchNameB) throws Throwable 
 		{
 			
 			for (int i=1;i<=2;i++)
@@ -87,7 +87,20 @@ public class p_vehicleUser extends  B_baseClass {
 			createNew.click();
 			Thread.sleep(2000);
 			vehicleUserMailIdField.click();
-			act.sendKeys(vehicleEmailId+"_"+i+"@atpl.in").perform();
+			
+			if (i==1) {
+				
+			
+			act.sendKeys(dailyVehicleEmailId1).perform();
+			}
+			
+			else if (i==2) {
+				
+				
+				act.sendKeys(dailyVehicleEmailId2).perform();
+				}
+			
+			
 			act.sendKeys(Keys.TAB).perform();
 			Thread.sleep(2000);
 			
@@ -99,19 +112,46 @@ public class p_vehicleUser extends  B_baseClass {
 			
 			vehicleDepartment.click();
 			act.sendKeys(deptName).build().perform();
-		
+			Thread.sleep(2000);
 			act.sendKeys(Keys.ENTER).perform();
 			Thread.sleep(2000);
 			vehicleStation.click();
 			act.sendKeys(stName1).build().perform();
-		
+			Thread.sleep(2000);
 			act.sendKeys(Keys.ENTER).perform();
 			Thread.sleep(2000);
 			resource.click();
 			
-			act.sendKeys(Station06Resource).build().perform();
-			Thread.sleep(2000);
+			
+		
+			
+			
+			
+			
+
+			if  (BranchNameB.equals("live"))
+			{
+				act.sendKeys("adst06R2").build().perform();
+				Thread.sleep(2000);
+			}
+			
+			else if (BranchNameB.equals("testing"))
+			{
+				act.sendKeys(Station06Resource).build().perform();
+				Thread.sleep(2000);
+			}
+			
+			else if (BranchNameB.equals("dev"))
+			{
+				act.sendKeys(Station06Resource).build().perform();
+				Thread.sleep(2000);
+				
+			}
+			
 			act.sendKeys(Keys.ENTER).perform();
+			
+			
+			
 			
 //			
 //			vehicleCountry.click();
@@ -126,8 +166,21 @@ public class p_vehicleUser extends  B_baseClass {
 			
 			saveVehicle.click();
 			
+			if (i==1) {
+				
+				
+				Reporter.log("vehicle "+dailyVehicleEmailId1+" added successfully.", true);
+				}
+				
+				else if (i==2) {
+					
+					Reporter.log("vehicle "+dailyVehicleEmailId2+" added successfully.", true);
+					}
 			
-			Reporter.log(vehicleEmailId+"_"+i+"@atpl.in  added sucessfully",true);
+			
+			
+			
+		
 			}
 		
 			}
@@ -135,7 +188,7 @@ public class p_vehicleUser extends  B_baseClass {
 		
 		
 	   
-		public void addVehicleUserForNewStation(WebDriver driver,String dateDDMMYY,String gTimeHHMM,String vehicleEmailId) throws Throwable 
+		public void addVehicleUserForNewStation(WebDriver driver,String dateDDMMYY,String gTimeHHMM,String vehicleEmailId, String BranchNameB) throws Throwable 
 		{
 			
 			
@@ -174,10 +227,10 @@ public class p_vehicleUser extends  B_baseClass {
 			
 			
 		}
-		public void deleteVehicleUser(WebDriver driver) throws Throwable 
+		public void deleteVehicleUser(WebDriver driver, String BranchNameB) throws Throwable 
 		{
 			int z=availabeDataCount.size();
-			Reporter.log("the availabe vehicle count is -"+z+"in the list for delete.", true);
+			Reporter.log("the availabe vehicle count is  "+z+"in the list for delete.", true);
 			Actions act = new Actions(driver);
 			for (int i=1;i<=z;i++)
 			{

@@ -7,15 +7,14 @@
         <methods>
           <include name="logOut"/>
           <include name="backToHomePage2"/>
-          <include name="CreateAttributeForDepartment"/>
-          <include name="detailsAboutScript"/>
-          <include name="sendmessageToinfoEventUsers"/>
+          <include name="extendLowPriorityAlarmFrom07To06ByAttribute"/>
+          <include name="BeforeSuite"/>
+          <include name="addVehicleUserForStation06"/>
+          <include name="AfterTest"/>
           <include name="backToHomePage"/>
-          <include name="createAlamTemplate"/>
-          <include name="addEventCategory"/>
-          <include name="createResource"/>
-          <include name="createAlamLoop"/>
+          <include name="BeforeTest"/>
           <include name="lounchBrowser"/>
+          <include name="AfterSute"/>
         </methods>
       </class> <!-- live_functions.A_testClass_dailyCheckPointList -->
     </classes>

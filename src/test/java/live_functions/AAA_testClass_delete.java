@@ -57,7 +57,7 @@ public class AAA_testClass_delete extends B_baseClass {
 	@BeforeClass
 	public void lounchBrowser() throws Throwable {
 
-		
+		getBranchName();
 		browserLounch();
 	
 		
@@ -98,11 +98,11 @@ public class AAA_testClass_delete extends B_baseClass {
 		al = new j_alarmLoop (driver);
 		atem=new s_alarmTemplate(driver);
 		
-		Reporter.log("Hello, Live branch deleting process has started.-"+date+">"+gCurrntTime, true);
+		Reporter.log("Hello,"+BranchNameB+" branch deleting process has started.-"+date+">"+gCurrntTime, true);
 		
 		Reporter.log(" ", true);
 		
-		driver.manage().window().minimize();
+	
 
 	}
 
@@ -132,8 +132,8 @@ public class AAA_testClass_delete extends B_baseClass {
 		
 		Reporter.log(" ", true);
 		Reporter.log("The process of delete event category is started.", true);
-		ce.calendarEventCommon(driver);
-		ce.deleteEventCategory(driver);
+		ce.calendarEventCommon(driver,BranchNameB);
+		ce.deleteEventCategory(driver, BranchNameB);
 		Reporter.log("The process of delete event category is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -150,8 +150,8 @@ public class AAA_testClass_delete extends B_baseClass {
 		
 		Reporter.log(" ", true);
 		Reporter.log("The process of delete alarm template is started.", true);
-		atem.commonForAlarmTemplate(driver);
-		atem.deleteAlarmTemplate(driver);
+		atem.commonForAlarmTemplate(driver,BranchNameB);
+		atem.deleteAlarmTemplate(driver,BranchNameB);
 		Reporter.log("The process of delete alarm template is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -165,8 +165,8 @@ public class AAA_testClass_delete extends B_baseClass {
 		
 		Reporter.log(" ", true);
 		Reporter.log("The process of delete alarm loop is started.", true);
-		al.commonForAlarmLoop(driver);
-		al.deleteAlarmLoop(driver);
+		al.commonForAlarmLoop(driver,BranchNameB);
+		al.deleteAlarmLoop(driver,BranchNameB);
 		Reporter.log("The process of delete alarm loop is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -179,8 +179,8 @@ public class AAA_testClass_delete extends B_baseClass {
 		
 		Reporter.log(" ", true);
 		Reporter.log("The process of delete calendar eventcreated by attribute is started.", true);
-		ce.calendarEventCommon(driver);
-		ce.deletecalendarEventByAttribute(driver);
+		ce.calendarEventCommon(driver,BranchNameB);
+		ce.deletecalendarEventByAttribute(driver,BranchNameB);
 		Reporter.log("The process of delete calendar event by attribute is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -193,8 +193,8 @@ public class AAA_testClass_delete extends B_baseClass {
 		
 		Reporter.log(" ", true);
 		Reporter.log("The process of delete calendar event by resource is started.", true);
-		ce.calendarEventCommon(driver);
-		ce.deletecalendarEventByResource(driver);
+		ce.calendarEventCommon(driver,BranchNameB);
+		ce.deletecalendarEventByResource(driver,BranchNameB);
 		Reporter.log("The process of delete calendar event by resource is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -206,8 +206,8 @@ public class AAA_testClass_delete extends B_baseClass {
 		
 		Reporter.log(" ", true);
 		Reporter.log("The process of delete calendar event by firefighter is started.", true);
-		ce.calendarEventCommon(driver);
-		ce.deletecalendarEventByFirefighter(driver);
+		ce.calendarEventCommon(driver,BranchNameB);
+		ce.deletecalendarEventByFirefighter(driver,BranchNameB);
 		Reporter.log("The process of delete calendar event is by firefighter complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -234,8 +234,8 @@ public class AAA_testClass_delete extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of delete check list is started.", true);
 		
-	cl.commonForCheckList(driver);
-	cl.deleteCheckLis(driver);
+	cl.commonForCheckList(driver,BranchNameB);
+	cl.deleteCheckLis(driver,BranchNameB);
 		
 		Reporter.log("The process of delete  check list is complete.", true);
 		Reporter.log(" ", true);
@@ -249,8 +249,8 @@ public class AAA_testClass_delete extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of delete Chat group is started.", true);
 		
-		cg.commonForCreateGroup(driver);
-		cg.deleteChatGroup(driver);
+		cg.commonForCreateGroup(driver,BranchNameB);
+		cg.deleteChatGroup(driver, BranchNameB);
 		
 		Reporter.log("The process of delete  delete Chat group is complete.", true);
 		Reporter.log(" ", true);
@@ -266,8 +266,8 @@ public class AAA_testClass_delete extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of delete vehicle is started.", true);
 		
-	vu.commonForVehicleUser(driver);
-	vu.deleteVehicleUser(driver);
+	vu.commonForVehicleUser(driver,BranchNameB);
+	vu.deleteVehicleUser(driver,BranchNameB);
 		
 		Reporter.log("The process ofdelete vehicle is complete.", true);
 		Reporter.log(" ", true);
@@ -280,8 +280,8 @@ public class AAA_testClass_delete extends B_baseClass {
 	public void deleteFireStation() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of delete fire station is started.", true);
-		st.CommonForStation(driver);
-		st.deleteStation(driver);
+		st.CommonForStation(driver,BranchNameB);
+		st.deleteStation(driver,BranchNameB);
 		
 		
 		Reporter.log("The process of delete fire station is complete.", true);
@@ -298,8 +298,8 @@ public class AAA_testClass_delete extends B_baseClass {
 	public void deleteUers() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of delete user is started.", true);
-		ff.commonForAddUers(driver);
-		ff.deletfireFighter(driver);
+		ff.commonForAddUers(driver,BranchNameB);
+		ff.deletfireFighter(driver,BranchNameB);
 		Reporter.log("The process of delete user is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -315,7 +315,7 @@ public class AAA_testClass_delete extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of delete resource is started.", true);
 		
-		rec.deleteResource(driver);
+		rec.deleteResource(driver,BranchNameB);
 		
 		
 		Reporter.log("The process of delete resorce is is complete.", true);
@@ -328,7 +328,7 @@ public class AAA_testClass_delete extends B_baseClass {
 	public void deleteAttribute() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of deleting attribute is started.", true);
-		at.deleteAttribute(driver);
+		at.deleteAttribute(driver,BranchNameB);
 		Reporter.log("The process of deleting attribute is complted.", true);
 		Reporter.log(" ", true);
 
@@ -339,8 +339,8 @@ public class AAA_testClass_delete extends B_baseClass {
 	public void deleteMonitorUser() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of deleting monitor user is started.", true);
-		mu.commonForMonitorUser(driver);
-		mu.deleteMonitorUser(driver);
+		mu.commonForMonitorUser(driver,BranchNameB);
+		mu.deleteMonitorUser(driver,BranchNameB);
 		Reporter.log("The process of deleting monitor user is complted.", true);
 		Reporter.log(" ", true);
 
@@ -351,7 +351,7 @@ public class AAA_testClass_delete extends B_baseClass {
 	public void deleteTestAlarmFromList() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of deleting a test alarm from list is started.", true);
-		ta.deleteTestAlarmFromList(driver);
+		ta.deleteTestAlarmFromList(driver,BranchNameB);
 		Reporter.log("The process of deleting a test alarm from list is complted.", true);
 		Reporter.log(" ", true);
 
@@ -362,8 +362,8 @@ public class AAA_testClass_delete extends B_baseClass {
 	public void deleteTestAlarmFromOverview() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of deleting a test alarm from overview is started.", true);
-		ta.testAlarmOverviewCommon(driver);
-		ta.deleteTestAlarmFromOverview(driver);
+		ta.testAlarmOverviewCommon(driver,BranchNameB);
+		ta.deleteTestAlarmFromOverview(driver,BranchNameB);
 
 		Reporter.log("The process of deleting a test alarm from overview is complted.", true);
 		Reporter.log(" ", true);
@@ -377,8 +377,8 @@ public class AAA_testClass_delete extends B_baseClass {
 	public void deactiveTestAlarmFromOverview() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of deactive a test alarm from ovieview is started.", true);
-		ta.testAlarmOverviewCommon(driver);
-        ta.deactiveTestAlarms(driver, date);
+		ta.testAlarmOverviewCommon(driver,BranchNameB);
+        ta.deactiveTestAlarms(driver, date,BranchNameB);
 		
 		Reporter.log("The process of deactive a test alarm from ovieview is complted.", true);
 		Reporter.log(" ", true);
@@ -392,7 +392,7 @@ public class AAA_testClass_delete extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of deactive a manual alarm is started.", true);
 
-		ma.deactiveManualAlarms(driver, date);
+		ma.deactiveManualAlarms(driver, date,BranchNameB);
 		Reporter.log("The process of deactive a manual alarm is complted.", true);
 		Reporter.log(" ", true);
 
@@ -405,7 +405,7 @@ public class AAA_testClass_delete extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of deleting a manual alarm is started.", true);
 
-		ma.deleteAlarms(driver, date);
+		ma.deleteAlarms(driver, date,BranchNameB);
 		Reporter.log("The process of deleting a manual alarm is complted.", true);
 		Reporter.log(" ", true);
 
@@ -417,7 +417,7 @@ public class AAA_testClass_delete extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of deleting information and event is started.", true);
 
-		ip.deleteInfoEvent(driver);
+		ip.deleteInfoEvent(driver,BranchNameB);
 		Reporter.log("Process of delete information and event is complted.", true);
 
 		Reporter.log(" ", true);
@@ -428,8 +428,8 @@ public class AAA_testClass_delete extends B_baseClass {
 
 		Reporter.log(" ", true);
 		Reporter.log("The process of deleting availability request from list is started.", true);
-		ar.availabilityRequestCommon(driver);
-		ar.deleteAvailabilityRequestFromList(driver);
+		ar.availabilityRequestCommon(driver,BranchNameB);
+		ar.deleteAvailabilityRequestFromList(driver,BranchNameB);
 
 		Reporter.log("The process of deleting availability request from list is complted.", true);
 
@@ -442,8 +442,8 @@ public class AAA_testClass_delete extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of deleting availability request from history is started.", true);
 
-		ar.availabilityRequestCommonDashboard(driver);
-		ar.deleteAvailabilityRequestFromHistory(driver);
+		ar.availabilityRequestCommonDashboard(driver,BranchNameB);
+		ar.deleteAvailabilityRequestFromHistory(driver,BranchNameB);
 
 		Reporter.log("The process of deleting availability request from history is complted.", true);
 

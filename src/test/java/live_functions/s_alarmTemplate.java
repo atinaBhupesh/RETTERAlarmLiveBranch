@@ -67,7 +67,7 @@ public class s_alarmTemplate extends  B_baseClass {
 		
 		
 		
-		public void commonForAlarmTemplate(WebDriver driver) throws Throwable 
+		public void commonForAlarmTemplate(WebDriver driver, String BranchNameB) throws Throwable 
 		{
 			manualAlarmModule.click();
 			
@@ -96,7 +96,7 @@ public class s_alarmTemplate extends  B_baseClass {
 		}
 		
 		
-		public void addAlarmTemplate(WebDriver driver,String dateDDMMYY,String gTimeHHMM) throws Throwable 
+		public void addAlarmTemplate(WebDriver driver,String dateDDMMYY,String gTimeHHMM, String BranchNameB) throws Throwable 
 		{
 			
 			Actions act = new Actions(driver);
@@ -138,7 +138,7 @@ public class s_alarmTemplate extends  B_baseClass {
 			Reporter.log("Alarm Template> BG-Template-"+dateDDMMYY+"_"+gTimeHHMM+" adde successfully.",true);
 			
 		}
-		public void deleteAlarmTemplate(WebDriver driver) throws Throwable 
+		public void deleteAlarmTemplate(WebDriver driver, String BranchNameB) throws Throwable 
 		{
 			
 			int z = availableDataCount.size();

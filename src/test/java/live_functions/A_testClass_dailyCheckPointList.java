@@ -12,7 +12,6 @@ import org.testng.annotations.Test;
 
 public class A_testClass_dailyCheckPointList extends B_baseClass {
 
-	
 	String date;
 	String gCurrntTime;
 	
@@ -90,6 +89,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	@BeforeSuite
 	public void BeforeSuite () throws Throwable
 	{
+		getBranchName();
+		
 		browserLounch();
 
 		
@@ -208,7 +209,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		
 		
 		
-		Reporter.log("Hello, Daily check point checking process has started.-"+date+">"+gCurrntTime, true);
+		Reporter.log("Hello, Daily check point checking process of "+BranchNameB +" has started.-"+date+">"+gCurrntTime, true);
 		
 		Reporter.log(" ", true);
 		Reporter.log("Todays is "+dayCount+" "+today+" of this month.", true);
@@ -243,7 +244,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	{
 
 		Reporter.log(" ", true);
-		Reporter.log("live department user # " + userName + " # log in sucessfully", true);
+		Reporter.log("Department user # " + userName + " # log in sucessfully", true);
 		Reporter.log(" ", true);
 	}
 
@@ -254,11 +255,11 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void createStormAlarm() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of create new storm is started.", true);
-		salm.stormAlarm(driver, dateDDMMYY, gTimeHHMM);
+		salm.stormAlarm(driver, dateDDMMYY, gTimeHHMM,  deptName,  St1N,BranchNameB);
 		Reporter.log("The process of create new storm is complete.", true);
 		Reporter.log(" ", true);
 		Reporter.log("The process of extend storm is started.", true);
-		salm.extendStormAlarm(driver);
+		salm.extendStormAlarm(driver,BranchNameB);
 		Reporter.log("The process of extend storm is complete.", true);
 		Reporter.log(" ", true);
 		
@@ -273,8 +274,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void addEventCategory() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of adding new event category is started.", true);
-		ce.calendarEventCommon(driver);
-		ce.addEventCategory(driver, dateDDMMYY, gTimeHHMM);
+		ce.calendarEventCommon(driver,BranchNameB);
+		ce.addEventCategory(driver, dateDDMMYY, gTimeHHMM,BranchNameB);
 		
 		Reporter.log("The process of new event category is complete.", true);
 		Reporter.log(" ", true);
@@ -295,8 +296,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void createAlamTemplate() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of adding new alarm template is started.", true);
-		atem.commonForAlarmTemplate(driver);
-		atem.addAlarmTemplate(driver, dateDDMMYY, gTimeHHMM);
+		atem.commonForAlarmTemplate(driver,BranchNameB);
+		atem.addAlarmTemplate(driver, dateDDMMYY, gTimeHHMM,BranchNameB);
 		
 		Reporter.log("The process of adding new alarm template is complete.", true);
 		Reporter.log(" ", true);
@@ -315,8 +316,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void createAlamLoop() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of adding new alarm loop is started.", true);
-		al.commonForAlarmLoop(driver);
-		al.addAlarmLoop(driver, dateDDMMYY, gTimeHHMM);
+		al.commonForAlarmLoop(driver,BranchNameB);
+		al.addAlarmLoop(driver, dateDDMMYY, gTimeHHMM,BranchNameB);
 		Reporter.log("The process of adding new alarm loop is complete.", true);
 		Reporter.log(" ", true);
 		
@@ -332,7 +333,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void createResource() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of adding new resource is started.", true);
-		rec.addResource(driver, dateDDMMYY, gTimeHHMM);
+		rec.addResource(driver, dateDDMMYY, gTimeHHMM,BranchNameB);
 		Reporter.log("The process of adding new resource is complete.", true);
 		Reporter.log(" ", true);
 		
@@ -360,8 +361,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void createNormalCheckList() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating normal check list is started.", true);
-		cl.commonForCheckList(driver);
-		cl.createCheckListNormal(driver, dateDDMMYY, gTimeHHMM);
+		cl.commonForCheckList(driver,BranchNameB);
+		cl.createCheckListNormal(driver, dateDDMMYY, gTimeHHMM,BranchNameB);
 		Reporter.log("The process of creating normal check list is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -372,8 +373,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void createAlarmCheckList() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating alarm check list is started.", true);
-		cl.commonForCheckList(driver);
-		cl.createCheckListAlarm(driver, dateDDMMYY, gTimeHHMM);
+		cl.commonForCheckList(driver,BranchNameB);
+		cl.createCheckListAlarm(driver, dateDDMMYY, gTimeHHMM,BranchNameB);
 		Reporter.log("The process of creating alarm check list is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -389,8 +390,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void createChatGrouForStation06Users() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a chat group is started.", true);
-		cg.commonForCreateGroup(driver);
-		cg.createGroupByAttribute(driver, date, gCurrntTime);
+		cg.commonForCreateGroup(driver,BranchNameB);
+		cg.createGroupByAttribute(driver, date, gCurrntTime,BranchNameB);
 		Reporter.log("The process of creating a chat group is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -405,8 +406,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void createChatGrouForNewStation() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a chat group is started.", true);
-		cg.commonForCreateGroup(driver);
-		cg.createNewChatGroupForNewFirefighter(driver, dateDDMMYY, gTimeHHMM);
+		cg.commonForCreateGroup(driver,BranchNameB);
+		cg.createNewChatGroupForNewFirefighter(driver, dateDDMMYY, gTimeHHMM, BranchNameB);
 		Reporter.log("The process of creating a chat group is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -417,8 +418,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void createChatgroupByAttribute() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating chat group by attribute is started.", true);
-		cg.commonForCreateGroup(driver);
-		cg.createGroupByAttribute(driver, date, gCurrntTime);
+		cg.commonForCreateGroup(driver,BranchNameB);
+		cg.createGroupByAttribute(driver, date, gCurrntTime,BranchNameB);
 	
 		Reporter.log("The process of creating chat group by attribute is complete.", true);
 		Reporter.log(" ", true);
@@ -432,8 +433,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void createChatgroupByResource() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating chat group by resource is started.", true);
-		cg.commonForCreateGroup(driver);
-		cg.createGroupByResource(driver, date, gCurrntTime);
+		cg.commonForCreateGroup(driver,BranchNameB);
+		cg.createGroupByResource(driver, date, gCurrntTime,BranchNameB);
 	
 		Reporter.log("The process of creating chat group by resource is complete.", true);
 		Reporter.log(" ", true);
@@ -445,8 +446,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void createChatgroupByFirefighter() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating chat group by fire fightr is started.", true);
-		cg.commonForCreateGroup(driver);
-		cg.createGroupByFirefighter(driver, date, gCurrntTime);
+		cg.commonForCreateGroup(driver,BranchNameB);
+		cg.createGroupByFirefighter(driver, date, gCurrntTime, BranchNameB);
 	
 		Reporter.log("The process of creating chat group by fire fightr is complete.", true);
 		Reporter.log(" ", true);
@@ -458,8 +459,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void createChatgroupByAlarmloop() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating chat group by alarm loop is started.", true);
-		cg.commonForCreateGroup(driver);
-		cg.createGroupByAlarmLoop(driver, date, gCurrntTime);
+		cg.commonForCreateGroup(driver,BranchNameB);
+		cg.createGroupByAlarmLoop(driver, date, gCurrntTime , BranchNameB);
 	
 		Reporter.log("The process of creating chat group by alarm loop is complete.", true);
 		Reporter.log(" ", true);
@@ -473,8 +474,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void sendMessageChatGrouCreatedByAttribute() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of sending message to a chat group created by attribute is started.", true);
-		cg.commonForCreateGroup(driver);
-		cg.sendMessageToGtoupByAttribute(driver, date, gCurrntTime);
+		cg.commonForCreateGroup(driver,BranchNameB);
+		cg.sendMessageToGtoupByAttribute(driver, date, gCurrntTime,BranchNameB);
 	
 		Reporter.log("The process of sending message to a chat group created by attribute is complete.", true);
 		Reporter.log(" ", true);
@@ -487,8 +488,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void sendMessageChatGrouCreatedByResource() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of sending message to a chat group created by Resource is started.", true);
-		cg.commonForCreateGroup(driver);
-		cg.sendMessageToGtoupByResource(driver, date, gCurrntTime);
+		cg.commonForCreateGroup(driver,BranchNameB);
+		cg.sendMessageToGtoupByResource(driver, date, gCurrntTime,BranchNameB);
 	
 		Reporter.log("The process of sending message to a chat group created by Resource is complete.", true);
 		Reporter.log(" ", true);
@@ -502,8 +503,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void sendMessageChatGrouCreatedByFirefighter() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of sending message to a chat group created by Firefighter is started.", true);
-		cg.commonForCreateGroup(driver);
-		cg.sendMessageToGtoupByFirefighter(driver, date, gCurrntTime);
+		cg.commonForCreateGroup(driver,BranchNameB);
+		cg.sendMessageToGtoupByFirefighter(driver, date, gCurrntTime,BranchNameB);
 	
 		Reporter.log("The process of sending message to a chat group created by Firefighter is complete.", true);
 		Reporter.log(" ", true);
@@ -515,8 +516,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void sendMessageChatGrouCreatedByAlarmLoop() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of sending message to a chat group created by AlarmLoop is started.", true);
-		cg.commonForCreateGroup(driver);
-		cg.sendMessageToGtoupByAlarmLoop(driver, date, gCurrntTime);
+		cg.commonForCreateGroup(driver,BranchNameB);
+		cg.sendMessageToGtoupByAlarmLoop(driver, date, gCurrntTime,BranchNameB);
 	
 		Reporter.log("The process of sending message to a chat group created by AlarmLoop is complete.", true);
 		Reporter.log(" ", true);
@@ -528,8 +529,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void sendMessageChatGrouForNewStation() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of sending message to a chat group is started.", true);
-		cg.commonForCreateGroup(driver);
-		cg.sendMessageToNewChatGroupForNewFirefighter(driver, dateDDMMYY, gTimeHHMM);
+		cg.commonForCreateGroup(driver,BranchNameB);
+		cg.sendMessageToNewChatGroupForNewFirefighter(driver, dateDDMMYY, gTimeHHMM,BranchNameB);
 	
 		Reporter.log("The process of sending message to a chat group is complete.", true);
 		Reporter.log(" ", true);
@@ -548,7 +549,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void ManulaAlarmRepeate() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a manual alarm by new firefighter is started.", true);
-		ma.manualAlarmCommon(driver);
+		ma.manualAlarmCommon(driver, BranchNameB);
 		ma.ManulaAlarmRepeate(driver, date);
 		Reporter.log("The process of creating a manual alarm by new firefighter is complete.", true);
 		Reporter.log(" ", true);
@@ -562,8 +563,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void createManualAlarmByNewFireighterForNewStation() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a manual alarm by new firefighter is started.", true);
-		ma.manualAlarmCommon(driver);
-		ma.manualAlarmByNewFireFighter(driver, dateDDMMYY, gTimeHHMM);
+		ma.manualAlarmCommon(driver, BranchNameB);
+		ma.manualAlarmByNewFireFighter(driver, dateDDMMYY, gTimeHHMM,BranchNameB);
 		Reporter.log("The process of creating a manual alarm by new firefighter is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -575,8 +576,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void extendAlarmFrom07To06ByAttribute() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of create alarm from stataion 06 and extend to station 07 is started.", true);
-		ma.manualAlarmCommon(driver);
-		ma.extendManualAlarmByAttributeFrom07ToSt06(driver, date);
+		ma.manualAlarmCommon(driver, BranchNameB);
+		ma.extendManualAlarmByAttributeFrom07ToSt06(driver, date,  deptName,  St2N, st2V1,St1N, BranchNameB);
 		
 		Reporter.log("The create alarm from stataion 06 and extend to station 07 is complete.", true);
 		Reporter.log(" ", true);
@@ -589,11 +590,11 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 
 	public void extendLowPriorityAlarmFrom07To06ByAttribute() throws Throwable {
 		Reporter.log(" ", true);
-		Reporter.log("The process of create alarm from stataion 06 and extend to station 07 is started.", true);
-		ma.manualAlarmCommon(driver);
-		ma.extendLowManualAlarmByAttributeFrom07ToSt06(driver, date);
+		Reporter.log("The process of create low priority alarm from stataion 06 and extend to station 07 is started.", true);
+		ma.manualAlarmCommon(driver, BranchNameB);
+		ma.extendLowManualAlarmByAttributeFrom07ToSt06(driver, date,  deptName,  St2N,  st2V1, St1N, BranchNameB);
 		
-		Reporter.log("The create alarm from stataion 06 and extend to station 07 is complete.", true);
+		Reporter.log("The create low priority alarm from stataion 06 and extend to station 07 is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
 		
@@ -604,8 +605,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void lowPriorityAlarmWithEscalationResource() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating low priority alarm with escalation resource is started.", true);
-		ma.manualAlarmCommon(driver);
-		ma.manualAlarmLowPriorityByEscalationResource(driver, newStationUser);
+		ma.manualAlarmCommon(driver, BranchNameB);
+		ma.manualAlarmLowPriorityByEscalationResource(driver, newStationUser,BranchNameB);
 		
 		Reporter.log("The create creating low priority alarm with escalation resource is complete.", true);
 		Reporter.log(" ", true);
@@ -619,8 +620,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of add new vehicle for station 06 is started.", true);
 		
-	vu.commonForVehicleUser(driver);
-	vu.addVehicleUser(driver,vehicleEmailId, deptName, St1N,  Station06Resource);
+	vu.commonForVehicleUser(driver,BranchNameB);
+	vu.addVehicleUser(driver,dailyVehicleEmailId1,dailyVehicleEmailId2, deptName, St1N, BranchNameB);
 		
 		Reporter.log("The process of aadd new vehicle for station 06 is complete.", true);
 		Reporter.log(" ", true);
@@ -638,8 +639,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void addFireStation() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of add new station is started.", true);
-		st.CommonForStation(driver);
-		st.createStation(driver, dateDDMMYY, gTimeHHMM);
+		st.CommonForStation(driver,BranchNameB);
+		st.createStation(driver, dateDDMMYY, gTimeHHMM ,BranchNameB);
 		
 		
 		Reporter.log("The process of aadd new station is complete.", true);
@@ -653,8 +654,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void addStationUserForStation06() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of add station user is started.", true);
-		ff.commonForAddUers(driver);
-	    ff.addStationUserForStation06(driver, dateDDMMYY, gTimeHHMM);
+		ff.commonForAddUers(driver,BranchNameB);
+	    ff.addStationUserForStation06(driver, dateDDMMYY, gTimeHHMM,BranchNameB);
 	    newStationUser=ff.newStationUser;
 		
 		
@@ -669,8 +670,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void addFirefighterForNewStation06() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of add fire fighter is started.", true);
-		ff.commonForAddUers(driver);
-		ff.addfireFighterForStation06(driver, dateDDMMYY, gTimeHHMM);
+		ff.commonForAddUers(driver,BranchNameB);
+		ff.addfireFighterForStation06(driver, dateDDMMYY, gTimeHHMM,BranchNameB);
 		
 		
 		Reporter.log("The process of add fire fighter is complete.", true);
@@ -691,7 +692,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log("The process of creating resorce is started.", true);
 		
 		
-		rec.addResourceForNewStation(driver, dateDDMMYY, gTimeHHMM);
+		rec.addResourceForNewStation(driver, dateDDMMYY, gTimeHHMM ,BranchNameB);
 		
 		
 		
@@ -710,7 +711,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating attribute is started.", true);
 		
-		at.addAttribute(driver,dateDDMMYY,gTimeHHMM);
+		at.addAttribute(driver,dateDDMMYY,gTimeHHMM,BranchNameB);
 		
 		
 		Reporter.log("The process of creating attribute is is complete.", true);
@@ -726,8 +727,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating information 1 from " + gTimeA7min + " to " + gTimeA22min
 				+ " for monitor is started.", true);
-		ip.infoEventCommon(driver);
-		ip.createInformationForMonitor(driver, gTimeA7min, gTimeA22min, date,deptName,St1N);
+		ip.infoEventCommon(driver,BranchNameB);
+		ip.createInformationForMonitor(driver, gTimeA7min, gTimeA22min, date,deptName,St1N,BranchNameB);
 		Reporter.log("The process of creating information 1 for monitor is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -741,8 +742,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating information 2 from " + gTimeA15min + " to " + gTimeA30min
 				+ " for monitor is started.", true);
-		ip.infoEventCommon(driver);
-		ip.createInformationForMonitor(driver, gTimeA15min, gTimeA30min, date,deptName,St1N);
+		ip.infoEventCommon(driver,BranchNameB);
+		ip.createInformationForMonitor(driver, gTimeA15min, gTimeA30min, date,deptName,St1N,BranchNameB);
 		Reporter.log("The process of creating information 2 for monitor is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -778,8 +779,8 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a test alarm by attribute with remindar one time is started.",true);
-		ta.testAlarmCommon(driver);
-		ta.testAlarmByOnetime(driver, date, gTimeA3min, today);
+		ta.testAlarmCommon(driver,BranchNameB);
+		ta.testAlarmByOnetime(driver, date, gTimeA3min, today,BranchNameB);
 
 		Reporter.log("The process of creating a test alarm by attribute with remindar one time is complete.",true);
 		Reporter.log(" ", true);
@@ -797,8 +798,8 @@ gTimeA5min = tmc.germanyTimeAfter5Minutes;
 
 	Reporter.log(" ", true);
 	Reporter.log("The process of creating a test alarm by resource with remindar recursive > daily is started.",true);
-	ta.testAlarmCommon(driver);
-	ta.testAlarmByRecursiveDaily(driver, date, gTimeA5min);
+	ta.testAlarmCommon(driver,BranchNameB);
+	ta.testAlarmByRecursiveDaily(driver, date, gTimeA5min,BranchNameB);
 
 	Reporter.log("The process of creating a test alarm by resource with remindar recursive > daily is complete.",true);
 	Reporter.log(" ", true);
@@ -814,8 +815,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 
 	Reporter.log(" ", true);
 	Reporter.log("The process of creating a test alarm by fire fighter with remindar recursive > weekly is started.",true);
-	ta.testAlarmCommon(driver);
-	ta.testAlarmByRecursiveWeekly(driver, date, gTimeA7min, today);
+	ta.testAlarmCommon(driver,BranchNameB);
+	ta.testAlarmByRecursiveWeekly(driver, date, gTimeA7min, today,BranchNameB);
 
 	Reporter.log("The process of creating a test alarm by fire fighter with remindar recursive > weekly is complete.",true);
 	Reporter.log(" ", true);
@@ -834,8 +835,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a test alarm by alarm loop 1 with remindar recirsive > monthly > day wise is started.",true);
-		ta.testAlarmCommon(driver);
-		ta.testAlarmByRecursiveMonthlyDayWise(driver, date, gTimeA7min, dayCount, today);
+		ta.testAlarmCommon(driver,BranchNameB);
+		ta.testAlarmByRecursiveMonthlyDayWise(driver, date, gTimeA7min, dayCount, today ,BranchNameB);
 	
 		Reporter.log("The process of creating a test alarm by alarm loop 2 with remindar recirsive > monthly > day wise is complete.",true);
 		Reporter.log(" ", true);
@@ -858,8 +859,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a test alarm by alarm loop 2 with remindar recursive > monthly > date wise is started.",true);
-		ta.testAlarmCommon(driver);
-		ta.testAlarmByRecursiveMonthlyDateWais(driver, date, gTimeA11min);
+		ta.testAlarmCommon(driver,BranchNameB);
+		ta.testAlarmByRecursiveMonthlyDateWais(driver, date, gTimeA11min,BranchNameB);
 
 		Reporter.log("The process of creating a test alarm by alarm loop 2 with remindar recursive > monthly > date wise is complete.",true);
 		Reporter.log(" ", true);
@@ -870,10 +871,12 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	@Test
 
 	public void createManualAlarmByAttribute() throws Throwable {
+		
+				
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a manual alarm by attribute is started.", true);
-		ma.manualAlarmCommon(driver);
-		ma.manualAlarmByAttribute(driver, date, deptName, St1N, St1V1,  St1V2);
+		ma.manualAlarmCommon(driver,BranchNameB);
+		ma.manualAlarmByAttribute(driver, date, deptName, St1N, St1V1,  St1V2, BranchNameB);
 		Reporter.log("The process of creating a manual alarm by attribute is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -884,8 +887,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void createManualAlarmByResource() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a manual alarm by resource is started.", true);
-		ma.manualAlarmCommon(driver);
-		ma.manualAlarmByResource(driver, date);
+		ma.manualAlarmCommon(driver,BranchNameB);
+		ma.manualAlarmByResource(driver, date,deptName,St1N, BranchNameB);
 		Reporter.log("The process of creating a manual alarm by resource is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -897,8 +900,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void createManualAlarmByFireFighte() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a manual alarm by firefighter is started.", true);
-		ma.manualAlarmCommon(driver);
-		ma.manualAlarmByFireFighter(driver, date);
+		ma.manualAlarmCommon(driver,BranchNameB);
+		ma.manualAlarmByFireFighter(driver, date,  deptName,  St1N,  St1V1,  St1V2, BranchNameB);
 		Reporter.log("The process of creating a manual alarm by firefighter is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -909,8 +912,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void createManualAlarmByEscalationResource() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a manual alarm by escaltion resource is started.", true);
-		ma.manualAlarmCommon(driver);
-		ma.manualAlarmByEscalationResource(driver, date);
+		ma.manualAlarmCommon(driver, BranchNameB);
+		ma.manualAlarmByEscalationResource(driver, date,  deptName,  St1N, BranchNameB);
 		Reporter.log("The process of creating a manual alarm by escaltion resource is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -921,8 +924,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void createLowPriorityManualAlarmByAttribute() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating low priority manual alarm by attribute is started.", true);
-		ma.manualAlarmCommon(driver);
-		ma.manualAlarmLowPriorityByAttribute(driver, date);
+		ma.manualAlarmCommon(driver, BranchNameB);
+		ma.manualAlarmLowPriorityByAttribute(driver, date, deptName,  St1N,  St1V1,  St1V2, BranchNameB);
 		Reporter.log("The process of creating low priority manual alarm by attribute is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -933,8 +936,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void createLowPriorityManualAlarmByEscalationResource() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating low priority manual alarm by escalation resource is started.", true);
-		ma.manualAlarmCommon(driver);
-		ma.manualAlarmLowPriorityByEscalationResource(driver, date);
+		ma.manualAlarmCommon(driver, BranchNameB);
+		ma.manualAlarmLowPriorityByEscalationResource(driver, date,BranchNameB);
 		Reporter.log("The process of creating low priority manual alarm by escalation resource is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -945,8 +948,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void sendmessageToAlarmUser() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The Process of send message to user is started.", true);
-		ma.manualAlarmCommon(driver);
-		ma.sendmessageToAlarmUser(driver, date);
+		ma.manualAlarmCommon(driver, BranchNameB);
+		ma.sendmessageToAlarmUser(driver, date,BranchNameB);
 		Reporter.log("The Process of send message to user is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -957,8 +960,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void extendAlarmToSecondStation() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of extend alarm is started.", true);
-		ma.manualAlarmCommon(driver);
-		ma.extendAlarm(driver, date);
+		ma.manualAlarmCommon(driver, BranchNameB);
+		ma.extendAlarm(driver, date,St2N, BranchNameB);
 		Reporter.log("The process of extend alarm is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -969,8 +972,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void createInformationByAttribute() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating information by attribute is started.", true);
-		ip.infoEventCommon(driver);
-		ip.createInformationByAttribute(driver,deptName,St1N);
+		ip.infoEventCommon(driver,BranchNameB);
+		ip.createInformationByAttribute(driver,deptName,St1N,BranchNameB);
 		Reporter.log("The process of creating information by attribute is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -981,8 +984,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void createInformationByResource() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating information by resource is started.", true);
-		ip.infoEventCommon(driver);
-		ip.createInformationByResource(driver,deptName,St1N);
+		ip.infoEventCommon(driver,BranchNameB);
+		ip.createInformationByResource(driver,deptName,St1N,BranchNameB);
 		Reporter.log("The process of creating information by resource is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -993,8 +996,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void createInformationByFirefighter() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating information by firefighter is started.", true);
-		ip.infoEventCommon(driver);
-		ip.createInformationByfireFighter(driver,deptName,St1N);
+		ip.infoEventCommon(driver,BranchNameB);
+		ip.createInformationByfireFighter(driver,deptName,St1N,BranchNameB);
 		Reporter.log("The process of creating information by firefighter is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1004,8 +1007,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void sendmessageToinfoUsers() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of send message to information users is started.", true);
-		ip.infoEventCommon(driver);
-		ip.sendmessageToInfoUsers(driver);
+		ip.infoEventCommon(driver,BranchNameB);
+		ip.sendmessageToInfoUsers(driver,BranchNameB);
 		Reporter.log("The process of send message to information users is started is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1021,8 +1024,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		gTimeA22min = tmc.germanyTimeAfter22Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of create info-event schedule by attribute is started.", true);
-		ip.infoEventCommon(driver);
-		ep.createEventByAttributeSchedule(driver, date, gTimeA7min, gTimeA22min,deptName,St1N);
+		ip.infoEventCommon(driver,BranchNameB);
+		ep.createEventByAttributeSchedule(driver, date, gTimeA7min, gTimeA22min,deptName,St1N,BranchNameB);
 		Reporter.log("The process of create info-event schedule by attribute is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1038,8 +1041,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 
 		Reporter.log(" ", true);
 		Reporter.log("The process of create info-event schedule by resource is started.", true);
-		ip.infoEventCommon(driver);
-		ep.createEventByResourceSchedule(driver, date, gTimeA67min, gTimeA82min,deptName,St1N);
+		ip.infoEventCommon(driver,BranchNameB);
+		ep.createEventByResourceSchedule(driver, date, gTimeA67min, gTimeA82min,deptName,St1N,BranchNameB);
 		Reporter.log("The process of create info-event schedule by attribute is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1054,8 +1057,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 
 		Reporter.log(" ", true);
 		Reporter.log("The process of create info-event schedule by firefighter is started.", true);
-		ip.infoEventCommon(driver);
-		ep.createEventByFireFightrSchedule(driver, date2, gTimeA7min, gTimeA22min,deptName,St1N);
+		ip.infoEventCommon(driver,BranchNameB);
+		ep.createEventByFireFightrSchedule(driver, date2, gTimeA7min, gTimeA22min,deptName,St1N,BranchNameB);
 
 		Reporter.log("The process of create info-event schedule by firefighter is complete.", true);
 		Reporter.log(" ", true);
@@ -1067,8 +1070,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void createInfoEventByAttribute() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of create info-event by attribute is started.", true);
-		ip.infoEventCommon(driver);
-		ep.createEventByAttribute(driver, date,deptName,St1N);
+		ip.infoEventCommon(driver,BranchNameB);
+		ep.createEventByAttribute(driver, date,deptName,St1N,BranchNameB);
 		Reporter.log("The process of create info-event by attribute is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1079,8 +1082,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void createInfoEventByResource() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of create info-event by resource is started.", true);
-		ip.infoEventCommon(driver);
-		ep.createEventByResource(driver, date,deptName,St1N);
+		ip.infoEventCommon(driver,BranchNameB);
+		ep.createEventByResource(driver, date,deptName,St1N,BranchNameB);
 		Reporter.log("The process of create info-event by resource is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1091,8 +1094,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void createInfoEventByFirefighter() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of create info-event by firefighter is started.", true);
-		ip.infoEventCommon(driver);
-		ep.createEventByFirefighter(driver, date,deptName,St1N);
+		ip.infoEventCommon(driver,BranchNameB);
+		ep.createEventByFirefighter(driver, date,deptName,St1N,BranchNameB);
 		Reporter.log("The process of create info-event by firefighter is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1114,8 +1117,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void sendmessageToinfoEventUsers() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of send message to info-event users is started.", true);
-		ip.infoEventCommon(driver);
-		ep.sendmessageToInfoEventUsers(driver);
+		ip.infoEventCommon(driver,BranchNameB);
+		ep.sendmessageToInfoEventUsers(driver,BranchNameB);
 		Reporter.log("The process of send message to info-event users is started is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1125,8 +1128,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void createAvailabilityRequestSendImmediat() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of create availability request > send imediate is started.", true);
-		ar.availabilityRequestCommon(driver);
-		ar.ARSendImmediate(driver,date, date2, gTimeA7min, dateAft2Days, gTimeA22min);
+		ar.availabilityRequestCommon(driver,BranchNameB);
+		ar.ARSendImmediate(driver,date, date2, gTimeA7min, dateAft2Days, gTimeA22min,BranchNameB);
 		Reporter.log("The process of create availability request > send imediate is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1136,8 +1139,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void createAvailabilityRequestSendSchedule() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of create availability request > schedule is started.", true);
-		ar.availabilityRequestCommon(driver);
-		ar.ARSendSchedule(driver, date, date2, gTimeA7min, dateAft2Days, gTimeA22min);
+		ar.availabilityRequestCommon(driver,BranchNameB);
+		ar.ARSendSchedule(driver, date, date2, gTimeA7min, dateAft2Days, gTimeA22min,BranchNameB);
 		Reporter.log("The process of create availability request > schedule is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1147,8 +1150,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void createAvailabilityRequestSendRecursive() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of create availability request > recursive is started.", true);
-		ar.availabilityRequestCommon(driver);
-		ar.ARRecursivee(driver,date, today, gTimeA7min, gTimeA22min, dayAf2day, dayAf4day);
+		ar.availabilityRequestCommon(driver,BranchNameB);
+		ar.ARRecursivee(driver,date, today, gTimeA7min, gTimeA22min, dayAf2day, dayAf4day,BranchNameB);
 		Reporter.log("The process of create availability request > recursive is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1158,8 +1161,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void createAvailabilityRequestSendMultipleDays() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of create availability request > multiple days is started.", true);
-		ar.availabilityRequestCommon(driver);
-		ar.ARSendMultiple(driver, date, gTimeA7min, gTimeA11min, gTimeA15min, dayAf2day, dayAf4day, gTimeA22min);
+		ar.availabilityRequestCommon(driver,BranchNameB);
+		ar.ARSendMultiple(driver, date, gTimeA7min, gTimeA11min, gTimeA15min, dayAf2day, dayAf4day, gTimeA22min,BranchNameB);
 		Reporter.log("The process of create availability request > multiple days is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1169,8 +1172,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void SendmessagetoARUsers() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of send message to availability request users is started.", true);
-		ar.availabilityRequestCommonDashboard(driver);
-		ar.messageToARUser(driver);
+		ar.availabilityRequestCommonDashboard(driver,BranchNameB);
+		ar.messageToARUser(driver,BranchNameB);
 		Reporter.log("The process of csend message to availability request users is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1184,8 +1187,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		gTime2A22min = tmc.germanyTime2After22Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of create calendar event by attribute is started.", true);
-		ce.calendarEventCommon(driver);
-		ce.calendarEventByAttributeSchedul(driver, date,gCurrntTime, gTime2A7min, gTime2A22min);
+		ce.calendarEventCommon(driver,BranchNameB);
+		ce.calendarEventByAttributeSchedul(driver, date,gCurrntTime, gTime2A7min, gTime2A22min,BranchNameB);
 		Reporter.log("The process of create calendar event by attribute is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1200,8 +1203,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		gTime2A88min = tmc.germanyTime2After88Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of create calendar event by resource is started.", true);
-		ce.calendarEventCommon(driver);
-		ce.calendarEventByResorceSchedul(driver, date,gCurrntTime, gTime2A67min, gTime2A88min);
+		ce.calendarEventCommon(driver,BranchNameB);
+		ce.calendarEventByResorceSchedul(driver, date,gCurrntTime, gTime2A67min, gTime2A88min,BranchNameB);
 		Reporter.log("The process of create calendar event by resource is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1218,8 +1221,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		gTime2A22min = tmc.germanyTime2After22Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of create calendar event by Firefighter is started.", true);
-		ce.calendarEventCommon(driver);
-		ce.calendarEventByFirefighterSchedul(driver, date, date2, gCurrntTime, gTime2A7min, gTime2A22min);
+		ce.calendarEventCommon(driver,BranchNameB);
+		ce.calendarEventByFirefighterSchedul(driver, date, date2, gCurrntTime, gTime2A7min, gTime2A22min,BranchNameB);
 		Reporter.log("The process of create calendar event by Firefighter is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1243,8 +1246,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void sendmessageToTestAlarmUsers() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of send message to test alarm user is started", true);
-		ta.testAlarmOverviewCommon(driver);
-		ta.semdmessageToTestAlarmUsers(driver, date, gTimeA11min);
+		ta.testAlarmOverviewCommon(driver,BranchNameB);
+		ta.semdmessageToTestAlarmUsers(driver, date, gTimeA11min,BranchNameB);
 		Reporter.log("The process of send message to test alarm user is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1254,8 +1257,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void createNewStationMonitorUser() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of create station monitor user is started.", true);
-		mu.commonForMonitorUser(driver);
-		mu.createNewMonitorUser(driver, dateDDMMYY, gTimeHHMM);
+		mu.commonForMonitorUser(driver,BranchNameB);
+		mu.createNewMonitorUser(driver, dateDDMMYY, gTimeHHMM,BranchNameB);
 		Reporter.log("The process of create station monitor user is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1264,8 +1267,8 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void createMonitorUserForSt06() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of create station monitor user is started.", true);
-		mu.commonForMonitorUser(driver);
-		mu.createMonitorUserForStation06(driver);
+		mu.commonForMonitorUser(driver,BranchNameB);
+		mu.createMonitorUserForStation06(driver,BranchNameB);
 		Reporter.log("The process of create station monitor user is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);

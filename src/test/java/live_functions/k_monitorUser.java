@@ -53,7 +53,7 @@ public class k_monitorUser extends B_baseClass {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void commonForMonitorUser(WebDriver driver) throws Throwable {
+	public void commonForMonitorUser(WebDriver driver, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 		manageMonitor.click();
 		Thread.sleep(2000);
@@ -62,7 +62,7 @@ public class k_monitorUser extends B_baseClass {
 
 	}
 
-	public void createMonitorUserForStation06(WebDriver driver) throws Throwable {
+	public void createMonitorUserForStation06(WebDriver driver, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		fireDepartmentField.click();
@@ -94,7 +94,7 @@ public class k_monitorUser extends B_baseClass {
 		saveButton.click();
 
 	}
-	public void createNewMonitorUser(WebDriver driver,String dateDDMMYY,String gTimeHHMM) throws Throwable {
+	public void createNewMonitorUser(WebDriver driver,String dateDDMMYY,String gTimeHHMM, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		fireDepartmentField.click();
@@ -152,7 +152,7 @@ public class k_monitorUser extends B_baseClass {
 	
 
 
-	public void deleteMonitorUser(WebDriver driver) throws Throwable {
+	public void deleteMonitorUser(WebDriver driver, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		for (int i=0;i<=20;i++)

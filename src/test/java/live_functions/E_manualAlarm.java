@@ -21,6 +21,7 @@ public class E_manualAlarm extends B_baseClass
 {
 	
 
+	String BranchNameB3 =BranchNameB;
 
 	@FindBy(xpath = "//span[text()=\"Alarm\"]")
 	private WebElement manualAlarmModule;
@@ -189,10 +190,11 @@ public class E_manualAlarm extends B_baseClass
 		PageFactory.initElements(driver, this);
 	}
 
-	public void manualAlarmCommon(WebDriver driver) throws Throwable {
+	public void manualAlarmCommon(WebDriver driver, String BranchNameB ) throws Throwable {
 
 		manualAlarmModule.click();
-
+	
+	
 
 		Thread.sleep(2000);
 		
@@ -288,7 +290,7 @@ public class E_manualAlarm extends B_baseClass
 
 	}
 
-	public void manualAlarmByAttribute(WebDriver driver, String date,String deptName,String St1N,String St1V1, String St1V2) throws Throwable {
+	public void manualAlarmByAttribute(WebDriver driver, String date,String deptName,String St1N,String St1V1, String St1V2, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
@@ -335,8 +337,6 @@ public class E_manualAlarm extends B_baseClass
 		Thread.sleep(2000);
 		selectAllCheckBox.click();
 
-		
-
 		if  (BranchNameB.equals("live"))
 		{
 			ADST06A2.click();
@@ -371,20 +371,20 @@ public class E_manualAlarm extends B_baseClass
 
 	}
 
-	public void extendLowManualAlarmByAttributeFrom07ToSt06(WebDriver driver, String date) throws Throwable {
+	public void extendLowManualAlarmByAttributeFrom07ToSt06(WebDriver driver, String date,String deptName, String St2N, String st2V1,String St1N, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
 
 		fireDepartmentField.click();
 
-		act.sendKeys("Andrew").build().perform();
+		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		fireStationField.click();
 
-		act.sendKeys("07").build().perform();
+		act.sendKeys(St2N).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 
@@ -403,7 +403,7 @@ public class E_manualAlarm extends B_baseClass
 		vehicleField.click();
 		Thread.sleep(1000);
 
-		act.sendKeys("ADST07V1").build().perform();
+		act.sendKeys(st2V1).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
@@ -412,7 +412,23 @@ public class E_manualAlarm extends B_baseClass
 		Thread.sleep(2000);
 		selectAllCheckBox.click();
 
-		ADST07A2.click();
+
+		if  (BranchNameB.equals("live"))
+		{
+			ADST07A2.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			manageAlarmT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			Bh1A2.click();
+			
+		}
+		
 
 		lowPriorityCheckBox.click();
 		Thread.sleep(1000);
@@ -440,21 +456,37 @@ public class E_manualAlarm extends B_baseClass
 		Thread.sleep(2000);
 		fireStationField.click();
 
-		act.sendKeys("06").build().perform();
+		act.sendKeys(St1N).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 
 		userTypeResource.click();
 
-		ADST06R2.click();
+		Thread.sleep(2000);
+
+		if  (BranchNameB.equals("live"))
+		{
+			ADST06R2.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			manageAlarmT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			Bh1A2.click();
+			
+		}
 
 		Thread.sleep(1000);
 
 		addInfoField1.click();
 
 		act.sendKeys("additional info 1").build().perform();
-
+		
 		addInfoField2.click();
 
 		act.sendKeys("additional info 2").build().perform();
@@ -475,20 +507,20 @@ public class E_manualAlarm extends B_baseClass
 
 	}
 
-	public void extendManualAlarmByAttributeFrom07ToSt06(WebDriver driver, String date) throws Throwable {
+	public void extendManualAlarmByAttributeFrom07ToSt06(WebDriver driver, String date, String deptName, String St2N, String st2V1, String St1N, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
 
 		fireDepartmentField.click();
 
-		act.sendKeys("Andrew").build().perform();
+		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		fireStationField.click();
 
-		act.sendKeys("07").build().perform();
+		act.sendKeys(St2N).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 
@@ -506,16 +538,44 @@ public class E_manualAlarm extends B_baseClass
 		vehicleField.click();
 		Thread.sleep(1000);
 
-		act.sendKeys("ADST07V1").build().perform();
+		act.sendKeys(st2V1).build().perform();
 		Thread.sleep(2000);
+		
+				
+		
+		
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 
 		selectAllCheckBox.click();
 		Thread.sleep(2000);
 		selectAllCheckBox.click();
+		
 
-		ADST07A2.click();
+		
+		
+
+		if  (BranchNameB.equals("live"))
+		{
+			ADST07A2.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			manageAlarmT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			Bh1A2.click();
+			
+		}
+		
+		
+		
+		
+		
+		
 
 		adressFeild.click();
 		Thread.sleep(2000);
@@ -533,7 +593,7 @@ public class E_manualAlarm extends B_baseClass
 
 		searchField.click();
 
-		act.sendKeys("BG-Extend alarm from station 07 created by attribute-" + date).build().perform();
+		act.sendKeys("BG-Extend alarm from station 07 to 06 created by attribute-" + date).build().perform();
 
 		searchButton.click();
 		Thread.sleep(2000);
@@ -541,15 +601,36 @@ public class E_manualAlarm extends B_baseClass
 		Thread.sleep(2000);
 		fireStationField.click();
 
-		act.sendKeys("06").build().perform();
+		act.sendKeys(St1N).build().perform();
 		Thread.sleep(2000);
+		
+		
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 
 		userTypeResource.click();
+		
+		
+    Thread.sleep(2000);
+		
 
-		ADST06R2.click();
-
+		
+		if  (BranchNameB.equals("live"))
+		{
+			ADST06R2.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			manageAlarmT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			Bh1A2.click();
+			
+		}
+		
 		Thread.sleep(1000);
 
 		addInfoField1.click();
@@ -576,20 +657,20 @@ public class E_manualAlarm extends B_baseClass
 
 	}
 
-	public void manualAlarmByResource(WebDriver driver, String date) throws Throwable {
+	public void manualAlarmByResource(WebDriver driver, String date,String deptName,String st1N, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
 
 		fireDepartmentField.click();
 
-		act.sendKeys("Andrew").build().perform();
+		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		fireStationField.click();
 
-		act.sendKeys("06").build().perform();
+		act.sendKeys(st1N).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 
@@ -607,7 +688,27 @@ public class E_manualAlarm extends B_baseClass
 		Thread.sleep(2000);
 		selectAllCheckBox.click();
 
-		ADST06R2.click();
+		
+		
+
+		if  (BranchNameB.equals("live"))
+		{
+			ADST06R2.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			manageAlarmT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			Bh1A2.click();
+			
+		}
+		
+		
+		
 
 		adressFeild.click();
 
@@ -621,20 +722,20 @@ public class E_manualAlarm extends B_baseClass
 
 	}
 
-	public void manualAlarmByFireFighter(WebDriver driver, String date) throws Throwable {
+	public void manualAlarmByFireFighter(WebDriver driver, String date,String deptName, String St1N, String St1V1, String St1V2, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
 
 		fireDepartmentField.click();
 
-		act.sendKeys("Andrew").build().perform();
+		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		fireStationField.click();
 
-		act.sendKeys("06").build().perform();
+		act.sendKeys(St1N).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
@@ -652,14 +753,14 @@ public class E_manualAlarm extends B_baseClass
 		vehicleField.click();
 		Thread.sleep(1000);
 
-		act.sendKeys("06v1").build().perform();
+		act.sendKeys(St1V1).build().perform();
 		Thread.sleep(3000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 
 		act.sendKeys(Keys.TAB).build().perform();
 		Thread.sleep(2000);
-		act.sendKeys("06v3").build().perform();
+		act.sendKeys(St1V2).build().perform();
 		Thread.sleep(3000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
@@ -668,12 +769,33 @@ public class E_manualAlarm extends B_baseClass
 		Thread.sleep(1000);
 		selectAllCheckBox.click();
 		Thread.sleep(1000);
-		jonas3.click();
-		Thread.sleep(1000);
-		jonas2.click();
-		Thread.sleep(1000);
-//		bhupeshLive2.click();
-//		Thread.sleep(1000);
+		
+		
+
+		if  (BranchNameB.equals("live"))
+		{
+			jonas3.click();
+			Thread.sleep(1000);
+			jonas2.click();
+			Thread.sleep(1000);
+//			bhupeshLive2.click();
+//			Thread.sleep(1000);
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			manageAlarmT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			Bh1A2.click();
+			
+		}
+		
+		
+		
+		
 
 		adressFeild.click();
 
@@ -689,20 +811,20 @@ public class E_manualAlarm extends B_baseClass
 
 	}
 
-	public void manualAlarmLowPriorityByAttribute(WebDriver driver, String date) throws Throwable {
+	public void manualAlarmLowPriorityByAttribute(WebDriver driver, String date, String deptName, String St1N, String St1V1, String St1V2, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
 
 		fireDepartmentField.click();
 
-		act.sendKeys("Andrew").build().perform();
+		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		fireStationField.click();
 
-		act.sendKeys("06").build().perform();
+		act.sendKeys(St1N).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
@@ -719,14 +841,14 @@ public class E_manualAlarm extends B_baseClass
 		vehicleField.click();
 		Thread.sleep(1000);
 
-		act.sendKeys("06v1").build().perform();
+		act.sendKeys(St1V1).build().perform();
 		Thread.sleep(3000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 
 		act.sendKeys(Keys.TAB).build().perform();
 		Thread.sleep(2000);
-		act.sendKeys("06v3").build().perform();
+		act.sendKeys(St1V2).build().perform();
 		Thread.sleep(3000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
@@ -735,7 +857,33 @@ public class E_manualAlarm extends B_baseClass
 		Thread.sleep(2000);
 		selectAllCheckBox.click();
 
-		ADST06A2.click();
+		
+		
+		
+		
+		
+		if  (BranchNameB.equals("live"))
+		{
+			ADST06A2.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			manageAlarmT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			Bh1A2.click();
+			
+		}
+		
+		
+		
+		
+		
+		
+		
 
 		lowPriorityCheckBox.click();
 
@@ -752,7 +900,7 @@ public class E_manualAlarm extends B_baseClass
 
 	}
 
-	public void manualAlarmByNewFireFighter(WebDriver driver, String dateDDMMYY, String gTimeHHMM) throws Throwable {
+	public void manualAlarmByNewFireFighter(WebDriver driver, String dateDDMMYY, String gTimeHHMM,String BranchNameB ) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
@@ -817,20 +965,20 @@ public class E_manualAlarm extends B_baseClass
 
 	}
 
-	public void manualAlarmByEscalationResource(WebDriver driver, String date) throws Throwable {
+	public void manualAlarmByEscalationResource(WebDriver driver, String date, String deptName, String St1N, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
 
 		fireDepartmentField.click();
 
-		act.sendKeys("Andrew").build().perform();
+		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		fireStationField.click();
 
-		act.sendKeys("06").build().perform();
+		act.sendKeys(St1N).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
@@ -847,8 +995,32 @@ public class E_manualAlarm extends B_baseClass
 		selectAllCheckBox.click();
 
 		selectAllCheckBox.click();
+		
+		
+		
+		
 
-		ADST06REsc.click();
+	
+		
+		
+		if  (BranchNameB.equals("live"))
+		{
+			ADST06REsc.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			manageAlarmT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			Bh1A2.click();
+			
+		}
+		
+		
+		
 
 		adressFeild.click();
 
@@ -863,7 +1035,7 @@ public class E_manualAlarm extends B_baseClass
 
 	}
 
-	public void manualAlarmLowPriorityByEscalationResource(WebDriver driver, String date) throws Throwable {
+	public void manualAlarmLowPriorityByEscalationResource(WebDriver driver, String date, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
@@ -910,7 +1082,7 @@ public class E_manualAlarm extends B_baseClass
 
 	}
 
-	public void manualAlarmByNewFireFighterFromStationLogin(WebDriver driver, String dateDDMMYY, String gTimeHHMM)
+	public void manualAlarmByNewFireFighterFromStationLogin(WebDriver driver, String dateDDMMYY, String gTimeHHMM, String BranchNameB)
 			throws Throwable {
 		Actions act = new Actions(driver);
 
@@ -957,7 +1129,7 @@ public class E_manualAlarm extends B_baseClass
 
 	}
 
-	public void extendAlarm(WebDriver driver, String date) throws Throwable {
+	public void extendAlarm(WebDriver driver, String date, String St2N, String BranchNameB) throws Throwable {
 
 		Actions act = new Actions(driver);
 		searchField.click();
@@ -970,13 +1142,37 @@ public class E_manualAlarm extends B_baseClass
 		Thread.sleep(2000);
 		fireStationField.click();
 
-		act.sendKeys("07").build().perform();
+		act.sendKeys(St2N).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		userTypeAttribute.click();
-
-		ADST07A2.click();
+		
+			
+		
+		if  (BranchNameB.equals("live"))
+		{
+			ADST07A2.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			manageAlarmT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			Bh1A2.click();
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
 
 		addInfoField1.click();
 
@@ -1002,7 +1198,7 @@ public class E_manualAlarm extends B_baseClass
 
 	}
 
-	public void sendmessageToAlarmUser(WebDriver driver, String date) throws Throwable {
+	public void sendmessageToAlarmUser(WebDriver driver, String date, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		searchField.click();
@@ -1097,7 +1293,7 @@ public class E_manualAlarm extends B_baseClass
 
 	}
 
-	public void deactiveManualAlarms(WebDriver driver, String date) throws Throwable {
+	public void deactiveManualAlarms(WebDriver driver, String date, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		manualAlarmModule.click();
@@ -1153,7 +1349,7 @@ public class E_manualAlarm extends B_baseClass
 
 	}
 
-	public void deleteAlarms(WebDriver driver, String date) throws Throwable {
+	public void deleteAlarms(WebDriver driver, String date, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		manualAlarmModule.click();

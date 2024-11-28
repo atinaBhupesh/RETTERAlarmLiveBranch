@@ -162,7 +162,7 @@ public class H_testAlarm extends B_baseClass
 		PageFactory.initElements(driver, this);
 	}
 
-	public void testAlarmCommon(WebDriver driver) throws Throwable {
+	public void testAlarmCommon(WebDriver driver, String BranchNameB) throws Throwable {
 		testAlarmModule.click();
 		Thread.sleep(2000);
 		
@@ -186,7 +186,7 @@ public class H_testAlarm extends B_baseClass
 
 	}
 
-	public void testAlarmOverviewCommon(WebDriver driver) throws Throwable {
+	public void testAlarmOverviewCommon(WebDriver driver, String BranchNameB) throws Throwable {
 
 		testAlarmModule.click();
 		
@@ -218,7 +218,7 @@ public class H_testAlarm extends B_baseClass
 	
 	
 	
-	public void testAlarmByRecursiveMonthlyDateWais(WebDriver driver, String date , String gTimeA7min )
+	public void testAlarmByRecursiveMonthlyDateWais(WebDriver driver, String date , String gTimeA7min , String BranchNameB)
 			throws Throwable {
 		Actions act = new Actions(driver);
 
@@ -304,7 +304,7 @@ public class H_testAlarm extends B_baseClass
 	}
 
 	
-	public void testAlarmByRecursiveMonthlyDayWise(WebDriver driver, String date , String gTimeA7min, String dayCount,String today)
+	public void testAlarmByRecursiveMonthlyDayWise(WebDriver driver, String date , String gTimeA7min, String dayCount,String today, String BranchNameB)
 			throws Throwable {
 		Actions act = new Actions(driver);
 
@@ -398,7 +398,7 @@ public class H_testAlarm extends B_baseClass
 	
 	
 	
-	public void testAlarmByRecursiveWeekly(WebDriver driver, String date , String gTimeA7min, String today )
+	public void testAlarmByRecursiveWeekly(WebDriver driver, String date , String gTimeA7min, String today , String BranchNameB)
 			throws Throwable {
 		Actions act = new Actions(driver);
 
@@ -503,7 +503,7 @@ public class H_testAlarm extends B_baseClass
 	
 	
 	
-	public void testAlarmByRecursiveDaily(WebDriver driver, String date , String gTimeA9min )
+	public void testAlarmByRecursiveDaily(WebDriver driver, String date , String gTimeA9min , String BranchNameB)
 			throws Throwable {
 		Actions act = new Actions(driver);
 
@@ -588,7 +588,7 @@ public class H_testAlarm extends B_baseClass
 
 	
 
-	public void testAlarmByOnetime(WebDriver driver, String date, String gTimeA11min, String today) throws Throwable {
+	public void testAlarmByOnetime(WebDriver driver, String date, String gTimeA11min, String today, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
@@ -684,7 +684,7 @@ public class H_testAlarm extends B_baseClass
 		
 	}
 
-	public void semdmessageToTestAlarmUsers(WebDriver driver, String date, String gTimeA11min) {
+	public void semdmessageToTestAlarmUsers(WebDriver driver, String date, String gTimeA11min, String BranchNameB) {
 		Actions act = new Actions(driver);
 		testAlarmChat1.click();
 	
@@ -698,7 +698,7 @@ public class H_testAlarm extends B_baseClass
 	}
 	
 	
-	public void deleteTestAlarmFromList(WebDriver driver) throws Throwable {
+	public void deleteTestAlarmFromList(WebDriver driver,String BranchNameB) throws Throwable {
 		testAlarmModule.click();
 		Thread.sleep(2000);
 		if  (BranchNameB.equals("live"))
@@ -738,7 +738,7 @@ public class H_testAlarm extends B_baseClass
 
 	}
 
-	public void deleteTestAlarmFromOverview(WebDriver driver) throws Throwable {
+	public void deleteTestAlarmFromOverview(WebDriver driver, String BranchNameB) throws Throwable {
 		
 		int z=availableDataCount.size();
 		Reporter.log("The total available test alarms count is-"+z+" in the overview for delete.",true);
@@ -767,7 +767,7 @@ public class H_testAlarm extends B_baseClass
 	
 	
 	
-	public void deactiveTestAlarms(WebDriver driver, String date) throws Throwable {
+	public void deactiveTestAlarms(WebDriver driver, String date, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 		Select se = new Select(alarmLength);
 		se.selectByVisibleText("100");

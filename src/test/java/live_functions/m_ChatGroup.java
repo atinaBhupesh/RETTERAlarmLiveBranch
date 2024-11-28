@@ -79,7 +79,7 @@ public class m_ChatGroup extends  B_baseClass{
 		
 		
 		
-		public void commonForCreateGroup(WebDriver driver) 
+		public void commonForCreateGroup(WebDriver driver, String BranchNameB) 
 		
 		
 		{
@@ -92,7 +92,7 @@ public class m_ChatGroup extends  B_baseClass{
 
 
 
-		public void createGroupByAttribute(WebDriver driver, String date, String gCurrntTime) throws Throwable {
+		public void createGroupByAttribute(WebDriver driver, String date, String gCurrntTime, String BranchNameB) throws Throwable {
 			Actions act = new Actions(driver);
             
 			
@@ -165,7 +165,7 @@ public class m_ChatGroup extends  B_baseClass{
 		}
 	
 		
-		public void createGroupByResource(WebDriver driver, String date, String gCurrntTime) throws Throwable {
+		public void createGroupByResource(WebDriver driver, String date, String gCurrntTime, String BranchNameB) throws Throwable {
 			Actions act = new Actions(driver);
             
 			
@@ -234,7 +234,7 @@ public class m_ChatGroup extends  B_baseClass{
 			
 		}
 		
-		public void createGroupByFirefighter(WebDriver driver, String date, String gCurrntTime) throws Throwable {
+		public void createGroupByFirefighter(WebDriver driver, String date, String gCurrntTime,String BranchNameB) throws Throwable {
 			Actions act = new Actions(driver);
             
 			
@@ -303,7 +303,7 @@ Thread.sleep(1000);
 		}
 		
 		
-		public void createGroupByAlarmLoop(WebDriver driver, String date, String gCurrntTime) throws Throwable {
+		public void createGroupByAlarmLoop(WebDriver driver, String date, String gCurrntTime,String BranchNameB) throws Throwable {
 			Actions act = new Actions(driver);
             
 			
@@ -377,7 +377,7 @@ Thread.sleep(1000);
 		
 		
 		
-		public void sendMessageToGtoupByAttribute(WebDriver driver , String date, String gCurrntTime) throws Throwable
+		public void sendMessageToGtoupByAttribute(WebDriver driver , String date, String gCurrntTime, String BranchNameB) throws Throwable
 		{
 			Actions act = new Actions(driver);
 			
@@ -401,7 +401,7 @@ Thread.sleep(1000);
 		}
 		
 		
-		public void sendMessageToGtoupByResource(WebDriver driver , String date, String gCurrntTime) throws Throwable
+		public void sendMessageToGtoupByResource(WebDriver driver , String date, String gCurrntTime, String BranchNameB) throws Throwable
 		{
 			Actions act = new Actions(driver);
 			
@@ -425,7 +425,7 @@ Thread.sleep(1000);
 		}
 		
 		
-		public void sendMessageToGtoupByFirefighter(WebDriver driver , String date, String gCurrntTime) throws Throwable
+		public void sendMessageToGtoupByFirefighter(WebDriver driver , String date, String gCurrntTime, String BranchNameB) throws Throwable
 		{
 			Actions act = new Actions(driver);
 			
@@ -448,7 +448,7 @@ Thread.sleep(1000);
 			
 		}
 		
-		public void sendMessageToGtoupByAlarmLoop(WebDriver driver , String date, String gCurrntTime) throws Throwable
+		public void sendMessageToGtoupByAlarmLoop(WebDriver driver , String date, String gCurrntTime, String BranchNameB) throws Throwable
 		{
 			Actions act = new Actions(driver);
 			
@@ -475,7 +475,7 @@ Thread.sleep(1000);
 
 		
 		
-		public void createNewChatGroupForNewFirefighter(WebDriver driver, String dateDDMMYY, String gTimeHHMM) throws Throwable 
+		public void createNewChatGroupForNewFirefighter(WebDriver driver, String dateDDMMYY, String gTimeHHMM,String BranchNameB) throws Throwable 
 		
 		{
 			Actions act = new Actions(driver);
@@ -534,7 +534,7 @@ Thread.sleep(1000);
 	
 		
 		
-		public void sendMessageToNewChatGroupForNewFirefighter(WebDriver driver , String dateDDMMYY, String gTimeHHMM) throws Throwable
+		public void sendMessageToNewChatGroupForNewFirefighter(WebDriver driver , String dateDDMMYY, String gTimeHHMM, String BranchNameB) throws Throwable
 		
 		{
 			Actions act = new Actions(driver);
@@ -562,7 +562,7 @@ Thread.sleep(1000);
 		
 		
 		
-       public void deleteChatGroup (WebDriver driver ) throws Throwable
+       public void deleteChatGroup (WebDriver driver,String BranchNameB ) throws Throwable
 		
 		{
     	   Actions act = new Actions(driver);

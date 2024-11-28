@@ -99,7 +99,7 @@ public class F_information extends B_baseClass {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void infoEventCommon(WebDriver driver) throws Throwable {
+	public void infoEventCommon(WebDriver driver, String BranchNameB) throws Throwable {
 		calendarModule.click();
 		
 
@@ -124,7 +124,7 @@ public class F_information extends B_baseClass {
 
 	}
 
-	public void createInformationByAttribute(WebDriver driver,String deptName,String stName1) throws Throwable {
+	public void createInformationByAttribute(WebDriver driver,String deptName,String stName1, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 		createNewButton.click();
 		fireDepartmentField.click();
@@ -181,7 +181,7 @@ public class F_information extends B_baseClass {
 
 	}
 
-	public void createInformationByResource(WebDriver driver,String deptName,String stName1) throws Throwable {
+	public void createInformationByResource(WebDriver driver,String deptName,String stName1,String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
@@ -213,7 +213,7 @@ public class F_information extends B_baseClass {
 
 	}
 
-	public void createInformationByfireFighter(WebDriver driver,String deptName,String stName1) throws Throwable {
+	public void createInformationByfireFighter(WebDriver driver,String deptName,String stName1,String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
@@ -248,7 +248,7 @@ public class F_information extends B_baseClass {
 
 	}
 
-	public void createInformationForMonitor(WebDriver driver, String gTimeA5min, String gTimeA15min, String date,String deptName,String stName1)
+	public void createInformationForMonitor(WebDriver driver, String gTimeA5min, String gTimeA15min, String date,String deptName,String stName1,String BranchNameB)
 			throws Throwable {
 		Actions act = new Actions(driver);
 
@@ -294,7 +294,7 @@ public class F_information extends B_baseClass {
 	
 	
 
-	public void sendmessageToInfoUsers(WebDriver driver) throws Throwable {
+	public void sendmessageToInfoUsers(WebDriver driver,String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		searchField.click();
@@ -310,7 +310,7 @@ public class F_information extends B_baseClass {
 
 	}
 
-	public void deleteInfoEvent(WebDriver driver) throws Throwable {
+	public void deleteInfoEvent(WebDriver driver, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 		calendarModule.click();
 		
