@@ -5,10 +5,10 @@
     <classes>
       <class name="live_functions.AAA_testClass_delete">
         <methods>
+          <include name="deleteAlarmLoop"/>
           <include name="backToHomePage2"/>
           <include name="lounchBrowser"/>
           <include name="logOut"/>
-          <include name="deleteVehicleUser"/>
           <include name="backToHomePage"/>
         </methods>
       </class> <!-- live_functions.AAA_testClass_delete -->

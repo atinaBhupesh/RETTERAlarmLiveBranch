@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Nov 28 19:12:50 IST 2024</td>
+<td>Started on:</td><td>Thu Nov 28 19:15:18 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>61 seconds (61469 ms)</td>
+<tr><td>Total time:</td><td>63 seconds (63830 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,13 +76,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='live_functions.AAA_testClass_delete.deleteVehicleUser()'><b>deleteVehicleUser</b><br>Test class: live_functions.AAA_testClass_delete<br/>
-<a href="#Output-884111637" onClick='toggleBox("Output-884111637", this, "Show output", "Hide output");'>Show output</a>
+<td title='live_functions.AAA_testClass_delete.deleteAlarmLoop()'><b>deleteAlarmLoop</b><br>Test class: live_functions.AAA_testClass_delete<br/>
+<a href="#Output-1979860449" onClick='toggleBox("Output-1979860449", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-884111637" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-884111637">
+<a href="#Output-1979860449" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1979860449">
  <br/>
-The process of delete vehicle is started.<br/>
+The process of delete alarm loop is started.<br/>
 </div>
 </td>
 <td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -90,10 +90,10 @@ The process of delete vehicle is started.<br/>
 Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f5ae56123614b51e810fc5e40d87873a, clickElement {id=f.2C7FFB8C198387C121B9A68DAE104768.d.EDC765C572B2F467A68871DAD722851A.e.7327}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53009}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53009/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f5ae56123614b51e810fc5e40d87873a)] -&gt; xpath: //a[@href=&quot;http://live.retteralarm.de/admin/ResourceCars/&quot;]]
-Session ID: f5ae56123614b51e810fc5e40d87873a
+Command: [cc732446e6921d6c2af5b9bc77d38225, clickElement {id=f.91202166DA4EBD0964412075E2D8D9E1.d.DB9C4CC3E17AF22DF0FF9DF87C35C4A5.e.14334}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53184}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53184/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (cc732446e6921d6c2af5b9bc77d38225)] -&gt; xpath: //a[@href=&quot;http://live.retteralarm.de/admin/AlarmResources/loops&quot;]]
+Session ID: cc732446e6921d6c2af5b9bc77d38225
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
@@ -105,19 +105,19 @@ Session ID: f5ae56123614b51e810fc5e40d87873a
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-	at live_functions.p_vehicleUser.commonForVehicleUser(p_vehicleUser.java:64)
-	at live_functions.AAA_testClass_delete.deleteVehicleUser(AAA_testClass_delete.java:269)
+	at live_functions.j_alarmLoop.commonForAlarmLoop(j_alarmLoop.java:65)
+	at live_functions.AAA_testClass_delete.deleteAlarmLoop(AAA_testClass_delete.java:168)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace884111637", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace884111637'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1979860449", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1979860449'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=131.0.6778.86)
 Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f5ae56123614b51e810fc5e40d87873a, clickElement {id=f.2C7FFB8C198387C121B9A68DAE104768.d.EDC765C572B2F467A68871DAD722851A.e.7327}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53009}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53009/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f5ae56123614b51e810fc5e40d87873a)] -&gt; xpath: //a[@href=&quot;http://live.retteralarm.de/admin/ResourceCars/&quot;]]
-Session ID: f5ae56123614b51e810fc5e40d87873a
+Command: [cc732446e6921d6c2af5b9bc77d38225, clickElement {id=f.91202166DA4EBD0964412075E2D8D9E1.d.DB9C4CC3E17AF22DF0FF9DF87C35C4A5.e.14334}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53184}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53184/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (cc732446e6921d6c2af5b9bc77d38225)] -&gt; xpath: //a[@href=&quot;http://live.retteralarm.de/admin/AlarmResources/loops&quot;]]
+Session ID: cc732446e6921d6c2af5b9bc77d38225
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -138,8 +138,8 @@ Session ID: f5ae56123614b51e810fc5e40d87873a
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-	at live_functions.p_vehicleUser.commonForVehicleUser(p_vehicleUser.java:64)
-	at live_functions.AAA_testClass_delete.deleteVehicleUser(AAA_testClass_delete.java:269)
+	at live_functions.j_alarmLoop.commonForAlarmLoop(j_alarmLoop.java:65)
+	at live_functions.AAA_testClass_delete.deleteAlarmLoop(AAA_testClass_delete.java:168)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -181,14 +181,29 @@ Session ID: f5ae56123614b51e810fc5e40d87873a
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='live_functions.AAA_testClass_delete.detailsAboutScript()'><b>detailsAboutScript</b><br>Test class: live_functions.AAA_testClass_delete<br/>
-<a href="#Output-1749758430" onClick='toggleBox("Output-1749758430", this, "Show output", "Hide output");'>Show output</a>
+<td title='live_functions.AAA_testClass_delete.deleteVehicleUser()'><b>deleteVehicleUser</b><br>Test class: live_functions.AAA_testClass_delete<br/>
+<a href="#Output-81907268" onClick='toggleBox("Output-81907268", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1749758430" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1749758430">
+<a href="#Output-81907268" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-81907268">
  <br/>
-Login  date-28.11.2024 & login  time -14:43<br/>
-Logout date-28-11-2024 & logout time -14:43<br/>
+The process of delete vehicle is started.<br/>
+the availabe vehicle count is  0in the list for delete.<br/>
+The process ofdelete vehicle is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>live_functions.AAA_testClass_delete@25ce9dc4</td></tr>
+<tr>
+<td title='live_functions.AAA_testClass_delete.userDetails()'><b>userDetails</b><br>Test class: live_functions.AAA_testClass_delete<br/>
+<a href="#Output-973174587" onClick='toggleBox("Output-973174587", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-973174587" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-973174587">
+ <br/>
+live department user # 6039-DE-andrew-deptu-2 # log in sucessfully<br/>
  <br/>
 </div>
 </td>
@@ -196,29 +211,14 @@ Logout date-28-11-2024 & logout time -14:43<br/>
 <td>0</td>
 <td>live_functions.AAA_testClass_delete@25ce9dc4</td></tr>
 <tr>
-<td title='live_functions.AAA_testClass_delete.deleteAlarmLoop()'><b>deleteAlarmLoop</b><br>Test class: live_functions.AAA_testClass_delete<br/>
-<a href="#Output-835631769" onClick='toggleBox("Output-835631769", this, "Show output", "Hide output");'>Show output</a>
+<td title='live_functions.AAA_testClass_delete.detailsAboutScript()'><b>detailsAboutScript</b><br>Test class: live_functions.AAA_testClass_delete<br/>
+<a href="#Output-663119869" onClick='toggleBox("Output-663119869", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-835631769" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-835631769">
+<a href="#Output-663119869" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-663119869">
  <br/>
-The process of delete alarm loop is started.<br/>
-The total availabe alarm loop cout is -0 in the list for delete.<br/>
-The process of delete alarm loop is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>15</td>
-<td>live_functions.AAA_testClass_delete@25ce9dc4</td></tr>
-<tr>
-<td title='live_functions.AAA_testClass_delete.userDetails()'><b>userDetails</b><br>Test class: live_functions.AAA_testClass_delete<br/>
-<a href="#Output-551797833" onClick='toggleBox("Output-551797833", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-551797833" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-551797833">
- <br/>
-live department user # 6039-DE-andrew-deptu-2 # log in sucessfully<br/>
+Login  date-28.11.2024 & login  time -14:45<br/>
+Logout date-28-11-2024 & logout time -14:46<br/>
  <br/>
 </div>
 </td>
