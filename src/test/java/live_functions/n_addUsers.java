@@ -11,13 +11,16 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
 
-public class n_addUsers {
+public class n_addUsers extends  B_baseClass {
 	
 	String newStationUser;
 	
 	 @FindBy(xpath="//span[text()=\"Administration\"]")private WebElement admin;
 	 @FindBy(xpath="//span[text()=\"Manage Users\"]")private WebElement manageUsers;
-	 @FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/Users/index\"]")private WebElement list ;
+	 @FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/Users/index\"]")private WebElement listL ;
+	 @FindBy(xpath="//a[@href=\"http://testing.retteralarm.de/admin/Users/index\"]")private WebElement listT ;
+	 @FindBy(xpath="//a[@href=\"http://development.retteralarm.de/admin/Users/index\"]")private WebElement listD ;
+	 
 	 @FindBy(xpath="//button[@class=\"btn btn-success\"]")private WebElement createNew;
 	 @FindBy(xpath="//input[@id=\"UserFirstName\"]")private WebElement userNameField;
      @FindBy(xpath="//input[@id=\"UserLastName\"]")private WebElement userLastNameField;
@@ -91,7 +94,27 @@ public class n_addUsers {
 			
 			manageUsers.click();
 		
-			list.click();
+			
+			
+			
+			Thread.sleep(1000);
+			
+			
+			if  (BranchNameB.equals("live"))
+			{
+				listL.click();
+			}
+			
+			else if (BranchNameB.equals("testing"))
+			{
+				listT.click();
+			}
+			
+			else if (BranchNameB.equals("dev"))
+			{
+				listD.click();
+				
+			}
 			
 		}
 		

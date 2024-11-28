@@ -9,11 +9,8 @@
 				<include name="userDetails"  />
 	     	
 	     	
-	   	 
-	
-	 <include name="addStationUserForStation06"/>
-			 <include name="addFirefighterForNewStation06"/>
-		   	 
+	   	 	
+ 		     <include name="createPermissionGroupDefaultStation"  />
 		
 			 <include name="detailsAboutScript"  /> 
       </methods>

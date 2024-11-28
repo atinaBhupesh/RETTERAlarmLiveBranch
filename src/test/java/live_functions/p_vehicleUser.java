@@ -10,10 +10,13 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 
-public class p_vehicleUser {
+public class p_vehicleUser extends  B_baseClass {
 	
 		 @FindBy(xpath="//span[text()=\"Administration\"]")private WebElement admin;
-		 @FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/ResourceCars/\"]")private WebElement ManageVehicleUser;
+		 @FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/ResourceCars/\"]")private WebElement ManageVehicleUserL;
+		 @FindBy(xpath="//a[@href=\"http://testing.retteralarm.de/admin/ResourceCars/\"]")private WebElement ManageVehicleUserT;
+		 @FindBy(xpath="//a[@href=\"http://development.retteralarm.de/admin/ResourceCars/\"]")private WebElement ManageVehicleUserD;
+		 
 		 @FindBy(xpath="//button[@class=\"btn btn-success\"]")private WebElement createNew;
 		 @FindBy(xpath="//input[@id=\"UserAlarmEmail\"]")private WebElement vehicleUserMailIdField;
 		 
@@ -47,10 +50,30 @@ public class p_vehicleUser {
 		}
 	   
 	   
-		public void commonForVehicleUser(WebDriver driver) 
+		public void commonForVehicleUser(WebDriver driver) throws Throwable 
 		{
 			admin.click();
-			ManageVehicleUser.click();
+	
+			
+			
+			Thread.sleep(1000);
+			
+			
+			if  (BranchNameB.equals("live"))
+			{
+				ManageVehicleUserL.click();
+			}
+			
+			else if (BranchNameB.equals("testing"))
+			{
+				ManageVehicleUserT.click();
+			}
+			
+			else if (BranchNameB.equals("dev"))
+			{
+				ManageVehicleUserD.click();
+				
+			}
 		}
 		
 		

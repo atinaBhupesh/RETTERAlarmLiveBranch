@@ -18,7 +18,10 @@ import org.testng.Reporter;
 public class F_information extends B_baseClass {
 
 	@FindBy(xpath = "//span[text()=\"Calendar\"]")private WebElement calendarModule;
-	@FindBy(xpath = "//a[@href=\"http://live.retteralarm.de/admin/Informations/index\"]")private WebElement manageInformation;
+	@FindBy(xpath = "//a[@href=\"http://live.retteralarm.de/admin/Informations/index\"]")private WebElement manageInformationL;
+	@FindBy(xpath = "//a[@href=\"http://testing.retteralarm.de/admin/Informations/index\"]")private WebElement manageInformationT;
+	@FindBy(xpath = "//a[@href=\"http://development.retteralarm.de/admin/Informations/index\"]")private WebElement manageInformationD;
+	
 	@FindBy(xpath = "//button[@class=\"btn btn-success\"]")private WebElement createNewButton;
 	@FindBy(xpath = "//span[@id=\"select2-selectFiredepartment-container\"]")private WebElement fireDepartmentField;
 	@FindBy(xpath = "//input[@placeholder=\"Select Firestation\"]")private WebElement fireStationField;
@@ -99,7 +102,24 @@ public class F_information extends B_baseClass {
 	public void infoEventCommon(WebDriver driver) throws Throwable {
 		calendarModule.click();
 		
-		manageInformation.click();
+
+		
+		Thread.sleep(2000);
+		if  (BranchNameB.equals("live"))
+		{
+			manageInformationL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			manageInformationT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			manageInformationD.click();
+			
+		}
 	
 
 	}
@@ -293,7 +313,24 @@ public class F_information extends B_baseClass {
 	public void deleteInfoEvent(WebDriver driver) throws Throwable {
 		Actions act = new Actions(driver);
 		calendarModule.click();
-		manageInformation.click();
+		
+		Thread.sleep(2000);
+		if  (BranchNameB.equals("live"))
+		{
+			manageInformationL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			manageInformationT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			manageInformationD.click();
+			
+		}
+	
 		
 		int z=availableDataCount.size();
 		Reporter.log("The total available information or event count is-"+z+" in the list for delate.",true);

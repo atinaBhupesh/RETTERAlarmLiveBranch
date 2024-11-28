@@ -91,6 +91,9 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void BeforeSuite () throws Throwable
 	{
 		browserLounch();
+
+		
+	
 	}
 	
 	@BeforeTest
@@ -98,12 +101,19 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	{
 		lp = new C_logIn_logOut(driver);
 		hp = new D_homePage(driver);
-	
 		
 	
 		
+	
 		
-		lp.logIn(userName, password, driver);
+		
+		lp.logInUser(userName, password, driver);
+		
+		
+		
+		
+		
+		
 	}
 	
 	
@@ -610,7 +620,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log("The process of add new vehicle for station 06 is started.", true);
 		
 	vu.commonForVehicleUser(driver);
-	vu.addVehicleUser(driver,vehicleEmailId, deptName, stName1,  Station06Resource);
+	vu.addVehicleUser(driver,vehicleEmailId, deptName, St1N,  Station06Resource);
 		
 		Reporter.log("The process of aadd new vehicle for station 06 is complete.", true);
 		Reporter.log(" ", true);
@@ -717,7 +727,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log("The process of creating information 1 from " + gTimeA7min + " to " + gTimeA22min
 				+ " for monitor is started.", true);
 		ip.infoEventCommon(driver);
-		ip.createInformationForMonitor(driver, gTimeA7min, gTimeA22min, date,deptName,stName1);
+		ip.createInformationForMonitor(driver, gTimeA7min, gTimeA22min, date,deptName,St1N);
 		Reporter.log("The process of creating information 1 for monitor is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -732,7 +742,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log("The process of creating information 2 from " + gTimeA15min + " to " + gTimeA30min
 				+ " for monitor is started.", true);
 		ip.infoEventCommon(driver);
-		ip.createInformationForMonitor(driver, gTimeA15min, gTimeA30min, date,deptName,stName1);
+		ip.createInformationForMonitor(driver, gTimeA15min, gTimeA30min, date,deptName,St1N);
 		Reporter.log("The process of creating information 2 for monitor is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -863,7 +873,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a manual alarm by attribute is started.", true);
 		ma.manualAlarmCommon(driver);
-		ma.manualAlarmByAttribute(driver, date);
+		ma.manualAlarmByAttribute(driver, date, deptName, St1N, St1V1,  St1V2);
 		Reporter.log("The process of creating a manual alarm by attribute is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -960,7 +970,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating information by attribute is started.", true);
 		ip.infoEventCommon(driver);
-		ip.createInformationByAttribute(driver,deptName,stName1);
+		ip.createInformationByAttribute(driver,deptName,St1N);
 		Reporter.log("The process of creating information by attribute is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -972,7 +982,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating information by resource is started.", true);
 		ip.infoEventCommon(driver);
-		ip.createInformationByResource(driver,deptName,stName1);
+		ip.createInformationByResource(driver,deptName,St1N);
 		Reporter.log("The process of creating information by resource is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -984,7 +994,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating information by firefighter is started.", true);
 		ip.infoEventCommon(driver);
-		ip.createInformationByfireFighter(driver,deptName,stName1);
+		ip.createInformationByfireFighter(driver,deptName,St1N);
 		Reporter.log("The process of creating information by firefighter is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1012,7 +1022,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of create info-event schedule by attribute is started.", true);
 		ip.infoEventCommon(driver);
-		ep.createEventByAttributeSchedule(driver, date, gTimeA7min, gTimeA22min,deptName,stName1);
+		ep.createEventByAttributeSchedule(driver, date, gTimeA7min, gTimeA22min,deptName,St1N);
 		Reporter.log("The process of create info-event schedule by attribute is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1029,7 +1039,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of create info-event schedule by resource is started.", true);
 		ip.infoEventCommon(driver);
-		ep.createEventByResourceSchedule(driver, date, gTimeA67min, gTimeA82min,deptName,stName1);
+		ep.createEventByResourceSchedule(driver, date, gTimeA67min, gTimeA82min,deptName,St1N);
 		Reporter.log("The process of create info-event schedule by attribute is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1045,7 +1055,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of create info-event schedule by firefighter is started.", true);
 		ip.infoEventCommon(driver);
-		ep.createEventByFireFightrSchedule(driver, date2, gTimeA7min, gTimeA22min,deptName,stName1);
+		ep.createEventByFireFightrSchedule(driver, date2, gTimeA7min, gTimeA22min,deptName,St1N);
 
 		Reporter.log("The process of create info-event schedule by firefighter is complete.", true);
 		Reporter.log(" ", true);
@@ -1058,7 +1068,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of create info-event by attribute is started.", true);
 		ip.infoEventCommon(driver);
-		ep.createEventByAttribute(driver, date,deptName,stName1);
+		ep.createEventByAttribute(driver, date,deptName,St1N);
 		Reporter.log("The process of create info-event by attribute is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1070,7 +1080,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of create info-event by resource is started.", true);
 		ip.infoEventCommon(driver);
-		ep.createEventByResource(driver, date,deptName,stName1);
+		ep.createEventByResource(driver, date,deptName,St1N);
 		Reporter.log("The process of create info-event by resource is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1082,7 +1092,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of create info-event by firefighter is started.", true);
 		ip.infoEventCommon(driver);
-		ep.createEventByFirefighter(driver, date,deptName,stName1);
+		ep.createEventByFirefighter(driver, date,deptName,St1N);
 		Reporter.log("The process of create info-event by firefighter is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);

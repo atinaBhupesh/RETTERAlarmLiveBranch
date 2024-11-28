@@ -12,15 +12,18 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
 
-public class j_calendarEvent {
+public class j_calendarEvent extends B_baseClass {
 
 	@FindBy(xpath = "//span[text()=\"Calendar\"]")
 	private WebElement calendarModule;
 	@FindBy(xpath = "//span[text()=\"Manage Event\"]")
 	private WebElement manageEvent;
 	@FindBy(xpath = "//a[@href=\"http://live.retteralarm.de/admin/Firestations/eventCalendar\"]")
-	private WebElement calendar;
-
+	private WebElement calendarL;
+	@FindBy(xpath = "//a[@href=\"http://testing.retteralarm.de/admin/Firestations/eventCalendar\"]")
+	private WebElement calendarT;
+	@FindBy(xpath = "//a[@href=\"http://development.retteralarm.de/admin/Firestations/eventCalendar\"]")
+	private WebElement calendarD;
 	@FindBy(xpath = "//a[text()=\"Add New Event\"]")
 	private WebElement addNewEvent;
 	@FindBy(xpath = "//span[@id=\"select2-selectFireDepartment-container\"]")
@@ -79,8 +82,9 @@ public class j_calendarEvent {
 	@FindBy(xpath = "(//span[text()=\"General : BG-1 day calendar event by.\"])[1]")
 	private WebElement EventByFirefighter;
 
-	@FindBy(xpath = "//a[@href=\"http://live.retteralarm.de/admin/Firestations/events\"]")
-	private WebElement eventCatogery;
+	@FindBy(xpath = "//a[@href=\"http://live.retteralarm.de/admin/Firestations/events\"]") private WebElement eventCatogeryL;
+	@FindBy(xpath = "//a[@href=\"http://testing.retteralarm.de/admin/Firestations/events\"]") private WebElement eventCatogeryT;
+	@FindBy(xpath = "//a[@href=\"http://development.retteralarm.de/admin/Firestations/events\"]") private WebElement eventCatogeryD;
 	@FindBy(xpath = "//a[@href=\"/admin/firestations/createEvent\"]")
 	private WebElement addEventCatogery;
 	@FindBy(xpath = "//span[@id=\"select2-mainDepartment-container\"]")
@@ -143,7 +147,25 @@ public class j_calendarEvent {
 
 	public void calendarEventByAttributeSchedul(WebDriver driver, String date, String gCurrntTime, String gTimeA7min,
 			String gTimeA22min) throws Throwable {
-		calendar.click();
+	
+		
+		Thread.sleep(2000);
+		if  (BranchNameB.equals("live"))
+		{
+			calendarL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			calendarT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			calendarD.click();
+			
+		}
+		
 		Thread.sleep(2000);
 		Actions act = new Actions(driver);
 		addNewEvent.click();
@@ -231,7 +253,22 @@ public class j_calendarEvent {
 
 	public void calendarEventByResorceSchedul(WebDriver driver, String date, String gCurrntTime, String gTimeA7min,
 			String gTimeA22min) throws Throwable {
-		calendar.click();
+		Thread.sleep(2000);
+		if  (BranchNameB.equals("live"))
+		{
+			calendarL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			calendarT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			calendarD.click();
+			
+		}
 		Thread.sleep(2000);
 		Actions act = new Actions(driver);
 		addNewEvent.click();
@@ -319,7 +356,22 @@ public class j_calendarEvent {
 	public void calendarEventByFirefighterSchedul(WebDriver driver, String date, String date2, String gCurrntTime,
 			String gTimeA7min, String gTimeA22min) throws Throwable {
 
-		calendar.click();
+		Thread.sleep(2000);
+		if  (BranchNameB.equals("live"))
+		{
+			calendarL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			calendarT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			calendarD.click();
+			
+		}
 		Thread.sleep(2000);
 		Actions act = new Actions(driver);
 		addNewEvent.click();
@@ -412,7 +464,26 @@ public class j_calendarEvent {
 
 	public void addEventCategory(WebDriver driver, String dateDDMMYY, String gTimeHHMM) throws Throwable {
 		Actions act = new Actions(driver);
-		eventCatogery.click();
+		
+		
+		Thread.sleep(1000);
+		
+		
+		if  (BranchNameB.equals("live"))
+		{
+			eventCatogeryL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			eventCatogeryT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			eventCatogeryD.click();
+			
+		}
 		addEventCatogery.click();
 		SelectDepartment.click();
 		act.sendKeys("Andrew").build().perform();
@@ -438,7 +509,22 @@ public class j_calendarEvent {
 
 	public void deletecalendarEventByAttribute(WebDriver driver) throws Throwable {
 
-		calendar.click();
+		Thread.sleep(2000);
+		if  (BranchNameB.equals("live"))
+		{
+			calendarL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			calendarT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			calendarD.click();
+			
+		}
 		Thread.sleep(2000);
 		int z = availableDataCount1min.size();
 		Reporter.log(
@@ -464,7 +550,22 @@ public class j_calendarEvent {
 	}
 
 	public void deletecalendarEventByResource(WebDriver driver) throws Throwable {
-		calendar.click();
+		Thread.sleep(2000);
+		if  (BranchNameB.equals("live"))
+		{
+			calendarL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			calendarT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			calendarD.click();
+			
+		}
 		Thread.sleep(2000);
 
 		int z = availableDataCount1hrs.size();
@@ -491,7 +592,22 @@ public class j_calendarEvent {
 
 	public void deletecalendarEventByFirefighter(WebDriver driver) throws Throwable {
 
-		calendar.click();
+		Thread.sleep(2000);
+		if  (BranchNameB.equals("live"))
+		{
+			calendarL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			calendarT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			calendarD.click();
+			
+		}
 		Thread.sleep(2000);
 		
 
@@ -518,11 +634,28 @@ public class j_calendarEvent {
 	}
 
 	public void deleteEventCategory(WebDriver driver) throws Throwable {
-		eventCatogery.click();
+Thread.sleep(1000);
+		
+		
+		if  (BranchNameB.equals("live"))
+		{
+			eventCatogeryL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			eventCatogeryT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			eventCatogeryD.click();
+			
+		}
 		
 		int z = availableDataCount.size();
 		Reporter.log("The availabler event catagory count is-" + z + " in the list for delete.", true);
-		for (int i = 1; i <= 20; i++) {
+		for (int i = 1; i <= z; i++) {
 			Thread.sleep(2000);
 			Actions act = new Actions(driver);
 

@@ -7,11 +7,11 @@
         <methods>
           <include name="lounchBrowser"/>
           <include name="backToHomePage2"/>
+          <include name="deleteAlarmLoop"/>
           <include name="logOut"/>
-          <include name="deleteFireStation"/>
+          <include name="deleteAlarmTemplate"/>
+          <include name="deleteTestAlarmFromList"/>
           <include name="backToHomePage"/>
-          <include name="deleteUers"/>
-          <include name="deleteEventCategory"/>
         </methods>
       </class> <!-- live_functions.AAA_testClass_delete -->
     </classes>

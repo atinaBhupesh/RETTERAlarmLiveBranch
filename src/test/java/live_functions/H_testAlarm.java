@@ -16,9 +16,10 @@ public class H_testAlarm extends B_baseClass
 {
 
 	@FindBy(xpath = "//span[text()=\"Test Alarm\"]")private WebElement testAlarmModule;
-	@FindBy(xpath = "//a[@href=\"http://live.retteralarm.de/admin/TestAlarms/test_list\"]")
-	private WebElement testAlarmList;
-
+	@FindBy(xpath = "//a[@href=\"http://live.retteralarm.de/admin/TestAlarms/test_list\"]") private WebElement testAlarmListL;
+	@FindBy(xpath = "//a[@href=\"http://testing.retteralarm.de/admin/TestAlarms/test_list\"]") private WebElement testAlarmListT;
+	@FindBy(xpath = "//a[@href=\"http://development.retteralarm.de/admin/TestAlarms/test_list\"]") private WebElement testAlarmListD;
+	
 	@FindBy(xpath = "//button[@class=\"btn btn-success\"]")
 	private WebElement createNewButton;
 	@FindBy(xpath = "//span[@id=\"select2-selectFiredepartment-container\"]")
@@ -67,8 +68,15 @@ public class H_testAlarm extends B_baseClass
 	@FindBy(xpath = "//i[@class=\"fa fa-trash-o\"]")private WebElement deleteAlarm;
 	@FindBy(xpath = "//button[@id=\"delYes\"]")private WebElement deleteYes;
 	@FindBy(xpath = "//button[@id=\"delRec\"]")private WebElement deleteYes1;
-	@FindBy(xpath = "//a[@href=\"http://live.retteralarm.de/admin/TestAlarms/testAlarmOverviews\"]")private WebElement testAlarmOverview;
+	@FindBy(xpath = "//a[@href=\"http://live.retteralarm.de/admin/TestAlarms/testAlarmOverviews\"]")private WebElement testAlarmOverviewL;
+	@FindBy(xpath = "//a[@href=\"http://Testing.retteralarm.de/admin/TestAlarms/testAlarmOverviews\"]")private WebElement testAlarmOverviewT;
+	@FindBy(xpath = "//a[@href=\"http://development.retteralarm.de/admin/TestAlarms/testAlarmOverviews\"]")private WebElement testAlarmOverviewD ;
 
+	
+	
+	
+	
+	
 	@FindBy(xpath = "(//a[@class=\"blackAnchor\" and @title=\"Chat\"])[1]")private WebElement testAlarmChat1;
 	@FindBy(xpath = "//input[@placeholder=\"Write your message...\"]")private WebElement writemessageField;
 	@FindBy(xpath = "//button[@id=\"actionSendMessage\"]")private WebElement sendmessageButton;
@@ -157,8 +165,24 @@ public class H_testAlarm extends B_baseClass
 	public void testAlarmCommon(WebDriver driver) throws Throwable {
 		testAlarmModule.click();
 		Thread.sleep(2000);
-		testAlarmList.click();
-		Thread.sleep(2000);
+		
+		
+		
+		if  (BranchNameB.equals("live"))
+		{
+			testAlarmListL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			testAlarmListT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			testAlarmListT.click();
+			
+		}
 
 	}
 
@@ -167,7 +191,21 @@ public class H_testAlarm extends B_baseClass
 		testAlarmModule.click();
 		
 
-		testAlarmOverview.click();
+		if  (BranchNameB.equals("live"))
+		{
+			testAlarmOverviewL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			testAlarmOverviewT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			testAlarmOverviewD.click();
+			
+		}
 		
 	}
 
@@ -663,8 +701,21 @@ public class H_testAlarm extends B_baseClass
 	public void deleteTestAlarmFromList(WebDriver driver) throws Throwable {
 		testAlarmModule.click();
 		Thread.sleep(2000);
-		testAlarmList.click();
-		Thread.sleep(2000);
+		if  (BranchNameB.equals("live"))
+		{
+			testAlarmListL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			testAlarmListT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			testAlarmListD.click();
+			
+		}
 		
 		int z=availableDataCount.size();
 		Reporter.log("The total available test alarms count is-"+z+" in the list for delete.",true);

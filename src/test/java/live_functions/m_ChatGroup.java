@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 import org.testng.asserts.SoftAssert;
 
-public class m_ChatGroup {
+public class m_ChatGroup extends  B_baseClass{
 	
 	
 	
@@ -20,7 +20,10 @@ public class m_ChatGroup {
 	
 	    @FindBy(xpath="//span[text()=\"Conversation\"]")private WebElement conversation ;
 		@FindBy(xpath="//span[text()=\"Groups\"]")private WebElement groups;
-		@FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/GroupChat/groupList\"]")private WebElement groupList;
+		@FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/GroupChat/groupList\"]")private WebElement groupListL;
+		@FindBy(xpath="//a[@href=\"http://testing.retteralarm.de/admin/GroupChat/groupList\"]")private WebElement groupListT;
+		@FindBy(xpath="//a[@href=\"http://development.retteralarm.de/admin/GroupChat/groupList\"]")private WebElement groupListD;
+		
 		@FindBy(xpath="//button[@class=\"btn btn-success\"]")private WebElement createNewChatGroup;
 		@FindBy(xpath = "//span[@id=\"select2-selectFiredepartment-container\"]")private WebElement fireDepartmentField;
 		@FindBy(xpath = "//input[@placeholder=\"Please select firestation.\"]")private WebElement fireStationField;
@@ -94,7 +97,28 @@ public class m_ChatGroup {
             
 			
 			
-			groupList.click();
+		
+			
+			
+			Thread.sleep(1000);
+			
+			
+			if  (BranchNameB.equals("live"))
+			{
+				groupListL.click();
+			}
+			
+			else if (BranchNameB.equals("testing"))
+			{
+				groupListT.click();
+			}
+			
+			else if (BranchNameB.equals("dev"))
+			{
+				groupListD.click();
+				
+			}
+
 		
 			createNewChatGroup.click();
 	
@@ -146,7 +170,26 @@ public class m_ChatGroup {
             
 			
 			
-			groupList.click();
+			Thread.sleep(1000);
+			
+			
+			if  (BranchNameB.equals("live"))
+			{
+				groupListL.click();
+			}
+			
+			else if (BranchNameB.equals("testing"))
+			{
+				groupListT.click();
+			}
+			
+			else if (BranchNameB.equals("dev"))
+			{
+				groupListD.click();
+				
+			}
+			
+			
 		
 			createNewChatGroup.click();
 	
@@ -196,7 +239,24 @@ public class m_ChatGroup {
             
 			
 			
-			groupList.click();
+Thread.sleep(1000);
+			
+			
+			if  (BranchNameB.equals("live"))
+			{
+				groupListL.click();
+			}
+			
+			else if (BranchNameB.equals("testing"))
+			{
+				groupListT.click();
+			}
+			
+			else if (BranchNameB.equals("dev"))
+			{
+				groupListD.click();
+				
+			}
 		
 			createNewChatGroup.click();
 	
@@ -248,8 +308,24 @@ public class m_ChatGroup {
             
 			
 			
-			groupList.click();
-		
+			Thread.sleep(1000);
+			
+			
+			if  (BranchNameB.equals("live"))
+			{
+				groupListL.click();
+			}
+			
+			else if (BranchNameB.equals("testing"))
+			{
+				groupListT.click();
+			}
+			
+			else if (BranchNameB.equals("dev"))
+			{
+				groupListD.click();
+				
+			}
 			createNewChatGroup.click();
 	
 			fireDepartmentField.click();
@@ -408,7 +484,24 @@ public class m_ChatGroup {
 			
 			
 			
-			groupList.click();
+Thread.sleep(1000);
+			
+			
+			if  (BranchNameB.equals("live"))
+			{
+				groupListL.click();
+			}
+			
+			else if (BranchNameB.equals("testing"))
+			{
+				groupListT.click();
+			}
+			
+			else if (BranchNameB.equals("dev"))
+			{
+				groupListD.click();
+				
+			}
 		
 			createNewChatGroup.click();
 	
@@ -474,7 +567,24 @@ public class m_ChatGroup {
 		{
     	   Actions act = new Actions(driver);
     	   
-    	   groupList.click();
+    	   Thread.sleep(1000);
+			
+			
+			if  (BranchNameB.equals("live"))
+			{
+				groupListL.click();
+			}
+			
+			else if (BranchNameB.equals("testing"))
+			{
+				groupListT.click();
+			}
+			
+			else if (BranchNameB.equals("dev"))
+			{
+				groupListD.click();
+				
+			}
     	   
     	
     	   

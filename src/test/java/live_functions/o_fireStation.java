@@ -11,12 +11,15 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
 
-public class o_fireStation {
+public class o_fireStation extends  B_baseClass {
 	
 	
 	
 	 @FindBy(xpath="//span[text()=\"Administration\"]")private WebElement admin;
-	 @FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/Firestations/\"]")private WebElement manageFireStation;
+	 @FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/Firestations/\"]")private WebElement manageFireStationL;
+	 @FindBy(xpath="//a[@href=\"http://testing.retteralarm.de/admin/Firestations/\"]")private WebElement manageFireStationT;
+	 @FindBy(xpath="//a[@href=\"http://development.retteralarm.de/admin/Firestations/\"]")private WebElement manageFireStationD;
+	 
 	 @FindBy(xpath="//button[@class=\"btn btn-success\"]")private WebElement createNew ;
 	 @FindBy(xpath="//span[@id=\"select2-mainFirestation-container\"]")private WebElement departmentField;
 	 @FindBy(xpath="//input[@placeholder=\"Enter fire station name\"]")private WebElement stationNameField;
@@ -48,10 +51,30 @@ public class o_fireStation {
 	PageFactory.initElements(driver, this);
 	}
    
-	public void CommonForStation(WebDriver driver) 
+	public void CommonForStation(WebDriver driver) throws Throwable 
 	{
 		admin.click();
-		manageFireStation.click();
+	
+		
+		
+		Thread.sleep(1000);
+		
+		
+		if  (BranchNameB.equals("live"))
+		{
+			manageFireStationL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			manageFireStationT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			manageFireStationD.click();
+			
+		}
 		
 	}
 	

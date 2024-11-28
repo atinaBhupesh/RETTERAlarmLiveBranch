@@ -10,12 +10,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 
-public class l_attribute {
+public class l_attribute  extends  B_baseClass{
 
 	@FindBy(xpath = "//span[text()=\"Attributes\"]")
 	private WebElement attributeModule;
-	@FindBy(xpath = "//a[@href=\"http://live.retteralarm.de/admin/Attributes/\"]")
-	private WebElement manageAttribute;
+	@FindBy(xpath = "//a[@href=\"http://live.retteralarm.de/admin/Attributes/\"]")private WebElement manageAttributeL;
+	@FindBy(xpath = "//a[@href=\"http://testing.retteralarm.de/admin/Attributes/\"]")private WebElement manageAttributeT;
+	@FindBy(xpath = "//a[@href=\"http://development.retteralarm.de/admin/Attributes/\"]")private WebElement manageAttributeD;
+	
 	@FindBy(xpath = "//button[@class=\"btn btn-success\"]")
 	private WebElement createNew;
 	@FindBy(xpath = "//span[@id=\"select2-sectionDepartment-container\"]")
@@ -48,7 +50,26 @@ public class l_attribute {
 	public void addAttribute(WebDriver driver, String dateDDMMYY, String gTimeHHMM) throws Throwable {
 
 		attributeModule.click();
-		manageAttribute.click();
+	
+		
+		Thread.sleep(1000);
+		
+		
+		if  (BranchNameB.equals("live"))
+		{
+			manageAttributeL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			manageAttributeT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			manageAttributeD.click();
+			
+		}
 
 		createNew.click();
 		departmentField.click();
@@ -76,7 +97,24 @@ public class l_attribute {
 	public void addAttribute2(WebDriver driver, String dateDDMMYY, String gTimeHHMM) throws Throwable {
 
 		attributeModule.click();
-		manageAttribute.click();
+Thread.sleep(1000);
+		
+		
+		if  (BranchNameB.equals("live"))
+		{
+			manageAttributeL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			manageAttributeT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			manageAttributeD.click();
+			
+		}
 
 		createNew.click();
 		departmentField.click();
@@ -104,7 +142,24 @@ public class l_attribute {
 	public void deleteAttribute(WebDriver driver) throws Throwable {
 
 		attributeModule.click();
-		manageAttribute.click();
+Thread.sleep(1000);
+		
+		
+		if  (BranchNameB.equals("live"))
+		{
+			manageAttributeL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			manageAttributeT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			manageAttributeD.click();
+			
+		}
 		int z = availableDataCount.size();
 		Reporter.log("The availabler attribute count is-" + z + " in the list for delete.", true);
 		for (int i = 1; i <= z; i++) {

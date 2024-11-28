@@ -6,6 +6,7 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,11 +19,17 @@ import org.testng.Reporter;
 public class E_manualAlarm extends B_baseClass
 
 {
+	
+
 
 	@FindBy(xpath = "//span[text()=\"Alarm\"]")
 	private WebElement manualAlarmModule;
 	@FindBy(xpath = "//a[@href=\"http://live.retteralarm.de/admin/Alarms/index\"]")
-	private WebElement manageAlarm;
+	private WebElement manageAlarmL;
+	@FindBy(xpath = "//a[@href=\"http://testing.retteralarm.de/admin/Alarms/index\"]")
+	private WebElement manageAlarmT;
+	@FindBy(xpath = "//a[@href=\"http://development.retteralarm.de/admin/Alarms/index\"]")
+	private WebElement manageAlarmD;
 
 	@FindBy(xpath = "//button[@class=\"btn btn-success\"]")
 	private WebElement createNewButton;
@@ -130,7 +137,10 @@ public class E_manualAlarm extends B_baseClass
 
 	@FindBy(xpath = "//span[contains(text(),\"BG\")]")
 	private List<WebElement> availableDataCount;
-	// @FindBy(xpath="")private WebElement ;
+	
+	
+	//Dev
+	@FindBy(xpath="//input[@value=\"12743\"]")private WebElement Bh1A2;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -180,9 +190,28 @@ public class E_manualAlarm extends B_baseClass
 	}
 
 	public void manualAlarmCommon(WebDriver driver) throws Throwable {
+
 		manualAlarmModule.click();
 
-		manageAlarm.click();
+
+		Thread.sleep(2000);
+		
+		
+		if  (BranchNameB.equals("live"))
+		{
+		manageAlarmL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			manageAlarmT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			manageAlarmD.click();
+			
+		}
 
 	}
 
@@ -259,20 +288,20 @@ public class E_manualAlarm extends B_baseClass
 
 	}
 
-	public void manualAlarmByAttribute(WebDriver driver, String date) throws Throwable {
+	public void manualAlarmByAttribute(WebDriver driver, String date,String deptName,String St1N,String St1V1, String St1V2) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
 
 		fireDepartmentField.click();
 
-		act.sendKeys("Andrew").build().perform();
+		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		fireStationField.click();
 
-		act.sendKeys("06").build().perform();
+		act.sendKeys(St1N).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 
@@ -290,14 +319,14 @@ public class E_manualAlarm extends B_baseClass
 		vehicleField.click();
 		Thread.sleep(1000);
 
-		act.sendKeys("06v1").build().perform();
+		act.sendKeys(St1V1).build().perform();
 		Thread.sleep(3000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 
 		act.sendKeys(Keys.TAB).build().perform();
 		Thread.sleep(2000);
-		act.sendKeys("06v3").build().perform();
+		act.sendKeys(St1V2).build().perform();
 		Thread.sleep(3000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
@@ -306,8 +335,29 @@ public class E_manualAlarm extends B_baseClass
 		Thread.sleep(2000);
 		selectAllCheckBox.click();
 
-		ADST06A2.click();
-		// RA1.click();
+		
+
+		if  (BranchNameB.equals("live"))
+		{
+			ADST06A2.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			manageAlarmT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			Bh1A2.click();
+			
+		}
+		
+		
+		
+		
+		
+		
 
 		adressFeild.click();
 		Thread.sleep(2000);
@@ -444,7 +494,7 @@ public class E_manualAlarm extends B_baseClass
 
 		titlefield.click();
 
-		act.sendKeys("BG-Extend alarm from station 07 created by attribute-" + date).build().perform();
+		act.sendKeys("BG-Extend alarm from station 07 to 06 created by attribute-" + date).build().perform();
 
 		descriptionField.click();
 
@@ -1052,14 +1102,32 @@ public class E_manualAlarm extends B_baseClass
 
 		manualAlarmModule.click();
 
-		manageAlarm.click();
+
+		Thread.sleep(2000);
+		
+		
+		if  (BranchNameB.equals("live"))
+		{
+		manageAlarmL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			manageAlarmT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			manageAlarmD.click();
+			
+		}
 
 		Select se = new Select(alarmLength);
 		se.selectByVisibleText("100");
 		Thread.sleep(2000);
 
 		int z = availableDataCount.size();
-		Reporter.log("The total available manual alarms count is-"+z+" in the list for deactive.",true);
+		Reporter.log("The total available manual alarms count is-" + z + " in the list for deactive.", true);
 
 		for (int i = 1; i <= z; i++) {
 			searchField.click();
@@ -1090,10 +1158,30 @@ public class E_manualAlarm extends B_baseClass
 
 		manualAlarmModule.click();
 
-		manageAlarm.click();
+
+		Thread.sleep(2000);
+		
+		
+		if  (BranchNameB.equals("live"))
+		{
+		manageAlarmL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			manageAlarmT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			manageAlarmD.click();
+			
+		}
+		
+		
 
 		int z = availableDataCount.size();
-		Reporter.log("The total available manual alarms count is-"+z+" in the list for delete.",true);
+		Reporter.log("The total available manual alarms count is-" + z + " in the list for delete.", true);
 
 		for (int i = 1; i <= z; i++) {
 			searchField.click();
@@ -1102,7 +1190,6 @@ public class E_manualAlarm extends B_baseClass
 
 			searchButton.click();
 			Thread.sleep(3000);
-		
 
 			delete.click();
 

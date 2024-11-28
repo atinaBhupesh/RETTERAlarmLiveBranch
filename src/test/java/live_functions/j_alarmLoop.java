@@ -10,13 +10,21 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 
-public class j_alarmLoop {
+public class j_alarmLoop extends  B_baseClass {
 	
 	@FindBy(xpath = "//span[text()=\"Alarm\"]")private WebElement manualAlarmModule ;
 
-	@FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/AlarmResources/loops\"]")private WebElement alarmLoop;
+	@FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/AlarmResources/loops\"]")private WebElement alarmLoopL;
+	@FindBy(xpath="//a[@href=\"http://testing.retteralarm.de/admin/AlarmResources/loops\"]")private WebElement alarmLoopT;
+	@FindBy(xpath="//a[@href=\"http://development.retteralarm.de/admin/AlarmResources/loops\"]")private WebElement alarmLoopD;
+	
+	
 	 @FindBy(xpath="//button[@class=\"btn btn-success\"]")private WebElement createNew ;
-	 @FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/AlarmResources/resources\"]")private WebElement alarmResource;
+	 @FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/AlarmResources/resources\"]")private WebElement alarmResourceL;
+	 @FindBy(xpath="//a[@href=\"http://testing.retteralarm.de/admin/AlarmResources/resources\"]")private WebElement alarmResourceT;
+	 @FindBy(xpath="//a[@href=\"http://development.retteralarm.de/admin/AlarmResources/resources\"]")private WebElement alarmResourceD;
+	 
+	 
 	 @FindBy(xpath = "//span[@id=\"select2-selectFiredepartment-container\"]")private WebElement fireDepartmentField;
 	 @FindBy(xpath = "//input[@placeholder=\"Select Firestation\"]")	private WebElement fireStationField;
 	 @FindBy(xpath="//input[@id=\"AlarmLoopNickname\"]")private WebElement alarmLoopNikName ;
@@ -47,7 +55,26 @@ public class j_alarmLoop {
 	public void commonForAlarmLoop(WebDriver driver) throws Throwable 
 	{
 		manualAlarmModule.click();
-		alarmLoop.click();
+		
+		
+		Thread.sleep(1000);
+		
+		
+		if  (BranchNameB.equals("live"))
+		{
+			alarmLoopL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			alarmLoopT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			alarmLoopD.click();
+			
+		}
 		
 	}
 	

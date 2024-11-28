@@ -21,7 +21,7 @@ public class C_logIn_logOut extends B_baseClass {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void logIn(String userName, String password, WebDriver driver) throws Throwable {
+	public void logInUser(String userName, String password, WebDriver driver) throws Throwable {
 		Actions act = new Actions(driver);
 
 		userNameField.click();

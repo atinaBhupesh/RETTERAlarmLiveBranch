@@ -11,12 +11,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 
-public class q_checkList {
+public class q_checkList extends  B_baseClass {
 	
 	
 	
 	     @FindBy(xpath="//span[text()=\"Documentation\"]")private WebElement documentation;
-		 @FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/Checklists/index\"]")private WebElement checkList;
+		 @FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/Checklists/index\"]")private WebElement checkListL;
+		 @FindBy(xpath="//a[@href=\"http://testing.retteralarm.de/admin/Checklists/index\"]")private WebElement checkListT;
+		 @FindBy(xpath="//a[@href=\"http://development.retteralarm.de/admin/Checklists/index\"]")private WebElement checkListD;
 		 
 		 @FindBy(xpath = "//button[@class=\"btn btn-success\"]")private WebElement createNewButton;
 		 @FindBy(xpath="//select[@id=\"selectFiredepartment\"]")private WebElement selectDepartment;
@@ -55,7 +57,27 @@ public class q_checkList {
 	public void commonForCheckList(WebDriver driver) throws Throwable {
 		
 		documentation.click();
-		checkList.click();
+	
+		
+		
+		Thread.sleep(1000);
+		
+		
+		if  (BranchNameB.equals("live"))
+		{
+			checkListL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			checkListT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			checkListD.click();
+			
+		}
 		
 		
 	}

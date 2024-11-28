@@ -12,11 +12,12 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
 
-public class I_availabilityRequest {
+public class I_availabilityRequest extends B_baseClass {
 
 	@FindBy(xpath = "//span[text()=\"Availability Request\"]")private WebElement availabilityRequestModule;
-	@FindBy(xpath = "//a[@href=\"http://live.retteralarm.de/admin/WeekendPlannings/list\"]")
-	private WebElement availabilityReques;
+	@FindBy(xpath = "//a[@href=\"http://live.retteralarm.de/admin/WeekendPlannings/list\"]")private WebElement availabilityRequesL;
+	@FindBy(xpath = "//a[@href=\"http://testing.retteralarm.de/admin/WeekendPlannings/list\"]")private WebElement availabilityRequesT;
+	@FindBy(xpath = "//a[@href=\"http://development.retteralarm.de/admin/WeekendPlannings/list\"]")private WebElement availabilityRequesD;
 
 	@FindBy(xpath = "//button[@class=\"btn btn-success\"]")
 	private WebElement createNewButton;
@@ -56,8 +57,9 @@ public class I_availabilityRequest {
 	@FindBy(xpath = "//button[@id=\"delYes1\"]")
 	private WebElement deleteAvailbiliYes;
 
-	@FindBy(xpath = "//a[@href=\"http://live.retteralarm.de/admin/WeekendPlannings/history\"]")
-	private WebElement availabilityRequestHistory;
+	@FindBy(xpath = "//a[@href=\"http://live.retteralarm.de/admin/WeekendPlannings/history\"]")private WebElement availabilityRequestHistoryL;
+	@FindBy(xpath = "//a[@href=\"http://testing.retteralarm.de/admin/WeekendPlannings/history\"]")private WebElement availabilityRequestHistoryT;
+	@FindBy(xpath = "//a[@href=\"http://development.retteralarm.de/admin/WeekendPlannings/history\"]")private WebElement availabilityRequestHistoryD;
 	@FindBy(xpath = "//button[@id=\"dt_actionSearch\"]")
 	private WebElement searchButton;
 	@FindBy(xpath = "(//button[@type=\"submit\"])[1]")
@@ -128,7 +130,24 @@ public class I_availabilityRequest {
 
 		availabilityRequestModule.click();
 		
-		availabilityReques.click();
+
+		
+		
+		if  (BranchNameB.equals("live"))
+		{
+			availabilityRequesL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			availabilityRequesT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			availabilityRequesD.click();
+			
+		}
 		
 
 	}
@@ -140,7 +159,25 @@ public class I_availabilityRequest {
 	
 		availabilityRequestModule.click();
 	
-		availabilityRequestHistory.click();
+	
+		
+
+		if  (BranchNameB.equals("live"))
+		{
+			availabilityRequestHistoryL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			availabilityRequestHistoryT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			availabilityRequestHistoryD.click();
+			
+		}
+		
 	
 
 	}

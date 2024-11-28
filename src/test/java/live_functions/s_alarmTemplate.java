@@ -10,10 +10,13 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 
-public class s_alarmTemplate {
+public class s_alarmTemplate extends  B_baseClass {
 	
 	@FindBy(xpath = "//span[text()=\"Alarm\"]")private WebElement manualAlarmModule ;
-	 @FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/AlarmTemplates/list\"]")private WebElement alarmTemplate;
+	 @FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/AlarmTemplates/list\"]")private WebElement alarmTemplateL;
+	 @FindBy(xpath="//a[@href=\"http://testing.retteralarm.de/admin/AlarmTemplates/list\"]")private WebElement alarmTemplateT;
+	 @FindBy(xpath="//a[@href=\"http://development.retteralarm.de/admin/AlarmTemplates/list\"]")private WebElement alarmTemplateD;
+	 
 	 @FindBy(xpath="//button[@class=\"btn btn-success\"]")private WebElement createNew ;
 	 
 	 @FindBy(xpath = "//span[@id=\"select2-selectDepartment-container\"]")private WebElement fireDepartmentField;
@@ -67,7 +70,28 @@ public class s_alarmTemplate {
 		public void commonForAlarmTemplate(WebDriver driver) throws Throwable 
 		{
 			manualAlarmModule.click();
-			alarmTemplate.click();
+			
+			
+			
+			Thread.sleep(1000);
+			
+			
+			if  (BranchNameB.equals("live"))
+			{
+				alarmTemplateL.click();
+			}
+			
+			else if (BranchNameB.equals("testing"))
+			{
+				alarmTemplateT.click();
+			}
+			
+			else if (BranchNameB.equals("dev"))
+			{
+				alarmTemplateD.click();
+				
+			}
+			
 			
 		}
 		

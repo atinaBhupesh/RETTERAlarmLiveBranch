@@ -8,7 +8,7 @@
 				<include name="userDetails" />
 
 
-				<include name="deactiveManualAlarm" />
+				<exclude name="deactiveManualAlarm" />
 
 				<include name="deactiveTestAlarmFromOverview" />
 
@@ -18,7 +18,7 @@
 				<include name="deleteTestAlarmFromList" />
 
 
-				<include name="delteInfoEvent" />
+				<include name="deleteInfoEvent" />
 
 				<include name="deleteCalendarEventCreatedByAttribute" />
 				<include name="deleteCalendarEventCreatedByResource" />

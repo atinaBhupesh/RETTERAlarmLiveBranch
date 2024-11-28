@@ -8,6 +8,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class AAA_testClass_delete extends B_baseClass {
+	
+	
 
 	String date;
 	String gCurrntTime;
@@ -18,11 +20,12 @@ public class AAA_testClass_delete extends B_baseClass {
 
 	String date2;
 	String dateAft2Days;
+	String BranchNameB2;
 
 	
-	String userName = "6039-DE-andrew-deptu-2";
+
 	
-	String password = "123456";
+
 	
 
 	C_logIn_logOut lp;
@@ -54,14 +57,16 @@ public class AAA_testClass_delete extends B_baseClass {
 	@BeforeClass
 	public void lounchBrowser() throws Throwable {
 
+		
 		browserLounch();
-		Reporter.log("Hello, Live branch deleting process has started.", true);
-		Reporter.log(" ", true);
+	
+		
 
 		lp = new C_logIn_logOut(driver);
 		hp = new D_homePage(driver);
+	
 
-		lp.logIn(userName, password, driver);
+		lp.logInUser(userName, password, driver);
 
 		hp.langChange(driver);
 		ma = new E_manualAlarm(driver);
@@ -94,7 +99,10 @@ public class AAA_testClass_delete extends B_baseClass {
 		atem=new s_alarmTemplate(driver);
 		
 		Reporter.log("Hello, Live branch deleting process has started.-"+date+">"+gCurrntTime, true);
+		
 		Reporter.log(" ", true);
+		
+		driver.manage().window().minimize();
 
 	}
 
@@ -404,7 +412,7 @@ public class AAA_testClass_delete extends B_baseClass {
 	}
 
 	@Test
-	public void delteInfoEvent() throws Throwable {
+	public void deleteInfoEvent() throws Throwable {
 
 		Reporter.log(" ", true);
 		Reporter.log("The process of deleting information and event is started.", true);

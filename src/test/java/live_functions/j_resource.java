@@ -10,12 +10,15 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 
-public class j_resource {
+public class j_resource extends  B_baseClass {
 	
 	@FindBy(xpath = "//span[text()=\"Alarm\"]")private WebElement manualAlarmModule ;
 	
 	 @FindBy(xpath="//button[@class=\"btn btn-success\"]")private WebElement createNew ;
-	 @FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/AlarmResources/resources\"]")private WebElement alarmResource;
+	 @FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/AlarmResources/resources\"]")private WebElement alarmResourceL;
+	 @FindBy(xpath="//a[@href=\"http://testing.retteralarm.de/admin/AlarmResources/resources\"]")private WebElement alarmResourceT;
+	 @FindBy(xpath="//a[@href=\"http://development.retteralarm.de/admin/AlarmResources/resources\"]")private WebElement alarmResourceD;
+	 
 	 @FindBy(xpath = "//span[@id=\"select2-selectFiredepartment-container\"]")private WebElement fireDepartmentField;
 	 @FindBy(xpath = "//input[@placeholder=\"Select Firestation\"]")	private WebElement fireStationField;
 	 @FindBy(xpath="//input[@id=\"AlarmResourceName\"]")private WebElement alarmResourceNameField;
@@ -46,7 +49,26 @@ public class j_resource {
 			
 			Actions act = new Actions(driver);
 			manualAlarmModule.click();
-			alarmResource.click();
+		
+			
+			Thread.sleep(1000);
+			
+			
+			if  (BranchNameB.equals("live"))
+			{
+				alarmResourceL.click();
+			}
+			
+			else if (BranchNameB.equals("testing"))
+			{
+				alarmResourceT.click();
+			}
+			
+			else if (BranchNameB.equals("dev"))
+			{
+				alarmResourceD.click();
+				
+			}
 			
 			
 			createNew.click();
@@ -86,8 +108,24 @@ public class j_resource {
 			
 		Actions act = new Actions(driver);
 		manualAlarmModule.click();
-		alarmResource.click();
+		Thread.sleep(1000);
 		
+		
+		if  (BranchNameB.equals("live"))
+		{
+			alarmResourceL.click();
+		}
+		
+		else if (BranchNameB.equals("testing"))
+		{
+			alarmResourceT.click();
+		}
+		
+		else if (BranchNameB.equals("dev"))
+		{
+			alarmResourceD.click();
+			
+		}
 		
 		createNew.click();
 		fireDepartmentField.click();
@@ -116,7 +154,24 @@ public class j_resource {
 
 			Actions act = new Actions(driver);
 			manualAlarmModule.click();
-			alarmResource.click();
+Thread.sleep(1000);
+			
+			
+			if  (BranchNameB.equals("live"))
+			{
+				alarmResourceL.click();
+			}
+			
+			else if (BranchNameB.equals("testing"))
+			{
+				alarmResourceT.click();
+			}
+			
+			else if (BranchNameB.equals("dev"))
+			{
+				alarmResourceD.click();
+				
+			}
 			int z=availableDataCount.size();
 			Reporter.log("The available resorce countt is-"+z+" in the list for delete.",true);
 

@@ -7,14 +7,13 @@
         <methods>
           <include name="logOut"/>
           <include name="backToHomePage2"/>
-          <include name="sendMessageChatGrouForStation06Users"/>
+          <include name="BeforeSuite"/>
+          <include name="addFirefighterForNewStation06"/>
+          <include name="AfterTest"/>
           <include name="backToHomePage"/>
-          <include name="cretecalendarEventFirefighterSchedule"/>
-          <include name="createPermissionGroupDefaultStation"/>
-          <include name="createAlamTemplate"/>
-          <include name="createChatGrouForStation06Users"/>
+          <include name="BeforeTest"/>
           <include name="lounchBrowser"/>
-          <include name="createInformationByResource"/>
+          <include name="AfterSute"/>
         </methods>
       </class> <!-- live_functions.A_testClass_dailyCheckPointList -->
     </classes>

@@ -8,8 +8,9 @@
 
 				<include name="userDetails" />
 
-								<include name="deleteFireStation" />
-								<include name="deleteUers" />
+						
+		<include name="deleteCheckList" />
+			
 
 				<include name="detailsAboutScript" />
 

@@ -8,10 +8,10 @@
           <include name="logOut"/>
           <include name="backToHomePage2"/>
           <include name="BeforeSuite"/>
+          <include name="addFirefighterForNewStation06"/>
           <include name="AfterTest"/>
           <include name="backToHomePage"/>
           <include name="BeforeTest"/>
-          <include name="sendmessageToAlarmUser"/>
           <include name="lounchBrowser"/>
           <include name="AfterSute"/>
         </methods>
