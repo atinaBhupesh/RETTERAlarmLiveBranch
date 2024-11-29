@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="live_functions.A_testClass_dailyCheckPointList"/>
+      
+       <methods>
+				<include name="userDetails"  />
+	     	
+	     	
+	   	 	
+			
+			<include name="createManualAlarmByAttribute"  />
+			<include name="createManualAlarmByResource"  />
+			<include name="createManualAlarmByFireFighte"  />
+			<include name="createManualAlarmByEscalationResource"/> 
+			<include name="createLowPriorityManualAlarmByAttribute"  />
+			<include name="extendAlarmToSecondStation"/>
+			<include name="createStormAlarm"/> 
+			
+			<include name="extendAlarmFrom07To06ByAttribute"  /> 
+			<include name="extendLowPriorityAlarmFrom07To06ByAttribute"  />
+			<include name="lowPriorityAlarmWithEscalationResource"  /> 
+			
+			<include name="sendmessageToAlarmUser"/>
+			
+			
+			
+	      	<include name="createTestAlarmByAttributeOneTime"  />
+      		<include name="createInfoEventByAttributeSchedule"  /> 
+			<include name="cretecalendarEventAttributeSchedule"  /> 
+			<include name="createAvailabilityRequestSendImmediat"  />
+		    <include name="createInformationByAttribute"  />
+		    <include name="createInfoEventByAttribute"/>
+    		<include name="createChatgroupByAttribute"  /> 
+			<include name="SendmessagetoARUsers"  />
+			<include name="sendmessageToTestAlarmUsers"  />
+			<include name="sendMessageChatGrouCreatedByAttribute"  /> 
+			<include name="sendmessageToinfoUsers"/>"
+			<include name="sendmessageToinfoEventUsers"/>
+		
+			 <include name="detailsAboutScript"  /> 
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
