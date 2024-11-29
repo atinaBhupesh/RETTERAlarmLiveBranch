@@ -54,11 +54,13 @@ public class B_baseClass {
 	
 	
 	  
-
+	JavascriptExecutor js = (JavascriptExecutor) driver;
 	
 	
 	public void getBranchName () throws Throwable
 	{
+		
+		
 		Scanner scanner = new Scanner(System.in);
 
 		// Prompt the user to enter the branch name
@@ -167,8 +169,10 @@ public class B_baseClass {
 		
 		{
 			System.out.println("Well come to RETTERAlarm Live branch.");
+//			
+//			js.executeScript("alert( 'Well come to RETTERAlarm Live branch');");
+//			Thread.sleep(3000);
 			
-
 			String liveBranchUrl = sheet.getRow(1).getCell(1).getStringCellValue();
 			driver.get(liveBranchUrl);
 
@@ -196,6 +200,9 @@ public class B_baseClass {
 
 		else if  (BranchNameB.equals("dev"))  {
 			
+//			js.executeScript("alert( 'Well come to RETTERAlarm Development  branch');");
+//			Thread.sleep(3000);
+			
 			System.out.println("Well come to RETTERAlarm dev branch.");
 
 			String devBranchUrl = sheet.getRow(1).getCell(3).getStringCellValue();
@@ -220,7 +227,7 @@ public class B_baseClass {
 
 		else {
 
-			JavascriptExecutor js = (JavascriptExecutor) driver;
+			
 			js.executeScript("alert( 'Branch not found!!, now clossing the browser... ');");
 			Thread.sleep(2000);
 			Reporter.log("Branch not found!!", true);

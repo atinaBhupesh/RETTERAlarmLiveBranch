@@ -9,8 +9,8 @@
 				<include name="userDetails" />
 
 						
-						<include name="deleteVehicleUser" />
-	<include name="deleteAlarmLoop" />
+						<include name="deactiveManualAlarm" />
+
 
 				<include name="detailsAboutScript" />
 

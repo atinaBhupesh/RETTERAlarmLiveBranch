@@ -5,11 +5,32 @@
     <classes>
       <class name="live_functions.AAA_testClass_delete">
         <methods>
-          <include name="deleteAlarmLoop"/>
           <include name="backToHomePage2"/>
           <include name="lounchBrowser"/>
+          <include name="deleteManualAlarm"/>
+          <include name="deleteARFromHistory"/>
+          <include name="deletePermissionGroup"/>
+          <include name="detailsAboutScript"/>
           <include name="logOut"/>
+          <include name="deleteFireStation"/>
+          <include name="deleteInfoEvent"/>
+          <include name="deleteCalendarEventCreatedByResource"/>
+          <include name="deleteCalendarEventCreatedByAttribute"/>
+          <include name="deleteUers"/>
+          <include name="deleteAlarmTemplate"/>
+          <include name="deleteVehicleUser"/>
+          <include name="deleteCheckList"/>
+          <include name="deleteTestAlarmFromList"/>
+          <include name="deleteChatGroup"/>
           <include name="backToHomePage"/>
+          <include name="deactiveTestAlarmFromOverview"/>
+          <include name="deleteCalendarEventCreatedByFirefighter"/>
+          <include name="deleteARFromList"/>
+          <include name="deleteAlarmLoop"/>
+          <include name="deleteResource"/>
+          <include name="deleteAttribute"/>
+          <include name="deleteEventCategory"/>
+          <include name="deleteTestAlarmFromOverview"/>
         </methods>
       </class> <!-- live_functions.AAA_testClass_delete -->
     </classes>
