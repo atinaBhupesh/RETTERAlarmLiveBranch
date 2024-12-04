@@ -55,7 +55,7 @@
 				
 				<include name="deleteEventCategory" />
 
-
+               <exclude name="deleteAllManualAlarm" />
 				<include name="detailsAboutScript" />
 			</methods>
 

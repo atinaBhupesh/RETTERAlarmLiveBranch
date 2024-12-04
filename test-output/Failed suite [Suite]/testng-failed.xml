@@ -3,20 +3,15 @@
 <suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)(failed)">
     <classes>
-      <class name="live_functions.A_testClass_dailyCheckPointList">
+      <class name="live_functions.AAA_testClass_delete">
         <methods>
-          <include name="logOut"/>
           <include name="backToHomePage2"/>
-          <include name="extendLowPriorityAlarmFrom07To06ByAttribute"/>
-          <include name="BeforeSuite"/>
-          <include name="addVehicleUserForStation06"/>
-          <include name="AfterTest"/>
-          <include name="backToHomePage"/>
-          <include name="BeforeTest"/>
           <include name="lounchBrowser"/>
-          <include name="AfterSute"/>
+          <include name="logOut"/>
+          <include name="deleteAlarmTemplate"/>
+          <include name="backToHomePage"/>
         </methods>
-      </class> <!-- live_functions.A_testClass_dailyCheckPointList -->
+      </class> <!-- live_functions.AAA_testClass_delete -->
     </classes>
   </test> <!-- Test(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Suite]] -->

@@ -1399,6 +1399,59 @@ public class E_manualAlarm extends B_baseClass
 			Thread.sleep(2000);
 
 		}
+		
+	}
+		
+		public void deleteAllAlarms(WebDriver driver, String date, String BranchNameB) throws Throwable {
+			Actions act = new Actions(driver);
+
+			manualAlarmModule.click();
+
+
+			Thread.sleep(2000);
+			
+			
+			if  (BranchNameB.equals("live"))
+			{
+			manageAlarmL.click();
+			}
+			
+			else if (BranchNameB.equals("testing"))
+			{
+				manageAlarmT.click();
+			}
+			
+			else if (BranchNameB.equals("dev"))
+			{
+				manageAlarmD.click();
+				
+			}
+			
+			
+
+//			int z = availableDataCount.size();
+//			Reporter.log("The total available manual alarms count is-" + z + " in the list for delete.", true);
+
+			for (int i = 1; i <= 200; i++) {
+				searchField.click();
+
+//				act.sendKeys("BG").build().perform();
+//
+//				searchButton.click();
+//				Thread.sleep(3000);
+
+				delete.click();
+
+				deleteYes.click();
+
+				Reporter.log("Alarm number-" + i + " is deleted successfully.", true);
+
+				Thread.sleep(2000);
+
+				driver.navigate().refresh();
+				Thread.sleep(2000);
+
+			}
 
 	}
 

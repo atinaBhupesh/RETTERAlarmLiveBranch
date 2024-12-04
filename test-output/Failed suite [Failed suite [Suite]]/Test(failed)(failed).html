@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test(failed)(failed)</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Nov 28 17:49:10 IST 2024</td>
+<td>Started on:</td><td>Mon Dec 02 16:37:34 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>87 seconds (87331 ms)</td>
+<tr><td>Total time:</td><td>52 seconds (52639 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,107 +76,21 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.extendLowPriorityAlarmFrom07To06ByAttribute()'><b>extendLowPriorityAlarmFrom07To06ByAttribute</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-797539755" onClick='toggleBox("Output-797539755", this, "Show output", "Hide output");'>Show output</a>
+<td title='live_functions.AAA_testClass_delete.deleteAlarmTemplate()'><b>deleteAlarmTemplate</b><br>Test class: live_functions.AAA_testClass_delete<br/>
+<a href="#Output-1041905665" onClick='toggleBox("Output-1041905665", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-797539755" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-797539755">
+<a href="#Output-1041905665" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1041905665">
  <br/>
-The process of create alarm from stataion 06 and extend to station 07 is started.<br/>
+The process of delete alarm template is started.<br/>
+The availabler alarm template count is-0 in the list for delete.<br/>
+The process of delete alarm template is complete.<br/>
+ <br/>
 </div>
 </td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;this.BranchNameB3&quot; is null
-	at live_functions.E_manualAlarm.extendLowManualAlarmByAttributeFrom07ToSt06(E_manualAlarm.java:467)
-	at live_functions.A_testClass_dailyCheckPointList.extendLowPriorityAlarmFrom07To06ByAttribute(A_testClass_dailyCheckPointList.java:595)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace797539755", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace797539755'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;this.BranchNameB3&quot; is null
-	at live_functions.E_manualAlarm.extendLowManualAlarmByAttributeFrom07ToSt06(E_manualAlarm.java:467)
-	at live_functions.A_testClass_dailyCheckPointList.extendLowPriorityAlarmFrom07To06ByAttribute(A_testClass_dailyCheckPointList.java:595)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>56</td>
-<td>live_functions.A_testClass_dailyCheckPointList@2d901eb0</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.addVehicleUserForStation06()'><b>addVehicleUserForStation06</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1464031233" onClick='toggleBox("Output-1464031233", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1464031233" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1464031233">
- <br/>
-The process of add new vehicle for station 06 is started.<br/>
-</div>
-</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.lang.CharSequence.codePoints()&quot; because &quot;key&quot; is null
-	at org.openqa.selenium.interactions.Actions.sendKeysInTicks(Actions.java:153)
-	at org.openqa.selenium.interactions.Actions.sendKeys(Actions.java:130)
-	at live_functions.p_vehicleUser.addVehicleUser(p_vehicleUser.java:112)
-	at live_functions.A_testClass_dailyCheckPointList.addVehicleUserForStation06(A_testClass_dailyCheckPointList.java:624)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1464031233", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1464031233'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.lang.CharSequence.codePoints()&quot; because &quot;key&quot; is null
-	at org.openqa.selenium.interactions.Actions.sendKeysInTicks(Actions.java:153)
-	at org.openqa.selenium.interactions.Actions.sendKeys(Actions.java:130)
-	at live_functions.p_vehicleUser.addVehicleUser(p_vehicleUser.java:112)
-	at live_functions.A_testClass_dailyCheckPointList.addVehicleUserForStation06(A_testClass_dailyCheckPointList.java:624)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>13</td>
-<td>live_functions.A_testClass_dailyCheckPointList@2d901eb0</td></tr>
+<td></td>
+<td>15</td>
+<td>live_functions.AAA_testClass_delete@25ce9dc4</td></tr>
 </table><p>
 </body>
 </html>

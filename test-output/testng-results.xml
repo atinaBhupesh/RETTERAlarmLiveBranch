@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
     <line>
-      <![CDATA[Hello, Daily check point checking process of live has started.-29.11.2024>06:33]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[Todays is 5 Friday of this month.]]>
+      <![CDATA[Hello,dev branch deleting process has started.-04.12.2024>12:00]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -17,7 +11,7 @@
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[Department user # 6039-DE-andrew-deptu-2 # log in sucessfully]]>
+      <![CDATA[live department user # bhupesh.dept_dev@atpl.in # log in sucessfully]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -26,1014 +20,368 @@
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[The process of creating a manual alarm by attribute is started.]]>
+      <![CDATA[The process of deleting a manual alarm is started.]]>
     </line>
     <line>
-      <![CDATA[The process of creating a manual alarm by attribute is complete.]]>
+      <![CDATA[Alarm number-1 is deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[ ]]>
+      <![CDATA[Alarm number-2 is deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[ ]]>
+      <![CDATA[Alarm number-3 is deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[The process of creating a manual alarm by resource is started.]]>
+      <![CDATA[Alarm number-4 is deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[The process of creating a manual alarm by resource is complete.]]>
+      <![CDATA[Alarm number-5 is deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[ ]]>
+      <![CDATA[Alarm number-6 is deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[ ]]>
+      <![CDATA[Alarm number-7 is deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[The process of creating a manual alarm by firefighter is started.]]>
+      <![CDATA[Alarm number-8 is deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[The process of creating a manual alarm by firefighter is complete.]]>
+      <![CDATA[Alarm number-9 is deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of creating a manual alarm by escaltion resource is started.]]>
-    </line>
-    <line>
-      <![CDATA[The process of creating a manual alarm by escaltion resource is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of creating low priority manual alarm by attribute is started.]]>
-    </line>
-    <line>
-      <![CDATA[The process of creating low priority manual alarm by attribute is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of extend alarm is started.]]>
-    </line>
-    <line>
-      <![CDATA[The process of extend alarm is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of create new storm is started.]]>
-    </line>
-    <line>
-      <![CDATA[The process of create new storm is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of extend storm is started.]]>
-    </line>
-    <line>
-      <![CDATA[The process of extend storm is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of create alarm from stataion 06 and extend to station 07 is started.]]>
-    </line>
-    <line>
-      <![CDATA[The create alarm from stataion 06 and extend to station 07 is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of create low priority alarm from stataion 06 and extend to station 07 is started.]]>
-    </line>
-    <line>
-      <![CDATA[The create low priority alarm from stataion 06 and extend to station 07 is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of creating low priority alarm with escalation resource is started.]]>
-    </line>
-    <line>
-      <![CDATA[The create creating low priority alarm with escalation resource is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The Process of send message to user is started.]]>
-    </line>
-    <line>
-      <![CDATA[image attached properly]]>
-    </line>
-    <line>
-      <![CDATA[pdf attached properly]]>
-    </line>
-    <line>
-      <![CDATA[word file attached properly]]>
-    </line>
-    <line>
-      <![CDATA[The Process of send message to user is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of creating a test alarm by attribute with remindar one time is started.]]>
-    </line>
-    <line>
-      <![CDATA[test alarm created for >29.11.2024-06:44]]>
-    </line>
-    <line>
-      <![CDATA[The process of creating a test alarm by attribute with remindar one time is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of create info-event schedule by attribute is started.]]>
-    </line>
-    <line>
-      <![CDATA[info-event created for 06:49 to 07:04]]>
-    </line>
-    <line>
-      <![CDATA[The process of create info-event schedule by attribute is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of create calendar event by attribute is started.]]>
-    </line>
-    <line>
-      <![CDATA[calendar event by attribute from-29-11-2024064957 to 29-11-2024070457]]>
-    </line>
-    <line>
-      <![CDATA[The process of create calendar event by attribute is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of create availability request > send imediate is started.]]>
-    </line>
-    <line>
-      <![CDATA[The process of create availability request > send imediate is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of creating information by attribute is started.]]>
-    </line>
-    <line>
-      <![CDATA[The process of creating information by attribute is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of create info-event by attribute is started.]]>
-    </line>
-    <line>
-      <![CDATA[The process of create info-event by attribute is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of creating chat group by attribute is started.]]>
-    </line>
-    <line>
-      <![CDATA[The process of creating chat group by attribute is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of send message to availability request users is started.]]>
-    </line>
-    <line>
-      <![CDATA[The process of csend message to availability request users is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of send message to test alarm user is started]]>
-    </line>
-    <line>
-      <![CDATA[The process of send message to test alarm user is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of sending message to a chat group created by attribute is started.]]>
-    </line>
-    <line>
-      <![CDATA[The process of sending message to a chat group created by attribute is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of send message to information users is started.]]>
-    </line>
-    <line>
-      <![CDATA[The process of send message to information users is started is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of send message to info-event users is started.]]>
-    </line>
-    <line>
-      <![CDATA[The process of send message to info-event users is started is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[Login  date-29-11-2024 & login  time -06:33]]>
-    </line>
-    <line>
-      <![CDATA[Logout date-29-11-2024 & logout time -06:48]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[Logout sucessfully.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[Refresh the URL before successfully closing the browser.]]>
-    </line>
-    <line>
-      <![CDATA[Browser close sucessfully.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
+      <![CDATA[Alarm number-10 is deleted successfully.]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-11-29T11:03:10 IST" name="Suite" finished-at="2024-11-29T11:18:43 IST" duration-ms="933653">
+  <suite started-at="2024-12-04T16:30:40 IST" name="Suite" finished-at="2024-12-04T16:32:00 IST" duration-ms="80803">
     <groups>
     </groups>
-    <test started-at="2024-11-29T11:03:10 IST" name="Test" finished-at="2024-11-29T11:18:43 IST" duration-ms="933653">
-      <class name="live_functions.A_testClass_dailyCheckPointList">
-        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:03:01 IST" name="BeforeSuite" finished-at="2024-11-29T11:03:10 IST" duration-ms="8164" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeSuite -->
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:03:10 IST" name="BeforeTest" finished-at="2024-11-29T11:03:13 IST" duration-ms="3376" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeTest -->
-        <test-method is-config="true" signature="lounchBrowser()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:03:13 IST" name="lounchBrowser" finished-at="2024-11-29T11:03:13 IST" duration-ms="116" status="PASS">
+    <test started-at="2024-12-04T16:30:40 IST" name="Test" finished-at="2024-12-04T16:32:00 IST" duration-ms="80803">
+      <class name="live_functions.AAA_testClass_delete">
+        <test-method is-config="true" signature="lounchBrowser()[pri:0, instance:live_functions.AAA_testClass_delete@74ea2410]" started-at="2024-12-04T16:30:40 IST" name="lounchBrowser" finished-at="2024-12-04T16:30:51 IST" duration-ms="11622" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Hello, Daily check point checking process of live has started.-29.11.2024>06:33]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[Todays is 5 Friday of this month.]]>
+              <![CDATA[Hello,dev branch deleting process has started.-04.12.2024>12:00]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
           </reporter-output>
         </test-method> <!-- lounchBrowser -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:03:13 IST" name="backToHomePage" finished-at="2024-11-29T11:03:17 IST" duration-ms="3846" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@74ea2410]" started-at="2024-12-04T16:30:51 IST" name="backToHomePage" finished-at="2024-12-04T16:30:54 IST" duration-ms="2613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="userDetails()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:03:17 IST" name="userDetails" finished-at="2024-11-29T11:03:17 IST" duration-ms="5" status="PASS">
+        <test-method signature="userDetails()[pri:0, instance:live_functions.AAA_testClass_delete@74ea2410]" started-at="2024-12-04T16:30:54 IST" name="userDetails" finished-at="2024-12-04T16:30:54 IST" duration-ms="3" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ ]]>
             </line>
             <line>
-              <![CDATA[Department user # 6039-DE-andrew-deptu-2 # log in sucessfully]]>
+              <![CDATA[live department user # bhupesh.dept_dev@atpl.in # log in sucessfully]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
           </reporter-output>
         </test-method> <!-- userDetails -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:03:17 IST" name="backToHomePage2" finished-at="2024-11-29T11:03:19 IST" duration-ms="2189" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@74ea2410]" started-at="2024-12-04T16:30:54 IST" name="backToHomePage2" finished-at="2024-12-04T16:30:55 IST" duration-ms="1416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:03:19 IST" name="backToHomePage" finished-at="2024-11-29T11:03:21 IST" duration-ms="2299" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@74ea2410]" started-at="2024-12-04T16:30:55 IST" name="backToHomePage" finished-at="2024-12-04T16:30:57 IST" duration-ms="1468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="createManualAlarmByAttribute()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:03:21 IST" name="createManualAlarmByAttribute" finished-at="2024-11-29T11:04:02 IST" duration-ms="40851" status="PASS">
+        <test-method signature="deleteAllManualAlarm()[pri:0, instance:live_functions.AAA_testClass_delete@74ea2410]" started-at="2024-12-04T16:30:57 IST" name="deleteAllManualAlarm" finished-at="2024-12-04T16:32:00 IST" duration-ms="63637" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e14d4440695b8788b856334c74ebda69, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54654}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54654/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e14d4440695b8788b856334c74ebda69]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e14d4440695b8788b856334c74ebda69, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54654}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54654/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e14d4440695b8788b856334c74ebda69
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1074)
+at live_functions.E_manualAlarm.deleteAllAlarms(E_manualAlarm.java:1451)
+at live_functions.AAA_testClass_delete.deleteAllManualAlarm(AAA_testClass_delete.java:420)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
             <line>
               <![CDATA[ ]]>
             </line>
             <line>
-              <![CDATA[The process of creating a manual alarm by attribute is started.]]>
+              <![CDATA[The process of deleting a manual alarm is started.]]>
             </line>
             <line>
-              <![CDATA[The process of creating a manual alarm by attribute is complete.]]>
+              <![CDATA[Alarm number-1 is deleted successfully.]]>
             </line>
             <line>
-              <![CDATA[ ]]>
+              <![CDATA[Alarm number-2 is deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Alarm number-3 is deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Alarm number-4 is deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Alarm number-5 is deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Alarm number-6 is deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Alarm number-7 is deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Alarm number-8 is deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Alarm number-9 is deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Alarm number-10 is deleted successfully.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- createManualAlarmByAttribute -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:04:02 IST" name="backToHomePage2" finished-at="2024-11-29T11:04:04 IST" duration-ms="1475" status="PASS">
+        </test-method> <!-- deleteAllManualAlarm -->
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@74ea2410]" started-at="2024-12-04T16:32:00 IST" name="backToHomePage2" finished-at="2024-12-04T16:32:00 IST" duration-ms="3" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e14d4440695b8788b856334c74ebda69, findElement {using=xpath, value=//img[@src="/img/logoicon.png"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54654}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54654/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e14d4440695b8788b856334c74ebda69]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e14d4440695b8788b856334c74ebda69, findElement {using=xpath, value=//img[@src="/img/logoicon.png"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54654}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54654/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e14d4440695b8788b856334c74ebda69
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at live_functions.D_homePage.backToHomePage(D_homePage.java:35)
+at live_functions.AAA_testClass_delete.backToHomePage2(AAA_testClass_delete.java:485)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:04:04 IST" name="backToHomePage" finished-at="2024-11-29T11:04:06 IST" duration-ms="2621" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@74ea2410]" started-at="2024-12-04T16:32:00 IST" name="backToHomePage" finished-at="2024-12-04T16:32:00 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="createManualAlarmByResource()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:04:06 IST" name="createManualAlarmByResource" finished-at="2024-11-29T11:04:30 IST" duration-ms="23448" status="PASS">
+        <test-method signature="detailsAboutScript()[pri:0, instance:live_functions.AAA_testClass_delete@74ea2410]" started-at="2024-12-04T16:32:00 IST" name="detailsAboutScript" finished-at="2024-12-04T16:32:00 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e14d4440695b8788b856334c74ebda69, findElement {using=xpath, value=//img[@src="/img/logoicon.png"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54654}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54654/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e14d4440695b8788b856334c74ebda69]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e14d4440695b8788b856334c74ebda69, findElement {using=xpath, value=//img[@src="/img/logoicon.png"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54654}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54654/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e14d4440695b8788b856334c74ebda69
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at live_functions.D_homePage.backToHomePage(D_homePage.java:35)
+at live_functions.AAA_testClass_delete.backToHomePage2(AAA_testClass_delete.java:485)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating a manual alarm by resource is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating a manual alarm by resource is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createManualAlarmByResource -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:04:30 IST" name="backToHomePage2" finished-at="2024-11-29T11:04:31 IST" duration-ms="1618" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:04:31 IST" name="backToHomePage" finished-at="2024-11-29T11:04:34 IST" duration-ms="2236" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="createManualAlarmByFireFighte()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:04:34 IST" name="createManualAlarmByFireFighte" finished-at="2024-11-29T11:05:15 IST" duration-ms="40891" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating a manual alarm by firefighter is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating a manual alarm by firefighter is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createManualAlarmByFireFighte -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:05:15 IST" name="backToHomePage2" finished-at="2024-11-29T11:05:16 IST" duration-ms="1630" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:05:16 IST" name="backToHomePage" finished-at="2024-11-29T11:05:19 IST" duration-ms="2664" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="createManualAlarmByEscalationResource()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:05:19 IST" name="createManualAlarmByEscalationResource" finished-at="2024-11-29T11:05:41 IST" duration-ms="21897" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating a manual alarm by escaltion resource is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating a manual alarm by escaltion resource is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createManualAlarmByEscalationResource -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:05:41 IST" name="backToHomePage2" finished-at="2024-11-29T11:05:42 IST" duration-ms="1389" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:05:42 IST" name="backToHomePage" finished-at="2024-11-29T11:05:44 IST" duration-ms="2190" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="createLowPriorityManualAlarmByAttribute()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:05:44 IST" name="createLowPriorityManualAlarmByAttribute" finished-at="2024-11-29T11:06:22 IST" duration-ms="37749" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating low priority manual alarm by attribute is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating low priority manual alarm by attribute is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createLowPriorityManualAlarmByAttribute -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:06:22 IST" name="backToHomePage2" finished-at="2024-11-29T11:06:24 IST" duration-ms="1473" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:06:24 IST" name="backToHomePage" finished-at="2024-11-29T11:06:26 IST" duration-ms="2427" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="extendAlarmToSecondStation()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:06:26 IST" name="extendAlarmToSecondStation" finished-at="2024-11-29T11:06:51 IST" duration-ms="25418" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of extend alarm is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of extend alarm is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- extendAlarmToSecondStation -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:06:51 IST" name="backToHomePage2" finished-at="2024-11-29T11:06:53 IST" duration-ms="1492" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:06:53 IST" name="backToHomePage" finished-at="2024-11-29T11:06:55 IST" duration-ms="2310" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="createStormAlarm()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:06:55 IST" name="createStormAlarm" finished-at="2024-11-29T11:07:25 IST" duration-ms="29863" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of create new storm is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of create new storm is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of extend storm is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of extend storm is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createStormAlarm -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:07:25 IST" name="backToHomePage2" finished-at="2024-11-29T11:07:44 IST" duration-ms="19083" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:07:44 IST" name="backToHomePage" finished-at="2024-11-29T11:07:47 IST" duration-ms="3174" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="extendAlarmFrom07To06ByAttribute()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:07:47 IST" name="extendAlarmFrom07To06ByAttribute" finished-at="2024-11-29T11:09:04 IST" duration-ms="76739" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of create alarm from stataion 06 and extend to station 07 is started.]]>
-            </line>
-            <line>
-              <![CDATA[The create alarm from stataion 06 and extend to station 07 is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- extendAlarmFrom07To06ByAttribute -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:09:04 IST" name="backToHomePage2" finished-at="2024-11-29T11:09:05 IST" duration-ms="1422" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:09:05 IST" name="backToHomePage" finished-at="2024-11-29T11:09:08 IST" duration-ms="2268" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="extendLowPriorityAlarmFrom07To06ByAttribute()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:09:08 IST" name="extendLowPriorityAlarmFrom07To06ByAttribute" finished-at="2024-11-29T11:10:21 IST" duration-ms="73457" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of create low priority alarm from stataion 06 and extend to station 07 is started.]]>
-            </line>
-            <line>
-              <![CDATA[The create low priority alarm from stataion 06 and extend to station 07 is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- extendLowPriorityAlarmFrom07To06ByAttribute -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:10:21 IST" name="backToHomePage2" finished-at="2024-11-29T11:10:23 IST" duration-ms="1661" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:10:23 IST" name="backToHomePage" finished-at="2024-11-29T11:10:25 IST" duration-ms="2111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="lowPriorityAlarmWithEscalationResource()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:10:25 IST" name="lowPriorityAlarmWithEscalationResource" finished-at="2024-11-29T11:10:47 IST" duration-ms="22025" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating low priority alarm with escalation resource is started.]]>
-            </line>
-            <line>
-              <![CDATA[The create creating low priority alarm with escalation resource is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- lowPriorityAlarmWithEscalationResource -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:10:47 IST" name="backToHomePage2" finished-at="2024-11-29T11:10:48 IST" duration-ms="1391" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:10:48 IST" name="backToHomePage" finished-at="2024-11-29T11:10:51 IST" duration-ms="2552" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="sendmessageToAlarmUser()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:10:51 IST" name="sendmessageToAlarmUser" finished-at="2024-11-29T11:11:39 IST" duration-ms="48090" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The Process of send message to user is started.]]>
-            </line>
-            <line>
-              <![CDATA[image attached properly]]>
-            </line>
-            <line>
-              <![CDATA[pdf attached properly]]>
-            </line>
-            <line>
-              <![CDATA[word file attached properly]]>
-            </line>
-            <line>
-              <![CDATA[The Process of send message to user is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- sendmessageToAlarmUser -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:11:39 IST" name="backToHomePage2" finished-at="2024-11-29T11:11:41 IST" duration-ms="1537" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:11:41 IST" name="backToHomePage" finished-at="2024-11-29T11:11:42 IST" duration-ms="1851" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="createTestAlarmByAttributeOneTime()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:11:42 IST" name="createTestAlarmByAttributeOneTime" finished-at="2024-11-29T11:12:28 IST" duration-ms="45127" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating a test alarm by attribute with remindar one time is started.]]>
-            </line>
-            <line>
-              <![CDATA[test alarm created for >29.11.2024-06:44]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating a test alarm by attribute with remindar one time is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createTestAlarmByAttributeOneTime -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:12:28 IST" name="backToHomePage2" finished-at="2024-11-29T11:12:29 IST" duration-ms="1336" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:12:29 IST" name="backToHomePage" finished-at="2024-11-29T11:12:31 IST" duration-ms="2206" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="createInfoEventByAttributeSchedule()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:12:31 IST" name="createInfoEventByAttributeSchedule" finished-at="2024-11-29T11:12:53 IST" duration-ms="22313" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of create info-event schedule by attribute is started.]]>
-            </line>
-            <line>
-              <![CDATA[info-event created for 06:49 to 07:04]]>
-            </line>
-            <line>
-              <![CDATA[The process of create info-event schedule by attribute is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createInfoEventByAttributeSchedule -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:12:53 IST" name="backToHomePage2" finished-at="2024-11-29T11:12:55 IST" duration-ms="1350" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:12:55 IST" name="backToHomePage" finished-at="2024-11-29T11:12:57 IST" duration-ms="2155" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="cretecalendarEventAttributeSchedule()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:12:57 IST" name="cretecalendarEventAttributeSchedule" finished-at="2024-11-29T11:13:22 IST" duration-ms="25318" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of create calendar event by attribute is started.]]>
-            </line>
-            <line>
-              <![CDATA[calendar event by attribute from-29-11-2024064957 to 29-11-2024070457]]>
-            </line>
-            <line>
-              <![CDATA[The process of create calendar event by attribute is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- cretecalendarEventAttributeSchedule -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:13:22 IST" name="backToHomePage2" finished-at="2024-11-29T11:13:24 IST" duration-ms="1696" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:13:24 IST" name="backToHomePage" finished-at="2024-11-29T11:13:26 IST" duration-ms="1847" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="createAvailabilityRequestSendImmediat()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:13:26 IST" name="createAvailabilityRequestSendImmediat" finished-at="2024-11-29T11:13:54 IST" duration-ms="27848" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of create availability request > send imediate is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of create availability request > send imediate is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createAvailabilityRequestSendImmediat -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:13:54 IST" name="backToHomePage2" finished-at="2024-11-29T11:13:55 IST" duration-ms="1513" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:13:55 IST" name="backToHomePage" finished-at="2024-11-29T11:13:57 IST" duration-ms="2045" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="createInformationByAttribute()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:13:57 IST" name="createInformationByAttribute" finished-at="2024-11-29T11:14:20 IST" duration-ms="22839" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating information by attribute is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating information by attribute is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createInformationByAttribute -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:14:20 IST" name="backToHomePage2" finished-at="2024-11-29T11:14:21 IST" duration-ms="1428" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:14:21 IST" name="backToHomePage" finished-at="2024-11-29T11:14:24 IST" duration-ms="2186" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="createInfoEventByAttribute()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:14:24 IST" name="createInfoEventByAttribute" finished-at="2024-11-29T11:14:50 IST" duration-ms="25947" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of create info-event by attribute is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of create info-event by attribute is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createInfoEventByAttribute -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:14:50 IST" name="backToHomePage2" finished-at="2024-11-29T11:14:53 IST" duration-ms="3534" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:14:53 IST" name="backToHomePage" finished-at="2024-11-29T11:15:00 IST" duration-ms="6458" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="createChatgroupByAttribute()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:15:00 IST" name="createChatgroupByAttribute" finished-at="2024-11-29T11:15:27 IST" duration-ms="27386" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating chat group by attribute is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating chat group by attribute is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createChatgroupByAttribute -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:15:27 IST" name="backToHomePage2" finished-at="2024-11-29T11:15:31 IST" duration-ms="3899" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:15:31 IST" name="backToHomePage" finished-at="2024-11-29T11:15:38 IST" duration-ms="7577" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="SendmessagetoARUsers()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:15:38 IST" name="SendmessagetoARUsers" finished-at="2024-11-29T11:15:56 IST" duration-ms="17075" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of send message to availability request users is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of csend message to availability request users is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- SendmessagetoARUsers -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:15:56 IST" name="backToHomePage2" finished-at="2024-11-29T11:16:00 IST" duration-ms="4791" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:16:00 IST" name="backToHomePage" finished-at="2024-11-29T11:16:06 IST" duration-ms="5448" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="sendmessageToTestAlarmUsers()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:16:06 IST" name="sendmessageToTestAlarmUsers" finished-at="2024-11-29T11:16:27 IST" duration-ms="21475" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of send message to test alarm user is started]]>
-            </line>
-            <line>
-              <![CDATA[The process of send message to test alarm user is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- sendmessageToTestAlarmUsers -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:16:27 IST" name="backToHomePage2" finished-at="2024-11-29T11:16:30 IST" duration-ms="2448" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:16:30 IST" name="backToHomePage" finished-at="2024-11-29T11:16:38 IST" duration-ms="8530" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="sendMessageChatGrouCreatedByAttribute()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:16:38 IST" name="sendMessageChatGrouCreatedByAttribute" finished-at="2024-11-29T11:17:05 IST" duration-ms="27144" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of sending message to a chat group created by attribute is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of sending message to a chat group created by attribute is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- sendMessageChatGrouCreatedByAttribute -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:17:05 IST" name="backToHomePage2" finished-at="2024-11-29T11:17:10 IST" duration-ms="4487" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:17:10 IST" name="backToHomePage" finished-at="2024-11-29T11:17:14 IST" duration-ms="4095" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="sendmessageToinfoUsers()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:17:14 IST" name="sendmessageToinfoUsers" finished-at="2024-11-29T11:17:32 IST" duration-ms="17925" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of send message to information users is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of send message to information users is started is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- sendmessageToinfoUsers -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:17:32 IST" name="backToHomePage2" finished-at="2024-11-29T11:17:36 IST" duration-ms="4429" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:17:36 IST" name="backToHomePage" finished-at="2024-11-29T11:17:45 IST" duration-ms="8915" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="sendmessageToinfoEventUsers()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:17:45 IST" name="sendmessageToinfoEventUsers" finished-at="2024-11-29T11:18:18 IST" duration-ms="32309" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of send message to info-event users is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of send message to info-event users is started is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- sendmessageToinfoEventUsers -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:18:18 IST" name="backToHomePage2" finished-at="2024-11-29T11:18:20 IST" duration-ms="2746" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:18:20 IST" name="backToHomePage" finished-at="2024-11-29T11:18:27 IST" duration-ms="6306" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="detailsAboutScript()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:18:27 IST" name="detailsAboutScript" finished-at="2024-11-29T11:18:30 IST" duration-ms="3011" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[Login  date-29-11-2024 & login  time -06:33]]>
-            </line>
-            <line>
-              <![CDATA[Logout date-29-11-2024 & logout time -06:48]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
           </reporter-output>
         </test-method> <!-- detailsAboutScript -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:18:30 IST" name="backToHomePage2" finished-at="2024-11-29T11:18:35 IST" duration-ms="5454" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@74ea2410]" started-at="2024-12-04T16:32:00 IST" name="backToHomePage2" finished-at="2024-12-04T16:32:00 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:18:35 IST" name="logOut" finished-at="2024-11-29T11:18:43 IST" duration-ms="7900" status="PASS">
+        <test-method is-config="true" signature="logOut()[pri:0, instance:live_functions.AAA_testClass_delete@74ea2410]" started-at="2024-12-04T16:32:00 IST" name="logOut" finished-at="2024-12-04T16:32:00 IST" duration-ms="0" status="SKIP">
           <reporter-output>
-            <line>
-              <![CDATA[Logout sucessfully.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
           </reporter-output>
         </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:18:43 IST" name="AfterTest" finished-at="2024-11-29T11:18:43 IST" duration-ms="247" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Refresh the URL before successfully closing the browser.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- AfterTest -->
-        <test-method is-config="true" signature="AfterSute()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-11-29T11:18:43 IST" name="AfterSute" finished-at="2024-11-29T11:18:43 IST" duration-ms="213" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Browser close sucessfully.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- AfterSute -->
-      </class> <!-- live_functions.A_testClass_dailyCheckPointList -->
+      </class> <!-- live_functions.AAA_testClass_delete -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

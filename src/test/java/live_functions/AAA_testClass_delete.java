@@ -410,6 +410,19 @@ public class AAA_testClass_delete extends B_baseClass {
 		Reporter.log(" ", true);
 
 	}
+	
+	@Test
+
+	public void deleteAllManualAlarm() throws Throwable {
+		Reporter.log(" ", true);
+		Reporter.log("The process of deleting a manual alarm is started.", true);
+
+		ma.deleteAllAlarms(driver, date,BranchNameB);
+		Reporter.log("The process of deleting a manual alarm is complted.", true);
+		Reporter.log(" ", true);
+
+	}
+	
 
 	@Test
 	public void deleteInfoEvent() throws Throwable {
