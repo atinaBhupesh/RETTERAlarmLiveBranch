@@ -56,12 +56,20 @@ public class G_InfoEvent extends B_baseClass {
     @FindBy(xpath = "//select[@id=\"InformationReminderDay\"]")private WebElement SelectReminderDays;
 
     
-    
+//    Live
 	@FindBy(xpath = "//input[@value=\"15429\"]")private WebElement ADST06A2;
     @FindBy(xpath = "//input[@value=\"3136\"]")private WebElement ADST06R2;
     @FindBy(xpath = "//input[@value=\"22999\"]")private WebElement jonas2;
 	@FindBy(xpath = "//input[@value=\"23001\"]")private WebElement jonas3;
 	@FindBy(xpath = "//input[@value=\"25512\"]")private WebElement bhupeshLive2;
+	
+	
+//	Testing
+	@FindBy(xpath="//input[@value=\"2170\"]")private WebElement D1ST04A1;
+	@FindBy(xpath="//input[@value=\"472\"]")private WebElement D1ST04R2;
+	@FindBy(xpath="//input[@value=\"18952\"]")private WebElement bhupeshTest;
+	@FindBy(xpath="//input[@value=\"476\"]")private WebElement D1ST04Esc;
+	@FindBy(xpath="//input[@value=\"3078\"]")private WebElement D1ST5A1;
     
     
     
@@ -129,8 +137,28 @@ public class G_InfoEvent extends B_baseClass {
 		userTypeAttribute.click();
 		selectAllCheckBox.click();
 		act.sendKeys(Keys.PAGE_DOWN).build().perform();
+		Thread.sleep(2000);
 		selectAllCheckBox.click();
-		ADST06A2.click();
+		Thread.sleep(2000);
+	
+		
+		if  (BranchNameB.equals("1"))
+		{
+			ADST06A2.click();
+		}
+		
+		else if (BranchNameB.equals("2"))
+		{
+			D1ST04A1.click();
+		}
+		
+		else if (BranchNameB.equals("3"))
+		{
+//			testAlarmOverviewD.click();
+			
+		}
+		
+		
 		Thread.sleep(2000);
 		saveInfo.click();
 		
@@ -187,8 +215,32 @@ public class G_InfoEvent extends B_baseClass {
 				userTypeResource.click();
 		selectAllCheckBox.click();
 		act.sendKeys(Keys.PAGE_DOWN).build().perform();
+		Thread.sleep(1000);
 		selectAllCheckBox.click();
-		ADST06R2.click();
+		Thread.sleep(1000);
+		
+		
+		
+
+		
+		
+		if  (BranchNameB.equals("1"))
+		{
+			ADST06R2.click();
+		}
+		
+		else if (BranchNameB.equals("2"))
+		{
+			D1ST04R2.click();
+		}
+		
+		else if (BranchNameB.equals("3"))
+		{
+//			testAlarmOverviewD.click();
+			
+		}
+		
+		
 		Thread.sleep(2000);
 		saveInfo.click();
 		driver.navigate().refresh();
@@ -244,11 +296,40 @@ public class G_InfoEvent extends B_baseClass {
 		userTypeFireFighter.click();
 		selectAllCheckBox.click();
 		act.sendKeys(Keys.PAGE_DOWN).build().perform();
-		selectAllCheckBox.click();
-		Thread.sleep(2000);
-		jonas3.click();
 		Thread.sleep(1000);
-		jonas2.click();
+		selectAllCheckBox.click();
+		Thread.sleep(1000);
+		
+		
+	
+		
+		
+		
+		
+		if  (BranchNameB.equals("1"))
+		{
+			jonas3.click();
+			Thread.sleep(1000);
+			jonas2.click();
+		}
+		
+		else if (BranchNameB.equals("2"))
+		{
+			bhupeshTest.click();
+		}
+		
+		else if (BranchNameB.equals("3"))
+		{
+//			testAlarmOverviewD.click();
+			
+		}
+		
+		
+		
+		
+		
+		
+		
 		Thread.sleep(1000);
 //		bhupeshLive2.click();
 //		Thread.sleep(2000);

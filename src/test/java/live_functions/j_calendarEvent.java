@@ -116,8 +116,7 @@ public class j_calendarEvent extends B_baseClass {
 	private WebElement jonas2;
 //			 @FindBy(xpath = "//input[@value=\"27026\"]")private WebElement bhupeshLive;
 
-	@FindBy(xpath = "//li[text()=\"andrew department\"]")
-	private WebElement andrewDept;
+
 	@FindBy(xpath = "//span[contains(text(),\"BG-1 min\")]")
 	private List<WebElement> availableDataCount1min;
 	@FindBy(xpath = "//span[contains(text(),\"BG-1 hrs\")]")
@@ -127,8 +126,23 @@ public class j_calendarEvent extends B_baseClass {
 	
 	 @FindBy(xpath = "//td[contains(text(),\"BG\")]")
 		private List<WebElement> availableDataCount; 
-
+	 
+//	 Live
+	@FindBy(xpath = "//li[text()=\"andrew department\"]")private WebElement andrewDept;
+	
+//	Testing
+	@FindBy(xpath="//li[text()=\"D1\"]")private WebElement d1;
+	@FindBy(xpath="//input[@value=\"2170\"]")private WebElement D1ST04A1;
+	@FindBy(xpath="//input[@value=\"472\"]")private WebElement D1ST04R2;
+	@FindBy(xpath="//input[@value=\"18952\"]")private WebElement bhupeshTest;
+	@FindBy(xpath="//input[@value=\"476\"]")private WebElement D1ST04Esc;
+	@FindBy(xpath="//input[@value=\"3078\"]")private WebElement D1ST5A1;
+	
+	
 	// @FindBy(xpath="")private WebElement ;
+		// @FindBy(xpath="")private WebElement ;
+		// @FindBy(xpath="")private WebElement ;
+		// @FindBy(xpath="")private WebElement
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -145,21 +159,21 @@ public class j_calendarEvent extends B_baseClass {
 
 	}
 
-	public void calendarEventByAttributeSchedul(WebDriver driver, String date, String gCurrntTime, String gTimeA7min,String gTimeA22min, String BranchNameB) throws Throwable {
+	public void calendarEventByAttributeSchedul(WebDriver driver, String date, String gCurrntTime, String gTimeA7min,String gTimeA22min,String St1N,String BranchNameB) throws Throwable {
 	
 		
 		Thread.sleep(2000);
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			calendarL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			calendarT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			calendarD.click();
 			
@@ -172,13 +186,34 @@ public class j_calendarEvent extends B_baseClass {
 		fireDepartmentField.click();
 		Thread.sleep(1000);
 		// act.sendKeys("Andrew").build().perform();
-		andrewDept.click();
+		
 //Thread.sleep(1000);
 //act.sendKeys(Keys.ENTER).build().perform();
+		
+		
+		if  (BranchNameB.equals("1"))
+		{
+			andrewDept.click();
+		}
+		
+		else if (BranchNameB.equals("2"))
+		{
+			d1.click();
+		}
+		
+		else if (BranchNameB.equals("3"))
+		{
+			calendarD.click();
+			
+		}
+		
+		
+		
+		
 		Thread.sleep(2000);
 		fireStastionField.click();
 		Thread.sleep(1000);
-		act.sendKeys("06").build().perform();
+		act.sendKeys(St1N).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 
@@ -236,8 +271,26 @@ public class j_calendarEvent extends B_baseClass {
 		se2.selectByVisibleText("1");
 
 		userTypeAttribute.click();
+		Thread.sleep(1000);
+			
+		
+		if  (BranchNameB.equals("1"))
+		{
+			ADST06A2.click();
 
-		ADST06A2.click();
+		}
+		
+		else if (BranchNameB.equals("2"))
+		{
+			D1ST04A1.click();
+		}
+		
+		else if (BranchNameB.equals("3"))
+		{
+			calendarD.click();
+			
+		}
+		
 		Thread.sleep(1000);
 
 		sendPush.click();
@@ -250,19 +303,19 @@ public class j_calendarEvent extends B_baseClass {
 
 	}
 
-	public void calendarEventByResorceSchedul(WebDriver driver, String date, String gCurrntTime, String gTimeA7min, String gTimeA22min,String BranchNameB) throws Throwable {
+	public void calendarEventByResorceSchedul(WebDriver driver, String date, String gCurrntTime, String gTimeA7min, String gTimeA22min,String St1N, String BranchNameB) throws Throwable {
 		Thread.sleep(2000);
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			calendarL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			calendarT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			calendarD.click();
 			
@@ -274,13 +327,30 @@ public class j_calendarEvent extends B_baseClass {
 		fireDepartmentField.click();
 		Thread.sleep(1000);
 		// act.sendKeys("Andrew").build().perform();
-		andrewDept.click();
+		
 //Thread.sleep(1000);
 //act.sendKeys(Keys.ENTER).build().perform();
+		if  (BranchNameB.equals("1"))
+		{
+			andrewDept.click();
+		}
+		
+		else if (BranchNameB.equals("2"))
+		{
+			d1.click();
+		}
+		
+		else if (BranchNameB.equals("3"))
+		{
+			calendarD.click();
+			
+		}
+		
+		
 		Thread.sleep(2000);
 		fireStastionField.click();
 		Thread.sleep(1000);
-		act.sendKeys("06").build().perform();
+		act.sendKeys(St1N).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 
@@ -338,9 +408,33 @@ public class j_calendarEvent extends B_baseClass {
 		se2.selectByVisibleText("1");
 
 		userTypeResource.click();
-
-		ADST06R2.click();
 		Thread.sleep(1000);
+		
+
+		
+		
+		if  (BranchNameB.equals("1"))
+		{
+			ADST06R2.click();
+		}
+		
+		else if (BranchNameB.equals("2"))
+		{
+			D1ST04R2.click();
+		}
+		
+		else if (BranchNameB.equals("3"))
+		{
+			calendarD.click();
+			
+		}
+		
+		Thread.sleep(1000);
+		
+		
+		
+		
+		
 
 		sendPush.click();
 		saveEvent.click();
@@ -351,20 +445,20 @@ public class j_calendarEvent extends B_baseClass {
 
 	}
 
-	public void calendarEventByFirefighterSchedul(WebDriver driver, String date, String date2, String gCurrntTime,String gTimeA7min, String gTimeA22min,String BranchNameB) throws Throwable {
+	public void calendarEventByFirefighterSchedul(WebDriver driver, String date, String date2, String gCurrntTime,String gTimeA7min, String gTimeA22min,String St1N,String BranchNameB) throws Throwable {
 
 		Thread.sleep(2000);
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			calendarL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			calendarT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			calendarD.click();
 			
@@ -376,13 +470,30 @@ public class j_calendarEvent extends B_baseClass {
 		fireDepartmentField.click();
 		Thread.sleep(1000);
 		// act.sendKeys("Andrew").build().perform();
-		andrewDept.click();
+	
 //		Thread.sleep(1000);
 //		act.sendKeys(Keys.ENTER).build().perform();
+		if  (BranchNameB.equals("1"))
+		{
+			andrewDept.click();
+		}
+		
+		else if (BranchNameB.equals("2"))
+		{
+			d1.click();
+		}
+		
+		else if (BranchNameB.equals("3"))
+		{
+			calendarD.click();
+			
+		}
+		
+		
 		Thread.sleep(2000);
 		fireStastionField.click();
 		Thread.sleep(1000);
-		act.sendKeys("06").build().perform();
+		act.sendKeys(St1N).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 
@@ -442,13 +553,36 @@ public class j_calendarEvent extends B_baseClass {
 		userTypeFirefighter.click();
 		Thread.sleep(1000);
 
-		jonas3.click();
+		
+		
+		
+		
+		
+		if  (BranchNameB.equals("1"))
+		{
+			jonas3.click();
+			Thread.sleep(1000);
+			jonas2.click();
+			Thread.sleep(1000);
+//			bhupeshLive.click();
+//			Thread.sleep(1000);
+		}
+		
+		else if (BranchNameB.equals("2"))
+		{
+			bhupeshTest.click();
+		}
+		
+		else if (BranchNameB.equals("3"))
+		{
+			calendarD.click();
+			
+		}
+		
+		
+		
+		
 		Thread.sleep(1000);
-		jonas2.click();
-		Thread.sleep(1000);
-//		bhupeshLive.click();
-//		Thread.sleep(1000);
-
 		sendPush.click();
 		saveEvent.click();
 		Thread.sleep(2000);
@@ -459,36 +593,36 @@ public class j_calendarEvent extends B_baseClass {
 
 	}
 
-	public void addEventCategory(WebDriver driver, String dateDDMMYY, String gTimeHHMM,String BranchNameB) throws Throwable {
+	public void addEventCategory(WebDriver driver, String dateDDMMYY, String gTimeHHMM,String deptName,String St1N,String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 		
 		
 		Thread.sleep(1000);
 		
 		
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			eventCatogeryL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			eventCatogeryT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			eventCatogeryD.click();
 			
 		}
 		addEventCatogery.click();
 		SelectDepartment.click();
-		act.sendKeys("Andrew").build().perform();
+		act.sendKeys(deptName).build().perform();
 		Thread.sleep(1000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		selectStation.click();
-		act.sendKeys("06").build().perform();
+		act.sendKeys(St1N).build().perform();
 		Thread.sleep(1000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
@@ -507,17 +641,17 @@ public class j_calendarEvent extends B_baseClass {
 	public void deletecalendarEventByAttribute(WebDriver driver,String BranchNameB) throws Throwable {
 
 		Thread.sleep(2000);
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			calendarL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			calendarT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			calendarD.click();
 			
@@ -548,17 +682,17 @@ public class j_calendarEvent extends B_baseClass {
 
 	public void deletecalendarEventByResource(WebDriver driver,String BranchNameB) throws Throwable {
 		Thread.sleep(2000);
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			calendarL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			calendarT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			calendarD.click();
 			
@@ -590,17 +724,17 @@ public class j_calendarEvent extends B_baseClass {
 	public void deletecalendarEventByFirefighter(WebDriver driver,String BranchNameB) throws Throwable {
 
 		Thread.sleep(2000);
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			calendarL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			calendarT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			calendarD.click();
 			
@@ -634,17 +768,17 @@ public class j_calendarEvent extends B_baseClass {
 Thread.sleep(1000);
 		
 		
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			eventCatogeryL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			eventCatogeryT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			eventCatogeryD.click();
 			

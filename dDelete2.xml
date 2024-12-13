@@ -9,7 +9,12 @@
 				<include name="userDetails" />
 
 						
-						<include name="deleteAllManualAlarm" />
+						
+				
+				<include name="deactiveManualAlarm" />
+				
+						<exclude name="deactiveManualAlarm" />
+						<exclude name="deleteAllManualAlarm" />
 
 
 				<include name="detailsAboutScript" />

@@ -8,9 +8,13 @@
        <methods>
 				<include name="userDetails"  />
 	     	
-					  <include name="sendmessageToAlarmUser"/>
 			
-			 <include name="detailsAboutScript"  /> 
+	
+			<include name="extendLowPriorityAlarmFrom07To06ByAttribute"  />
+			
+			
+			
+			 <include name="detailsAboutScript"  />  
       </methods>
     </classes>
   </test> <!-- Test -->

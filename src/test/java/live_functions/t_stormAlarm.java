@@ -26,12 +26,18 @@ public class t_stormAlarm  extends B_baseClass{
 		@FindBy(xpath="//button[@id=\"addSubmit\"]")private WebElement save;
 		@FindBy(xpath="//button[@id=\"addSubForm\"]")private WebElement genrateAlarm;
 		
-		@FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/Emergencies/dashboard\"]")private WebElement extendStormAlarm ;
+		@FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/Emergencies/dashboard\"]")private WebElement extendStormAlarmL ;
+		@FindBy(xpath="//a[@href=\"http://testing.retteralarm.de/admin/Emergencies/dashboard\"]")private WebElement extendStormAlarmT ;
+		@FindBy(xpath="//a[@href=\"http://development.retteralarm.de/admin/Emergencies/dashboard\"]")private WebElement extendStormAlarmD ;
 		@FindBy(xpath="//input[@class=\"form-control input-sm\" and @aria-controls=\"example2\"]")private WebElement searchField;
 		@FindBy(xpath="(//span[@class=\"call\"])[2]")private WebElement dragADST07R2;
 		@FindBy(xpath="(//span[@class=\"call\"])[1]")private WebElement dropADST06R2;
 		@FindBy(xpath="//button[@data-alarmbox=\"droppableResource1\"]")private WebElement sendAlarm;
 		@FindBy(xpath="//button[@class=\"btn btn-green\"]")private WebElement confirmSendAlarm;
+		
+		
+//		Testing
+		@FindBy(xpath="//input[@value=\"476\"]")private WebElement D1ST04Esc;
 		// @FindBy(xpath="")private WebElement ;
 		// @FindBy(xpath="")private WebElement ;
 		// @FindBy(xpath="")private WebElement ;
@@ -57,17 +63,17 @@ public class t_stormAlarm  extends B_baseClass{
 				storm.click();
 			
 				
-				if  (BranchNameB.equals("live"))
+				if  (BranchNameB.equals("1"))
 				{
 					manageEmergenciesL.click();
 				}
 				
-				else if (BranchNameB.equals("testing"))
+				else if (BranchNameB.equals("2"))
 				{
 					manageEmergenciesT.click();
 				}
 				
-				else if (BranchNameB.equals("dev"))
+				else if (BranchNameB.equals("3"))
 				{
 					manageEmergenciesD.click();
 					
@@ -107,17 +113,17 @@ public class t_stormAlarm  extends B_baseClass{
 				
 				
 				
-				if  (BranchNameB.equals("live"))
+				if  (BranchNameB.equals("1"))
 				{
 					ADST06REsc.click();
 				}
 				
-				else if (BranchNameB.equals("testing"))
+				else if (BranchNameB.equals("2"))
 				{
-					manageEmergenciesT.click();
+					D1ST04Esc.click();
 				}
 				
-				else if (BranchNameB.equals("dev"))
+				else if (BranchNameB.equals("3"))
 				{
 					manageEmergenciesD.click();
 					
@@ -147,27 +153,51 @@ public class t_stormAlarm  extends B_baseClass{
 			}
 			
 			
+			
+			
+			
 			public void extendStormAlarm(WebDriver driver, String BranchNameB) throws Throwable 
 			{
 				Actions act = new Actions(driver);
 				
 				storm.click();
-				extendStormAlarm.click();
+			
+				
+				
+				if  (BranchNameB.equals("1"))
+				{
+					extendStormAlarmL.click();
+				}
+				
+				else if (BranchNameB.equals("2"))
+				{
+					extendStormAlarmT.click();
+				}
+				
+				else if (BranchNameB.equals("3"))
+				{
+					extendStormAlarmD.click();
+					
+				}
+				Thread.sleep(2000);
+				
+				
 				searchField.click();
 				
 				
-				if  (BranchNameB.equals("live"))
+				if  (BranchNameB.equals("1"))
 				{
 					act.sendKeys("ADST07R2").build().perform();
 					Thread.sleep(2000);
 				}
 				
-				else if (BranchNameB.equals("testing"))
+				else if (BranchNameB.equals("2"))
 				{
-					manageEmergenciesT.click();
+					act.sendKeys("D1ST05R1").build().perform();
+					Thread.sleep(2000);
 				}
 				
-				else if (BranchNameB.equals("dev"))
+				else if (BranchNameB.equals("3"))
 				{
 					manageEmergenciesD.click();
 					

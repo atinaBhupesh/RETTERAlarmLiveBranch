@@ -40,7 +40,7 @@ public class B_baseClass {
 		Scanner scanner = new Scanner(System.in);
 
 		// Prompt the user to enter the branch name
-		System.out.print("Enter the branch name (live/testing/dev) : ");
+		System.out.print("Enter the branch name > for live-1, for Testing-2, for development-3 : ");
 		System.out.println();
 
 		// Store the input in a variable
@@ -130,7 +130,7 @@ public class B_baseClass {
 
 		XSSFSheet sheet = wb.getSheetAt(0);
 
-		if (BranchNameB.equals("live"))
+		if (BranchNameB.equals("1"))
 
 		{
 			System.out.println("Well come to RETTERAlarm Live branch.");
@@ -161,8 +161,40 @@ public class B_baseClass {
 			dailyVehicleEmailId2 = sheet.getRow(11).getCell(1).getStringCellValue();
 
 		}
+		else if (BranchNameB.equals("2"))
+		
+		{
+			System.out.println("Well come to RETTERAlarm Testing branch.");
+//	     	JavascriptExecutor js = (JavascriptExecutor) driver;
+//			js.executeScript("alert( 'Well come to RETTERAlarm Live branch.');");
+//			Thread.sleep(1000);
 
-		else if (BranchNameB.equals("dev")) {
+			String liveBranchUrl = sheet.getRow(1).getCell(2).getStringCellValue();
+			driver.get(liveBranchUrl);
+
+			userName = sheet.getRow(2).getCell(2).getStringCellValue();
+
+			password = "Qwerty@123";
+
+			deptName = sheet.getRow(4).getCell(2).getStringCellValue();
+
+			St1N = sheet.getRow(5).getCell(2).getStringCellValue();
+
+			St1V1 = sheet.getRow(6).getCell(2).getStringCellValue();
+
+			St1V2 = sheet.getRow(7).getCell(2).getStringCellValue();
+
+			St2N = sheet.getRow(8).getCell(2).getStringCellValue();
+
+			st2V1 = sheet.getRow(9).getCell(2).getStringCellValue();
+
+			dailyVehicleEmailId1 = sheet.getRow(10).getCell(1).getStringCellValue();
+			dailyVehicleEmailId2 = sheet.getRow(11).getCell(1).getStringCellValue();
+
+		}
+		
+
+		else if (BranchNameB.equals("3")) {
 
 			System.out.println("Well come to RETTERAlarm Development branch.");
 //			JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -185,6 +217,10 @@ public class B_baseClass {
 			St1V1 = sheet.getRow(6).getCell(3).getStringCellValue();
 
 			St1V2 = sheet.getRow(7).getCell(3).getStringCellValue();
+			
+			St2N = sheet.getRow(8).getCell(3).getStringCellValue();
+
+			st2V1 = sheet.getRow(9).getCell(3).getStringCellValue();
 
 		}
 

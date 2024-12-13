@@ -66,8 +66,7 @@ public class F_information extends B_baseClass {
 
 	@FindBy(xpath = "//input[@id=\"inlineRadio4\"]")
 	private WebElement userTypeMonitor;
-	@FindBy(xpath = "//input[@value=\"25626\"]")
-	private WebElement ADST06M1;
+	
 	@FindBy(xpath = "//input[@id=\"InfoStartDate\"]")
 	private WebElement infoStartDateField;
 	@FindBy(xpath = "//input[@id=\"InfoEndDate\"]")
@@ -76,20 +75,22 @@ public class F_information extends B_baseClass {
 	private WebElement infoStartTimeField;
 	@FindBy(xpath = "//input[@id=\"InfoEndTime\"]")
 	private WebElement infoEndTimeField;
+	@FindBy(xpath="//i[@class=\"fa fa-upload\"]")private WebElement uplod;
 	
+	 @FindBy(xpath="//span[contains(text(),\"BG\")]")private List<WebElement> availableDataCount; 
 	
-	
+	//Live
 	@FindBy(xpath = "//input[@value=\"15429\"]")private WebElement ADST06A2;
 	@FindBy(xpath = "//input[@value=\"3136\"]")private WebElement ADST06R2;
 	@FindBy(xpath = "//input[@value=\"22999\"]")private WebElement jonas2;
 	@FindBy(xpath = "//input[@value=\"23001\"]")private WebElement jonas3;
 //	@FindBy(xpath = "//input[@value=\"25512\"]")private WebElement bhupeshLive2;
+	@FindBy(xpath = "//input[@value=\"25626\"]")
+	private WebElement ADST06M1;
 	
-	@FindBy(xpath="//i[@class=\"fa fa-upload\"]")private WebElement uplod;
-	
-	 @FindBy(xpath="//span[contains(text(),\"BG\")]")private List<WebElement> availableDataCount; 
-	 
-	// @FindBy(xpath="")private WebElement ;
+
+//	 Testing 
+	@FindBy(xpath="//input[@value=\"14551\"]")private WebElement D1ST04M1;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -105,17 +106,17 @@ public class F_information extends B_baseClass {
 
 		
 		Thread.sleep(2000);
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			manageInformationL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			manageInformationT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			manageInformationD.click();
 			
@@ -272,8 +273,32 @@ public class F_information extends B_baseClass {
 		act.sendKeys(Keys.TAB).build().perform();
 		act.sendKeys("BG-Monitor information for-" + date + " from " + gTimeA5min + " to " + gTimeA15min).build().perform();
 		act.sendKeys(Keys.PAGE_DOWN).build().perform();
+		Thread.sleep(1000);
 		userTypeMonitor.click();
-		ADST06M1.click();
+		Thread.sleep(2000);
+		
+		if  (BranchNameB.equals("1"))
+		{
+			ADST06M1.click();
+		}
+		
+		else if (BranchNameB.equals("2"))
+		{
+			D1ST04M1.click();
+		}
+		
+		else if (BranchNameB.equals("3"))
+		{
+//			testAlarmOverviewD.click();
+			
+		}
+		
+		
+		Thread.sleep(1000);
+		
+		
+		
+		
 		infoStartDateField.click();
 		act.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).build().perform();
 		act.sendKeys(date).build().perform();
@@ -315,17 +340,17 @@ public class F_information extends B_baseClass {
 		calendarModule.click();
 		
 		Thread.sleep(2000);
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			manageInformationL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			manageInformationT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			manageInformationD.click();
 			

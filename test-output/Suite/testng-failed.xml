@@ -3,16 +3,19 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="live_functions.AAA_testClass_delete">
+      <class name="live_functions.A_testClass_dailyCheckPointList">
         <methods>
-          <include name="backToHomePage2"/>
-          <include name="lounchBrowser"/>
-          <include name="detailsAboutScript"/>
           <include name="logOut"/>
-          <include name="deleteAllManualAlarm"/>
+          <include name="backToHomePage2"/>
+          <include name="extendLowPriorityAlarmFrom07To06ByAttribute"/>
+          <include name="BeforeSuite"/>
+          <include name="AfterTest"/>
           <include name="backToHomePage"/>
+          <include name="BeforeTest"/>
+          <include name="lounchBrowser"/>
+          <include name="AfterSute"/>
         </methods>
-      </class> <!-- live_functions.AAA_testClass_delete -->
+      </class> <!-- live_functions.A_testClass_dailyCheckPointList -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

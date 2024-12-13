@@ -1,5 +1,6 @@
 package live_functions;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -279,7 +280,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of adding new event category is started.", true);
 		ce.calendarEventCommon(driver,BranchNameB);
-		ce.addEventCategory(driver, dateDDMMYY, gTimeHHMM,BranchNameB);
+		ce.addEventCategory( driver,  dateDDMMYY,   gTimeHHMM,  deptName,  St1N, BranchNameB);
 		
 		Reporter.log("The process of new event category is complete.", true);
 		Reporter.log(" ", true);
@@ -610,7 +611,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating low priority alarm with escalation resource is started.", true);
 		ma.manualAlarmCommon(driver, BranchNameB);
-		ma.manualAlarmLowPriorityByEscalationResource(driver, newStationUser,BranchNameB);
+		ma.manualAlarmLowPriorityByEscalationResource(driver,  date, deptName,  St1N,  BranchNameB);
 		
 		Reporter.log("The create creating low priority alarm with escalation resource is complete.", true);
 		Reporter.log(" ", true);
@@ -784,7 +785,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a test alarm by attribute with remindar one time is started.",true);
 		ta.testAlarmCommon(driver,BranchNameB);
-		ta.testAlarmByOnetime(driver, date, gTimeA3min, today,BranchNameB);
+		ta.testAlarmByOnetime(driver,  date,  gTimeA11min,  today, deptName, St1N, St1V1,  St1V2 ,BranchNameB);
 
 		Reporter.log("The process of creating a test alarm by attribute with remindar one time is complete.",true);
 		Reporter.log(" ", true);
@@ -803,7 +804,7 @@ gTimeA5min = tmc.germanyTimeAfter5Minutes;
 	Reporter.log(" ", true);
 	Reporter.log("The process of creating a test alarm by resource with remindar recursive > daily is started.",true);
 	ta.testAlarmCommon(driver,BranchNameB);
-	ta.testAlarmByRecursiveDaily(driver, date, gTimeA5min,BranchNameB);
+	ta.testAlarmByRecursiveDaily(driver,  date ,  gTimeA9min,   today, deptName, St1N, St1V1,  St1V2 ,   BranchNameB);
 
 	Reporter.log("The process of creating a test alarm by resource with remindar recursive > daily is complete.",true);
 	Reporter.log(" ", true);
@@ -820,7 +821,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	Reporter.log(" ", true);
 	Reporter.log("The process of creating a test alarm by fire fighter with remindar recursive > weekly is started.",true);
 	ta.testAlarmCommon(driver,BranchNameB);
-	ta.testAlarmByRecursiveWeekly(driver, date, gTimeA7min, today,BranchNameB);
+	ta.testAlarmByRecursiveWeekly(driver,   date ,  gTimeA7min,  today , deptName, St1N, St1V1,  St1V2,  BranchNameB);
 
 	Reporter.log("The process of creating a test alarm by fire fighter with remindar recursive > weekly is complete.",true);
 	Reporter.log(" ", true);
@@ -840,7 +841,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a test alarm by alarm loop 1 with remindar recirsive > monthly > day wise is started.",true);
 		ta.testAlarmCommon(driver,BranchNameB);
-		ta.testAlarmByRecursiveMonthlyDayWise(driver, date, gTimeA7min, dayCount, today ,BranchNameB);
+		ta.testAlarmByRecursiveMonthlyDayWise(driver,  date ,  gTimeA7min,  dayCount, today,  deptName, St1N, St1V1,  St1V2,  BranchNameB);
 	
 		Reporter.log("The process of creating a test alarm by alarm loop 2 with remindar recirsive > monthly > day wise is complete.",true);
 		Reporter.log(" ", true);
@@ -864,7 +865,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a test alarm by alarm loop 2 with remindar recursive > monthly > date wise is started.",true);
 		ta.testAlarmCommon(driver,BranchNameB);
-		ta.testAlarmByRecursiveMonthlyDateWais(driver, date, gTimeA11min,BranchNameB);
+		ta.testAlarmByRecursiveMonthlyDateWais( driver,  date ,   gTimeA7min ,   deptName,  St1N,  St1V1,   St1V2,   BranchNameB);
 
 		Reporter.log("The process of creating a test alarm by alarm loop 2 with remindar recursive > monthly > date wise is complete.",true);
 		Reporter.log(" ", true);
@@ -941,7 +942,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating low priority manual alarm by escalation resource is started.", true);
 		ma.manualAlarmCommon(driver, BranchNameB);
-		ma.manualAlarmLowPriorityByEscalationResource(driver, date,BranchNameB);
+		ma.manualAlarmLowPriorityByEscalationResource(driver,  date, deptName,  St1N,  BranchNameB);
 		Reporter.log("The process of creating low priority manual alarm by escalation resource is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1192,7 +1193,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of create calendar event by attribute is started.", true);
 		ce.calendarEventCommon(driver,BranchNameB);
-		ce.calendarEventByAttributeSchedul(driver, date,gCurrntTime, gTime2A7min, gTime2A22min,BranchNameB);
+		ce.calendarEventByAttributeSchedul(driver, date,gCurrntTime, gTime2A7min, gTime2A22min,St1N, BranchNameB);
 		Reporter.log("The process of create calendar event by attribute is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1208,7 +1209,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of create calendar event by resource is started.", true);
 		ce.calendarEventCommon(driver,BranchNameB);
-		ce.calendarEventByResorceSchedul(driver, date,gCurrntTime, gTime2A67min, gTime2A88min,BranchNameB);
+		ce.calendarEventByResorceSchedul(driver, date,gCurrntTime, gTime2A67min, gTime2A88min,St1N, BranchNameB);
 		Reporter.log("The process of create calendar event by resource is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1226,7 +1227,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of create calendar event by Firefighter is started.", true);
 		ce.calendarEventCommon(driver,BranchNameB);
-		ce.calendarEventByFirefighterSchedul(driver, date, date2, gCurrntTime, gTime2A7min, gTime2A22min,BranchNameB);
+		ce.calendarEventByFirefighterSchedul(driver, date, date2, gCurrntTime, gTime2A7min, gTime2A22min,St1N,BranchNameB);
 		Reporter.log("The process of create calendar event by Firefighter is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);

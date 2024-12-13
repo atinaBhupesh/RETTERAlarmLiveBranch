@@ -114,40 +114,35 @@ public class E_manualAlarm extends B_baseClass
 	private WebElement deactiveAlarm;
 	@FindBy(xpath = "//button[@id=\"statChange\"]")
 	private WebElement changeStatusYes;
+	@FindBy(xpath = "//span[contains(text(), 'BG')]")private WebElement BGAlarm;
+	@FindBy(xpath = "//span[contains(text(),\"BG\")]")private List<WebElement> availableDataCount;
 
-	@FindBy(xpath = "//input[@value=\"15429\"]")
-	private WebElement ADST06A2;
-	@FindBy(xpath = "//input[@value=\"3136\"]")
-	private WebElement ADST06R2;
+	//live
+	@FindBy(xpath = "//input[@value=\"15429\"]")private WebElement ADST06A2;
+	@FindBy(xpath = "//input[@value=\"3136\"]")	private WebElement ADST06R2;
 
-	@FindBy(xpath = "//input[@value=\"3138\"]")
-	private WebElement ADST06REsc;
-	@FindBy(xpath = "//input[@value=\"22999\"]")
-	private WebElement jonas2;
-	@FindBy(xpath = "//input[@value=\"23001\"]")
-	private WebElement jonas3;
-
-	@FindBy(xpath = "//input[@value=\"18480\"]")
-	private WebElement ADST07A2;
-	@FindBy(xpath = "//input[@value=\"3137\"]")
-	private WebElement ADST07R2;
-	@FindBy(xpath = "//input[@value=\"27698\"]")
-	private WebElement RahulVbc3;
-	@FindBy(xpath = "//span[contains(text(), 'BG')]")
-	private WebElement BGAlarm;
-
-	@FindBy(xpath = "//span[contains(text(),\"BG\")]")
-	private List<WebElement> availableDataCount;
+	@FindBy(xpath = "//input[@value=\"3138\"]")	private WebElement ADST06REsc;
+	@FindBy(xpath = "//input[@value=\"22999\"]")private WebElement jonas2;
+	@FindBy(xpath = "//input[@value=\"23001\"]")private WebElement jonas3;
+	@FindBy(xpath = "//input[@value=\"18480\"]")private WebElement ADST07A2;
+	@FindBy(xpath = "//input[@value=\"3137\"]")	private WebElement ADST07R2;
+	@FindBy(xpath = "//input[@value=\"27698\"]")private WebElement RahulVbc3;
+	
+	//Testing
+	@FindBy(xpath="//input[@value=\"2170\"]")private WebElement D1ST04A1;
+	@FindBy(xpath="//input[@value=\"472\"]")private WebElement D1ST04R2;
+	@FindBy(xpath="//input[@value=\"18952\"]")private WebElement bhupeshTest;
+	@FindBy(xpath="//input[@value=\"476\"]")private WebElement D1ST04Esc;
+	@FindBy(xpath="//input[@value=\"3078\"]")private WebElement D1ST5A1;
 	
 	
 	//Dev
 	@FindBy(xpath="//input[@value=\"12743\"]")private WebElement Bh1A2;
-	// @FindBy(xpath="")private WebElement ;
-	// @FindBy(xpath="")private WebElement ;
-	// @FindBy(xpath="")private WebElement ;
-	// @FindBy(xpath="")private WebElement ;
-	// @FindBy(xpath="")private WebElement ;
-	// @FindBy(xpath="")private WebElement ;
+
+
+	
+
+	@FindBy(xpath="//input[@value=\"918\"]")private WebElement BH1St2R1;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -199,17 +194,17 @@ public class E_manualAlarm extends B_baseClass
 		Thread.sleep(2000);
 		
 		
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 		manageAlarmL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			manageAlarmT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			manageAlarmD.click();
 			
@@ -337,17 +332,17 @@ public class E_manualAlarm extends B_baseClass
 		Thread.sleep(2000);
 		selectAllCheckBox.click();
 
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			ADST06A2.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
-			manageAlarmT.click();
+			D1ST04A1.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			Bh1A2.click();
 			
@@ -413,17 +408,17 @@ public class E_manualAlarm extends B_baseClass
 		selectAllCheckBox.click();
 
 
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			ADST07A2.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
-			manageAlarmT.click();
+			D1ST5A1.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			Bh1A2.click();
 			
@@ -465,19 +460,19 @@ public class E_manualAlarm extends B_baseClass
 
 		Thread.sleep(2000);
 
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			ADST06R2.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
-			manageAlarmT.click();
+			D1ST04R2.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
-			Bh1A2.click();
+			BH1St2R1.click();
 			
 		}
 
@@ -555,17 +550,17 @@ public class E_manualAlarm extends B_baseClass
 		
 		
 
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			ADST07A2.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
-			manageAlarmT.click();
+			D1ST5A1.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			Bh1A2.click();
 			
@@ -615,17 +610,17 @@ public class E_manualAlarm extends B_baseClass
 		
 
 		
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			ADST06R2.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
-			manageAlarmT.click();
+			D1ST04R2.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			Bh1A2.click();
 			
@@ -691,17 +686,17 @@ public class E_manualAlarm extends B_baseClass
 		
 		
 
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			ADST06R2.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
-			manageAlarmT.click();
+			D1ST04R2.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			Bh1A2.click();
 			
@@ -772,7 +767,7 @@ public class E_manualAlarm extends B_baseClass
 		
 		
 
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			jonas3.click();
 			Thread.sleep(1000);
@@ -782,12 +777,12 @@ public class E_manualAlarm extends B_baseClass
 //			Thread.sleep(1000);
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
-			manageAlarmT.click();
+			bhupeshTest.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			Bh1A2.click();
 			
@@ -862,17 +857,17 @@ public class E_manualAlarm extends B_baseClass
 		
 		
 		
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			ADST06A2.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
-			manageAlarmT.click();
+			D1ST04A1.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			Bh1A2.click();
 			
@@ -1003,17 +998,17 @@ public class E_manualAlarm extends B_baseClass
 	
 		
 		
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			ADST06REsc.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
-			manageAlarmT.click();
+			D1ST04Esc.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			Bh1A2.click();
 			
@@ -1035,20 +1030,20 @@ public class E_manualAlarm extends B_baseClass
 
 	}
 
-	public void manualAlarmLowPriorityByEscalationResource(WebDriver driver, String date, String BranchNameB) throws Throwable {
+	public void manualAlarmLowPriorityByEscalationResource(WebDriver driver, String date,String deptName, String St1N, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
 
 		fireDepartmentField.click();
 
-		act.sendKeys("andrew").build().perform();
+		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		fireStationField.click();
 
-		act.sendKeys("06").build().perform();
+		act.sendKeys(St1N).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
@@ -1066,7 +1061,37 @@ public class E_manualAlarm extends B_baseClass
 
 		selectAllCheckBox.click();
 
-		ADST06REsc.click();
+	
+		Thread.sleep(1000);
+		
+		
+		
+		
+		
+		if  (BranchNameB.equals("1"))
+		{
+			ADST06REsc.click();
+		}
+		
+		else if (BranchNameB.equals("2"))
+		{
+			D1ST04Esc.click();
+		}
+		
+		else if (BranchNameB.equals("3"))
+		{
+			Bh1A2.click();
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		lowPriorityCheckBox.click();
 
 		adressFeild.click();
@@ -1150,17 +1175,17 @@ public class E_manualAlarm extends B_baseClass
 		
 			
 		
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			ADST07A2.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
-			manageAlarmT.click();
+			D1ST5A1.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			Bh1A2.click();
 			
@@ -1302,17 +1327,17 @@ public class E_manualAlarm extends B_baseClass
 		Thread.sleep(2000);
 		
 		
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 		manageAlarmL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			manageAlarmT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			manageAlarmD.click();
 			
@@ -1337,9 +1362,9 @@ public class E_manualAlarm extends B_baseClass
 				deactiveAlarm.click();
 				Thread.sleep(1000);
 				changeStatusYes.click();
-				Thread.sleep(1000);
+				Thread.sleep(3000);
 				Reporter.log("Alarm number-" + i + " is deactive sucessfully.", true);
-				Thread.sleep(8000);
+				Thread.sleep(5000);
 				driver.navigate().refresh();
 				Thread.sleep(2000);
 
@@ -1358,17 +1383,17 @@ public class E_manualAlarm extends B_baseClass
 		Thread.sleep(2000);
 		
 		
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 		manageAlarmL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			manageAlarmT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			manageAlarmD.click();
 			
@@ -1388,7 +1413,7 @@ public class E_manualAlarm extends B_baseClass
 			Thread.sleep(3000);
 
 			delete.click();
-
+			Thread.sleep(2000);
 			deleteYes.click();
 
 			Reporter.log("Alarm number-" + i + " is deleted successfully.", true);
@@ -1411,17 +1436,12 @@ public class E_manualAlarm extends B_baseClass
 			Thread.sleep(2000);
 			
 			
-			if  (BranchNameB.equals("live"))
-			{
-			manageAlarmL.click();
-			}
-			
-			else if (BranchNameB.equals("testing"))
+			 if (BranchNameB.equals("2"))
 			{
 				manageAlarmT.click();
 			}
 			
-			else if (BranchNameB.equals("dev"))
+			else if (BranchNameB.equals("3"))
 			{
 				manageAlarmD.click();
 				

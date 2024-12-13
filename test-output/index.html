@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>D:\Automation\MasterAutomationWorkSpcae\Work Space Main\RETTERAlarmLiveBranch\dDelete2.xml</span>
+                    <span>D:\Automation\MasterAutomationWorkSpcae\Work Space Main\RETTERAlarmLiveBranch\bCreate2.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,35 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,  1 skipped,  1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="live_functions.AAA_testClass_delete" class="method navigator-link" hash-for-method="deleteAllManualAlarm">deleteAllManualAlarm</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
-                    </span>
-                    <div class="method-list-content skipped suite-Suite">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="live_functions.AAA_testClass_delete" class="method navigator-link" hash-for-method="detailsAboutScript">detailsAboutScript</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -131,7 +103,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="live_functions.AAA_testClass_delete" class="method navigator-link" hash-for-method="userDetails">userDetails</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="detailsAboutScript">detailsAboutScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="extendLowPriorityAlarmFrom07To06ByAttribute">extendLowPriorityAlarmFrom07To06ByAttribute</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="userDetails">userDetails</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -146,49 +128,10 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">live_functions.AAA_testClass_delete</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="deleteAllManualAlarm">
-                  </a> <!-- deleteAllManualAlarm -->
-                  <span class="method-name">deleteAllManualAlarm</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=131.0.6778.86)
-Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e14d4440695b8788b856334c74ebda69, refresh {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54654}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54654/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e14d4440695b8788b856334c74ebda69
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1074)
-	at live_functions.E_manualAlarm.deleteAllAlarms(E_manualAlarm.java:1451)
-	at live_functions.AAA_testClass_delete.deleteAllManualAlarm(AAA_testClass_delete.java:420)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">live_functions.AAA_testClass_delete</span>
+              <img src="passed.png"/>
+              <span class="class-name">live_functions.A_testClass_dailyCheckPointList</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -196,44 +139,15 @@ Session ID: e14d4440695b8788b856334c74ebda69
                   <a name="detailsAboutScript">
                   </a> <!-- detailsAboutScript -->
                   <span class="method-name">detailsAboutScript</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=131.0.6778.86)
-Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e14d4440695b8788b856334c74ebda69, findElement {using=xpath, value=//img[@src=&quot;/img/logoicon.png&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54654}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54654/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e14d4440695b8788b856334c74ebda69
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-	at live_functions.D_homePage.backToHomePage(D_homePage.java:35)
-	at live_functions.AAA_testClass_delete.backToHomePage2(AAA_testClass_delete.java:485)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">live_functions.AAA_testClass_delete</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="extendLowPriorityAlarmFrom07To06ByAttribute">
+                  </a> <!-- extendLowPriorityAlarmFrom07To06ByAttribute -->
+                  <span class="method-name">extendLowPriorityAlarmFrom07To06ByAttribute</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="userDetails">
@@ -246,7 +160,7 @@ Session ID: e14d4440695b8788b856334c74ebda69
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Automation\MasterAutomationWorkSpcae\Work Space Main\RETTERAlarmLiveBranch\dDelete2.xml</span>
+            <span class="header-content">D:\Automation\MasterAutomationWorkSpcae\Work Space Main\RETTERAlarmLiveBranch\bCreate2.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -255,13 +169,13 @@ Session ID: e14d4440695b8788b856334c74ebda69
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;live_functions.AAA_testClass_delete&quot;&gt;
+      &lt;class name=&quot;live_functions.A_testClass_dailyCheckPointList&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;userDetails&quot;/&gt;
-          &lt;include name=&quot;deleteAllManualAlarm&quot;/&gt;
+          &lt;include name=&quot;extendLowPriorityAlarmFrom07To06ByAttribute&quot;/&gt;
           &lt;include name=&quot;detailsAboutScript&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- live_functions.AAA_testClass_delete --&gt;
+      &lt;/class&gt; &lt;!-- live_functions.A_testClass_dailyCheckPointList --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -303,17 +217,17 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'deleteAllManualAlarm')
-data.setCell(0, 2, 'live_functions.AAA_testClass_delete')
-data.setCell(0, 3, 63637);
+data.setCell(0, 1, 'extendLowPriorityAlarmFrom07To06ByAttribute')
+data.setCell(0, 2, 'live_functions.A_testClass_dailyCheckPointList')
+data.setCell(0, 3, 68996);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'userDetails')
-data.setCell(1, 2, 'live_functions.AAA_testClass_delete')
-data.setCell(1, 3, 3);
+data.setCell(1, 1, 'detailsAboutScript')
+data.setCell(1, 2, 'live_functions.A_testClass_dailyCheckPointList')
+data.setCell(1, 3, 3008);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'detailsAboutScript')
-data.setCell(2, 2, 'live_functions.AAA_testClass_delete')
-data.setCell(2, 3, 0);
+data.setCell(2, 1, 'userDetails')
+data.setCell(2, 2, 'live_functions.A_testClass_dailyCheckPointList')
+data.setCell(2, 3, 4);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -333,82 +247,173 @@ return data;
               <span class="reporter-method-name">userDetails</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output"> </span>
-                <span class="reporter-method-output">live department user # bhupesh.dept_dev@atpl.in # log in sucessfully</span>
+                <span class="reporter-method-output">Department user # bhupesh.dept_dev@atpl.in # log in sucessfully</span>
                 <span class="reporter-method-output"> </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">deleteAllManualAlarm</span>
+              <span class="reporter-method-name">detailsAboutScript</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output"> </span>
-                <span class="reporter-method-output">The process of deleting a manual alarm is started.</span>
-                <span class="reporter-method-output">Alarm number-1 is deleted successfully.</span>
-                <span class="reporter-method-output">Alarm number-2 is deleted successfully.</span>
-                <span class="reporter-method-output">Alarm number-3 is deleted successfully.</span>
-                <span class="reporter-method-output">Alarm number-4 is deleted successfully.</span>
-                <span class="reporter-method-output">Alarm number-5 is deleted successfully.</span>
-                <span class="reporter-method-output">Alarm number-6 is deleted successfully.</span>
-                <span class="reporter-method-output">Alarm number-7 is deleted successfully.</span>
-                <span class="reporter-method-output">Alarm number-8 is deleted successfully.</span>
-                <span class="reporter-method-output">Alarm number-9 is deleted successfully.</span>
-                <span class="reporter-method-output">Alarm number-10 is deleted successfully.</span>
+                <span class="reporter-method-output">Login  date-13.12.2024 & login  time -13:08</span>
+                <span class="reporter-method-output">Logout date-13-12-2024 & logout time -13:10</span>
+                <span class="reporter-method-output"> </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">extendLowPriorityAlarmFrom07To06ByAttribute</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> </span>
+                <span class="reporter-method-output">The process of create low priority alarm from stataion 06 and extend to station 07 is started.</span>
+                <span class="reporter-method-output">The create low priority alarm from stataion 06 and extend to station 07 is complete.</span>
+                <span class="reporter-method-output"> </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">23 ignored methods</span>
+            <span class="header-content">68 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">live_functions.AAA_testClass_delete</span>
+              <span class="ignored-class-name">live_functions.A_testClass_dailyCheckPointList</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">deleteARFromList</span>
+                <span class="ignored-method-name">createResource</span>
                 <br/>
-                <span class="ignored-method-name">deleteFireStation</span>
+                <span class="ignored-method-name">sendMessageChatGrouCreatedByFirefighter</span>
                 <br/>
-                <span class="ignored-method-name">deactiveManualAlarm</span>
+                <span class="ignored-method-name">createManualAlarmByAttribute</span>
                 <br/>
-                <span class="ignored-method-name">deleteCalendarEventCreatedByAttribute</span>
+                <span class="ignored-method-name">createAvailabilityRequestSendMultipleDays</span>
                 <br/>
-                <span class="ignored-method-name">deleteMonitorUser</span>
+                <span class="ignored-method-name">sendMessageChatGrouCreatedByAttribute</span>
                 <br/>
-                <span class="ignored-method-name">deleteTestAlarmFromList</span>
+                <span class="ignored-method-name">lowPriorityAlarmWithEscalationResource</span>
                 <br/>
-                <span class="ignored-method-name">deleteInfoEvent</span>
+                <span class="ignored-method-name">createInfoEventByAttribute</span>
                 <br/>
-                <span class="ignored-method-name">deactiveTestAlarmFromOverview</span>
+                <span class="ignored-method-name">createAlamLoop</span>
                 <br/>
-                <span class="ignored-method-name">deleteCalendarEventCreatedByFirefighter</span>
+                <span class="ignored-method-name">createChatgroupByAlarmloop</span>
                 <br/>
-                <span class="ignored-method-name">deleteAttribute</span>
+                <span class="ignored-method-name">SendmessagetoARUsers</span>
                 <br/>
-                <span class="ignored-method-name">deleteAlarmTemplate</span>
+                <span class="ignored-method-name">createTestAlarmByAttributeRecursivedaily</span>
                 <br/>
-                <span class="ignored-method-name">deleteEventCategory</span>
+                <span class="ignored-method-name">createAlamTemplate</span>
                 <br/>
-                <span class="ignored-method-name">deleteCheckList</span>
+                <span class="ignored-method-name">cretecalendarEventFirefighterSchedule</span>
                 <br/>
-                <span class="ignored-method-name">deleteCalendarEventCreatedByResource</span>
+                <span class="ignored-method-name">createMonitorUserForSt06</span>
                 <br/>
-                <span class="ignored-method-name">deletePermissionGroup</span>
+                <span class="ignored-method-name">testAlarmByRecursiveMonthlyDayWise</span>
                 <br/>
-                <span class="ignored-method-name">deleteARFromHistory</span>
+                <span class="ignored-method-name">time</span>
                 <br/>
-                <span class="ignored-method-name">deleteVehicleUser</span>
+                <span class="ignored-method-name">createMonitorInformation01</span>
                 <br/>
-                <span class="ignored-method-name">deleteAlarmLoop</span>
+                <span class="ignored-method-name">createInformationByAttribute</span>
                 <br/>
-                <span class="ignored-method-name">deleteManualAlarm</span>
+                <span class="ignored-method-name">extendAlarmFrom07To06ByAttribute</span>
                 <br/>
-                <span class="ignored-method-name">deleteResource</span>
+                <span class="ignored-method-name">addVehicleUserForStation06</span>
                 <br/>
-                <span class="ignored-method-name">deleteTestAlarmFromOverview</span>
+                <span class="ignored-method-name">createNormalCheckList</span>
                 <br/>
-                <span class="ignored-method-name">deleteUers</span>
+                <span class="ignored-method-name">sendmessageToinfoEventUsers</span>
                 <br/>
-                <span class="ignored-method-name">deleteChatGroup</span>
+                <span class="ignored-method-name">createManualAlarmByFireFighte</span>
+                <br/>
+                <span class="ignored-method-name">CreateAttributeForDepartment</span>
+                <br/>
+                <span class="ignored-method-name">extendAlarmToSecondStation</span>
+                <br/>
+                <span class="ignored-method-name">createAvailabilityRequestSendRecursive</span>
+                <br/>
+                <span class="ignored-method-name">createInfoEventByFighterSchedule</span>
+                <br/>
+                <span class="ignored-method-name">createChatgroupByAttribute</span>
+                <br/>
+                <span class="ignored-method-name">createInfoEventByResource</span>
+                <br/>
+                <span class="ignored-method-name">createPermissionGroupDefaultStation</span>
+                <br/>
+                <span class="ignored-method-name">createChatgroupByFirefighter</span>
+                <br/>
+                <span class="ignored-method-name">createMonitorInformation02</span>
+                <br/>
+                <span class="ignored-method-name">sendmessageToAlarmUser</span>
+                <br/>
+                <span class="ignored-method-name">sendmessageToTestAlarmUsers</span>
+                <br/>
+                <span class="ignored-method-name">createInfoEventByFirefighter</span>
+                <br/>
+                <span class="ignored-method-name">ManulaAlarmRepeate</span>
+                <br/>
+                <span class="ignored-method-name">addFireStation</span>
+                <br/>
+                <span class="ignored-method-name">logInNewMonitorUser</span>
+                <br/>
+                <span class="ignored-method-name">cretecalendarEventResourceSchedule</span>
+                <br/>
+                <span class="ignored-method-name">addStationUserForStation06</span>
+                <br/>
+                <span class="ignored-method-name">createManualAlarmByEscalationResource</span>
+                <br/>
+                <span class="ignored-method-name">createInformationByResource</span>
+                <br/>
+                <span class="ignored-method-name">createNewStationMonitorUser</span>
+                <br/>
+                <span class="ignored-method-name">createInfoEventByAttributeSchedule</span>
+                <br/>
+                <span class="ignored-method-name">createLowPriorityManualAlarmByEscalationResource</span>
+                <br/>
+                <span class="ignored-method-name">createTestAlarmByAttributeRecursiveWeekly</span>
+                <br/>
+                <span class="ignored-method-name">addEventCategory</span>
+                <br/>
+                <span class="ignored-method-name">sendMessageChatGrouForNewStation</span>
+                <br/>
+                <span class="ignored-method-name">createStormAlarm</span>
+                <br/>
+                <span class="ignored-method-name">sendMessageChatGrouCreatedByResource</span>
+                <br/>
+                <span class="ignored-method-name">createAvailabilityRequestSendImmediat</span>
+                <br/>
+                <span class="ignored-method-name">createManualAlarmByNewFireighterForNewStation</span>
+                <br/>
+                <span class="ignored-method-name">createAvailabilityRequestSendSchedule</span>
+                <br/>
+                <span class="ignored-method-name">createManualAlarmByResource</span>
+                <br/>
+                <span class="ignored-method-name">sendmessageToinfoUsers</span>
+                <br/>
+                <span class="ignored-method-name">createChatgroupByResource</span>
+                <br/>
+                <span class="ignored-method-name">cretecalendarEventAttributeSchedule</span>
+                <br/>
+                <span class="ignored-method-name">addFirefighterForNewStation06</span>
+                <br/>
+                <span class="ignored-method-name">createTestAlarmByAttributeRecursiveMontlyDateWise</span>
+                <br/>
+                <span class="ignored-method-name">createLowPriorityManualAlarmByAttribute</span>
+                <br/>
+                <span class="ignored-method-name">sendMessageChatGrouCreatedByAlarmLoop</span>
+                <br/>
+                <span class="ignored-method-name">addResourceForNewStation</span>
+                <br/>
+                <span class="ignored-method-name">createAlarmCheckList</span>
+                <br/>
+                <span class="ignored-method-name">createTestAlarmByAttributeOneTime</span>
+                <br/>
+                <span class="ignored-method-name">createChatGrouForNewStation</span>
+                <br/>
+                <span class="ignored-method-name">createChatGrouForStation06Users</span>
+                <br/>
+                <span class="ignored-method-name">createInfoEventByResourceSchedule</span>
+                <br/>
+                <span class="ignored-method-name">createInformationByFirefighter</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -420,47 +425,67 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">live_functions.AAA_testClass_delete</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">live_functions.A_testClass_dailyCheckPointList</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">BeforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">7595 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">lounchBrowser</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">11035 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">backToHomePage</span>
-                <span class="method-start">11631 ms</span>
+                <span class="method-start">11171 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">userDetails</span>
-                <span class="method-start">14245 ms</span>
+                <span class="method-start">14099 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">backToHomePage2</span>
-                <span class="method-start">14250 ms</span>
+                <span class="method-start">14105 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">backToHomePage</span>
-                <span class="method-start">15667 ms</span>
+                <span class="method-start">15719 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">deleteAllManualAlarm</span>
-                <span class="method-start">17135 ms</span>
+                <span class="method-name">extendLowPriorityAlarmFrom07To06ByAttribute</span>
+                <span class="method-start">17251 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">backToHomePage2</span>
-                <span class="method-start">80775 ms</span>
+                <span class="method-start">86248 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">backToHomePage</span>
-                <span class="method-start">80781 ms</span>
+                <span class="method-start">87884 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">detailsAboutScript</span>
+                <span class="method-start">89858 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">backToHomePage2</span>
-                <span class="method-start">80785 ms</span>
+                <span class="method-start">92870 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">logOut</span>
+                <span class="method-start">94371 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">98499 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">AfterSute</span>
+                <span class="method-start">98855 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

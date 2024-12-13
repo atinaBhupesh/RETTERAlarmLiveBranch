@@ -69,7 +69,7 @@ public class H_testAlarm extends B_baseClass
 	@FindBy(xpath = "//button[@id=\"delYes\"]")private WebElement deleteYes;
 	@FindBy(xpath = "//button[@id=\"delRec\"]")private WebElement deleteYes1;
 	@FindBy(xpath = "//a[@href=\"http://live.retteralarm.de/admin/TestAlarms/testAlarmOverviews\"]")private WebElement testAlarmOverviewL;
-	@FindBy(xpath = "//a[@href=\"http://Testing.retteralarm.de/admin/TestAlarms/testAlarmOverviews\"]")private WebElement testAlarmOverviewT;
+	@FindBy(xpath = "//a[@href=\"http://testing.retteralarm.de/admin/TestAlarms/testAlarmOverviews\"]")private WebElement testAlarmOverviewT;
 	@FindBy(xpath = "//a[@href=\"http://development.retteralarm.de/admin/TestAlarms/testAlarmOverviews\"]")private WebElement testAlarmOverviewD ;
 
 	
@@ -106,9 +106,9 @@ public class H_testAlarm extends B_baseClass
 	@FindBy(xpath="//select[@name=\"alarmTable_length\"]")private WebElement alarmLength;
 	 @FindBy(xpath="(//span[text()=\"Active\"])[1]")private WebElement deactiveAlarm;
 	@FindBy(xpath="//button[@id=\"statChange\"]")private WebElement changeStatusYes;
+	@FindBy(xpath="//span[contains(text(),\"BG\")]")private List<WebElement> availableDataCount;
 	
-	
-	
+//	Live
 	@FindBy(xpath = "//input[@value=\"15429\"]")private WebElement ADST06A2;
     @FindBy(xpath = "//input[@value=\"3136\"]")private WebElement ADST06R2;
     @FindBy(xpath = "//input[@value=\"22999\"]")private WebElement jonas2;
@@ -118,10 +118,16 @@ public class H_testAlarm extends B_baseClass
 	@FindBy(xpath="//input[@value=\"4220\"]")private WebElement ADST06ALEsc ;
 	
 	
+	
+	//Testing
+		@FindBy(xpath="//input[@value=\"2170\"]")private WebElement D1ST04A1;
+		@FindBy(xpath="//input[@value=\"472\"]")private WebElement D1ST04R2;
+		@FindBy(xpath="//input[@value=\"18952\"]")private WebElement bhupeshTest;
+		@FindBy(xpath="//input[@value=\"476\"]")private WebElement D1ST04Esc;
 
 
-	@FindBy(xpath="//span[contains(text(),\"BG\")]")private List<WebElement> availableDataCount;
-	// @FindBy(xpath="")private WebElement ;
+
+	@FindBy(xpath="//INPUT[@value=\"462\"]")private WebElement D1ST04AL1;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -168,17 +174,17 @@ public class H_testAlarm extends B_baseClass
 		
 		
 		
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			testAlarmListL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			testAlarmListT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			testAlarmListT.click();
 			
@@ -191,17 +197,17 @@ public class H_testAlarm extends B_baseClass
 		testAlarmModule.click();
 		
 
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			testAlarmOverviewL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			testAlarmOverviewT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			testAlarmOverviewD.click();
 			
@@ -218,7 +224,7 @@ public class H_testAlarm extends B_baseClass
 	
 	
 	
-	public void testAlarmByRecursiveMonthlyDateWais(WebDriver driver, String date , String gTimeA7min , String BranchNameB)
+	public void testAlarmByRecursiveMonthlyDateWais(WebDriver driver, String date , String gTimeA7min , String deptName,String St1N,String St1V1, String St1V2, String BranchNameB)
 			throws Throwable {
 		Actions act = new Actions(driver);
 
@@ -226,14 +232,14 @@ public class H_testAlarm extends B_baseClass
 		
 		fireDepartmentField.click();
 	
-		act.sendKeys("Andrew").build().perform();
+		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 	
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(4000);
 		fireStationField.click();
 	
-		act.sendKeys("06").build().perform();
+		act.sendKeys(St1N).build().perform();
 		Thread.sleep(2000);
 		
 		act.sendKeys(Keys.ENTER).build().perform();
@@ -283,9 +289,35 @@ public class H_testAlarm extends B_baseClass
 		selectAllCheckBox.click();
 		Thread.sleep(1000);
      
+		
+		
 	
-		ADST06AL2.click();
+		
+		
+		
+		
+
+
+		if  (BranchNameB.equals("1"))
+		{
+			ADST06AL2.click();
+		}
+		
+		else if (BranchNameB.equals("2"))
+		{
+			D1ST04AL1.click();
+		}
+		
+		else if (BranchNameB.equals("3"))
+		{
+			testAlarmOverviewD.click();
+			
+		}
+		
 		Thread.sleep(1000);
+		
+		
+		
 		
 		testAlarmAdressFeild.click();
 
@@ -304,7 +336,7 @@ public class H_testAlarm extends B_baseClass
 	}
 
 	
-	public void testAlarmByRecursiveMonthlyDayWise(WebDriver driver, String date , String gTimeA7min, String dayCount,String today, String BranchNameB)
+	public void testAlarmByRecursiveMonthlyDayWise(WebDriver driver, String date , String gTimeA7min, String dayCount,String today, String deptName,String St1N,String St1V1, String St1V2, String BranchNameB)
 			throws Throwable {
 		Actions act = new Actions(driver);
 
@@ -312,14 +344,14 @@ public class H_testAlarm extends B_baseClass
 		
 		fireDepartmentField.click();
 	
-		act.sendKeys("Andrew").build().perform();
+		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 	
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(4000);
 		fireStationField.click();
 	
-		act.sendKeys("06").build().perform();
+		act.sendKeys(St1N).build().perform();
 		Thread.sleep(2000);
 		
 		act.sendKeys(Keys.ENTER).build().perform();
@@ -371,12 +403,28 @@ public class H_testAlarm extends B_baseClass
 		Thread.sleep(1000);
 		selectAllCheckBox.click();
 		Thread.sleep(1000);
-     
-		ADST06AL2.click();
+		
+		
+		
+   
+
+
+		if  (BranchNameB.equals("1"))
+		{
+			ADST06AL2.click();
+		}
+		
+		else if (BranchNameB.equals("2"))
+		{
+			D1ST04AL1.click();
+		}
+		
+		else if (BranchNameB.equals("3"))
+		{
+			testAlarmOverviewD.click();
+			
+		}
 		Thread.sleep(1000);
-
-
-
 
 		testAlarmAdressFeild.click();
 
@@ -398,7 +446,7 @@ public class H_testAlarm extends B_baseClass
 	
 	
 	
-	public void testAlarmByRecursiveWeekly(WebDriver driver, String date , String gTimeA7min, String today , String BranchNameB)
+	public void testAlarmByRecursiveWeekly(WebDriver driver, String date , String gTimeA7min, String today ,String deptName,String St1N,String St1V1, String St1V2, String BranchNameB)
 			throws Throwable {
 		Actions act = new Actions(driver);
 
@@ -406,14 +454,14 @@ public class H_testAlarm extends B_baseClass
 		
 		fireDepartmentField.click();
 	
-		act.sendKeys("Andrew").build().perform();
+		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 	
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(4000);
 		fireStationField.click();
 	
-		act.sendKeys("06").build().perform();
+		act.sendKeys(St1N).build().perform();
 		Thread.sleep(2000);
 		
 		act.sendKeys(Keys.ENTER).build().perform();
@@ -456,14 +504,14 @@ public class H_testAlarm extends B_baseClass
 		
 		
 		
-		act.sendKeys("06v1").build().perform();
+		act.sendKeys(St1V1).build().perform();
 		Thread.sleep(1000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(1000);
 
 		act.sendKeys(Keys.TAB).build().perform();
 		Thread.sleep(1000);
-		act.sendKeys("06v3").build().perform();
+		act.sendKeys(St1V2).build().perform();
 		Thread.sleep(1000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(1000);
@@ -473,14 +521,35 @@ public class H_testAlarm extends B_baseClass
 
 		selectAllCheckBox.click();
 		
-		jonas3.click();
-		Thread.sleep(1000);
-		jonas2.click();
-		Thread.sleep(1000);
-//		bhupeshLive2.click();
-//		Thread.sleep(1000);
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		if  (BranchNameB.equals("1"))
+		{
+			jonas3.click();
+			Thread.sleep(1000);
+			jonas2.click();
+			Thread.sleep(1000);
+//			bhupeshLive2.click();
+//			Thread.sleep(1000);
+		}
+		
+		else if (BranchNameB.equals("2"))
+		{
+			bhupeshTest.click();
+		}
+		
+		else if (BranchNameB.equals("3"))
+		{
+			testAlarmOverviewD.click();
+			
+		}
 		
 		
 		testAlarmAdressFeild.click();
@@ -503,7 +572,7 @@ public class H_testAlarm extends B_baseClass
 	
 	
 	
-	public void testAlarmByRecursiveDaily(WebDriver driver, String date , String gTimeA9min , String BranchNameB)
+	public void testAlarmByRecursiveDaily(WebDriver driver, String date , String gTimeA9min,  String today,String deptName,String St1N,String St1V1, String St1V2 ,  String BranchNameB)
 			throws Throwable {
 		Actions act = new Actions(driver);
 
@@ -511,14 +580,14 @@ public class H_testAlarm extends B_baseClass
 		
 		fireDepartmentField.click();
 	
-		act.sendKeys("Andrew").build().perform();
+		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 	
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(4000);
 		fireStationField.click();
 	
-		act.sendKeys("06").build().perform();
+		act.sendKeys(St1N).build().perform();
 		Thread.sleep(2000);
 		
 		act.sendKeys(Keys.ENTER).build().perform();
@@ -558,10 +627,37 @@ public class H_testAlarm extends B_baseClass
 		selectAllCheckBox.click();
 		Thread.sleep(1000);
 		
+		
+		
+		
 
-	    Thread.sleep(1000);
-	    ADST06R2.click();
+	    
 	
+	
+	    
+	    
+	    
+	    if  (BranchNameB.equals("1"))
+		{
+			
+	    	   ADST06R2.click();
+			
+		}
+		
+		else if (BranchNameB.equals("2"))
+		{
+			D1ST04R2.click();
+		}
+		
+		else if (BranchNameB.equals("3"))
+		{
+//			Bh1A2.click();
+			
+		}
+	    
+	    
+	    
+	    
 		
 	    Thread.sleep(1000);
 		testAlarmAdressFeild.click();
@@ -588,21 +684,21 @@ public class H_testAlarm extends B_baseClass
 
 	
 
-	public void testAlarmByOnetime(WebDriver driver, String date, String gTimeA11min, String today, String BranchNameB) throws Throwable {
+	public void testAlarmByOnetime(WebDriver driver, String date, String gTimeA11min, String today,String deptName,String St1N,String St1V1, String St1V2 , String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
 		
 		fireDepartmentField.click();
 	
-		act.sendKeys("Andrew").build().perform();
+		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 	
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(4000);
 		fireStationField.click();
 	
-		act.sendKeys("06").build().perform();
+		act.sendKeys(St1N).build().perform();
 		Thread.sleep(2000);
 		
 		act.sendKeys(Keys.ENTER).build().perform();
@@ -648,25 +744,52 @@ public class H_testAlarm extends B_baseClass
 		userTypeAttribute.click();
 		Thread.sleep(1000);
 		vehicleField.click();
+		
+		
+		Thread.sleep(2000);
+		
 
-		act.sendKeys("06v1").build().perform();
+		act.sendKeys(St1V1).build().perform();
 		Thread.sleep(3000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 
 		act.sendKeys(Keys.TAB).build().perform();
 		Thread.sleep(2000);
-		act.sendKeys("06v3").build().perform();
+		act.sendKeys(St1V2).build().perform();
 		Thread.sleep(3000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
-
+		
 		selectAllCheckBox.click();
 		Thread.sleep(1000);
 
 		selectAllCheckBox.click();
 		Thread.sleep(1000);
-		ADST06A2.click();
+		
+		if  (BranchNameB.equals("1"))
+		{
+			
+			ADST06A2.click();
+			
+		}
+		
+		else if (BranchNameB.equals("2"))
+		{
+			D1ST04A1.click();
+		}
+		
+		else if (BranchNameB.equals("3"))
+		{
+//			Bh1A2.click();
+			
+		}
+		
+		
+		
+
+		
+		
 		Thread.sleep(1000);
 		testAlarmAdressFeild.click();
 
@@ -701,17 +824,17 @@ public class H_testAlarm extends B_baseClass
 	public void deleteTestAlarmFromList(WebDriver driver,String BranchNameB) throws Throwable {
 		testAlarmModule.click();
 		Thread.sleep(2000);
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			testAlarmListL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			testAlarmListT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			testAlarmListD.click();
 			
