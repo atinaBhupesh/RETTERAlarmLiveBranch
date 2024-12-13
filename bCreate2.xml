@@ -9,8 +9,7 @@
 				<include name="userDetails"  />
 	     	
 			
-	
-			<include name="extendLowPriorityAlarmFrom07To06ByAttribute"  />
+	<include name="createManualAlarmByAttribute"  />
 			
 			
 			
