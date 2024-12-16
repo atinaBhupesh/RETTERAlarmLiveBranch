@@ -115,7 +115,7 @@ public class E_manualAlarm extends B_baseClass
 	@FindBy(xpath = "//button[@id=\"statChange\"]")
 	private WebElement changeStatusYes;
 	@FindBy(xpath = "//span[contains(text(), 'BG')]")private WebElement BGAlarm;
-	@FindBy(xpath = "//span[contains(text(),\"BG\")]")private List<WebElement> availableDataCount;
+	@FindBy(xpath = "//span[contains(text(), 'BG ')]")private List<WebElement> availableDataCount;
 
 	//live
 	@FindBy(xpath = "//input[@value=\"15429\"]")private WebElement ADST06A2;
@@ -1360,9 +1360,9 @@ public class E_manualAlarm extends B_baseClass
 
 			{
 				deactiveAlarm.click();
-				Thread.sleep(1000);
-				changeStatusYes.click();
 				Thread.sleep(3000);
+				changeStatusYes.click();
+				Thread.sleep(1000);
 				Reporter.log("Alarm number-" + i + " is deactive sucessfully.", true);
 				Thread.sleep(5000);
 				driver.navigate().refresh();
@@ -1413,7 +1413,7 @@ public class E_manualAlarm extends B_baseClass
 			Thread.sleep(3000);
 
 			delete.click();
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 			deleteYes.click();
 
 			Reporter.log("Alarm number-" + i + " is deleted successfully.", true);
@@ -1452,7 +1452,7 @@ public class E_manualAlarm extends B_baseClass
 //			int z = availableDataCount.size();
 //			Reporter.log("The total available manual alarms count is-" + z + " in the list for delete.", true);
 
-			for (int i = 1; i <= 200; i++) {
+			for (int i = 1; i <= 56; i++) {
 				searchField.click();
 
 //				act.sendKeys("BG").build().perform();
@@ -1461,9 +1461,9 @@ public class E_manualAlarm extends B_baseClass
 //				Thread.sleep(3000);
 
 				delete.click();
-
+				Thread.sleep(3000);
 				deleteYes.click();
-
+			
 				Reporter.log("Alarm number-" + i + " is deleted successfully.", true);
 
 				Thread.sleep(2000);

@@ -10,8 +10,7 @@
 
 						
 						
-				
-				<include name="deactiveManualAlarm" />
+				<include name="deleteAllManualAlarm" />
 				
 						<exclude name="deactiveManualAlarm" />
 						<exclude name="deleteAllManualAlarm" />

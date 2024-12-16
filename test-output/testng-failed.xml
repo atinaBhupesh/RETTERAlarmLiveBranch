@@ -7,11 +7,12 @@
         <methods>
           <include name="logOut"/>
           <include name="backToHomePage2"/>
-          <include name="extendLowPriorityAlarmFrom07To06ByAttribute"/>
           <include name="BeforeSuite"/>
           <include name="AfterTest"/>
+          <include name="detailsAboutScript"/>
           <include name="backToHomePage"/>
           <include name="BeforeTest"/>
+          <include name="createPermissionGroupDefaultStation"/>
           <include name="lounchBrowser"/>
           <include name="AfterSute"/>
         </methods>

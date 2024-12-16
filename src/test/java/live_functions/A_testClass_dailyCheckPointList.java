@@ -302,7 +302,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of adding new alarm template is started.", true);
 		atem.commonForAlarmTemplate(driver,BranchNameB);
-		atem.addAlarmTemplate(driver, dateDDMMYY, gTimeHHMM,BranchNameB);
+		atem.addAlarmTemplate(driver, dateDDMMYY, gTimeHHMM,  deptName, St1N, St1V1,BranchNameB);
 		
 		Reporter.log("The process of adding new alarm template is complete.", true);
 		Reporter.log(" ", true);
@@ -322,7 +322,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of adding new alarm loop is started.", true);
 		al.commonForAlarmLoop(driver,BranchNameB);
-		al.addAlarmLoop(driver, dateDDMMYY, gTimeHHMM,BranchNameB);
+		al.addAlarmLoop(driver, dateDDMMYY, gTimeHHMM,deptName, St1N,BranchNameB);
 		Reporter.log("The process of adding new alarm loop is complete.", true);
 		Reporter.log(" ", true);
 		
@@ -338,7 +338,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void createResource() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of adding new resource is started.", true);
-		rec.addResource(driver, dateDDMMYY, gTimeHHMM,BranchNameB);
+		rec.addResource(driver, dateDDMMYY, gTimeHHMM,deptName, St1N,BranchNameB);
 		Reporter.log("The process of adding new resource is complete.", true);
 		Reporter.log(" ", true);
 		
@@ -352,7 +352,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void createPermissionGroupDefaultStation() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating permission group for default station is started.", true);
-		pg.createPrmissionGroup(driver, dateDDMMYY, gTimeHHMM);
+		pg.createPrmissionGroup(driver, dateDDMMYY, gTimeHHMM, BranchNameB);
 		Reporter.log("The process of creating permission group for default station is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -367,7 +367,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating normal check list is started.", true);
 		cl.commonForCheckList(driver,BranchNameB);
-		cl.createCheckListNormal(driver, dateDDMMYY, gTimeHHMM,BranchNameB);
+		cl.createCheckListNormal(driver, dateDDMMYY, gTimeHHMM, deptName, St1N,BranchNameB);
 		Reporter.log("The process of creating normal check list is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -379,7 +379,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating alarm check list is started.", true);
 		cl.commonForCheckList(driver,BranchNameB);
-		cl.createCheckListAlarm(driver, dateDDMMYY, gTimeHHMM,BranchNameB);
+		cl.createCheckListAlarm(driver, dateDDMMYY, gTimeHHMM,deptName, St1N, BranchNameB);
 		Reporter.log("The process of creating alarm check list is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -396,7 +396,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a chat group is started.", true);
 		cg.commonForCreateGroup(driver,BranchNameB);
-		cg.createGroupByAttribute(driver, date, gCurrntTime,BranchNameB);
+		cg.createGroupByAttribute(driver, date, gCurrntTime,deptName, St1N,BranchNameB);
 		Reporter.log("The process of creating a chat group is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -424,7 +424,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating chat group by attribute is started.", true);
 		cg.commonForCreateGroup(driver,BranchNameB);
-		cg.createGroupByAttribute(driver, date, gCurrntTime,BranchNameB);
+		cg.createGroupByAttribute(driver, date, gCurrntTime,deptName, St1N,BranchNameB);
 	
 		Reporter.log("The process of creating chat group by attribute is complete.", true);
 		Reporter.log(" ", true);
@@ -439,7 +439,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating chat group by resource is started.", true);
 		cg.commonForCreateGroup(driver,BranchNameB);
-		cg.createGroupByResource(driver, date, gCurrntTime,BranchNameB);
+		cg.createGroupByResource(driver, date, gCurrntTime,deptName, St1N,BranchNameB);
 	
 		Reporter.log("The process of creating chat group by resource is complete.", true);
 		Reporter.log(" ", true);
@@ -452,7 +452,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating chat group by fire fightr is started.", true);
 		cg.commonForCreateGroup(driver,BranchNameB);
-		cg.createGroupByFirefighter(driver, date, gCurrntTime, BranchNameB);
+		cg.createGroupByFirefighter(driver, date, gCurrntTime, deptName, St1N,BranchNameB);
 	
 		Reporter.log("The process of creating chat group by fire fightr is complete.", true);
 		Reporter.log(" ", true);
@@ -465,7 +465,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating chat group by alarm loop is started.", true);
 		cg.commonForCreateGroup(driver,BranchNameB);
-		cg.createGroupByAlarmLoop(driver, date, gCurrntTime , BranchNameB);
+		cg.createGroupByAlarmLoop(driver, date, gCurrntTime ,deptName, St1N, BranchNameB);
 	
 		Reporter.log("The process of creating chat group by alarm loop is complete.", true);
 		Reporter.log(" ", true);
@@ -716,7 +716,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating attribute is started.", true);
 		
-		at.addAttribute(driver,dateDDMMYY,gTimeHHMM,BranchNameB);
+		at.addAttribute(driver,dateDDMMYY,gTimeHHMM,deptName,BranchNameB);
 		
 		
 		Reporter.log("The process of creating attribute is is complete.", true);
@@ -1134,7 +1134,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of create availability request > send imediate is started.", true);
 		ar.availabilityRequestCommon(driver,BranchNameB);
-		ar.ARSendImmediate(driver,date, date2, gTimeA7min, dateAft2Days, gTimeA22min,BranchNameB);
+		ar.ARSendImmediate(driver,date, date2, gTimeA7min, dateAft2Days, gTimeA22min,deptName,BranchNameB);
 		Reporter.log("The process of create availability request > send imediate is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1145,7 +1145,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of create availability request > schedule is started.", true);
 		ar.availabilityRequestCommon(driver,BranchNameB);
-		ar.ARSendSchedule(driver, date, date2, gTimeA7min, dateAft2Days, gTimeA22min,BranchNameB);
+		ar.ARSendSchedule(driver, date, date2, gTimeA7min, dateAft2Days, gTimeA22min,deptName, BranchNameB);
 		Reporter.log("The process of create availability request > schedule is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1156,7 +1156,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of create availability request > recursive is started.", true);
 		ar.availabilityRequestCommon(driver,BranchNameB);
-		ar.ARRecursivee(driver,date, today, gTimeA7min, gTimeA22min, dayAf2day, dayAf4day,BranchNameB);
+		ar.ARRecursivee(driver,date, today, gTimeA7min, gTimeA22min, dayAf2day, dayAf4day,deptName,BranchNameB);
 		Reporter.log("The process of create availability request > recursive is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1167,7 +1167,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of create availability request > multiple days is started.", true);
 		ar.availabilityRequestCommon(driver,BranchNameB);
-		ar.ARSendMultiple(driver, date, gTimeA7min, gTimeA11min, gTimeA15min, dayAf2day, dayAf4day, gTimeA22min,BranchNameB);
+		ar.ARSendMultiple(driver, date, gTimeA7min, gTimeA11min, gTimeA15min, dayAf2day, dayAf4day, gTimeA22min,deptName,BranchNameB);
 		Reporter.log("The process of create availability request > multiple days is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);

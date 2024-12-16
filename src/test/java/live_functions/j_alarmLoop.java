@@ -60,17 +60,17 @@ public class j_alarmLoop extends  B_baseClass {
 		Thread.sleep(1000);
 		
 		
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			alarmLoopL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			alarmLoopT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			alarmLoopD.click();
 			
@@ -108,17 +108,17 @@ public class j_alarmLoop extends  B_baseClass {
 
 
 
-	public void addAlarmLoop(WebDriver driver, String dateDDMMYY, String gTimeHHMM, String branchNameB) throws Throwable {
+	public void addAlarmLoop(WebDriver driver, String dateDDMMYY, String gTimeHHMM,String deptName,String St1N, String branchNameB) throws Throwable {
 
 		Actions act = new Actions(driver);
 		createNew.click();
 		
 		fireDepartmentField.click();
-		act.sendKeys("Andrew").build().perform();
+		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		fireStationField.click();
-		act.sendKeys("06").build().perform();
+		act.sendKeys(St1N).build().perform();
 		//act.sendKeys(dateDDMMYY).sendKeys(gTimeHHMM).build().perform();
 		act.sendKeys(Keys.ENTER).build().perform();
 		alarmLoopNikName.click();

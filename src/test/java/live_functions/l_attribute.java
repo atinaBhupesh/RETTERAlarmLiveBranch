@@ -47,7 +47,7 @@ public class l_attribute  extends  B_baseClass{
 		PageFactory.initElements(driver, this);
 	}
 
-	public void addAttribute(WebDriver driver, String dateDDMMYY, String gTimeHHMM, String BranchNameB) throws Throwable {
+	public void addAttribute(WebDriver driver, String dateDDMMYY, String gTimeHHMM,String deptName, String BranchNameB) throws Throwable {
 
 		attributeModule.click();
 	
@@ -55,17 +55,17 @@ public class l_attribute  extends  B_baseClass{
 		Thread.sleep(1000);
 		
 		
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			manageAttributeL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			manageAttributeT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			manageAttributeD.click();
 			
@@ -75,7 +75,7 @@ public class l_attribute  extends  B_baseClass{
 		departmentField.click();
 		Actions act = new Actions(driver);
 
-		act.sendKeys("Andrew").build().perform();
+		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
@@ -100,17 +100,17 @@ public class l_attribute  extends  B_baseClass{
 Thread.sleep(1000);
 		
 		
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			manageAttributeL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			manageAttributeT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			manageAttributeD.click();
 			
@@ -145,17 +145,17 @@ Thread.sleep(1000);
 Thread.sleep(1000);
 		
 		
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			manageAttributeL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			manageAttributeT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			manageAttributeD.click();
 			

@@ -91,6 +91,12 @@ public class F_information extends B_baseClass {
 
 //	 Testing 
 	@FindBy(xpath="//input[@value=\"14551\"]")private WebElement D1ST04M1;
+	@FindBy(xpath="//input[@value=\"2170\"]")private WebElement D1ST04A1;
+	@FindBy(xpath="//input[@value=\"472\"]")private WebElement D1ST04R2;
+	@FindBy(xpath="//input[@value=\"18952\"]")private WebElement bhupeshTest;
+	@FindBy(xpath="//input[@value=\"476\"]")private WebElement D1ST04Esc;
+	@FindBy(xpath="//input[@value=\"3078\"]")private WebElement D1ST5A1;
+	
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -174,7 +180,21 @@ public class F_information extends B_baseClass {
 		
 		userTypeAttribute.click();
 		Thread.sleep(2000);
-		ADST06A2.click();
+	
+		
+		
+		switch (BranchNameB) {
+		
+		case "1":
+			ADST06A2.click();
+			break;
+			
+		case "2":
+			
+			D1ST04A1.click();
+			break;
+		}
+		
 		Thread.sleep(2000);
 		saveInfo.click();
 		
@@ -207,7 +227,27 @@ public class F_information extends B_baseClass {
 		
 		
 		userTypeResource.click();
-		ADST06R2.click();
+		
+		
+	switch (BranchNameB) {
+		
+		case "1":
+			ADST06R2.click();
+			break;
+			
+		case "2":
+			
+			D1ST04R2.click();
+			break;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
 		saveInfo.click();
 		
 	
@@ -237,9 +277,28 @@ public class F_information extends B_baseClass {
 		act.sendKeys(Keys.TAB).build().perform();
 		act.sendKeys("BG-Information created by firefighter checking.").build().perform();
 		userTypeFireFighter.click();
-		jonas3.click();
-		Thread.sleep(1000);
-		jonas2.click();
+		
+		
+switch (BranchNameB) {
+		
+		case "1":
+			jonas3.click();
+			Thread.sleep(1000);
+			jonas2.click();
+			break;
+			
+		case "2":
+			
+			bhupeshTest.click();
+			break;
+		}
+		
+		
+		
+		
+		
+		
+		
 		Thread.sleep(1000);
 //		bhupeshLive2.click();
 //		Thread.sleep(2000);
@@ -367,6 +426,7 @@ public class F_information extends B_baseClass {
 			searchButton.click();
 			Thread.sleep(2000);
 			delete.click();
+			Thread.sleep(3000);
 			deleteYes.click();
 			Reporter.log("information number-" + i + " is deleted sucessfully.", true);
 			driver.navigate().refresh();	

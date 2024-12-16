@@ -109,17 +109,23 @@ public class I_availabilityRequest extends B_baseClass {
 	private WebElement writemessageField;
 	@FindBy(xpath = "//button[@id=\"actionSendMessage\"]")
 	private WebElement sendmessageButton;
+	
+	@FindBy(xpath="//td[contains(text(),\"BG-AR\")]")private List<WebElement> availableDataCount;
 
+//	Live
 	@FindBy(xpath="//input[@value=\"6286\"]")private WebElement Station06;
 	
 	@FindBy(xpath = "//input[@id=\"ff_6286_23001\"]")private WebElement jonas3;
 	@FindBy(xpath="//input[@id=\"ff_6286_22999\"]")private WebElement jonas2 ;
 	
 	
-	@FindBy(xpath="//td[contains(text(),\"BG-AR\")]")private List<WebElement> availableDataCount;
+//	Testing
+  @FindBy(xpath="//input[@value=\"980\"]")private WebElement station04;
+  @FindBy(xpath="//input[@id=\"ff_980_18952\"]")private WebElement bhupeshTest;
 	// @FindBy(xpath="")private WebElement ;
-	// @FindBy(xpath="")private WebElement ;
-	// @FindBy(xpath="")private WebElement ;
+//@FindBy(xpath="")private WebElement ;
+//@FindBy(xpath="")private WebElement ;
+//@FindBy(xpath="")private WebElement ;
 
 	public I_availabilityRequest(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -133,17 +139,17 @@ public class I_availabilityRequest extends B_baseClass {
 
 		
 		
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			availabilityRequesL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			availabilityRequesT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			availabilityRequesD.click();
 			
@@ -162,17 +168,17 @@ public class I_availabilityRequest extends B_baseClass {
 	
 		
 
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			availabilityRequestHistoryL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			availabilityRequestHistoryT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("3"))
 		{
 			availabilityRequestHistoryD.click();
 			
@@ -183,7 +189,7 @@ public class I_availabilityRequest extends B_baseClass {
 	}
 
 	public void ARSendImmediate(WebDriver driver,String date, String date2, String gTimeA7min, String dateAft2Days,
-			String gTimeA22min, String BranchNameB) throws Throwable {
+			String gTimeA22min, String deptName, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
@@ -199,24 +205,53 @@ public class I_availabilityRequest extends B_baseClass {
 	
 		departmentField.click();
 		
-		act.sendKeys("andrew").build().perform();
+		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 	
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		
 		
-		Station06.click();
-		act.sendKeys(Keys.PAGE_DOWN).build().perform();
-		Thread.sleep(2000);
-		Station06.click();
-		Thread.sleep(2000);
 		
-		jonas3.click();
-		Thread.sleep(1000);
-		jonas2.click();
-		Thread.sleep(1000);
 	
+		
+		
+		switch (BranchNameB) {
+		
+		case "1" :
+			
+			Station06.click();
+			act.sendKeys(Keys.PAGE_DOWN).build().perform();
+			Thread.sleep(2000);
+			Station06.click();
+			Thread.sleep(2000);
+			
+			jonas3.click();
+			Thread.sleep(1000);
+			jonas2.click();
+			Thread.sleep(1000);
+			
+			
+			break;
+			
+			
+		case "2" :
+			station04.click();
+			act.sendKeys(Keys.PAGE_DOWN).build().perform();
+			Thread.sleep(2000);
+			station04.click();
+			Thread.sleep(2000);
+			
+			bhupeshTest.click();
+			Thread.sleep(1000);
+			
+			break;
+			
+			
+		
+		}
+		
+		
 		
 	
 
@@ -273,7 +308,7 @@ public class I_availabilityRequest extends B_baseClass {
 	}
 
 	public void ARSendSchedule(WebDriver driver, String date, String date2, String gTimeA7min, String dateAft2Days,
-			String gTimeA22min, String BranchNameB) throws Throwable {
+			String gTimeA22min, String deptName, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
@@ -289,24 +324,46 @@ public class I_availabilityRequest extends B_baseClass {
 		act.sendKeys(date + " " + gTimeA7min).build().perform();
 
 		departmentField.click();
-		act.sendKeys("Andrew").build().perform();
+		act.sendKeys( deptName).build().perform();
 		Thread.sleep(2000);
 	
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		
+      switch (BranchNameB) {
 		
-		Station06.click();
-		act.sendKeys(Keys.PAGE_DOWN).build().perform();
-		Thread.sleep(2000);
-		Station06.click();
-		Thread.sleep(2000);
+		case "1" :
+			
+			Station06.click();
+			act.sendKeys(Keys.PAGE_DOWN).build().perform();
+			Thread.sleep(2000);
+			Station06.click();
+			Thread.sleep(2000);
+			
+			jonas3.click();
+			Thread.sleep(1000);
+			jonas2.click();
+			Thread.sleep(1000);
+			
+			
+			break;
+			
+			
+		case "2" :
+			station04.click();
+			act.sendKeys(Keys.PAGE_DOWN).build().perform();
+			Thread.sleep(2000);
+			station04.click();
+			Thread.sleep(2000);
+			
+			bhupeshTest.click();
+			Thread.sleep(1000);
+			
+			break;
+			
+			
 		
-		jonas3.click();
-		Thread.sleep(1000);
-		jonas2.click();
-		Thread.sleep(1000);
-	
+		}
 
 
 		ARFromDate.click();
@@ -348,7 +405,7 @@ public class I_availabilityRequest extends B_baseClass {
 	}
 
 	public void ARRecursivee(WebDriver driver,String date, String today, String gTimeA7min, String gTimeA22min, String dayAf2day,
-			String dayAf4day, String BranchNameB) throws Throwable {
+			String dayAf4day,String deptName, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
@@ -367,23 +424,47 @@ public class I_availabilityRequest extends B_baseClass {
 		act.sendKeys(gTimeA7min).build().perform();
 
 		departmentField.click();
-		act.sendKeys("Andrew").build().perform();
+		act.sendKeys( deptName).build().perform();
 		Thread.sleep(2000);
 	
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		
 		
-		Station06.click();
-		act.sendKeys(Keys.PAGE_DOWN).build().perform();
-		Thread.sleep(2000);
-		Station06.click();
-		Thread.sleep(2000);
+switch (BranchNameB) {
 		
-		jonas3.click();
-		Thread.sleep(1000);
-		jonas2.click();
-		Thread.sleep(1000);
+		case "1" :
+			
+			Station06.click();
+			act.sendKeys(Keys.PAGE_DOWN).build().perform();
+			Thread.sleep(2000);
+			Station06.click();
+			Thread.sleep(2000);
+			
+			jonas3.click();
+			Thread.sleep(1000);
+			jonas2.click();
+			Thread.sleep(1000);
+			
+			
+			break;
+			
+			
+		case "2" :
+			station04.click();
+			act.sendKeys(Keys.PAGE_DOWN).build().perform();
+			Thread.sleep(2000);
+			station04.click();
+			Thread.sleep(2000);
+			
+			bhupeshTest.click();
+			Thread.sleep(1000);
+			
+			break;
+			
+			
+		
+		}
 	
 
 		Select se2 = new Select(ArRequestFrom);
@@ -418,7 +499,7 @@ public class I_availabilityRequest extends B_baseClass {
 	}
 
 	public void ARSendMultiple(WebDriver driver,String date, String gTimeA7min, String gTimeA9min, String gTimeA11min,
-			String dayAf2day, String dayAf4day, String gTimeA22min, String BranchNameB) throws Throwable {
+			String dayAf2day, String dayAf4day, String gTimeA22min,String deptName, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
@@ -449,23 +530,47 @@ public class I_availabilityRequest extends B_baseClass {
 		act.sendKeys(date + " " + gTimeA11min).build().perform();
 
 		departmentField.click();
-		act.sendKeys("Andrew").build().perform();
+		act.sendKeys( deptName).build().perform();
 		Thread.sleep(2000);
 	
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		
 		
-		Station06.click();
-		act.sendKeys(Keys.PAGE_DOWN).build().perform();
-		Thread.sleep(2000);
-		Station06.click();
-		Thread.sleep(2000);
+switch (BranchNameB) {
 		
-		jonas3.click();
-		Thread.sleep(1000);
-		jonas2.click();
-		Thread.sleep(1000);
+		case "1" :
+			
+			Station06.click();
+			act.sendKeys(Keys.PAGE_DOWN).build().perform();
+			Thread.sleep(2000);
+			Station06.click();
+			Thread.sleep(2000);
+			
+			jonas3.click();
+			Thread.sleep(1000);
+			jonas2.click();
+			Thread.sleep(1000);
+			
+			
+			break;
+			
+			
+		case "2" :
+			station04.click();
+			act.sendKeys(Keys.PAGE_DOWN).build().perform();
+			Thread.sleep(2000);
+			station04.click();
+			Thread.sleep(2000);
+			
+			bhupeshTest.click();
+			Thread.sleep(1000);
+			
+			break;
+			
+			
+		
+		}
 
 		Select se1 = new Select(ARMultiFromDay);
 		se1.selectByVisibleText(dayAf2day);

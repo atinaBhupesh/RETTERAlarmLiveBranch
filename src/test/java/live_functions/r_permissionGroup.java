@@ -295,7 +295,7 @@ public class r_permissionGroup {
 			PageFactory.initElements(driver, this);
 		}
 
-		public void createPrmissionGroup (WebDriver driver,String dateDDMMYY,String gTimeHHMM) throws Throwable {
+		public void createPrmissionGroup (WebDriver driver,String dateDDMMYY,String gTimeHHMM, String BranchNameB) throws Throwable {
 			
 			Actions act = new Actions(driver);
 			permissionModule.click();
@@ -315,7 +315,31 @@ public class r_permissionGroup {
 		
 		Thread.sleep(1000);
 		
-		act.sendKeys("a").perform();
+	
+		
+		
+		switch (BranchNameB)
+		{
+		
+		case "1":
+			act.sendKeys("a").perform();
+			break;
+			
+		case "2":
+			act.sendKeys("d").perform();
+			break;
+			
+			
+		
+		}
+		
+		
+		
+		
+		
+		
+		
+		
 		Thread.sleep(1000);
 		act.sendKeys(Keys.ENTER).perform();
 		Thread.sleep(1000);

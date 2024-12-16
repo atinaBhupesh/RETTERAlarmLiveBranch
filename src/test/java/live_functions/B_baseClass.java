@@ -46,19 +46,81 @@ public class B_baseClass {
 		// Store the input in a variable
 		branchName = scanner.nextLine();
 		BranchNameB = branchName;
+		
+	if (branchName.equals("1")) {
+			
+			System.out.println("*****you have selected live branch*****");
+		}
+		else if (branchName.equals("2")) {
+			
+			System.out.println("*****you have selected testing branch*****");
+		}
+
+        else if (branchName.equals("3")) {
+			
+			System.out.println("*****you have selected development branch*****");
+		}
+		
+        else 
+        {
+        	System.out.println("*****you have not selected proper branch*****");
+        
+        	System.out.println("The Selenium script cannot continue because the branch name was not found.");
+        	System.exit(0);
+        }
+		
+		
+		
 		System.out.print("please select browser- 1 for chrome, 2 for edge,3 for firefox : ");
 		browserName = scanner.nextLine();
+		
+		switch (browserName)
+		{
+		case "1" :
+		{
+			System.out.println("*****you have selected chrome browser*****");
+			break;
+		}
+		
+		case "2" :
+		{
+			System.out.println("*****you have selected edge browser*****");
+			break;
+		}
+		
+		case "3" :
+		{
+			System.out.println("*****you have selected firfox browser*****");
+			break;
+		}
+		
+		 default:
+             System.out.println("*****you have not selected proper browser*****");
+         
+             System.out.println("The Selenium script cannot continue because the browser name was not found.");
 
+				System.exit(0);
+		
+				 break;
+			    
+		}
+		
+		
+		
+
+		
+	
+		
 		System.out.print("Enter password: ");
 		psaaword = scanner.nextLine();
 
 		if (branchName != null && !branchName.isEmpty() && psaaword != null) {
 
 			if (psaaword.equals("123456")) {
-				System.out.println("password is correct");
+				System.out.println("*****entered password is correct*****");
 			} else {
-				System.out.println("password is worng");
-				System.out.println("The Selenium script cannot continue because the branch name was not found.");
+				
+				System.out.println("The Selenium script cannot continue because your password is incorrect.");
 
 				System.exit(0);
 

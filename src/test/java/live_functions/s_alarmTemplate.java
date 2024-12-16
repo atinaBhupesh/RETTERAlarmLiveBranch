@@ -36,12 +36,17 @@ public class s_alarmTemplate extends  B_baseClass {
 			 @FindBy(xpath="//input[@class=\"form-control input-sm\"]")private WebElement searchField;
 			 @FindBy(xpath="(//i[@class=\"fa fa-trash-o\"])[1]")private WebElement delate;
 			 @FindBy(xpath="//button[@id=\"delYes1\"]")private WebElement delateYes;
-			 
+			 @FindBy(xpath = "//td[contains(text(),\"BG-Template\")]")
+				private List<WebElement> availableDataCount; 
 			 
 			 @FindBy(xpath = "//input[@value=\"15429\"]") private WebElement ADST06A2;
 			 
-			 @FindBy(xpath = "//td[contains(text(),\"BG-Template\")]")
-				private List<WebElement> availableDataCount; 
+				@FindBy(xpath="//input[@value=\"2170\"]")private WebElement D1ST04A1;
+			 
+			 
+			 
+			 
+			
 			// @FindBy(xpath="")private WebElement ;
 			// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -76,17 +81,17 @@ public class s_alarmTemplate extends  B_baseClass {
 			Thread.sleep(1000);
 			
 			
-			if  (BranchNameB.equals("live"))
+			if  (BranchNameB.equals("1"))
 			{
 				alarmTemplateL.click();
 			}
 			
-			else if (BranchNameB.equals("testing"))
+			else if (BranchNameB.equals("2"))
 			{
 				alarmTemplateT.click();
 			}
 			
-			else if (BranchNameB.equals("dev"))
+			else if (BranchNameB.equals("3"))
 			{
 				alarmTemplateD.click();
 				
@@ -96,25 +101,25 @@ public class s_alarmTemplate extends  B_baseClass {
 		}
 		
 		
-		public void addAlarmTemplate(WebDriver driver,String dateDDMMYY,String gTimeHHMM, String BranchNameB) throws Throwable 
+		public void addAlarmTemplate(WebDriver driver,String dateDDMMYY,String gTimeHHMM, String deptName,String St1N,String St1V1, String BranchNameB) throws Throwable 
 		{
 			
 			Actions act = new Actions(driver);
 			createNew.click();
 			
 			fireDepartmentField.click();
-			act.sendKeys("Andrew").build().perform();
+			act.sendKeys(deptName).build().perform();
 			Thread.sleep(1000);
 			act.sendKeys(Keys.ENTER).build().perform();
 			Thread.sleep(2000);
 			fireStationField.click();
-			act.sendKeys("06").build().perform();
+			act.sendKeys(St1N).build().perform();
 			Thread.sleep(1000);
 			//act.sendKeys(dateDDMMYY).sendKeys(gTimeHHMM).build().perform();
 			act.sendKeys(Keys.ENTER).build().perform();
 			Thread.sleep(2000);
 			alarmedfireStationField.click();
-			act.sendKeys("06").build().perform();
+			act.sendKeys(St1N	).build().perform();
 			Thread.sleep(1000);
 			act.sendKeys(Keys.ENTER).build().perform();
 			Thread.sleep(2000);
@@ -128,8 +133,37 @@ public class s_alarmTemplate extends  B_baseClass {
 			act.sendKeys("creating template alarm for satation 06.").build().perform();
 			userTypeAttribute.click();
 			vehicleField.click();
-			act.sendKeys("ADST06v1").build().perform();
-			ADST06A2.click();
+			act.sendKeys( St1V1).build().perform();
+			Thread.sleep(1000);
+			act.sendKeys(Keys.ENTER).build().perform();
+			Thread.sleep(1000);
+			
+			
+			
+			switch (BranchNameB)
+			{
+			case "1":
+				
+				ADST06A2.click();
+				break;
+				
+			case "2":
+				
+				D1ST04A1.click();
+				break;
+				
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			Thread.sleep(2000);
 			alarmAddress.click();
 			act.sendKeys("Mahal, Nagpur").build().perform();
 			

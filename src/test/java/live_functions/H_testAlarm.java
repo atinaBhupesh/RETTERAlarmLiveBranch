@@ -125,8 +125,6 @@ public class H_testAlarm extends B_baseClass
 		@FindBy(xpath="//input[@value=\"18952\"]")private WebElement bhupeshTest;
 		@FindBy(xpath="//input[@value=\"476\"]")private WebElement D1ST04Esc;
 
-
-
 	@FindBy(xpath="//INPUT[@value=\"462\"]")private WebElement D1ST04AL1;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -875,9 +873,9 @@ public class H_testAlarm extends B_baseClass
 			searchButton.click();
 			Thread.sleep(5000);
 			deleteAlarm.click();
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 			deleteYes1.click();
-			Thread.sleep(5000);
+			Thread.sleep(2000);
 			Reporter.log("Test alarm number-" + i + " deleted sucessfully from overview-testing branch.", true);
 			driver.navigate().refresh();
 			Thread.sleep(2000);

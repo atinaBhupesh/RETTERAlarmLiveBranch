@@ -376,7 +376,26 @@ public class G_InfoEvent extends B_baseClass {
 		selectAllCheckBox.click();
 		act.sendKeys(Keys.PAGE_DOWN).build().perform();
 		selectAllCheckBox.click();
-		ADST06A2.click();
+		
+		
+		
+		
+		
+		
+		switch (BranchNameB) {
+		
+		case "1" :
+			ADST06A2.click();
+			break;
+			
+		case "2" :
+			
+			D1ST04A1.click();
+			break;
+			
+		
+		}
+		
 		Thread.sleep(2000);
 		saveInfo.click();
 		driver.navigate().refresh();
@@ -420,7 +439,32 @@ public class G_InfoEvent extends B_baseClass {
 		act.sendKeys(Keys.PAGE_DOWN).build().perform();
 		selectAllCheckBox.click();
 		Thread.sleep(1000);
-		ADST06R2.click();
+	
+		
+		
+		
+		
+switch (BranchNameB) {
+		
+		case "1" :
+			ADST06R2.click();
+			break;
+			
+		case "2" :
+			
+			D1ST04R2.click();
+			break;
+			
+		
+		}
+		
+		
+		
+		
+		
+		
+		
+		
 		Thread.sleep(2000);
 		saveInfo.click();
 		driver.navigate().refresh();
@@ -464,9 +508,37 @@ public class G_InfoEvent extends B_baseClass {
 		Thread.sleep(2000);
 		selectAllCheckBox.click();
 		Thread.sleep(2000);
-		jonas3.click();
-		Thread.sleep(1000);
-		jonas2.click();
+		
+		
+		
+		
+		
+		
+          switch (BranchNameB) {
+		
+		case "1" :
+			jonas3.click();
+			Thread.sleep(1000);
+			jonas2.click();
+			break;
+			
+		case "2" :
+			
+			bhupeshTest.click();
+			break;
+			
+		
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		Thread.sleep(1000);
 //		bhupeshLive2.click();
 //		Thread.sleep(2000);

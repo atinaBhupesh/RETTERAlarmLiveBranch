@@ -63,17 +63,17 @@ public class q_checkList extends  B_baseClass {
 		Thread.sleep(1000);
 		
 		
-		if  (BranchNameB.equals("live"))
+		if  (BranchNameB.equals("1"))
 		{
 			checkListL.click();
 		}
 		
-		else if (BranchNameB.equals("testing"))
+		else if (BranchNameB.equals("2"))
 		{
 			checkListT.click();
 		}
 		
-		else if (BranchNameB.equals("dev"))
+		else if (BranchNameB.equals("1"))
 		{
 			checkListD.click();
 			
@@ -82,7 +82,7 @@ public class q_checkList extends  B_baseClass {
 		
 	}
 	
-	public void createCheckListNormal (WebDriver driver,String dateDDMMYY,String gTimeHHMM, String BranchNameB) throws Throwable {
+	public void createCheckListNormal (WebDriver driver,String dateDDMMYY,String gTimeHHMM,String deptName,String St1N, String BranchNameB) throws Throwable {
 		
 		Actions act = new Actions(driver);
 		
@@ -92,12 +92,12 @@ public class q_checkList extends  B_baseClass {
 		createNewButton.click();
 		Thread.sleep(3000);
 		selectDepartment.click();
-		act.sendKeys("Andrew").perform();
+		act.sendKeys(deptName).perform();
 		Thread.sleep(500);
 		act.sendKeys(Keys.ENTER).perform();
 		Thread.sleep(2000);
 		fireStationField.click();
-		act.sendKeys("06").perform();
+		act.sendKeys(St1N).perform();
 		Thread.sleep(500);
 		act.sendKeys(Keys.ENTER).perform();
 		checkListNormal.click();
@@ -122,7 +122,7 @@ public class q_checkList extends  B_baseClass {
 		 
 		 
 		 
-		 public void createCheckListAlarm (WebDriver driver,String dateDDMMYY,String gTimeHHMM, String BranchNameB) throws Throwable {
+		 public void createCheckListAlarm (WebDriver driver,String dateDDMMYY,String gTimeHHMM,String deptName,String St1N, String BranchNameB) throws Throwable {
 				
 				Actions act = new Actions(driver);
 				
@@ -132,12 +132,12 @@ public class q_checkList extends  B_baseClass {
 				createNewButton.click();
 				Thread.sleep(3000);
 				selectDepartment.click();
-				act.sendKeys("Andrew").perform();
+				act.sendKeys(deptName).perform();
 				Thread.sleep(500);
 				act.sendKeys(Keys.ENTER).perform();
 				Thread.sleep(2000);
 				fireStationField.click();
-				act.sendKeys("06").perform();
+				act.sendKeys(St1N).perform();
 				Thread.sleep(500);
 				act.sendKeys(Keys.ENTER).perform();
 				checkListAlarm.click();

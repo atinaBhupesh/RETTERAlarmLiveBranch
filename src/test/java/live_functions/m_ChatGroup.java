@@ -58,15 +58,26 @@ public class m_ChatGroup extends  B_baseClass{
 	 @FindBy(xpath = "//button[@id=\"delYes\"]")private WebElement deleteYes;
 	 @FindBy(xpath="//input[@id=\"inlineRadio3\"]")private WebElement userTypeFirefighter;
 	 
+		@FindBy(xpath="(//td[starts-with(text(),'BG-chatGroup')])[1]")private WebElement sm;
+		@FindBy(xpath="//td[contains(text(), 'BG')]")private List<WebElement> availableDataCount;
 	 
+//	 Live
 	 @FindBy(xpath = "//input[@value=\"15429\"]") private WebElement ADST06A2;
 	 @FindBy(xpath="//input[@value=\"3136\"]")private WebElement ADST06R2;
 	 @FindBy(xpath = "//input[@value=\"22999\"]")private WebElement jonas2;
 		@FindBy(xpath = "//input[@value=\"23001\"]")private WebElement jonas3;
 		@FindBy(xpath="//input[@value=\"3497\"]")private WebElement ADST06AL2;
+		
+//		Testing
+		
+		@FindBy(xpath="//input[@value=\"2170\"]")private WebElement D1ST04A1;
+		@FindBy(xpath="//input[@value=\"472\"]")private WebElement D1ST04R2;
+		@FindBy(xpath="//input[@value=\"18952\"]")private WebElement bhupeshTest;
+		@FindBy(xpath="//input[@value=\"476\"]")private WebElement D1ST04Esc;
+		@FindBy(xpath="//input[@value=\"3078\"]")private WebElement D1ST5A1;
+		@FindBy(xpath="//INPUT[@value=\"462\"]")private WebElement D1ST04AL1;
 	 
-	@FindBy(xpath="(//td[starts-with(text(),'BG-chatGroup')])[1]")private WebElement sm;
-	@FindBy(xpath="//td[contains(text(), 'BG')]")private List<WebElement> availableDataCount;
+
 	 // @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -92,7 +103,7 @@ public class m_ChatGroup extends  B_baseClass{
 
 
 
-		public void createGroupByAttribute(WebDriver driver, String date, String gCurrntTime, String BranchNameB) throws Throwable {
+		public void createGroupByAttribute(WebDriver driver, String date, String gCurrntTime, String deptName,String St1N, String BranchNameB) throws Throwable {
 			Actions act = new Actions(driver);
             
 			
@@ -103,17 +114,17 @@ public class m_ChatGroup extends  B_baseClass{
 			Thread.sleep(1000);
 			
 			
-			if  (BranchNameB.equals("live"))
+			if  (BranchNameB.equals("1"))
 			{
 				groupListL.click();
 			}
 			
-			else if (BranchNameB.equals("testing"))
+			else if (BranchNameB.equals("2"))
 			{
 				groupListT.click();
 			}
 			
-			else if (BranchNameB.equals("dev"))
+			else if (BranchNameB.equals("3"))
 			{
 				groupListD.click();
 				
@@ -124,13 +135,13 @@ public class m_ChatGroup extends  B_baseClass{
 	
 			fireDepartmentField.click();
 
-			act.sendKeys("Andrew").build().perform();
+			act.sendKeys(deptName).build().perform();
 			Thread.sleep(1000);
 			act.sendKeys(Keys.ENTER).build().perform();
 			Thread.sleep(2000);
 			fireStationField.click();
 	
-			act.sendKeys("06").build().perform();
+			act.sendKeys(St1N).build().perform();
 			Thread.sleep(1000);
 			act.sendKeys(Keys.ENTER).build().perform();
 			Thread.sleep(2000);
@@ -138,11 +149,40 @@ public class m_ChatGroup extends  B_baseClass{
 			act.sendKeys("BG-chatGroupByAttribute").sendKeys(date).sendKeys(gCurrntTime).build().perform();
 		
 			userTypeAttribute.click();
+			Thread.sleep(1000);
 		
-			ADST06A2.click();
+			
+			
+			
+			switch (BranchNameB)
+			{
+			case "1":
+			
+					ADST06A2.click();
+					break;
+			case "2":
+				
+				D1ST04A1.click();
+				break;
+					
+			
+			
+			
+			}
+			
+			
+			
+			
+			
+			
+			
+			
 			Thread.sleep(2000);
 			saveGroup.click();
 			Thread.sleep(5000);
+			
+			
+			
 			
 			String ActualResult = sm.getText();
 			
@@ -150,14 +190,7 @@ public class m_ChatGroup extends  B_baseClass{
 			System.out.println(ActualResult);
 			System.out.println(Expected);
 			
-			if (ActualResult.equals(Expected))
-			{
-				System.out.println("Chat group successfully created by attribute.");
-			}
-			else
-			{
-				System.out.println("The group was not created successfully.");
-			}
+			
 			
 			
 			
@@ -165,7 +198,7 @@ public class m_ChatGroup extends  B_baseClass{
 		}
 	
 		
-		public void createGroupByResource(WebDriver driver, String date, String gCurrntTime, String BranchNameB) throws Throwable {
+		public void createGroupByResource(WebDriver driver, String date, String gCurrntTime, String deptName,String St1N,String BranchNameB) throws Throwable {
 			Actions act = new Actions(driver);
             
 			
@@ -173,17 +206,17 @@ public class m_ChatGroup extends  B_baseClass{
 			Thread.sleep(1000);
 			
 			
-			if  (BranchNameB.equals("live"))
+			if  (BranchNameB.equals("1"))
 			{
 				groupListL.click();
 			}
 			
-			else if (BranchNameB.equals("testing"))
+			else if (BranchNameB.equals("2"))
 			{
 				groupListT.click();
 			}
 			
-			else if (BranchNameB.equals("dev"))
+			else if (BranchNameB.equals("3"))
 			{
 				groupListD.click();
 				
@@ -195,13 +228,13 @@ public class m_ChatGroup extends  B_baseClass{
 	
 			fireDepartmentField.click();
 
-			act.sendKeys("Andrew").build().perform();
+			act.sendKeys(deptName).build().perform();
 			Thread.sleep(1000);
 			act.sendKeys(Keys.ENTER).build().perform();
 			Thread.sleep(2000);
 			fireStationField.click();
 	
-			act.sendKeys("06").build().perform();
+			act.sendKeys(St1N).build().perform();
 			Thread.sleep(1000);
 			act.sendKeys(Keys.ENTER).build().perform();
 			Thread.sleep(2000);
@@ -209,8 +242,34 @@ public class m_ChatGroup extends  B_baseClass{
 			act.sendKeys("BG-chatGroupByResource").sendKeys(date).sendKeys(gCurrntTime).build().perform();
 		
 			userTypeResource.click();
-		
-			ADST06R2.click();
+			Thread.sleep(1000);
+			
+			
+			
+			switch (BranchNameB)
+			{
+			case "1":
+			
+				ADST06R2.click();
+					break;
+			case "2":
+				
+				D1ST04R2.click();
+				break;
+					
+			
+			
+			
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			Thread.sleep(2000);
 			saveGroup.click();
 			Thread.sleep(1000);
@@ -223,18 +282,11 @@ public class m_ChatGroup extends  B_baseClass{
 			System.out.println(ActualResult);
 			System.out.println(Expected);
 			
-			if (ActualResult.equals(Expected))
-			{
-				System.out.println("Chat group successfully created by resopurce.");
-			}
-			else
-			{
-				System.out.println("The group was not created successfully.");
-			}
+			
 			
 		}
 		
-		public void createGroupByFirefighter(WebDriver driver, String date, String gCurrntTime,String BranchNameB) throws Throwable {
+		public void createGroupByFirefighter(WebDriver driver, String date, String gCurrntTime,String deptName,String St1N, String BranchNameB) throws Throwable {
 			Actions act = new Actions(driver);
             
 			
@@ -242,17 +294,17 @@ public class m_ChatGroup extends  B_baseClass{
 Thread.sleep(1000);
 			
 			
-			if  (BranchNameB.equals("live"))
+			if  (BranchNameB.equals("1"))
 			{
 				groupListL.click();
 			}
 			
-			else if (BranchNameB.equals("testing"))
+			else if (BranchNameB.equals("2"))
 			{
 				groupListT.click();
 			}
 			
-			else if (BranchNameB.equals("dev"))
+			else if (BranchNameB.equals("3"))
 			{
 				groupListD.click();
 				
@@ -262,13 +314,13 @@ Thread.sleep(1000);
 	
 			fireDepartmentField.click();
 
-			act.sendKeys("Andrew").build().perform();
+			act.sendKeys(deptName).build().perform();
 			Thread.sleep(1000);
 			act.sendKeys(Keys.ENTER).build().perform();
 			Thread.sleep(2000);
 			fireStationField.click();
 	
-			act.sendKeys("06").build().perform();
+			act.sendKeys(St1N).build().perform();
 			Thread.sleep(1000);
 			act.sendKeys(Keys.ENTER).build().perform();
 			Thread.sleep(2000);
@@ -276,10 +328,39 @@ Thread.sleep(1000);
 			act.sendKeys("BG-chatGroupByFirefighter").sendKeys(date).sendKeys(gCurrntTime).build().perform();
 		
 			userTypeFireFighter.click();
-		
-			jonas3.click();
 			Thread.sleep(1000);
-			jonas2.click();
+			
+			
+			
+			switch (BranchNameB)
+			{
+			case "1":
+			
+				jonas3.click();
+				Thread.sleep(1000);
+				jonas2.click();
+					break;
+			case "2":
+				
+				bhupeshTest.click();
+				break;
+					
+			
+			
+			
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			Thread.sleep(1000);
 			saveGroup.click();
 			Thread.sleep(1000);
@@ -290,20 +371,11 @@ Thread.sleep(1000);
 			String Expected = "BG-chatGroupByFirefighter"+date+gCurrntTime;
 			System.out.println(ActualResult);
 			System.out.println(Expected);
-			
-			if (ActualResult.equals(Expected))
-			{
-				System.out.println("Chat group successfully created by fire fighter.");
-			}
-			else
-			{
-				System.out.println("The group was not created successfully.");
-			}
-			
+		
 		}
 		
 		
-		public void createGroupByAlarmLoop(WebDriver driver, String date, String gCurrntTime,String BranchNameB) throws Throwable {
+		public void createGroupByAlarmLoop(WebDriver driver, String date, String gCurrntTime,String deptName,String St1N,String BranchNameB) throws Throwable {
 			Actions act = new Actions(driver);
             
 			
@@ -311,17 +383,17 @@ Thread.sleep(1000);
 			Thread.sleep(1000);
 			
 			
-			if  (BranchNameB.equals("live"))
+			if  (BranchNameB.equals("1"))
 			{
 				groupListL.click();
 			}
 			
-			else if (BranchNameB.equals("testing"))
+			else if (BranchNameB.equals("2"))
 			{
 				groupListT.click();
 			}
 			
-			else if (BranchNameB.equals("dev"))
+			else if (BranchNameB.equals("3"))
 			{
 				groupListD.click();
 				
@@ -330,13 +402,13 @@ Thread.sleep(1000);
 	
 			fireDepartmentField.click();
 
-			act.sendKeys("Andrew").build().perform();
+			act.sendKeys(deptName).build().perform();
 			Thread.sleep(1000);
 			act.sendKeys(Keys.ENTER).build().perform();
 			Thread.sleep(2000);
 			fireStationField.click();
 	
-			act.sendKeys("06").build().perform();
+			act.sendKeys(St1N).build().perform();
 			Thread.sleep(1000);
 			act.sendKeys(Keys.ENTER).build().perform();
 			Thread.sleep(2000);
@@ -344,8 +416,34 @@ Thread.sleep(1000);
 			act.sendKeys("BG-chatGroupByAlarmLoop").sendKeys(date).sendKeys(gCurrntTime).build().perform();
 		
 			userTypeAlarmLoop.click();
+			Thread.sleep(1000);
+			
+			
+			
 		
-			ADST06AL2.click();
+			
+			switch (BranchNameB)
+			{
+			case "1":
+				ADST06AL2.click();
+				break;
+				
+			case "2":
+				D1ST04AL1.click();
+				break;
+				
+				
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			Thread.sleep(1000);
 			saveGroup.click();
 			Thread.sleep(1000);
@@ -357,14 +455,7 @@ Thread.sleep(1000);
 			System.out.println(ActualResult);
 			System.out.println(Expected);
 			
-			if (ActualResult.equals(Expected))
-			{
-				System.out.println("Chat group successfully created by fire alarm loop.");
-			}
-			else
-			{
-				System.out.println("The group was not created successfully.");
-			}
+		
 			
 		}
 		
@@ -487,17 +578,17 @@ Thread.sleep(1000);
 Thread.sleep(1000);
 			
 			
-			if  (BranchNameB.equals("live"))
+			if  (BranchNameB.equals("1"))
 			{
 				groupListL.click();
 			}
 			
-			else if (BranchNameB.equals("testing"))
+			else if (BranchNameB.equals("2"))
 			{
 				groupListT.click();
 			}
 			
-			else if (BranchNameB.equals("dev"))
+			else if (BranchNameB.equals("3"))
 			{
 				groupListD.click();
 				
@@ -570,17 +661,17 @@ Thread.sleep(1000);
     	   Thread.sleep(1000);
 			
 			
-			if  (BranchNameB.equals("live"))
+			if  (BranchNameB.equals("1"))
 			{
 				groupListL.click();
 			}
 			
-			else if (BranchNameB.equals("testing"))
+			else if (BranchNameB.equals("2"))
 			{
 				groupListT.click();
 			}
 			
-			else if (BranchNameB.equals("dev"))
+			else if (BranchNameB.equals("3"))
 			{
 				groupListD.click();
 				

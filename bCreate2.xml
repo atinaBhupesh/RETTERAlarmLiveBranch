@@ -8,8 +8,14 @@
        <methods>
 				<include name="userDetails"  />
 	     	
+
+    
+             <include name="createResource"  /> 
+		     <include name="createAlamLoop"  /> 
+            <include name="createAlamTemplate"  /> 
+             <include name="addEventCategory"  /> 
+		
 			
-	<include name="createManualAlarmByAttribute"  />
 			
 			
 			
