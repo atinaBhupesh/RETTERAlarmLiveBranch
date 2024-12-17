@@ -34,8 +34,8 @@ public class p_vehicleUser extends  B_baseClass {
 		 
 		
 	
-		@FindBy(xpath="//td[contains(text(),\"BG_adst\")]")private List<WebElement> availabeDataCount ;
-		// @FindBy(xpath="")private WebElement ; 
+		@FindBy(xpath="//td[contains(text(),\"BG_\")]")private List<WebElement> availabeDataCount ;
+	   
 		// @FindBy(xpath="")private WebElement ;
 		// @FindBy(xpath="")private WebElement ;
 		 
@@ -59,17 +59,17 @@ public class p_vehicleUser extends  B_baseClass {
 			Thread.sleep(1000);
 			
 			
-			if  (BranchNameB.equals("live"))
+			if  (BranchNameB.equals("1"))
 			{
 				ManageVehicleUserL.click();
 			}
 			
-			else if (BranchNameB.equals("testing"))
+			else if (BranchNameB.equals("2"))
 			{
 				ManageVehicleUserT.click();
 			}
 			
-			else if (BranchNameB.equals("dev"))
+			else if (BranchNameB.equals("3"))
 			{
 				ManageVehicleUserD.click();
 				
@@ -78,7 +78,7 @@ public class p_vehicleUser extends  B_baseClass {
 		
 		
 		
-		public void addVehicleUser(WebDriver driver,String dailyVehicleEmailId1,String dailyVehicleEmailId2,String  deptName,String stName1, String BranchNameB) throws Throwable 
+		public void addVehicleUser(WebDriver driver,String dailyVehicleEmailId1,String dailyVehicleEmailId2,String  deptName,String stName1,String st1Recs , String BranchNameB) throws Throwable 
 		{
 			
 			for (int i=1;i<=2;i++)
@@ -123,30 +123,10 @@ public class p_vehicleUser extends  B_baseClass {
 			resource.click();
 			
 			
-		
-			
-			
-			
-			
-
-			if  (BranchNameB.equals("live"))
-			{
-				act.sendKeys("adst06R2").build().perform();
+				act.sendKeys(st1Recs).build().perform();
 				Thread.sleep(2000);
-			}
 			
-			else if (BranchNameB.equals("testing"))
-			{
-				act.sendKeys(Station06Resource).build().perform();
-				Thread.sleep(2000);
-			}
 			
-			else if (BranchNameB.equals("dev"))
-			{
-				act.sendKeys(Station06Resource).build().perform();
-				Thread.sleep(2000);
-				
-			}
 			
 			act.sendKeys(Keys.ENTER).perform();
 			
@@ -237,7 +217,25 @@ public class p_vehicleUser extends  B_baseClass {
 			
 			searchField.click();
 			
-			act.sendKeys("BG_adst06").perform();
+			switch (BranchNameB)
+			{
+			case "1":
+				
+				
+				act.sendKeys("BG_adst06").perform();
+				break;
+			case "2":
+				
+				
+				act.sendKeys("BG_d1st04").perform();
+				break;
+			
+			}
+			
+			
+			
+			
+			
 			
 			searchButton.click();
 			Thread.sleep(3000);

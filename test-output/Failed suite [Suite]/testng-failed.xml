@@ -8,9 +8,12 @@
           <include name="logOut"/>
           <include name="backToHomePage2"/>
           <include name="BeforeSuite"/>
+          <include name="addVehicleUserForStation06"/>
           <include name="AfterTest"/>
+          <include name="addFirefighterForNewStation06"/>
           <include name="backToHomePage"/>
           <include name="BeforeTest"/>
+          <include name="addStationUserForStation06"/>
           <include name="createStormAlarm"/>
           <include name="lounchBrowser"/>
           <include name="AfterSute"/>

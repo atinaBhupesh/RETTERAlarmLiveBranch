@@ -73,7 +73,7 @@ public class n_addUsers extends  B_baseClass {
 			@FindBy(xpath="//button[@id=\"actionEditSubmit\"]")private WebElement saveStationUserPermission;
 			 @FindBy(xpath="//div[@style=\"text-align: center; font-size: 22px;\"]")private WebElement StationUserName;
 			// @FindBy(xpath="")private WebElement ;
-			@FindBy(xpath="//td[contains(text(),\"RojLive\")]")private List<WebElement> availabledatCount ;
+			@FindBy(xpath="//td[contains(text(),'Roj')]")private List<WebElement> availabledatCount ;
 		 
 		 
 		   @FindBy(xpath="//input[@aria-controls=\"actionUser\"]")private WebElement searchField ;
@@ -100,17 +100,17 @@ public class n_addUsers extends  B_baseClass {
 			Thread.sleep(1000);
 			
 			
-			if  (BranchNameB.equals("live"))
+			if  (BranchNameB.equals("1"))
 			{
 				listL.click();
 			}
 			
-			else if (BranchNameB.equals("testing"))
+			else if (BranchNameB.equals("2"))
 			{
 				listT.click();
 			}
 			
-			else if (BranchNameB.equals("dev"))
+			else if (BranchNameB.equals("3"))
 			{
 				listD.click();
 				
@@ -119,15 +119,17 @@ public class n_addUsers extends  B_baseClass {
 		}
 		
 		
-		public void addStationUserForStation06 (WebDriver driver,String dateDDMMYY,String gTimeHHMM, String BranchNameB) throws Throwable
+		public void addStationUserForStation06 (WebDriver driver,String dateDDMMYY,String gTimeHHMM, String deptName,String St1N,String stUEmail, String BranchNameB) throws Throwable
 		{
 			Actions act = new Actions(driver);
+			
+		
 			
 			createNew.click();
 			Thread.sleep(1000);
             emailField.click();
             Thread.sleep(1000);
-			act.sendKeys("bhupesh+liveStationUser1@atinatechnology.in").perform();
+			act.sendKeys(stUEmail).perform();
 			act.sendKeys(Keys.TAB).perform();
 			Thread.sleep(1000);
 			
@@ -171,13 +173,13 @@ public class n_addUsers extends  B_baseClass {
 		Thread.sleep(2000);		
 		
 		departmerntFieldForStationUser.click();
-		act.sendKeys("Andrew").perform();
+		act.sendKeys(deptName).perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 	
 		stationFieldForStationUser.click();
-		act.sendKeys("06").build().perform();
+		act.sendKeys(St1N).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		saveUserRole.click();
@@ -212,18 +214,33 @@ public class n_addUsers extends  B_baseClass {
 		}
 		
 		
-		public void addfireFighterForStation06 (WebDriver driver,String dateDDMMYY,String gTimeHHMM, String BranchNameB) throws Throwable
+		public void addfireFighterForStation06 (WebDriver driver,String dateDDMMYY,String gTimeHHMM, String deptName,String St1N,String st1Atti,String st1Recs,	String ff1UEmail, String ff2UEmail, String BranchNameB) throws Throwable
 		{
 			Actions act = new Actions(driver);
 			
 			for (int i=1;i<=2;i++)
 			{
+				int L=i;
 				createNew.click();
 				Thread.sleep(2000);
 				emailField.click();
 				
+				if (L==1)
+				{
+					act.sendKeys(ff1UEmail).perform();
+					
+				}
 				
-			act.sendKeys("bhupesh+livefirefighter"+i+"@atinatechnology.in").perform();
+				
+				else if (L==2)
+				{
+					act.sendKeys(ff2UEmail).perform();
+					
+				}
+				
+			
+				
+			
 			act.sendKeys(Keys.TAB).perform();
 			Thread.sleep(1000);
 			
@@ -271,17 +288,17 @@ public class n_addUsers extends  B_baseClass {
 			
 		Thread.sleep(2000);			
 		departmentField.click();
-		act.sendKeys("Andrew").perform();
+		act.sendKeys(deptName).perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		mainDepartmentField.click();
-		act.sendKeys("andrew").perform();
+		act.sendKeys(deptName).perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		stationField.click();
-		act.sendKeys("06").perform();
+		act.sendKeys(St1N).perform();
 //	    act.sendKeys(dateDDMMYY).sendKeys(gTimeHHMM).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
@@ -308,32 +325,34 @@ public class n_addUsers extends  B_baseClass {
 		attributeTab.click();
 		Thread.sleep(500);
 		atrriDepartmentField.click();
-		act.sendKeys("Andrew").perform();
+		act.sendKeys(deptName).perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		attributeFiled.click();
-		act.sendKeys("ADST06A2").perform();
+		act.sendKeys(st1Atti).perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		saveAttribute.click();
+		
+		
 		atrriContinue.click();
 		Reporter.log("adding atrribute successfully.",true );
 		
 		resourceDepartmentFiled.click();
-		act.sendKeys("Andrew").perform();
+		act.sendKeys(deptName).perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		resourceStationFiled.click();
-		act.sendKeys("06").perform();
+		act.sendKeys(St1N).perform();
 //		act.sendKeys(dateDDMMYY).sendKeys(gTimeHHMM).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		resourceField.click();
-		act.sendKeys("ADST06R2").perform();
+		act.sendKeys(st1Recs).perform();
 		Thread.sleep(500);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(500);
@@ -392,7 +411,7 @@ public class n_addUsers extends  B_baseClass {
 			for (int i=1;i<=z;i++)
 					{
 			searchField.click();
-			act.sendKeys("RojLive").perform();
+			act.sendKeys("Roj").perform();
 			Thread.sleep(2000);
 			searchButton.click();
 			Thread.sleep(2000);

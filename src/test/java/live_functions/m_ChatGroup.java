@@ -39,7 +39,12 @@ public class m_ChatGroup extends  B_baseClass{
 	    @FindBy(xpath="//button[@id=\"addSubmit\"]")private WebElement saveGroup;
 
 	    
-	    @FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/GroupChat/index\"]")private WebElement groupConversation ;
+	    @FindBy(xpath="//a[@href=\"http://live.retteralarm.de/admin/GroupChat/index\"]")private WebElement groupConversationL ;
+	    @FindBy(xpath="//a[@href=\"http://testing.retteralarm.de/admin/GroupChat/index\"]")private WebElement groupConversationT ;
+	    @FindBy(xpath="//a[@href=\"http://development.retteralarm.de/admin/GroupChat/index\"]")private WebElement groupConversationD ;
+	    
+	    
+	    
 	    @FindBy(xpath="//input [@placeholder=\"Search Group..\"]")private WebElement searchGroup;
 	    @FindBy(xpath="(//a[@class=\"actionShowGroup\"])[1]")private WebElement charGroup;
 	    @FindBy(xpath = "//input[@placeholder=\"Write your message...\"]")
@@ -473,8 +478,28 @@ Thread.sleep(1000);
 			Actions act = new Actions(driver);
 			
 			
-			groupConversation.click();
+			
 		
+			switch (BranchNameB)
+			{
+			case "1":
+				groupConversationL.click();
+				break;
+				
+			case "2":
+				groupConversationT.click();
+				break;
+				
+				
+			}
+			
+			
+			
+			
+			
+			
+			
+			
 			searchGroup.click();
 	
 			act.sendKeys("BG-chatGroupByAttribute").sendKeys(date).sendKeys(gCurrntTime).build().perform();
@@ -497,7 +522,18 @@ Thread.sleep(1000);
 			Actions act = new Actions(driver);
 			
 			
-			groupConversation.click();
+			switch (BranchNameB)
+			{
+			case "1":
+				groupConversationL.click();
+				break;
+				
+			case "2":
+				groupConversationT.click();
+				break;
+				
+				
+			}
 		
 			searchGroup.click();
 	
@@ -521,8 +557,18 @@ Thread.sleep(1000);
 			Actions act = new Actions(driver);
 			
 			
-			groupConversation.click();
-		
+			switch (BranchNameB)
+			{
+			case "1":
+				groupConversationL.click();
+				break;
+				
+			case "2":
+				groupConversationT.click();
+				break;
+				
+				
+			}
 			searchGroup.click();
 	
 			act.sendKeys("BG-chatGroupByFirefighter").sendKeys(date).sendKeys(gCurrntTime).build().perform();
@@ -544,7 +590,18 @@ Thread.sleep(1000);
 			Actions act = new Actions(driver);
 			
 			
-			groupConversation.click();
+			switch (BranchNameB)
+			{
+			case "1":
+				groupConversationL.click();
+				break;
+				
+			case "2":
+				groupConversationT.click();
+				break;
+				
+				
+			}
 		
 			searchGroup.click();
 	
@@ -631,7 +688,18 @@ Thread.sleep(1000);
 			Actions act = new Actions(driver);
 			
 			
-			groupConversation.click();
+			switch (BranchNameB)
+			{
+			case "1":
+				groupConversationL.click();
+				break;
+				
+			case "2":
+				groupConversationT.click();
+				break;
+				
+				
+			}
 		
 			searchGroup.click();
 	

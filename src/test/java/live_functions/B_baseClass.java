@@ -34,6 +34,15 @@ public class B_baseClass {
 	String St1V2;
 	String St2N;
 	String st2V1;
+	String st1Atti;
+	String st1Recs;
+	String stUEmail ;
+	String ff1UEmail ;
+	String ff2UEmail ;
+
+			
+	
+	
 
 	public void getBranchName() throws Throwable {
 
@@ -221,6 +230,17 @@ public class B_baseClass {
 
 			dailyVehicleEmailId1 = sheet.getRow(10).getCell(1).getStringCellValue();
 			dailyVehicleEmailId2 = sheet.getRow(11).getCell(1).getStringCellValue();
+			
+			st1Atti = sheet.getRow(12).getCell(1).getStringCellValue();
+			st1Recs = sheet.getRow(13).getCell(1).getStringCellValue();
+			
+			 stUEmail =sheet.getRow(14).getCell(1).getStringCellValue();
+			 ff1UEmail =sheet.getRow(15).getCell(1).getStringCellValue();
+			 ff2UEmail =sheet.getRow(16).getCell(1).getStringCellValue();
+	
+			
+			
+			
 
 		}
 		else if (BranchNameB.equals("2"))
@@ -250,8 +270,18 @@ public class B_baseClass {
 
 			st2V1 = sheet.getRow(9).getCell(2).getStringCellValue();
 
-			dailyVehicleEmailId1 = sheet.getRow(10).getCell(1).getStringCellValue();
-			dailyVehicleEmailId2 = sheet.getRow(11).getCell(1).getStringCellValue();
+			dailyVehicleEmailId1 = sheet.getRow(10).getCell(2).getStringCellValue();
+			dailyVehicleEmailId2 = sheet.getRow(11).getCell(2).getStringCellValue();
+			
+			st1Atti = sheet.getRow(12).getCell(2).getStringCellValue();
+			st1Recs = sheet.getRow(13).getCell(2).getStringCellValue();
+			
+			 stUEmail =sheet.getRow(14).getCell(2).getStringCellValue();
+			 ff1UEmail =sheet.getRow(15).getCell(2).getStringCellValue();
+			 ff2UEmail =sheet.getRow(16).getCell(2).getStringCellValue();
+			 
+
+			
 
 		}
 		

@@ -626,7 +626,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log("The process of add new vehicle for station 06 is started.", true);
 		
 	vu.commonForVehicleUser(driver,BranchNameB);
-	vu.addVehicleUser(driver,dailyVehicleEmailId1,dailyVehicleEmailId2, deptName, St1N, BranchNameB);
+	vu.addVehicleUser(driver,dailyVehicleEmailId1,dailyVehicleEmailId2, deptName, St1N, st1Recs, BranchNameB);
 		
 		Reporter.log("The process of aadd new vehicle for station 06 is complete.", true);
 		Reporter.log(" ", true);
@@ -660,7 +660,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of add station user is started.", true);
 		ff.commonForAddUers(driver,BranchNameB);
-	    ff.addStationUserForStation06(driver, dateDDMMYY, gTimeHHMM,BranchNameB);
+	    ff.addStationUserForStation06(driver, dateDDMMYY, gTimeHHMM,deptName, St1N,stUEmail, BranchNameB);
 	    newStationUser=ff.newStationUser;
 		
 		
@@ -676,7 +676,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of add fire fighter is started.", true);
 		ff.commonForAddUers(driver,BranchNameB);
-		ff.addfireFighterForStation06(driver, dateDDMMYY, gTimeHHMM,BranchNameB);
+		ff.addfireFighterForStation06(driver, dateDDMMYY, gTimeHHMM,deptName,St1N, st1Atti, st1Recs,ff1UEmail,ff2UEmail,BranchNameB);
 		
 		
 		Reporter.log("The process of add fire fighter is complete.", true);

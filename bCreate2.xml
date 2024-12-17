@@ -8,13 +8,12 @@
        <methods>
 				<include name="userDetails"  />
 	     	
-
-    
-             <include name="createResource"  /> 
-		     <include name="createAlamLoop"  /> 
-            <include name="createAlamTemplate"  /> 
-             <include name="addEventCategory"  /> 
+	
 		
+				 <include name="addStationUserForStation06"/>
+			 <include name="addFirefighterForNewStation06"/>
+			 <include name="addVehicleUserForStation06"  />
+					
 			
 			
 			

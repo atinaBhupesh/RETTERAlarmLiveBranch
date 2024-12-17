@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="addFirefighterForNewStation06">addFirefighterForNewStation06</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,22 +117,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="addEventCategory">addEventCategory</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="addStationUserForStation06">addStationUserForStation06</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="createAlamLoop">createAlamLoop</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="createAlamTemplate">createAlamTemplate</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="createResource">createResource</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="addVehicleUserForStation06">addVehicleUserForStation06</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -143,6 +147,49 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">live_functions.A_testClass_dailyCheckPointList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addFirefighterForNewStation06">
+                  </a> <!-- addFirefighterForNewStation06 -->
+                  <span class="method-name">addFirefighterForNewStation06</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&quot;chkUsertypeFF&quot;]&quot;}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7500f1871b3b03643caf17d7bea48249, findElement {using=xpath, value=//input[@id=&quot;chkUsertypeFF&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53282}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53282/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7500f1871b3b03643caf17d7bea48249
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at live_functions.n_addUsers.addfireFighterForStation06(n_addUsers.java:286)
+	at live_functions.A_testClass_dailyCheckPointList.addFirefighterForNewStation06(A_testClass_dailyCheckPointList.java:679)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -151,30 +198,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addEventCategory">
-                  </a> <!-- addEventCategory -->
-                  <span class="method-name">addEventCategory</span>
+                  <a name="addStationUserForStation06">
+                  </a> <!-- addStationUserForStation06 -->
+                  <span class="method-name">addStationUserForStation06</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="createAlamLoop">
-                  </a> <!-- createAlamLoop -->
-                  <span class="method-name">createAlamLoop</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="createAlamTemplate">
-                  </a> <!-- createAlamTemplate -->
-                  <span class="method-name">createAlamTemplate</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="createResource">
-                  </a> <!-- createResource -->
-                  <span class="method-name">createResource</span>
+                  <a name="addVehicleUserForStation06">
+                  </a> <!-- addVehicleUserForStation06 -->
+                  <span class="method-name">addVehicleUserForStation06</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -208,10 +241,9 @@
       &lt;class name=&quot;live_functions.A_testClass_dailyCheckPointList&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;userDetails&quot;/&gt;
-          &lt;include name=&quot;createResource&quot;/&gt;
-          &lt;include name=&quot;createAlamLoop&quot;/&gt;
-          &lt;include name=&quot;createAlamTemplate&quot;/&gt;
-          &lt;include name=&quot;addEventCategory&quot;/&gt;
+          &lt;include name=&quot;addStationUserForStation06&quot;/&gt;
+          &lt;include name=&quot;addFirefighterForNewStation06&quot;/&gt;
+          &lt;include name=&quot;addVehicleUserForStation06&quot;/&gt;
           &lt;include name=&quot;detailsAboutScript&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- live_functions.A_testClass_dailyCheckPointList --&gt;
@@ -254,31 +286,27 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'createAlamTemplate')
+data.setCell(0, 1, 'addVehicleUserForStation06')
 data.setCell(0, 2, 'live_functions.A_testClass_dailyCheckPointList')
-data.setCell(0, 3, 27608);
+data.setCell(0, 3, 44917);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'addEventCategory')
+data.setCell(1, 1, 'addStationUserForStation06')
 data.setCell(1, 2, 'live_functions.A_testClass_dailyCheckPointList')
-data.setCell(1, 3, 20163);
+data.setCell(1, 3, 36953);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'createAlamLoop')
+data.setCell(2, 1, 'addFirefighterForNewStation06')
 data.setCell(2, 2, 'live_functions.A_testClass_dailyCheckPointList')
-data.setCell(2, 3, 13505);
+data.setCell(2, 3, 18871);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'createResource')
+data.setCell(3, 1, 'detailsAboutScript')
 data.setCell(3, 2, 'live_functions.A_testClass_dailyCheckPointList')
-data.setCell(3, 3, 12563);
+data.setCell(3, 3, 3005);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'detailsAboutScript')
+data.setCell(4, 1, 'userDetails')
 data.setCell(4, 2, 'live_functions.A_testClass_dailyCheckPointList')
-data.setCell(4, 3, 3004);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'userDetails')
-data.setCell(5, 2, 'live_functions.A_testClass_dailyCheckPointList')
-data.setCell(5, 3, 5);
+data.setCell(4, 3, 5);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -295,21 +323,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">createAlamTemplate</span>
+              <span class="reporter-method-name">detailsAboutScript</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output"> </span>
-                <span class="reporter-method-output">The process of adding new alarm template is started.</span>
-                <span class="reporter-method-output">Alarm Template> BG-Template-1612_133812 adde successfully.</span>
-                <span class="reporter-method-output">The process of adding new alarm template is complete.</span>
+                <span class="reporter-method-output">Login  date-17.12.2024 & login  time -11:38</span>
+                <span class="reporter-method-output">Logout date-17-12-2024 & logout time -11:40</span>
                 <span class="reporter-method-output"> </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">detailsAboutScript</span>
+              <span class="reporter-method-name">addVehicleUserForStation06</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output"> </span>
-                <span class="reporter-method-output">Login  date-16.12.2024 & login  time -13:38</span>
-                <span class="reporter-method-output">Logout date-16-12-2024 & logout time -13:39</span>
+                <span class="reporter-method-output">The process of add new vehicle for station 06 is started.</span>
+                <span class="reporter-method-output">vehicle Bhupesh+d1St04V1newDaily@atinatechnology.in added successfully.</span>
+                <span class="reporter-method-output">vehicle Bhupesh+d1St04V2newDaily@atinatechnology.in added successfully.</span>
+                <span class="reporter-method-output">The process of aadd new vehicle for station 06 is complete.</span>
                 <span class="reporter-method-output"> </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -322,45 +351,40 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">createResource</span>
+              <span class="reporter-method-name">addStationUserForStation06</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output"> </span>
-                <span class="reporter-method-output">The process of adding new resource is started.</span>
-                <span class="reporter-method-output">BG:Resorce-1612_133812> added successfully</span>
-                <span class="reporter-method-output">The process of adding new resource is complete.</span>
+                <span class="reporter-method-output">The process of add station user is started.</span>
+                <span class="reporter-method-output">basic detailas save successfully.</span>
+                <span class="reporter-method-output">adding role save successfully.</span>
+                <span class="reporter-method-output">user details</span>
+                <span class="reporter-method-output">User first name >ghatole</span>
+                <span class="reporter-method-output">User last name > NewStUser</span>
+                <span class="reporter-method-output">User mail id > ghatole.NewStUser@atpl.in</span>
+                <span class="reporter-method-output">The process of add station uers is complete.</span>
                 <span class="reporter-method-output"> </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">createAlamLoop</span>
+              <span class="reporter-method-name">addFirefighterForNewStation06</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output"> </span>
-                <span class="reporter-method-output">The process of adding new alarm loop is started.</span>
-                <span class="reporter-method-output">Alarm Loop >BG:AlarmLoop-1612_133812 added successfully.</span>
-                <span class="reporter-method-output">The process of adding new alarm loop is complete.</span>
-                <span class="reporter-method-output"> </span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">addEventCategory</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output"> </span>
-                <span class="reporter-method-output">The process of adding new event category is started.</span>
-                <span class="reporter-method-output"> BG-EventCategoty-1612_133812 added successfully.</span>
-                <span class="reporter-method-output">The process of new event category is complete.</span>
-                <span class="reporter-method-output"> </span>
+                <span class="reporter-method-output">The process of add fire fighter is started.</span>
+                <span class="reporter-method-output">basic detailas save successfully.</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">65 ignored methods</span>
+            <span class="header-content">66 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">live_functions.A_testClass_dailyCheckPointList</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">createResource</span>
+                <br/>
                 <span class="ignored-method-name">sendMessageChatGrouCreatedByFirefighter</span>
                 <br/>
                 <span class="ignored-method-name">createManualAlarmByAttribute</span>
@@ -373,11 +397,15 @@ return data;
                 <br/>
                 <span class="ignored-method-name">createInfoEventByAttribute</span>
                 <br/>
+                <span class="ignored-method-name">createAlamLoop</span>
+                <br/>
                 <span class="ignored-method-name">createChatgroupByAlarmloop</span>
                 <br/>
                 <span class="ignored-method-name">SendmessagetoARUsers</span>
                 <br/>
                 <span class="ignored-method-name">createTestAlarmByAttributeRecursivedaily</span>
+                <br/>
+                <span class="ignored-method-name">createAlamTemplate</span>
                 <br/>
                 <span class="ignored-method-name">cretecalendarEventFirefighterSchedule</span>
                 <br/>
@@ -392,8 +420,6 @@ return data;
                 <span class="ignored-method-name">createInformationByAttribute</span>
                 <br/>
                 <span class="ignored-method-name">extendAlarmFrom07To06ByAttribute</span>
-                <br/>
-                <span class="ignored-method-name">addVehicleUserForStation06</span>
                 <br/>
                 <span class="ignored-method-name">createNormalCheckList</span>
                 <br/>
@@ -433,8 +459,6 @@ return data;
                 <br/>
                 <span class="ignored-method-name">cretecalendarEventResourceSchedule</span>
                 <br/>
-                <span class="ignored-method-name">addStationUserForStation06</span>
-                <br/>
                 <span class="ignored-method-name">createManualAlarmByEscalationResource</span>
                 <br/>
                 <span class="ignored-method-name">createInformationByResource</span>
@@ -446,6 +470,8 @@ return data;
                 <span class="ignored-method-name">createLowPriorityManualAlarmByEscalationResource</span>
                 <br/>
                 <span class="ignored-method-name">createTestAlarmByAttributeRecursiveWeekly</span>
+                <br/>
+                <span class="ignored-method-name">addEventCategory</span>
                 <br/>
                 <span class="ignored-method-name">sendMessageChatGrouForNewStation</span>
                 <br/>
@@ -466,8 +492,6 @@ return data;
                 <span class="ignored-method-name">createChatgroupByResource</span>
                 <br/>
                 <span class="ignored-method-name">cretecalendarEventAttributeSchedule</span>
-                <br/>
-                <span class="ignored-method-name">addFirefighterForNewStation06</span>
                 <br/>
                 <span class="ignored-method-name">extendLowPriorityAlarmFrom07To06ByAttribute</span>
                 <br/>
@@ -508,95 +532,85 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">BeforeTest</span>
-                <span class="method-start">8025 ms</span>
+                <span class="method-start">17398 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">lounchBrowser</span>
-                <span class="method-start">12475 ms</span>
+                <span class="method-start">22445 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">backToHomePage</span>
-                <span class="method-start">12655 ms</span>
+                <span class="method-start">22583 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">userDetails</span>
-                <span class="method-start">16030 ms</span>
+                <span class="method-start">26147 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">backToHomePage2</span>
-                <span class="method-start">16036 ms</span>
+                <span class="method-start">26154 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">backToHomePage</span>
-                <span class="method-start">17599 ms</span>
+                <span class="method-start">27735 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">createResource</span>
-                <span class="method-start">19355 ms</span>
+                <span class="method-name">addStationUserForStation06</span>
+                <span class="method-start">29477 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">backToHomePage2</span>
-                <span class="method-start">31919 ms</span>
+                <span class="method-start">66433 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">backToHomePage</span>
-                <span class="method-start">33468 ms</span>
+                <span class="method-start">67992 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">createAlamLoop</span>
-                <span class="method-start">35036 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addFirefighterForNewStation06</span>
+                <span class="method-start">70268 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">backToHomePage2</span>
-                <span class="method-start">48543 ms</span>
+                <span class="method-start">89142 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">backToHomePage</span>
-                <span class="method-start">49883 ms</span>
+                <span class="method-start">90620 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">createAlamTemplate</span>
-                <span class="method-start">51295 ms</span>
+                <span class="method-name">addVehicleUserForStation06</span>
+                <span class="method-start">92185 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">backToHomePage2</span>
-                <span class="method-start">78904 ms</span>
+                <span class="method-start">137103 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">backToHomePage</span>
-                <span class="method-start">80211 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">addEventCategory</span>
-                <span class="method-start">81598 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">backToHomePage2</span>
-                <span class="method-start">101762 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">backToHomePage</span>
-                <span class="method-start">103106 ms</span>
+                <span class="method-start">138623 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">detailsAboutScript</span>
-                <span class="method-start">104465 ms</span>
+                <span class="method-start">142240 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">backToHomePage2</span>
-                <span class="method-start">107470 ms</span>
+                <span class="method-start">145246 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">logOut</span>
-                <span class="method-start">108779 ms</span>
+                <span class="method-start">147679 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">AfterTest</span>
-                <span class="method-start">113064 ms</span>
+                <span class="method-start">151856 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">AfterSute</span>
-                <span class="method-start">113393 ms</span>
+                <span class="method-start">152231 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

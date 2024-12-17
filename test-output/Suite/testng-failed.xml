@@ -9,10 +9,9 @@
           <include name="backToHomePage2"/>
           <include name="BeforeSuite"/>
           <include name="AfterTest"/>
-          <include name="detailsAboutScript"/>
+          <include name="addFirefighterForNewStation06"/>
           <include name="backToHomePage"/>
           <include name="BeforeTest"/>
-          <include name="createPermissionGroupDefaultStation"/>
           <include name="lounchBrowser"/>
           <include name="AfterSute"/>
         </methods>
