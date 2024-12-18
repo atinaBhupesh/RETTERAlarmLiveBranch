@@ -846,7 +846,7 @@ public class H_testAlarm extends B_baseClass
 			Actions act = new Actions(driver);
 			act.sendKeys("BG").perform();
 			searchButton.click();
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 			deleteAlarm.click();
 			Thread.sleep(3000);
 			deleteYes.click();
@@ -873,7 +873,7 @@ public class H_testAlarm extends B_baseClass
 			searchButton.click();
 			Thread.sleep(5000);
 			deleteAlarm.click();
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 			deleteYes1.click();
 			Thread.sleep(2000);
 			Reporter.log("Test alarm number-" + i + " deleted sucessfully from overview-testing branch.", true);
@@ -909,7 +909,7 @@ public class H_testAlarm extends B_baseClass
 			
 			
 			deactiveAlarm.click();
-			Thread.sleep(1000);
+			Thread.sleep(5000);
 			changeStatusYes.click();
 			Thread.sleep(1000);
 			Reporter.log("Alarm number-" + i + " is deleted sucessfully.", true);

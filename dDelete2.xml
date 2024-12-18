@@ -10,7 +10,7 @@
 
 						
 						
-				<include name="deleteVehicleUser" />
+				<include name="deactiveManualAlarm" />
 
 				
 						<exclude name="deactiveManualAlarm" />

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test(failed)</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Dec 17 12:30:36 IST 2024</td>
+<td>Started on:</td><td>Wed Dec 18 12:26:01 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>57 seconds (57635 ms)</td>
+<tr><td>Total time:</td><td>107 seconds (107501 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,111 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createInformationByAttribute()'><b>createInformationByAttribute</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-150079886" onClick='toggleBox("Output-150079886", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-150079886" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-150079886">
+ <br/>
+The process of creating information by attribute is started.<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.140)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [949826d7bef37db6751d3eb2b1cd4ee1, clickElement {id=f.03C28B9D1CFB8EAFEE79E456636C25F8.d.EB04172FFB845EFE378EA7D3F364E52E.e.982}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53441/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (949826d7bef37db6751d3eb2b1cd4ee1)] -&gt; xpath: //a[@href=&quot;http://live.retteralarm.de/admin/Informations/index&quot;]]
+Session ID: 949826d7bef37db6751d3eb2b1cd4ee1
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at live_functions.F_information.infoEventCommon(F_information.java:117)
+	at live_functions.A_testClass_dailyCheckPointList.createInformationByAttribute(A_testClass_dailyCheckPointList.java:980)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace150079886", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace150079886'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.140)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [949826d7bef37db6751d3eb2b1cd4ee1, clickElement {id=f.03C28B9D1CFB8EAFEE79E456636C25F8.d.EB04172FFB845EFE378EA7D3F364E52E.e.982}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53441/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (949826d7bef37db6751d3eb2b1cd4ee1)] -&gt; xpath: //a[@href=&quot;http://live.retteralarm.de/admin/Informations/index&quot;]]
+Session ID: 949826d7bef37db6751d3eb2b1cd4ee1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at live_functions.F_information.infoEventCommon(F_information.java:117)
+	at live_functions.A_testClass_dailyCheckPointList.createInformationByAttribute(A_testClass_dailyCheckPointList.java:980)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>12</td>
+<td>live_functions.A_testClass_dailyCheckPointList@2d901eb0</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,37 +181,38 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='live_functions.AAA_testClass_delete.deleteAlarmTemplate()'><b>deleteAlarmTemplate</b><br>Test class: live_functions.AAA_testClass_delete<br/>
-<a href="#Output-2130606983" onClick='toggleBox("Output-2130606983", this, "Show output", "Hide output");'>Show output</a>
+<td title='live_functions.A_testClass_dailyCheckPointList.createAlarmCheckList()'><b>createAlarmCheckList</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1374431318" onClick='toggleBox("Output-1374431318", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2130606983" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2130606983">
+<a href="#Output-1374431318" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1374431318">
  <br/>
-The process of delete alarm template is started.<br/>
-The availabler alarm template count is-0 in the list for delete.<br/>
-The process of delete alarm template is complete.<br/>
+The process of creating alarm check list is started.<br/>
+Alarm check list number-1 is added sucessfully.<br/>
+Alarm check list number-2 is added sucessfully.<br/>
+The process of creating alarm check list is complete.<br/>
  <br/>
 </div>
 </td>
 <td></td>
-<td>15</td>
-<td>live_functions.AAA_testClass_delete@74ea2410</td></tr>
+<td>28</td>
+<td>live_functions.A_testClass_dailyCheckPointList@2d901eb0</td></tr>
 <tr>
-<td title='live_functions.AAA_testClass_delete.deleteAlarmLoop()'><b>deleteAlarmLoop</b><br>Test class: live_functions.AAA_testClass_delete<br/>
-<a href="#Output-573242471" onClick='toggleBox("Output-573242471", this, "Show output", "Hide output");'>Show output</a>
+<td title='live_functions.A_testClass_dailyCheckPointList.createTestAlarmByAttributeOneTime()'><b>createTestAlarmByAttributeOneTime</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1162400340" onClick='toggleBox("Output-1162400340", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-573242471" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-573242471">
+<a href="#Output-1162400340" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1162400340">
  <br/>
-The process of delete alarm loop is started.<br/>
-The total availabe alarm loop cout is -0 in the list for delete.<br/>
-The process of delete alarm loop is complete.<br/>
+The process of creating a test alarm by attribute with remindar one time is started.<br/>
+test alarm created for >18.12.2024-08:07<br/>
+The process of creating a test alarm by attribute with remindar one time is complete.<br/>
  <br/>
 </div>
 </td>
 <td></td>
-<td>16</td>
-<td>live_functions.AAA_testClass_delete@74ea2410</td></tr>
+<td>46</td>
+<td>live_functions.A_testClass_dailyCheckPointList@2d901eb0</td></tr>
 </table><p>
 </body>
 </html>

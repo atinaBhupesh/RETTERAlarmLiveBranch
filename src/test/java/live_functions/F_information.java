@@ -426,7 +426,7 @@ switch (BranchNameB) {
 			searchButton.click();
 			Thread.sleep(2000);
 			delete.click();
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 			deleteYes.click();
 			Reporter.log("information number-" + i + " is deleted sucessfully.", true);
 			driver.navigate().refresh();	

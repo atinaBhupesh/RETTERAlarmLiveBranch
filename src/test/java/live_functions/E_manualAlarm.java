@@ -1360,9 +1360,11 @@ public class E_manualAlarm extends B_baseClass
 
 			{
 				deactiveAlarm.click();
-				Thread.sleep(3000);
+				Thread.sleep(5000);
+				
 				changeStatusYes.click();
 				Thread.sleep(1000);
+				
 				Reporter.log("Alarm number-" + i + " is deactive sucessfully.", true);
 				Thread.sleep(5000);
 				driver.navigate().refresh();
@@ -1413,7 +1415,7 @@ public class E_manualAlarm extends B_baseClass
 			Thread.sleep(3000);
 
 			delete.click();
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 			deleteYes.click();
 
 			Reporter.log("Alarm number-" + i + " is deleted successfully.", true);
@@ -1462,7 +1464,7 @@ public class E_manualAlarm extends B_baseClass
 //				Thread.sleep(3000);
 
 				delete.click();
-				Thread.sleep(3000);
+				Thread.sleep(5000);
 				deleteYes.click();
 			
 				Reporter.log("Alarm number-" + i + " is deleted successfully.", true);
