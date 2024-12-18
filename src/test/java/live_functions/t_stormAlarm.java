@@ -38,6 +38,9 @@ public class t_stormAlarm  extends B_baseClass{
 		
 //		Testing
 		@FindBy(xpath="//input[@value=\"476\"]")private WebElement D1ST04Esc;
+		
+		
+		  @FindBy(xpath="//input[@value=\"850\"]")private WebElement BH1ST04Esc;
 		// @FindBy(xpath="")private WebElement ;
 		// @FindBy(xpath="")private WebElement ;
 		// @FindBy(xpath="")private WebElement ;
@@ -125,7 +128,7 @@ public class t_stormAlarm  extends B_baseClass{
 				
 				else if (BranchNameB.equals("3"))
 				{
-					manageEmergenciesD.click();
+					BH1ST04Esc.click();
 					
 				}
 				
@@ -199,7 +202,8 @@ public class t_stormAlarm  extends B_baseClass{
 				
 				else if (BranchNameB.equals("3"))
 				{
-					manageEmergenciesD.click();
+					act.sendKeys("BH1ST02R1").build().perform();
+					Thread.sleep(2000);
 					
 				}
 				

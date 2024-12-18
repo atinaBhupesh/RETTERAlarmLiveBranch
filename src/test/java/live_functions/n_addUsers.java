@@ -418,7 +418,7 @@ public class n_addUsers extends  B_baseClass {
 			deleteUser1.click();
 			Thread.sleep(2000);
 			remove.click();
-			Thread.sleep(2000);
+			Thread.sleep(5000);
 			yesPlease.click();
 			Thread.sleep(2000);
 			Reporter.log("User number-" + i + " is deleted sucessfully.", true);

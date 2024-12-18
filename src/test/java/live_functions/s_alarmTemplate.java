@@ -184,6 +184,7 @@ public class s_alarmTemplate extends  B_baseClass {
 			act.sendKeys("BG-Template").build().perform();
 			Thread.sleep(3000);
 			delate.click();
+			Thread.sleep(5000);
 			delateYes.click();
 			driver.navigate().refresh();
 			Reporter.log("Template No-"+i+" deleted successfully.",true);

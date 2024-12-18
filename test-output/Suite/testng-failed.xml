@@ -3,21 +3,36 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="live_functions.A_testClass_dailyCheckPointList">
+      <class name="live_functions.AAA_testClass_delete">
         <methods>
-          <include name="logOut"/>
-          <include name="createInformationByAttribute"/>
           <include name="backToHomePage2"/>
-          <include name="BeforeSuite"/>
-          <include name="AfterTest"/>
-          <include name="backToHomePage"/>
-          <include name="BeforeTest"/>
-          <include name="createAlarmCheckList"/>
           <include name="lounchBrowser"/>
-          <include name="AfterSute"/>
-          <include name="createTestAlarmByAttributeOneTime"/>
+          <include name="deleteManualAlarm"/>
+          <include name="deleteARFromHistory"/>
+          <include name="deletePermissionGroup"/>
+          <include name="detailsAboutScript"/>
+          <include name="logOut"/>
+          <include name="deleteFireStation"/>
+          <include name="deleteInfoEvent"/>
+          <include name="deleteCalendarEventCreatedByResource"/>
+          <include name="deleteCalendarEventCreatedByAttribute"/>
+          <include name="deleteUers"/>
+          <include name="deleteAlarmTemplate"/>
+          <include name="deleteVehicleUser"/>
+          <include name="deleteCheckList"/>
+          <include name="deleteTestAlarmFromList"/>
+          <include name="backToHomePage"/>
+          <include name="deleteChatGroup"/>
+          <include name="deactiveTestAlarmFromOverview"/>
+          <include name="deleteAlarmLoop"/>
+          <include name="deleteCalendarEventCreatedByFirefighter"/>
+          <include name="deleteARFromList"/>
+          <include name="deleteResource"/>
+          <include name="deleteAttribute"/>
+          <include name="deleteEventCategory"/>
+          <include name="deleteTestAlarmFromOverview"/>
         </methods>
-      </class> <!-- live_functions.A_testClass_dailyCheckPointList -->
+      </class> <!-- live_functions.AAA_testClass_delete -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

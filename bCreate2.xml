@@ -9,12 +9,17 @@
 				<include name="userDetails"  />
 	     	
 	
+
+			  
+			  
+		    <include name="sendmessageToAlarmUser"/>
 		
-				 <include name="addStationUserForStation06"/>
-			 <include name="addFirefighterForNewStation06"/>
-			 <include name="addVehicleUserForStation06"  />
 					
-			
+			<include name="createTestAlarmByAttributeOneTime"  />
+        	<include name="createTestAlarmByAttributeRecursivedaily"  />
+        	<include name="createTestAlarmByAttributeRecursiveWeekly"  />
+        	<include name="testAlarmByRecursiveMonthlyDayWise"  />
+        	<include name="createTestAlarmByAttributeRecursiveMontlyDateWise"  />
 			
 			
 			

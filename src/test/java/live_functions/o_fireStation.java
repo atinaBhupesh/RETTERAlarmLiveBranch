@@ -144,6 +144,7 @@ public class o_fireStation extends  B_baseClass {
 		searchButton.click();
 		Thread.sleep(3000);
 		deleteStation.click();
+		Thread.sleep(5000);
 		deleteYes.click();
 		driver.navigate().refresh();
 		

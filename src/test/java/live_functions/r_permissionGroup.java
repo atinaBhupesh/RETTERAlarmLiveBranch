@@ -827,6 +827,7 @@ public class r_permissionGroup {
 				searchButton.click();
 				Thread.sleep(2000);
 				delete.click();
+				Thread.sleep(5000);
 			   	deleteYes.click();
 				Thread.sleep(2000);
 					

@@ -646,10 +646,10 @@ switch (BranchNameB) {
 			Thread.sleep(2000);
 
 			deleteAvailbilityRequest.click();
-			Thread.sleep(2000);
+			Thread.sleep(5000);
 			deleteAvailbiliYes.click();
 
-			Thread.sleep(5000);
+			Thread.sleep(2000);
 			Reporter.log("Availability request number-" + i + " deleted sucessfully from list-testing branch.", true);
 			driver.navigate().refresh();
 			Thread.sleep(2000);
@@ -673,9 +673,9 @@ switch (BranchNameB) {
 			Thread.sleep(5000);
 
 			deleteAvailbilityRequest.click();
-			Thread.sleep(2000);
-			deleteAvailbiliHistoryYes.click();
 			Thread.sleep(5000);
+			deleteAvailbiliHistoryYes.click();
+			Thread.sleep(2000);
 			Reporter.log("Availability request number-" + i + " deleted sucessfully from histry-testing branch.", true);
 			driver.navigate().refresh();
 			Thread.sleep(2000);

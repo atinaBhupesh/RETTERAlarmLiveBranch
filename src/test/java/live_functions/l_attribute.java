@@ -173,7 +173,7 @@ Thread.sleep(1000);
 			Thread.sleep(2000);
 
 			delete.click();
-			Thread.sleep(2000);
+			Thread.sleep(5000);
 			deleteYes.click();
 			Thread.sleep(2000);
 			Reporter.log("Attribute number" + i + " deleted successfully", true);

@@ -669,7 +669,7 @@ public class j_calendarEvent extends B_baseClass {
 			EventByAttribute.click();
 			deleteEvent.click();
 			Alert a = driver.switchTo().alert();
-			Thread.sleep(2000);
+			Thread.sleep(5000);
 			a.accept();
 
 			Thread.sleep(3000);
@@ -710,7 +710,7 @@ public class j_calendarEvent extends B_baseClass {
 			EventByResource.click();
 			deleteEvent.click();
 			Alert a = driver.switchTo().alert();
-			Thread.sleep(2000);
+			Thread.sleep(5000);
 			a.accept();
 
 			Thread.sleep(3000);
@@ -754,7 +754,7 @@ public class j_calendarEvent extends B_baseClass {
 			EventByFirefighter.click();
 			deleteEvent.click();
 			Alert a = driver.switchTo().alert();
-			Thread.sleep(2000);
+			Thread.sleep(5000);
 			a.accept();
 
 			Thread.sleep(3000);
@@ -794,6 +794,7 @@ Thread.sleep(1000);
 			act.sendKeys("BG-EventCategoty").build().perform();
 			Thread.sleep(2000);
 			deleteCategory.click();
+			Thread.sleep(5000);
 			deleteYes.click();
 			driver.navigate().refresh();
 			Reporter.log(" Event category number-" + i + " delete successfully deleted.", true);

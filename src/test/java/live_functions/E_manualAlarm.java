@@ -138,14 +138,10 @@ public class E_manualAlarm extends B_baseClass
 	
 	//Dev
 	@FindBy(xpath="//input[@value=\"12743\"]")private WebElement Bh1A2;
-
-
-	
-
 	@FindBy(xpath="//input[@value=\"918\"]")private WebElement BH1St2R1;
-	// @FindBy(xpath="")private WebElement ;
-	// @FindBy(xpath="")private WebElement ;
-	// @FindBy(xpath="")private WebElement ;
+	@FindBy(xpath="//input[@value=\"22759\"]")private WebElement bhupeshDev;
+    @FindBy(xpath="//input[@value=\"850\"]")private WebElement BH1ST04Esc;
+	@FindBy(xpath="//input[@value=\"10881\"]")private WebElement BH1A1;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -420,7 +416,7 @@ public class E_manualAlarm extends B_baseClass
 		
 		else if (BranchNameB.equals("3"))
 		{
-			Bh1A2.click();
+			BH1A1.click();
 			
 		}
 		
@@ -562,7 +558,7 @@ public class E_manualAlarm extends B_baseClass
 		
 		else if (BranchNameB.equals("3"))
 		{
-			Bh1A2.click();
+			BH1A1.click();
 			
 		}
 		
@@ -622,7 +618,7 @@ public class E_manualAlarm extends B_baseClass
 		
 		else if (BranchNameB.equals("3"))
 		{
-			Bh1A2.click();
+			BH1St2R1.click();
 			
 		}
 		
@@ -698,7 +694,7 @@ public class E_manualAlarm extends B_baseClass
 		
 		else if (BranchNameB.equals("3"))
 		{
-			Bh1A2.click();
+			BH1St2R1.click();
 			
 		}
 		
@@ -784,7 +780,7 @@ public class E_manualAlarm extends B_baseClass
 		
 		else if (BranchNameB.equals("3"))
 		{
-			Bh1A2.click();
+			bhupeshDev.click();
 			
 		}
 		
@@ -1010,7 +1006,7 @@ public class E_manualAlarm extends B_baseClass
 		
 		else if (BranchNameB.equals("3"))
 		{
-			Bh1A2.click();
+			BH1ST04Esc.click();
 			
 		}
 		
@@ -1080,7 +1076,7 @@ public class E_manualAlarm extends B_baseClass
 		
 		else if (BranchNameB.equals("3"))
 		{
-			Bh1A2.click();
+			BH1ST04Esc.click();
 			
 		}
 		
@@ -1187,7 +1183,7 @@ public class E_manualAlarm extends B_baseClass
 		
 		else if (BranchNameB.equals("3"))
 		{
-			Bh1A2.click();
+			BH1A1.click();
 			
 		}
 		

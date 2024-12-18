@@ -93,7 +93,7 @@ public class j_alarmLoop extends  B_baseClass {
 		searchButton.click();
 		Thread.sleep(3000);
 		delete.click();
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		deleteYes.click();
 		Thread.sleep(1000);
 		Reporter.log("Alarm loop no-"+i+" deleted successfully",true);
