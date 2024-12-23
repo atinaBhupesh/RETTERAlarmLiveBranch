@@ -8,14 +8,17 @@
        <methods>
 				<include name="userDetails"  />
 	     	
-	
-
-			  
-		<include name="createTestAlarmByAttributeOneTime"  />
-        	<include name="createTestAlarmByAttributeRecursivedaily"  />
-        	<include name="createTestAlarmByAttributeRecursiveWeekly"  />
-        	<include name="testAlarmByRecursiveMonthlyDayWise"  />
-        	<include name="createTestAlarmByAttributeRecursiveMontlyDateWise"  /> 
+		    			<include name="createChatgroupByAttribute"  /> 
+			<include name="createChatgroupByResource"  /> 
+			<include name="createChatgroupByFirefighter"  /> 
+			<include name="createChatgroupByAlarmloop"  /> 
+			
+			
+				<include name="sendMessageChatGrouCreatedByAttribute"  /> 
+			<include name="sendMessageChatGrouCreatedByResource"  /> 
+			<include name="sendMessageChatGrouCreatedByFirefighter"  /> 
+			<include name="sendMessageChatGrouCreatedByAlarmLoop"  />
+			
 			
 			 <include name="detailsAboutScript"  />  
       </methods>

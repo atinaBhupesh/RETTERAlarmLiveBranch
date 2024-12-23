@@ -122,8 +122,12 @@ public class I_availabilityRequest extends B_baseClass {
 //	Testing
   @FindBy(xpath="//input[@value=\"980\"]")private WebElement station04;
   @FindBy(xpath="//input[@id=\"ff_980_18952\"]")private WebElement bhupeshTest;
-	// @FindBy(xpath="")private WebElement ;
-//@FindBy(xpath="")private WebElement ;
+  
+//  Dev
+  
+  
+	 @FindBy(xpath="//input[@value=\"1197\"]")private WebElement Bh1St1;
+@FindBy(xpath="//input[@id=\"ff_1197_22759\"]")private WebElement bhupeshDev;
 //@FindBy(xpath="")private WebElement ;
 //@FindBy(xpath="")private WebElement ;
 
@@ -247,6 +251,18 @@ public class I_availabilityRequest extends B_baseClass {
 			
 			break;
 			
+		case "3" :
+			Bh1St1.click();
+			act.sendKeys(Keys.PAGE_DOWN).build().perform();
+			Thread.sleep(2000);
+			Bh1St1.click();
+			Thread.sleep(2000);
+			
+			bhupeshDev.click();
+			Thread.sleep(1000);
+			
+			break;
+			
 			
 		
 		}
@@ -362,6 +378,19 @@ public class I_availabilityRequest extends B_baseClass {
 			break;
 			
 			
+		case "3" :
+			Bh1St1.click();
+			act.sendKeys(Keys.PAGE_DOWN).build().perform();
+			Thread.sleep(2000);
+			Bh1St1.click();
+			Thread.sleep(2000);
+			
+			bhupeshDev.click();
+			Thread.sleep(1000);
+			
+			break;
+			
+			
 		
 		}
 
@@ -458,6 +487,19 @@ switch (BranchNameB) {
 			Thread.sleep(2000);
 			
 			bhupeshTest.click();
+			Thread.sleep(1000);
+			
+			break;
+			
+			
+		case "3" :
+			Bh1St1.click();
+			act.sendKeys(Keys.PAGE_DOWN).build().perform();
+			Thread.sleep(2000);
+			Bh1St1.click();
+			Thread.sleep(2000);
+			
+			bhupeshDev.click();
 			Thread.sleep(1000);
 			
 			break;
@@ -568,6 +610,17 @@ switch (BranchNameB) {
 			
 			break;
 			
+		case "3" :
+			Bh1St1.click();
+			act.sendKeys(Keys.PAGE_DOWN).build().perform();
+			Thread.sleep(2000);
+			Bh1St1.click();
+			Thread.sleep(2000);
+			
+			bhupeshDev.click();
+			Thread.sleep(1000);
+			
+			break;
 			
 		
 		}

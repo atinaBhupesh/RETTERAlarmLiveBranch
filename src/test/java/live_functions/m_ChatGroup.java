@@ -81,7 +81,16 @@ public class m_ChatGroup extends  B_baseClass{
 		@FindBy(xpath="//input[@value=\"476\"]")private WebElement D1ST04Esc;
 		@FindBy(xpath="//input[@value=\"3078\"]")private WebElement D1ST5A1;
 		@FindBy(xpath="//INPUT[@value=\"462\"]")private WebElement D1ST04AL1;
-	 
+		
+		
+		
+		//Dev
+		@FindBy(xpath="//input[@value=\"12743\"]")private WebElement Bh1A2;
+		@FindBy(xpath="//input[@value=\"918\"]")private WebElement BH1St2R1;
+		@FindBy(xpath="//input[@value=\"22759\"]")private WebElement bhupeshDev;
+	    @FindBy(xpath="//input[@value=\"850\"]")private WebElement BH1ST04Esc;
+		@FindBy(xpath="//input[@value=\"10881\"]")private WebElement BH1A1;
+		@FindBy(xpath="//input[@value=\"516\"]")private WebElement BH1ST1AL1;
 
 	 // @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -170,6 +179,10 @@ public class m_ChatGroup extends  B_baseClass{
 				D1ST04A1.click();
 				break;
 					
+			case "3":
+				
+				Bh1A2.click();
+				break;
 			
 			
 			
@@ -261,6 +274,10 @@ public class m_ChatGroup extends  B_baseClass{
 				
 				D1ST04R2.click();
 				break;
+			case "3":
+				
+				BH1St2R1.click();
+				break;
 					
 			
 			
@@ -350,6 +367,10 @@ Thread.sleep(1000);
 				bhupeshTest.click();
 				break;
 					
+case "3":
+				
+				bhupeshDev.click();
+				break;
 			
 			
 			
@@ -437,6 +458,10 @@ Thread.sleep(1000);
 				D1ST04AL1.click();
 				break;
 				
+			case "3":
+				BH1ST1AL1.click();
+				break;
+				
 				
 			}
 			
@@ -490,6 +515,9 @@ Thread.sleep(1000);
 				groupConversationT.click();
 				break;
 				
+			case "3":
+				groupConversationD.click();
+				break;
 				
 			}
 			
@@ -532,6 +560,10 @@ Thread.sleep(1000);
 				groupConversationT.click();
 				break;
 				
+			case "3":
+				groupConversationD.click();
+				break;
+				
 				
 			}
 		
@@ -566,7 +598,9 @@ Thread.sleep(1000);
 			case "2":
 				groupConversationT.click();
 				break;
-				
+			case "3":
+				groupConversationD.click();
+				break;
 				
 			}
 			searchGroup.click();
@@ -598,6 +632,9 @@ Thread.sleep(1000);
 				
 			case "2":
 				groupConversationT.click();
+				break;
+			case "3":
+				groupConversationD.click();
 				break;
 				
 				
@@ -696,6 +733,9 @@ Thread.sleep(1000);
 				
 			case "2":
 				groupConversationT.click();
+				break;
+			case "3":
+				groupConversationD.click();
 				break;
 				
 				

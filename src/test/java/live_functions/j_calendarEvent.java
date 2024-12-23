@@ -138,6 +138,13 @@ public class j_calendarEvent extends B_baseClass {
 	@FindBy(xpath="//input[@value=\"476\"]")private WebElement D1ST04Esc;
 	@FindBy(xpath="//input[@value=\"3078\"]")private WebElement D1ST5A1;
 	
+//	Dev
+	
+	@FindBy(xpath="//li[text()=\"Bhupesh department 1\"]")private WebElement bhupeshDepartment1;
+	@FindBy(xpath="//input[@value=\"10881\"]")private WebElement bh1A1;
+	@FindBy(xpath="//input[@value=\"918\"]")private WebElement BH1ST1R1;
+	@FindBy(xpath="//input[@value=\"22759\"]")private WebElement bhupeshDev;
+	
 	
 	// @FindBy(xpath="")private WebElement ;
 		// @FindBy(xpath="")private WebElement ;
@@ -203,7 +210,7 @@ public class j_calendarEvent extends B_baseClass {
 		
 		else if (BranchNameB.equals("3"))
 		{
-			calendarD.click();
+			bhupeshDepartment1.click();
 			
 		}
 		
@@ -287,7 +294,7 @@ public class j_calendarEvent extends B_baseClass {
 		
 		else if (BranchNameB.equals("3"))
 		{
-			calendarD.click();
+			bh1A1.click();
 			
 		}
 		
@@ -342,7 +349,7 @@ public class j_calendarEvent extends B_baseClass {
 		
 		else if (BranchNameB.equals("3"))
 		{
-			calendarD.click();
+			bhupeshDepartment1.click();
 			
 		}
 		
@@ -425,7 +432,7 @@ public class j_calendarEvent extends B_baseClass {
 		
 		else if (BranchNameB.equals("3"))
 		{
-			calendarD.click();
+			BH1ST1R1.click();
 			
 		}
 		
@@ -485,7 +492,7 @@ public class j_calendarEvent extends B_baseClass {
 		
 		else if (BranchNameB.equals("3"))
 		{
-			calendarD.click();
+			bhupeshDepartment1.click();
 			
 		}
 		
@@ -575,7 +582,7 @@ public class j_calendarEvent extends B_baseClass {
 		
 		else if (BranchNameB.equals("3"))
 		{
-			calendarD.click();
+			bhupeshDev.click();
 			
 		}
 		

@@ -13,9 +13,14 @@
 				<include name="deactiveManualAlarm" />
 
 				
-						<exclude name="deactiveManualAlarm" />
-						<exclude name="deleteAllManualAlarm" />
-						<exclude name="deleteTestAlarmFromOverview_monthly" />
+					<include name="createChatgroupByAttribute"  /> 
+			<include name="createChatgroupByResource"  /> 
+			<include name="createChatgroupByFirefighter"  /> 
+			<include name="createChatgroupByAlarmloop"  /> 
+			
+			
+			
+			
 
 				<include name="detailsAboutScript" />
 

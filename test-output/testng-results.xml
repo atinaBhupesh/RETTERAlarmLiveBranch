@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Hello,1 branch deleting process has started.-23.12.2024>06:43]]>
+      <![CDATA[Hello, Daily check point checking process of 3 has started.-23.12.2024>14:34]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[Todays is 4 Monday of this month.]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -11,7 +17,7 @@
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[live department user # 6039-DE-andrew-deptu-2 # log in sucessfully]]>
+      <![CDATA[Department user # bhupesh.dept_dev@atpl.in # log in sucessfully]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -20,360 +26,420 @@
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[The process of deactive a manual alarm is started.]]>
+      <![CDATA[The process of creating chat group by attribute is started.]]>
     </line>
     <line>
-      <![CDATA[Alarm number-1 is deactive sucessfully.]]>
+      <![CDATA[The process of creating chat group by attribute is complete.]]>
     </line>
     <line>
-      <![CDATA[Alarm number-2 is deactive sucessfully.]]>
+      <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[Alarm number-3 is deactive sucessfully.]]>
+      <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[Alarm number-4 is deactive sucessfully.]]>
+      <![CDATA[The process of creating chat group by resource is started.]]>
     </line>
     <line>
-      <![CDATA[Alarm number-5 is deactive sucessfully.]]>
+      <![CDATA[The process of creating chat group by resource is complete.]]>
     </line>
     <line>
-      <![CDATA[Alarm number-6 is deactive sucessfully.]]>
+      <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[Alarm number-7 is deactive sucessfully.]]>
+      <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[Alarm number-8 is deactive sucessfully.]]>
+      <![CDATA[The process of creating chat group by fire fightr is started.]]>
+    </line>
+    <line>
+      <![CDATA[The process of creating chat group by fire fightr is complete.]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[The process of creating chat group by alarm loop is started.]]>
+    </line>
+    <line>
+      <![CDATA[The process of creating chat group by alarm loop is complete.]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[The process of sending message to a chat group created by attribute is started.]]>
+    </line>
+    <line>
+      <![CDATA[The process of sending message to a chat group created by attribute is complete.]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[The process of sending message to a chat group created by Resource is started.]]>
+    </line>
+    <line>
+      <![CDATA[The process of sending message to a chat group created by Resource is complete.]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[The process of sending message to a chat group created by Firefighter is started.]]>
+    </line>
+    <line>
+      <![CDATA[The process of sending message to a chat group created by Firefighter is complete.]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[The process of sending message to a chat group created by AlarmLoop is started.]]>
+    </line>
+    <line>
+      <![CDATA[The process of sending message to a chat group created by AlarmLoop is complete.]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[Login  date-23.12.2024 & login  time -14:34]]>
+    </line>
+    <line>
+      <![CDATA[Logout date-23-12-2024 & logout time -14:38]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[Logout sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[Refresh the URL before successfully closing the browser.]]>
+    </line>
+    <line>
+      <![CDATA[Browser close sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-12-23T11:12:52 IST" name="Suite" finished-at="2024-12-23T11:15:57 IST" duration-ms="185132">
+  <suite started-at="2024-12-23T19:04:48 IST" name="Suite" finished-at="2024-12-23T19:08:11 IST" duration-ms="202551">
     <groups>
     </groups>
-    <test started-at="2024-12-23T11:12:52 IST" name="Test" finished-at="2024-12-23T11:15:57 IST" duration-ms="185132">
-      <class name="live_functions.AAA_testClass_delete">
-        <test-method is-config="true" signature="lounchBrowser()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-23T11:12:52 IST" name="lounchBrowser" finished-at="2024-12-23T11:13:07 IST" duration-ms="15064" status="PASS">
+    <test started-at="2024-12-23T19:04:48 IST" name="Test" finished-at="2024-12-23T19:08:11 IST" duration-ms="202551">
+      <class name="live_functions.A_testClass_dailyCheckPointList">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:04:40 IST" name="BeforeSuite" finished-at="2024-12-23T19:04:48 IST" duration-ms="8472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:04:48 IST" name="BeforeTest" finished-at="2024-12-23T19:04:52 IST" duration-ms="3415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method is-config="true" signature="lounchBrowser()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:04:52 IST" name="lounchBrowser" finished-at="2024-12-23T19:04:52 IST" duration-ms="125" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Hello,1 branch deleting process has started.-23.12.2024>06:43]]>
+              <![CDATA[Hello, Daily check point checking process of 3 has started.-23.12.2024>14:34]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[Todays is 4 Monday of this month.]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
           </reporter-output>
         </test-method> <!-- lounchBrowser -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-23T11:13:07 IST" name="backToHomePage" finished-at="2024-12-23T11:13:12 IST" duration-ms="4725" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:04:52 IST" name="backToHomePage" finished-at="2024-12-23T19:04:55 IST" duration-ms="2614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="userDetails()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-23T11:13:12 IST" name="userDetails" finished-at="2024-12-23T11:13:12 IST" duration-ms="5" status="PASS">
+        <test-method signature="userDetails()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:04:55 IST" name="userDetails" finished-at="2024-12-23T19:04:55 IST" duration-ms="3" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ ]]>
             </line>
             <line>
-              <![CDATA[live department user # 6039-DE-andrew-deptu-2 # log in sucessfully]]>
+              <![CDATA[Department user # bhupesh.dept_dev@atpl.in # log in sucessfully]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
           </reporter-output>
         </test-method> <!-- userDetails -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-23T11:13:12 IST" name="backToHomePage2" finished-at="2024-12-23T11:13:15 IST" duration-ms="2582" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:04:55 IST" name="backToHomePage2" finished-at="2024-12-23T19:04:56 IST" duration-ms="1403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-23T11:13:15 IST" name="backToHomePage" finished-at="2024-12-23T11:13:17 IST" duration-ms="2594" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:04:56 IST" name="backToHomePage" finished-at="2024-12-23T19:04:57 IST" duration-ms="1325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deactiveManualAlarm()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-23T11:13:17 IST" name="deactiveManualAlarm" finished-at="2024-12-23T11:15:47 IST" duration-ms="150056" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=131.0.6778.205)
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3c17b19a0503c1cfffbb717ad2f6b502, clickElement {id=f.A60AF798DA6FC5C215B7BDC308D64890.d.453F59E2DEBD660CA0EA79C034541DE9.e.101710}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51201/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3c17b19a0503c1cfffbb717ad2f6b502)] -> xpath: //button[@id="statChange"]]
-Session ID: 3c17b19a0503c1cfffbb717ad2f6b502]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=131.0.6778.205)
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3c17b19a0503c1cfffbb717ad2f6b502, clickElement {id=f.A60AF798DA6FC5C215B7BDC308D64890.d.453F59E2DEBD660CA0EA79C034541DE9.e.101710}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51201/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3c17b19a0503c1cfffbb717ad2f6b502)] -> xpath: //button[@id="statChange"]]
-Session ID: 3c17b19a0503c1cfffbb717ad2f6b502
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-at live_functions.E_manualAlarm.deactiveManualAlarms(E_manualAlarm.java:1369)
-at live_functions.AAA_testClass_delete.deactiveManualAlarm(AAA_testClass_delete.java:414)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+        <test-method signature="createChatgroupByAttribute()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:04:57 IST" name="createChatgroupByAttribute" finished-at="2024-12-23T19:05:24 IST" duration-ms="26306" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ ]]>
             </line>
             <line>
-              <![CDATA[The process of deactive a manual alarm is started.]]>
+              <![CDATA[The process of creating chat group by attribute is started.]]>
             </line>
             <line>
-              <![CDATA[Alarm number-1 is deactive sucessfully.]]>
+              <![CDATA[The process of creating chat group by attribute is complete.]]>
             </line>
             <line>
-              <![CDATA[Alarm number-2 is deactive sucessfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-3 is deactive sucessfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-4 is deactive sucessfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-5 is deactive sucessfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-6 is deactive sucessfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-7 is deactive sucessfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-8 is deactive sucessfully.]]>
+              <![CDATA[ ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- deactiveManualAlarm -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-23T11:15:47 IST" name="backToHomePage2" finished-at="2024-12-23T11:15:57 IST" duration-ms="10069" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=131.0.6778.205)
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3c17b19a0503c1cfffbb717ad2f6b502, clickElement {id=f.A60AF798DA6FC5C215B7BDC308D64890.d.453F59E2DEBD660CA0EA79C034541DE9.e.101269}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51201/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3c17b19a0503c1cfffbb717ad2f6b502)] -> xpath: //img[@src="/img/logoicon.png"]]
-Session ID: 3c17b19a0503c1cfffbb717ad2f6b502]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=131.0.6778.205)
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3c17b19a0503c1cfffbb717ad2f6b502, clickElement {id=f.A60AF798DA6FC5C215B7BDC308D64890.d.453F59E2DEBD660CA0EA79C034541DE9.e.101269}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51201/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3c17b19a0503c1cfffbb717ad2f6b502)] -> xpath: //img[@src="/img/logoicon.png"]]
-Session ID: 3c17b19a0503c1cfffbb717ad2f6b502
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-at live_functions.D_homePage.backToHomePage(D_homePage.java:35)
-at live_functions.AAA_testClass_delete.backToHomePage2(AAA_testClass_delete.java:504)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+        </test-method> <!-- createChatgroupByAttribute -->
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:05:24 IST" name="backToHomePage2" finished-at="2024-12-23T19:05:25 IST" duration-ms="1337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-23T11:15:57 IST" name="backToHomePage" finished-at="2024-12-23T11:15:57 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:05:25 IST" name="backToHomePage" finished-at="2024-12-23T19:05:26 IST" duration-ms="1299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="detailsAboutScript()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-23T11:15:57 IST" name="detailsAboutScript" finished-at="2024-12-23T11:15:57 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=131.0.6778.205)
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3c17b19a0503c1cfffbb717ad2f6b502, clickElement {id=f.A60AF798DA6FC5C215B7BDC308D64890.d.453F59E2DEBD660CA0EA79C034541DE9.e.101269}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51201/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3c17b19a0503c1cfffbb717ad2f6b502)] -> xpath: //img[@src="/img/logoicon.png"]]
-Session ID: 3c17b19a0503c1cfffbb717ad2f6b502]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=131.0.6778.205)
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3c17b19a0503c1cfffbb717ad2f6b502, clickElement {id=f.A60AF798DA6FC5C215B7BDC308D64890.d.453F59E2DEBD660CA0EA79C034541DE9.e.101269}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51201/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3c17b19a0503c1cfffbb717ad2f6b502)] -> xpath: //img[@src="/img/logoicon.png"]]
-Session ID: 3c17b19a0503c1cfffbb717ad2f6b502
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-at live_functions.D_homePage.backToHomePage(D_homePage.java:35)
-at live_functions.AAA_testClass_delete.backToHomePage2(AAA_testClass_delete.java:504)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+        <test-method signature="createChatgroupByResource()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:05:26 IST" name="createChatgroupByResource" finished-at="2024-12-23T19:05:48 IST" duration-ms="21929" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[The process of creating chat group by resource is started.]]>
+            </line>
+            <line>
+              <![CDATA[The process of creating chat group by resource is complete.]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- detailsAboutScript -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-23T11:15:57 IST" name="backToHomePage2" finished-at="2024-12-23T11:15:57 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- createChatgroupByResource -->
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:05:48 IST" name="backToHomePage2" finished-at="2024-12-23T19:05:50 IST" duration-ms="1395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-23T11:15:57 IST" name="logOut" finished-at="2024-12-23T11:15:57 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:05:50 IST" name="backToHomePage" finished-at="2024-12-23T19:05:51 IST" duration-ms="1382" status="PASS">
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="createChatgroupByFirefighter()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:05:51 IST" name="createChatgroupByFirefighter" finished-at="2024-12-23T19:06:10 IST" duration-ms="18928" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[The process of creating chat group by fire fightr is started.]]>
+            </line>
+            <line>
+              <![CDATA[The process of creating chat group by fire fightr is complete.]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createChatgroupByFirefighter -->
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:06:10 IST" name="backToHomePage2" finished-at="2024-12-23T19:06:11 IST" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage2 -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:06:11 IST" name="backToHomePage" finished-at="2024-12-23T19:06:12 IST" duration-ms="1327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="createChatgroupByAlarmloop()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:06:12 IST" name="createChatgroupByAlarmloop" finished-at="2024-12-23T19:06:33 IST" duration-ms="20870" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[The process of creating chat group by alarm loop is started.]]>
+            </line>
+            <line>
+              <![CDATA[The process of creating chat group by alarm loop is complete.]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createChatgroupByAlarmloop -->
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:06:33 IST" name="backToHomePage2" finished-at="2024-12-23T19:06:35 IST" duration-ms="1308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage2 -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:06:35 IST" name="backToHomePage" finished-at="2024-12-23T19:06:36 IST" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="sendMessageChatGrouCreatedByAttribute()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:06:36 IST" name="sendMessageChatGrouCreatedByAttribute" finished-at="2024-12-23T19:06:55 IST" duration-ms="18736" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[The process of sending message to a chat group created by attribute is started.]]>
+            </line>
+            <line>
+              <![CDATA[The process of sending message to a chat group created by attribute is complete.]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendMessageChatGrouCreatedByAttribute -->
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:06:55 IST" name="backToHomePage2" finished-at="2024-12-23T19:06:56 IST" duration-ms="1434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage2 -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:06:56 IST" name="backToHomePage" finished-at="2024-12-23T19:06:58 IST" duration-ms="1398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="sendMessageChatGrouCreatedByResource()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:06:58 IST" name="sendMessageChatGrouCreatedByResource" finished-at="2024-12-23T19:07:16 IST" duration-ms="18596" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[The process of sending message to a chat group created by Resource is started.]]>
+            </line>
+            <line>
+              <![CDATA[The process of sending message to a chat group created by Resource is complete.]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendMessageChatGrouCreatedByResource -->
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:07:16 IST" name="backToHomePage2" finished-at="2024-12-23T19:07:18 IST" duration-ms="1486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage2 -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:07:18 IST" name="backToHomePage" finished-at="2024-12-23T19:07:19 IST" duration-ms="1519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="sendMessageChatGrouCreatedByFirefighter()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:07:19 IST" name="sendMessageChatGrouCreatedByFirefighter" finished-at="2024-12-23T19:07:38 IST" duration-ms="19005" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[The process of sending message to a chat group created by Firefighter is started.]]>
+            </line>
+            <line>
+              <![CDATA[The process of sending message to a chat group created by Firefighter is complete.]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendMessageChatGrouCreatedByFirefighter -->
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:07:38 IST" name="backToHomePage2" finished-at="2024-12-23T19:07:40 IST" duration-ms="1351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage2 -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:07:40 IST" name="backToHomePage" finished-at="2024-12-23T19:07:41 IST" duration-ms="1252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="sendMessageChatGrouCreatedByAlarmLoop()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:07:41 IST" name="sendMessageChatGrouCreatedByAlarmLoop" finished-at="2024-12-23T19:07:59 IST" duration-ms="18634" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[The process of sending message to a chat group created by AlarmLoop is started.]]>
+            </line>
+            <line>
+              <![CDATA[The process of sending message to a chat group created by AlarmLoop is complete.]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendMessageChatGrouCreatedByAlarmLoop -->
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:07:59 IST" name="backToHomePage2" finished-at="2024-12-23T19:08:01 IST" duration-ms="1279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage2 -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:08:01 IST" name="backToHomePage" finished-at="2024-12-23T19:08:02 IST" duration-ms="1434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="detailsAboutScript()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:08:02 IST" name="detailsAboutScript" finished-at="2024-12-23T19:08:05 IST" duration-ms="3002" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[Login  date-23.12.2024 & login  time -14:34]]>
+            </line>
+            <line>
+              <![CDATA[Logout date-23-12-2024 & logout time -14:38]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- detailsAboutScript -->
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:08:05 IST" name="backToHomePage2" finished-at="2024-12-23T19:08:06 IST" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage2 -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:08:06 IST" name="logOut" finished-at="2024-12-23T19:08:10 IST" duration-ms="3976" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
         </test-method> <!-- logOut -->
-      </class> <!-- live_functions.AAA_testClass_delete -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:08:10 IST" name="AfterTest" finished-at="2024-12-23T19:08:11 IST" duration-ms="769" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Refresh the URL before successfully closing the browser.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method is-config="true" signature="AfterSute()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:08:11 IST" name="AfterSute" finished-at="2024-12-23T19:08:11 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser close sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AfterSute -->
+      </class> <!-- live_functions.A_testClass_dailyCheckPointList -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

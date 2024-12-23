@@ -71,6 +71,11 @@ public class G_InfoEvent extends B_baseClass {
 	@FindBy(xpath="//input[@value=\"476\"]")private WebElement D1ST04Esc;
 	@FindBy(xpath="//input[@value=\"3078\"]")private WebElement D1ST5A1;
     
+//	Dev
+	
+	@FindBy(xpath="//input[@value=\"10881\"]")private WebElement bh1A1;
+	@FindBy(xpath="//input[@value=\"918\"]")private WebElement BH1ST1R1;
+	@FindBy(xpath="//input[@value=\"22759\"]")private WebElement bhupeshDev;
     
     
 
@@ -154,7 +159,7 @@ public class G_InfoEvent extends B_baseClass {
 		
 		else if (BranchNameB.equals("3"))
 		{
-//			testAlarmOverviewD.click();
+			bh1A1.click();
 			
 		}
 		
@@ -236,7 +241,7 @@ public class G_InfoEvent extends B_baseClass {
 		
 		else if (BranchNameB.equals("3"))
 		{
-//			testAlarmOverviewD.click();
+			BH1ST1R1.click();
 			
 		}
 		
@@ -320,7 +325,7 @@ public class G_InfoEvent extends B_baseClass {
 		
 		else if (BranchNameB.equals("3"))
 		{
-//			testAlarmOverviewD.click();
+			bhupeshDev.click();
 			
 		}
 		
@@ -393,6 +398,15 @@ public class G_InfoEvent extends B_baseClass {
 			D1ST04A1.click();
 			break;
 			
+			
+			
+			
+			
+		case "3" :
+			
+			bh1A1.click();
+			break;
+			
 		
 		}
 		
@@ -455,6 +469,10 @@ switch (BranchNameB) {
 			D1ST04R2.click();
 			break;
 			
+case "3" :
+			
+	BH1ST1R1.click();
+			break;
 		
 		}
 		
@@ -525,6 +543,10 @@ switch (BranchNameB) {
 		case "2" :
 			
 			bhupeshTest.click();
+			break;
+case "3" :
+			
+			bhupeshDev.click();
 			break;
 			
 		
