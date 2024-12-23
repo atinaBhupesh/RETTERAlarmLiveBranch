@@ -747,11 +747,11 @@ Thread.sleep(1000);
     	   
     	
     	   
-    	   int z=availableDataCount.size();
+//    	   int z=availableDataCount.size();
     	   
-    		Reporter.log("The total available chat group count is-"+z+" in the list for delete.",true);
+//    		Reporter.log("The total available chat group count is-"+z+" in the list for delete.",true);
     	   
-    	   for (int i=1;i<=z;i++)
+    	   for (int i=1;i<=200;i++)
     	   {
     		  
     	   searchField.click();

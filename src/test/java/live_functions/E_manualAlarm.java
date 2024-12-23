@@ -116,6 +116,7 @@ public class E_manualAlarm extends B_baseClass
 	private WebElement changeStatusYes;
 	@FindBy(xpath = "//span[contains(text(), 'BG')]")private WebElement BGAlarm;
 	@FindBy(xpath = "//span[starts-with(@title, 'BG')]")private List<WebElement> availableDataCount;
+	@FindBy(xpath="//select[@name=\"alarmTable_length\"]")private WebElement alarmCount ;
 
 	//live
 	@FindBy(xpath = "//input[@value=\"15429\"]")private WebElement ADST06A2;
@@ -136,13 +137,14 @@ public class E_manualAlarm extends B_baseClass
 	@FindBy(xpath="//input[@value=\"3078\"]")private WebElement D1ST5A1;
 	
 	
+	
 	//Dev
 	@FindBy(xpath="//input[@value=\"12743\"]")private WebElement Bh1A2;
 	@FindBy(xpath="//input[@value=\"918\"]")private WebElement BH1St2R1;
 	@FindBy(xpath="//input[@value=\"22759\"]")private WebElement bhupeshDev;
     @FindBy(xpath="//input[@value=\"850\"]")private WebElement BH1ST04Esc;
 	@FindBy(xpath="//input[@value=\"10881\"]")private WebElement BH1A1;
-	// @FindBy(xpath="")private WebElement ;
+ 
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -1343,16 +1345,17 @@ public class E_manualAlarm extends B_baseClass
 		se.selectByVisibleText("100");
 		Thread.sleep(2000);
 
-		int z = availableDataCount.size();
-		Reporter.log("The total available manual alarms count is-" + z + " in the list for deactive.", true);
+//		int z = availableDataCount.size();
+//		Reporter.log("The total available manual alarms count is-" + z + " in the list for deactive.", true);
+		act.sendKeys("BG").build().perform();
 
-		for (int i = 1; i <= z; i++) {
+		searchButton.click();
+		Thread.sleep(2000);
+
+		for (int i = 1; i <= 100; i++) {
 			searchField.click();
 
-			act.sendKeys("BG").build().perform();
-
-			searchButton.click();
-			Thread.sleep(2000);
+			
 
 			{
 				deactiveAlarm.click();
@@ -1362,8 +1365,8 @@ public class E_manualAlarm extends B_baseClass
 				Thread.sleep(1000);
 				
 				Reporter.log("Alarm number-" + i + " is deactive sucessfully.", true);
-				Thread.sleep(5000);
-				driver.navigate().refresh();
+//				Thread.sleep(5000);
+//				driver.navigate().refresh();
 				Thread.sleep(2000);
 
 			}
@@ -1397,15 +1400,19 @@ public class E_manualAlarm extends B_baseClass
 			
 		}
 		
+		
+		Select se = new Select(alarmCount);
+		se.selectByVisibleText("100");
+		Thread.sleep(2000);
 		searchField.click();
 
 		act.sendKeys("BG").build().perform();
 
 
-		int z = availableDataCount.size();
-		Reporter.log("The total available manual alarms count is-" + z + " in the list for delete.", true);
+//		int z = availableDataCount.size();
+//		Reporter.log("The total available manual alarms count is-" + z + " in the list for delete.", true);
 
-		for (int i = 1; i <= z; i++) {
+		for (int i = 1; i <= 100; i++) {
 			
 			searchButton.click();
 			Thread.sleep(3000);
@@ -1451,7 +1458,7 @@ public class E_manualAlarm extends B_baseClass
 //			int z = availableDataCount.size();
 //			Reporter.log("The total available manual alarms count is-" + z + " in the list for delete.", true);
 
-			for (int i = 1; i <= 56; i++) {
+			for (int i = 1; i <= 100; i++) {
 				searchField.click();
 
 //				act.sendKeys("BG").build().perform();

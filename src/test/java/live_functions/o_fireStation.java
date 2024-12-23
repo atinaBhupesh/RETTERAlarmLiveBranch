@@ -130,11 +130,11 @@ public class o_fireStation extends  B_baseClass {
 	public void deleteStation (WebDriver driver, String BranchNameB) throws Throwable
 	{
 		Actions act = new Actions(driver);
-		int z=availabeDataCount.size();
-		Reporter.log("The available station count is-"+z+" in the list for delete.",true);
+//		int z=availabeDataCount.size();
+//		Reporter.log("The available station count is-"+z+" in the list for delete.",true);
 		
 		
-		for (int i=1;i<=z;i++)
+		for (int i=1;i<=200;i++)
 		{
 		
 		searchField.click();

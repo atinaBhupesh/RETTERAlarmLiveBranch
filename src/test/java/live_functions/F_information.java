@@ -416,10 +416,10 @@ switch (BranchNameB) {
 		}
 	
 		
-		int z=availableDataCount.size();
-		Reporter.log("The total available information or event count is-"+z+" in the list for delate.",true);
+//		int z=availableDataCount.size();
+//		Reporter.log("The total available information or event count is-"+z+" in the list for delate.",true);
 
-		for (int i = 1; i <= z; i++) {
+		for (int i = 1; i <= 200; i++) {
 
 			searchField.click();
 			act.sendKeys("BG").build().perform();

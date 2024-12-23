@@ -630,13 +630,13 @@ switch (BranchNameB) {
 
 	public void deleteAvailabilityRequestFromList(WebDriver driver, String BranchNameB) throws Throwable {
 		
-		int z = availableDataCount.size();
-		Reporter.log("The total available availability request count is-"+z+" in the list for delete.",true);
+//		int z = availableDataCount.size();
+//		Reporter.log("The total available availability request count is-"+z+" in the list for delete.",true);
 
 
 		Actions act = new Actions(driver);
 
-		for (int i = 1; i <= z; i++) 
+		for (int i = 1; i <= 100; i++) 
 		
 		{
 			searchField.click();
@@ -661,10 +661,10 @@ switch (BranchNameB) {
 
 		Actions act = new Actions(driver);
 
-		int z = availableDataCount.size();
-		Reporter.log("The total available availability request count is-"+z+" in the history for delete.",true);
+//		int z = availableDataCount.size();
+//		Reporter.log("The total available availability request count is-"+z+" in the history for delete.",true);
 		
-		for (int i = 1; i <= z; i++) {
+		for (int i = 1; i <= 100; i++) {
 			searFieldHistory.click();
 			Thread.sleep(2000);
 			act.sendKeys("BG").perform();

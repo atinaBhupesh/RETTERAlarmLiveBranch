@@ -169,10 +169,10 @@ public void deleteCheckLis (WebDriver driver, String BranchNameB) throws Throwab
 	
 	    Actions act = new Actions(driver);
 	    
-	    int z=availabeDataCount.size();
-		Reporter.log("The total available check list count is-"+z+" in the list for delete.",true);
+//	    int z=availabeDataCount.size();
+//		Reporter.log("The total available check list count is-"+z+" in the list for delete.",true);
 	    
-	    for (int i=1;i<=z;i++)
+	    for (int i=1;i<=200;i++)
 	    {
 		searchField.click();
 		act.sendKeys("BG").perform();

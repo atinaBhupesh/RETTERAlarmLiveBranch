@@ -82,9 +82,9 @@ public class j_alarmLoop extends  B_baseClass {
 	
 	public void deleteAlarmLoop(WebDriver driver, String BranchNameB) throws Throwable 
 	{
-		int z=availableDataCount.size();
-		Reporter.log("The total availabe alarm loop cout is -"+z+" in the list for delete.",true);
-		for (int i=1;i<=z;i++)
+//		int z=availableDataCount.size();
+//		Reporter.log("The total availabe alarm loop cout is -"+z+" in the list for delete.",true);
+		for (int i=1;i<=100;i++)
 		{
 		Actions act = new Actions(driver);
 		searchfield.click();

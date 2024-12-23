@@ -838,10 +838,10 @@ public class H_testAlarm extends B_baseClass
 			
 		}
 		
-		int z=availableDataCount.size();
-		Reporter.log("The total available test alarms count is-"+z+" in the list for delete.",true);
+//		int z=availableDataCount.size();
+//		Reporter.log("The total available test alarms count is-"+z+" in the list for delete.",true);
 
-		for (int i = 1; i <= z; i++) {
+		for (int i = 1; i <= 200; i++) {
 			searchField.click();
 			Actions act = new Actions(driver);
 			act.sendKeys("BG").perform();
@@ -861,9 +861,9 @@ public class H_testAlarm extends B_baseClass
 
 	public void deleteTestAlarmFromOverview(WebDriver driver, String BranchNameB) throws Throwable {
 		
-		int z=availableDataCount.size();
-		Reporter.log("The total available test alarms count is-"+z+" in the overview for delete.",true);
-		for (int i = 1; i <= z; i++) {
+//		int z=availableDataCount.size();
+//		Reporter.log("The total available test alarms count is-"+z+" in the overview for delete.",true);
+		for (int i = 1; i <= 200; i++) {
 
 			searchField.click();
 			Thread.sleep(2000);
@@ -896,9 +896,9 @@ public class H_testAlarm extends B_baseClass
 	
 		int z=availableDataCount.size();
 	
-		Reporter.log("The total available test alarms count is-"+z+" in the overview for deactive.",true);
+//		Reporter.log("The total available test alarms count is-"+z+" in the overview for deactive.",true);
 
-		for (int i = 1; i <= z; i++) {
+		for (int i = 1; i <= 100; i++) {
 			searchField.click();
 			
 			act.sendKeys("BG").build().perform();

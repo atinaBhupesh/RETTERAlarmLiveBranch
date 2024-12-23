@@ -9,6 +9,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
+import org.testng.SkipException;
+import org.testng.asserts.SoftAssert;
 
 public class p_vehicleUser extends  B_baseClass {
 	
@@ -36,7 +38,7 @@ public class p_vehicleUser extends  B_baseClass {
 	
 		@FindBy(xpath="//td[contains(text(),\"BG_\")]")private List<WebElement> availabeDataCount ;
 	   
-		// @FindBy(xpath="")private WebElement ;
+		@FindBy(xpath="//label[text()=\"This email already exist, please enter another email.\"]")private WebElement emailConformation;
 		// @FindBy(xpath="")private WebElement ;
 		 
 		 @FindBy(xpath="//input[@class=\"form-control input-sm\"]")private WebElement searchField;
@@ -104,6 +106,18 @@ public class p_vehicleUser extends  B_baseClass {
 			act.sendKeys(Keys.TAB).perform();
 			Thread.sleep(2000);
 			
+//		if (emailConformation.isDisplayed())
+//		{
+//             Reporter.log(emailConformation.getText(),true);
+//             Reporter.log("Stop adding vehicle user",true);
+//			throw new SkipException("Stop adding vehicle user");
+//		
+//		}
+//		
+//		else {
+			
+			
+		
 			
 //			vehicleNamefield.click();
 //			act.sendKeys("BG-Station06V"+i).build().perform();
@@ -162,7 +176,7 @@ public class p_vehicleUser extends  B_baseClass {
 			
 		
 			}
-		
+			
 			}
 		
 		
@@ -209,10 +223,10 @@ public class p_vehicleUser extends  B_baseClass {
 		}
 		public void deleteVehicleUser(WebDriver driver, String BranchNameB) throws Throwable 
 		{
-			int z=availabeDataCount.size();
-			Reporter.log("the availabe vehicle count is  "+z+"in the list for delete.", true);
+//			int z=availabeDataCount.size();
+//			Reporter.log("the availabe vehicle count is  "+z+"in the list for delete.", true);
 			Actions act = new Actions(driver);
-			for (int i=1;i<=z;i++)
+			for (int i=1;i<=200;i++)
 			{
 			
 			searchField.click();

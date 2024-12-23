@@ -172,10 +172,10 @@ Thread.sleep(1000);
 				alarmResourceD.click();
 				
 			}
-			int z=availableDataCount.size();
-			Reporter.log("The available resorce countt is-"+z+" in the list for delete.",true);
+//			int z=availableDataCount.size();
+//			Reporter.log("The available resorce countt is-"+z+" in the list for delete.",true);
 
-			for (int i = 1; i <= z; i++) {
+			for (int i = 1; i <= 200; i++) {
 				searchField.click();
 				act.sendKeys("BG").build().perform();
 			

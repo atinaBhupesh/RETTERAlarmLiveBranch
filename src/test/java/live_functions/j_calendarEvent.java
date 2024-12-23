@@ -657,12 +657,10 @@ public class j_calendarEvent extends B_baseClass {
 			
 		}
 		Thread.sleep(2000);
-		int z = availableDataCount1min.size();
-		Reporter.log(
-				"The total available calendar event created by attribute count is-" + z + " in the list for delate.",
-				true);
+//		int z = availableDataCount1min.size();
+//		Reporter.log("The total available calendar event created by attribute count is-" + z + " in the list for delate.",true);
 
-		for (int i = 1; i <= z; i++) {
+		for (int i = 1; i <= 100; i++) {
 			// monthButton.click();
 			Thread.sleep(2000);
 
@@ -699,11 +697,9 @@ public class j_calendarEvent extends B_baseClass {
 		}
 		Thread.sleep(2000);
 
-		int z = availableDataCount1hrs.size();
-		Reporter.log(
-				"The total available calendar event created by resource count is-" + z + " in the list for delate.",
-				true);
-		for (int i = 1; i <= z; i++) {
+//		int z = availableDataCount1hrs.size();
+//		Reporter.log("The total available calendar event created by resource count is-" + z + " in the list for delate.",true);
+		for (int i = 1; i <= 200; i++) {
 			// monthButton.click();
 			Thread.sleep(2000);
 			Actions act = new Actions(driver);
@@ -784,9 +780,9 @@ Thread.sleep(1000);
 			
 		}
 		
-		int z = availableDataCount.size();
-		Reporter.log("The availabler event catagory count is-" + z + " in the list for delete.", true);
-		for (int i = 1; i <= z; i++) {
+//		int z = availableDataCount.size();
+//		Reporter.log("The availabler event catagory count is-" + z + " in the list for delete.", true);
+		for (int i = 1; i <= 200; i++) {
 			Thread.sleep(2000);
 			Actions act = new Actions(driver);
 

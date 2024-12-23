@@ -405,10 +405,10 @@ public class n_addUsers extends  B_baseClass {
 		public void deletfireFighter (WebDriver driver, String BranchNameB) throws Throwable
 		{
 			Actions act = new Actions(driver);
-			int z=availabledatCount.size();
-			Reporter.log("The available user cout is "+z+" in the list for delete",true );
+//			int z=availabledatCount.size();
+//			Reporter.log("The available user cout is "+z+" in the list for delete",true );
 		
-			for (int i=1;i<=z;i++)
+			for (int i=1;i<=200;i++)
 					{
 			searchField.click();
 			act.sendKeys("Roj").perform();

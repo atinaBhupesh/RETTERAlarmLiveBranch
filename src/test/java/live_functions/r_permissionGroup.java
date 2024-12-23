@@ -817,9 +817,9 @@ public class r_permissionGroup {
 			
 			Actions act = new Actions(driver);
 			permissionModule.click();
-			int z =availableDataCount.size();
-			Reporter.log("The total available permission count is-"+z+" in the list for delete.",true);
-			 for (int i=1;i<=z;i++)
+//			int z =availableDataCount.size();
+//			Reporter.log("The total available permission count is-"+z+" in the list for delete.",true);
+			 for (int i=1;i<200;i++)
 			    {
 				searchField.click();
 				act.sendKeys("BG").perform();

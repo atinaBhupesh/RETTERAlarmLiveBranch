@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test(failed)</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Dec 18 12:26:01 IST 2024</td>
+<td>Started on:</td><td>Thu Dec 19 13:12:36 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>107 seconds (107501 ms)</td>
+<tr><td>Total time:</td><td>31 seconds (31544 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,24 +76,24 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createInformationByAttribute()'><b>createInformationByAttribute</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-150079886" onClick='toggleBox("Output-150079886", this, "Show output", "Hide output");'>Show output</a>
+<td title='live_functions.A_testClass_dailyCheckPointList.addVehicleUserForStation06()'><b>addVehicleUserForStation06</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-309271464" onClick='toggleBox("Output-309271464", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-150079886" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-150079886">
+<a href="#Output-309271464" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-309271464">
  <br/>
-The process of creating information by attribute is started.<br/>
+The process of add new vehicle for station 06 is started.<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=131.0.6778.140)
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//label[text()=&quot;This email already exist, please enter another email.&quot;]&quot;}
+  (Session info: chrome=131.0.6778.141)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [949826d7bef37db6751d3eb2b1cd4ee1, clickElement {id=f.03C28B9D1CFB8EAFEE79E456636C25F8.d.EB04172FFB845EFE378EA7D3F364E52E.e.982}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53441/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (949826d7bef37db6751d3eb2b1cd4ee1)] -&gt; xpath: //a[@href=&quot;http://live.retteralarm.de/admin/Informations/index&quot;]]
-Session ID: 949826d7bef37db6751d3eb2b1cd4ee1
+Command: [dfa963bdd943e795ae90c5aab7f4c750, findElement {using=xpath, value=//label[text()=&quot;This email already exist, please enter another email.&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.141, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56615}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56615/devtoo..., se:cdpVersion: 131.0.6778.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfa963bdd943e795ae90c5aab7f4c750
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
@@ -101,23 +101,26 @@ Session ID: 949826d7bef37db6751d3eb2b1cd4ee1
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at live_functions.F_information.infoEventCommon(F_information.java:117)
-	at live_functions.A_testClass_dailyCheckPointList.createInformationByAttribute(A_testClass_dailyCheckPointList.java:980)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
+	at live_functions.p_vehicleUser.addVehicleUser(p_vehicleUser.java:109)
+	at live_functions.A_testClass_dailyCheckPointList.addVehicleUserForStation06(A_testClass_dailyCheckPointList.java:629)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace150079886", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace150079886'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=131.0.6778.140)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace309271464", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace309271464'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//label[text()=&quot;This email already exist, please enter another email.&quot;]&quot;}
+  (Session info: chrome=131.0.6778.141)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [949826d7bef37db6751d3eb2b1cd4ee1, clickElement {id=f.03C28B9D1CFB8EAFEE79E456636C25F8.d.EB04172FFB845EFE378EA7D3F364E52E.e.982}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53441/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (949826d7bef37db6751d3eb2b1cd4ee1)] -&gt; xpath: //a[@href=&quot;http://live.retteralarm.de/admin/Informations/index&quot;]]
-Session ID: 949826d7bef37db6751d3eb2b1cd4ee1
+Command: [dfa963bdd943e795ae90c5aab7f4c750, findElement {using=xpath, value=//label[text()=&quot;This email already exist, please enter another email.&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.141, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56615}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56615/devtoo..., se:cdpVersion: 131.0.6778.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfa963bdd943e795ae90c5aab7f4c750
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -130,16 +133,15 @@ Session ID: 949826d7bef37db6751d3eb2b1cd4ee1
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at live_functions.F_information.infoEventCommon(F_information.java:117)
-	at live_functions.A_testClass_dailyCheckPointList.createInformationByAttribute(A_testClass_dailyCheckPointList.java:980)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
+	at live_functions.p_vehicleUser.addVehicleUser(p_vehicleUser.java:109)
+	at live_functions.A_testClass_dailyCheckPointList.addVehicleUserForStation06(A_testClass_dailyCheckPointList.java:629)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -169,49 +171,7 @@ Session ID: 949826d7bef37db6751d3eb2b1cd4ee1
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>12</td>
-<td>live_functions.A_testClass_dailyCheckPointList@2d901eb0</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createAlarmCheckList()'><b>createAlarmCheckList</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1374431318" onClick='toggleBox("Output-1374431318", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1374431318" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1374431318">
- <br/>
-The process of creating alarm check list is started.<br/>
-Alarm check list number-1 is added sucessfully.<br/>
-Alarm check list number-2 is added sucessfully.<br/>
-The process of creating alarm check list is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>28</td>
-<td>live_functions.A_testClass_dailyCheckPointList@2d901eb0</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createTestAlarmByAttributeOneTime()'><b>createTestAlarmByAttributeOneTime</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1162400340" onClick='toggleBox("Output-1162400340", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1162400340" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1162400340">
- <br/>
-The process of creating a test alarm by attribute with remindar one time is started.<br/>
-test alarm created for >18.12.2024-08:07<br/>
-The process of creating a test alarm by attribute with remindar one time is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>46</td>
+<td>18</td>
 <td>live_functions.A_testClass_dailyCheckPointList@2d901eb0</td></tr>
 </table><p>
 </body>

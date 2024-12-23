@@ -160,9 +160,9 @@ Thread.sleep(1000);
 			manageAttributeD.click();
 			
 		}
-		int z = availableDataCount.size();
-		Reporter.log("The availabler attribute count is-" + z + " in the list for delete.", true);
-		for (int i = 1; i <= z; i++) {
+//		int z = availableDataCount.size();
+//		Reporter.log("The availabler attribute count is-" + z + " in the list for delete.", true);
+		for (int i = 1; i <= 200; i++) {
 			searchField.click();
 
 			Actions act = new Actions(driver);
