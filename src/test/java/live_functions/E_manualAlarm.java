@@ -110,8 +110,7 @@ public class E_manualAlarm extends B_baseClass
 	private WebElement selectStationForStationAlarm;
 	@FindBy(xpath = "//select[@name=\"alarmTable_length\"]")
 	private WebElement alarmLength;
-	@FindBy(xpath = "(//span[text()=\"Active\"])[1]")
-	private WebElement deactiveAlarm;
+	@FindBy(xpath = "(//span[text()=\"Active\"])[1]")private WebElement deactiveAlarm;
 	@FindBy(xpath = "//button[@id=\"statChange\"]")
 	private WebElement changeStatusYes;
 	@FindBy(xpath = "//span[contains(text(), 'BG')]")private WebElement BGAlarm;
@@ -1347,17 +1346,23 @@ public class E_manualAlarm extends B_baseClass
 
 //		int z = availableDataCount.size();
 //		Reporter.log("The total available manual alarms count is-" + z + " in the list for deactive.", true);
-		act.sendKeys("BG").build().perform();
-
-		searchButton.click();
-		Thread.sleep(2000);
-
+		
+		
+	
 		for (int i = 1; i <= 100; i++) {
 			searchField.click();
 
 			
 
 			{
+				
+				searchField.click();
+				act.sendKeys("BG").build().perform();
+
+
+				searchButton.click();
+				Thread.sleep(2000);
+				
 				deactiveAlarm.click();
 				Thread.sleep(5000);
 				
@@ -1366,7 +1371,7 @@ public class E_manualAlarm extends B_baseClass
 				
 				Reporter.log("Alarm number-" + i + " is deactive sucessfully.", true);
 //				Thread.sleep(5000);
-//				driver.navigate().refresh();
+				driver.navigate().refresh();
 				Thread.sleep(2000);
 
 			}

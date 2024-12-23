@@ -15,7 +15,7 @@
 				
 						<exclude name="deactiveManualAlarm" />
 						<exclude name="deleteAllManualAlarm" />
-
+						<exclude name="deleteTestAlarmFromOverview_monthly" />
 
 				<include name="detailsAboutScript" />
 

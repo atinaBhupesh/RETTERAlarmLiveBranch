@@ -374,6 +374,25 @@ public class AAA_testClass_delete extends B_baseClass {
 	
 	@Test
 
+	public void deleteTestAlarmFromOverview_monthly() throws Throwable {
+		Reporter.log(" ", true);
+		Reporter.log("The process of deleting a monthly test alarm from overview is started.", true);
+		ta.testAlarmOverviewCommon(driver,BranchNameB);
+		ta.deleteTestAlarmFromOverview_monthly(driver, BranchNameB2);
+
+		Reporter.log("The process of deleting a test alarm from overview is complted.", true);
+		Reporter.log(" ", true);
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	@Test
+
 	public void deactiveTestAlarmFromOverview() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of deactive a test alarm from ovieview is started.", true);

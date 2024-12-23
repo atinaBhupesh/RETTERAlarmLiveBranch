@@ -863,15 +863,17 @@ public class H_testAlarm extends B_baseClass
 		
 //		int z=availableDataCount.size();
 //		Reporter.log("The total available test alarms count is-"+z+" in the overview for delete.",true);
+		searchField.click();
+		Thread.sleep(2000);
+		Actions act = new Actions(driver);
+		act.sendKeys("BG").perform();
+		Thread.sleep(2000);
+		searchButton.click();
+		Thread.sleep(5000);
+		
 		for (int i = 1; i <= 200; i++) {
 
-			searchField.click();
-			Thread.sleep(2000);
-			Actions act = new Actions(driver);
-			act.sendKeys("BG").perform();
-			Thread.sleep(2000);
-			searchButton.click();
-			Thread.sleep(5000);
+			
 			deleteAlarm.click();
 			Thread.sleep(5000);
 			deleteYes1.click();
@@ -881,6 +883,42 @@ public class H_testAlarm extends B_baseClass
 			Thread.sleep(2000);
 
 		}
+		
+	}
+		
+		
+		
+		
+		public void deleteTestAlarmFromOverview_monthly(WebDriver driver, String BranchNameB) throws Throwable {
+			
+//			int z=availableDataCount.size();
+//			Reporter.log("The total available test alarms count is-"+z+" in the overview for delete.",true);
+			
+			for (int i = 1; i <= 200; i++) {
+			searchField.click();
+			Thread.sleep(2000);
+			Actions act = new Actions(driver);
+			act.sendKeys("bhupesh").perform();
+			Thread.sleep(2000);
+			searchButton.click();
+			Thread.sleep(5000);
+			
+		
+
+				
+				deleteAlarm.click();
+				Thread.sleep(5000);
+				deleteYes1.click();
+				Thread.sleep(2000);
+				Reporter.log("monthly test alarm number-" + i + " deleted sucessfully from overview-testing branch.", true);
+				driver.navigate().refresh();
+				Thread.sleep(2000);
+
+			}
+		
+		
+		
+		
 
 	}
 	
@@ -920,6 +958,39 @@ public class H_testAlarm extends B_baseClass
 		   
 
 		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 	}
 	
