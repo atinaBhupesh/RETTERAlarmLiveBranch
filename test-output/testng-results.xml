@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Hello, Daily check point checking process of 3 has started.-23.12.2024>14:34]]>
+      <![CDATA[Hello, Daily check point checking process of 3 has started.-24.12.2024>11:48]]>
     </line>
     <line>
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[Todays is 4 Monday of this month.]]>
+      <![CDATA[Todays is 4 Tuesday of this month.]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -26,22 +26,13 @@
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[The process of creating chat group by attribute is started.]]>
+      <![CDATA[The process of adding new resource is started.]]>
     </line>
     <line>
-      <![CDATA[The process of creating chat group by attribute is complete.]]>
+      <![CDATA[BG:Resorce-2412_114826> added successfully]]>
     </line>
     <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of creating chat group by resource is started.]]>
-    </line>
-    <line>
-      <![CDATA[The process of creating chat group by resource is complete.]]>
+      <![CDATA[The process of adding new resource is complete.]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -50,22 +41,13 @@
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[The process of creating chat group by fire fightr is started.]]>
+      <![CDATA[The process of adding new alarm loop is started.]]>
     </line>
     <line>
-      <![CDATA[The process of creating chat group by fire fightr is complete.]]>
+      <![CDATA[Alarm Loop >BG:AlarmLoop-2412_114826 added successfully.]]>
     </line>
     <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of creating chat group by alarm loop is started.]]>
-    </line>
-    <line>
-      <![CDATA[The process of creating chat group by alarm loop is complete.]]>
+      <![CDATA[The process of adding new alarm loop is complete.]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -74,22 +56,13 @@
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[The process of sending message to a chat group created by attribute is started.]]>
+      <![CDATA[The process of adding new alarm template is started.]]>
     </line>
     <line>
-      <![CDATA[The process of sending message to a chat group created by attribute is complete.]]>
+      <![CDATA[Alarm Template> BG-Template-2412_114826 adde successfully.]]>
     </line>
     <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of sending message to a chat group created by Resource is started.]]>
-    </line>
-    <line>
-      <![CDATA[The process of sending message to a chat group created by Resource is complete.]]>
+      <![CDATA[The process of adding new alarm template is complete.]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -98,22 +71,13 @@
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[The process of sending message to a chat group created by Firefighter is started.]]>
+      <![CDATA[The process of adding new event category is started.]]>
     </line>
     <line>
-      <![CDATA[The process of sending message to a chat group created by Firefighter is complete.]]>
+      <![CDATA[ BG-EventCategoty-2412_114826 added successfully.]]>
     </line>
     <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of sending message to a chat group created by AlarmLoop is started.]]>
-    </line>
-    <line>
-      <![CDATA[The process of sending message to a chat group created by AlarmLoop is complete.]]>
+      <![CDATA[The process of new event category is complete.]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -122,10 +86,10 @@
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[Login  date-23.12.2024 & login  time -14:34]]>
+      <![CDATA[Login  date-24.12.2024 & login  time -11:48]]>
     </line>
     <line>
-      <![CDATA[Logout date-23-12-2024 & logout time -14:38]]>
+      <![CDATA[Logout date-24-12-2024 & logout time -11:49]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -146,40 +110,40 @@
       <![CDATA[ ]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-12-23T19:04:48 IST" name="Suite" finished-at="2024-12-23T19:08:11 IST" duration-ms="202551">
+  <suite started-at="2024-12-24T16:18:22 IST" name="Suite" finished-at="2024-12-24T16:20:06 IST" duration-ms="103941">
     <groups>
     </groups>
-    <test started-at="2024-12-23T19:04:48 IST" name="Test" finished-at="2024-12-23T19:08:11 IST" duration-ms="202551">
+    <test started-at="2024-12-24T16:18:22 IST" name="Test" finished-at="2024-12-24T16:20:06 IST" duration-ms="103941">
       <class name="live_functions.A_testClass_dailyCheckPointList">
-        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:04:40 IST" name="BeforeSuite" finished-at="2024-12-23T19:04:48 IST" duration-ms="8472" status="PASS">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:18:03 IST" name="BeforeSuite" finished-at="2024-12-24T16:18:22 IST" duration-ms="19151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:04:48 IST" name="BeforeTest" finished-at="2024-12-23T19:04:52 IST" duration-ms="3415" status="PASS">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:18:22 IST" name="BeforeTest" finished-at="2024-12-24T16:18:26 IST" duration-ms="3342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method is-config="true" signature="lounchBrowser()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:04:52 IST" name="lounchBrowser" finished-at="2024-12-23T19:04:52 IST" duration-ms="125" status="PASS">
+        <test-method is-config="true" signature="lounchBrowser()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:18:26 IST" name="lounchBrowser" finished-at="2024-12-24T16:18:26 IST" duration-ms="122" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Hello, Daily check point checking process of 3 has started.-23.12.2024>14:34]]>
+              <![CDATA[Hello, Daily check point checking process of 3 has started.-24.12.2024>11:48]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
             <line>
-              <![CDATA[Todays is 4 Monday of this month.]]>
+              <![CDATA[Todays is 4 Tuesday of this month.]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
           </reporter-output>
         </test-method> <!-- lounchBrowser -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:04:52 IST" name="backToHomePage" finished-at="2024-12-23T19:04:55 IST" duration-ms="2614" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:18:26 IST" name="backToHomePage" finished-at="2024-12-24T16:18:28 IST" duration-ms="2703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="userDetails()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:04:55 IST" name="userDetails" finished-at="2024-12-23T19:04:55 IST" duration-ms="3" status="PASS">
+        <test-method signature="userDetails()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:18:28 IST" name="userDetails" finished-at="2024-12-24T16:18:28 IST" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ ]]>
@@ -192,227 +156,143 @@
             </line>
           </reporter-output>
         </test-method> <!-- userDetails -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:04:55 IST" name="backToHomePage2" finished-at="2024-12-23T19:04:56 IST" duration-ms="1403" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:18:28 IST" name="backToHomePage2" finished-at="2024-12-24T16:18:31 IST" duration-ms="2092" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:04:56 IST" name="backToHomePage" finished-at="2024-12-23T19:04:57 IST" duration-ms="1325" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:18:31 IST" name="backToHomePage" finished-at="2024-12-24T16:18:32 IST" duration-ms="1415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="createChatgroupByAttribute()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:04:57 IST" name="createChatgroupByAttribute" finished-at="2024-12-23T19:05:24 IST" duration-ms="26306" status="PASS">
+        <test-method signature="createResource()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:18:32 IST" name="createResource" finished-at="2024-12-24T16:18:46 IST" duration-ms="14227" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ ]]>
             </line>
             <line>
-              <![CDATA[The process of creating chat group by attribute is started.]]>
+              <![CDATA[The process of adding new resource is started.]]>
             </line>
             <line>
-              <![CDATA[The process of creating chat group by attribute is complete.]]>
+              <![CDATA[BG:Resorce-2412_114826> added successfully]]>
+            </line>
+            <line>
+              <![CDATA[The process of adding new resource is complete.]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- createChatgroupByAttribute -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:05:24 IST" name="backToHomePage2" finished-at="2024-12-23T19:05:25 IST" duration-ms="1337" status="PASS">
+        </test-method> <!-- createResource -->
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:18:46 IST" name="backToHomePage2" finished-at="2024-12-24T16:18:48 IST" duration-ms="1660" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:05:25 IST" name="backToHomePage" finished-at="2024-12-23T19:05:26 IST" duration-ms="1299" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:18:48 IST" name="backToHomePage" finished-at="2024-12-24T16:18:50 IST" duration-ms="1739" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="createChatgroupByResource()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:05:26 IST" name="createChatgroupByResource" finished-at="2024-12-23T19:05:48 IST" duration-ms="21929" status="PASS">
+        <test-method signature="createAlamLoop()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:18:50 IST" name="createAlamLoop" finished-at="2024-12-24T16:19:03 IST" duration-ms="13329" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ ]]>
             </line>
             <line>
-              <![CDATA[The process of creating chat group by resource is started.]]>
+              <![CDATA[The process of adding new alarm loop is started.]]>
             </line>
             <line>
-              <![CDATA[The process of creating chat group by resource is complete.]]>
+              <![CDATA[Alarm Loop >BG:AlarmLoop-2412_114826 added successfully.]]>
+            </line>
+            <line>
+              <![CDATA[The process of adding new alarm loop is complete.]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- createChatgroupByResource -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:05:48 IST" name="backToHomePage2" finished-at="2024-12-23T19:05:50 IST" duration-ms="1395" status="PASS">
+        </test-method> <!-- createAlamLoop -->
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:19:03 IST" name="backToHomePage2" finished-at="2024-12-24T16:19:04 IST" duration-ms="1293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:05:50 IST" name="backToHomePage" finished-at="2024-12-23T19:05:51 IST" duration-ms="1382" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:19:04 IST" name="backToHomePage" finished-at="2024-12-24T16:19:06 IST" duration-ms="1425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="createChatgroupByFirefighter()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:05:51 IST" name="createChatgroupByFirefighter" finished-at="2024-12-23T19:06:10 IST" duration-ms="18928" status="PASS">
+        <test-method signature="createAlamTemplate()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:19:06 IST" name="createAlamTemplate" finished-at="2024-12-24T16:19:32 IST" duration-ms="25874" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ ]]>
             </line>
             <line>
-              <![CDATA[The process of creating chat group by fire fightr is started.]]>
+              <![CDATA[The process of adding new alarm template is started.]]>
             </line>
             <line>
-              <![CDATA[The process of creating chat group by fire fightr is complete.]]>
+              <![CDATA[Alarm Template> BG-Template-2412_114826 adde successfully.]]>
+            </line>
+            <line>
+              <![CDATA[The process of adding new alarm template is complete.]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- createChatgroupByFirefighter -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:06:10 IST" name="backToHomePage2" finished-at="2024-12-23T19:06:11 IST" duration-ms="1175" status="PASS">
+        </test-method> <!-- createAlamTemplate -->
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:19:32 IST" name="backToHomePage2" finished-at="2024-12-24T16:19:33 IST" duration-ms="1451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:06:11 IST" name="backToHomePage" finished-at="2024-12-23T19:06:12 IST" duration-ms="1327" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:19:33 IST" name="backToHomePage" finished-at="2024-12-24T16:19:35 IST" duration-ms="1640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="createChatgroupByAlarmloop()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:06:12 IST" name="createChatgroupByAlarmloop" finished-at="2024-12-23T19:06:33 IST" duration-ms="20870" status="PASS">
+        <test-method signature="addEventCategory()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:19:35 IST" name="addEventCategory" finished-at="2024-12-24T16:19:55 IST" duration-ms="19955" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ ]]>
             </line>
             <line>
-              <![CDATA[The process of creating chat group by alarm loop is started.]]>
+              <![CDATA[The process of adding new event category is started.]]>
             </line>
             <line>
-              <![CDATA[The process of creating chat group by alarm loop is complete.]]>
+              <![CDATA[ BG-EventCategoty-2412_114826 added successfully.]]>
+            </line>
+            <line>
+              <![CDATA[The process of new event category is complete.]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- createChatgroupByAlarmloop -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:06:33 IST" name="backToHomePage2" finished-at="2024-12-23T19:06:35 IST" duration-ms="1308" status="PASS">
+        </test-method> <!-- addEventCategory -->
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:19:55 IST" name="backToHomePage2" finished-at="2024-12-24T16:19:56 IST" duration-ms="1622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:06:35 IST" name="backToHomePage" finished-at="2024-12-23T19:06:36 IST" duration-ms="1368" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:19:56 IST" name="backToHomePage" finished-at="2024-12-24T16:19:58 IST" duration-ms="1387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="sendMessageChatGrouCreatedByAttribute()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:06:36 IST" name="sendMessageChatGrouCreatedByAttribute" finished-at="2024-12-23T19:06:55 IST" duration-ms="18736" status="PASS">
+        <test-method signature="detailsAboutScript()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:19:58 IST" name="detailsAboutScript" finished-at="2024-12-24T16:20:01 IST" duration-ms="3010" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ ]]>
             </line>
             <line>
-              <![CDATA[The process of sending message to a chat group created by attribute is started.]]>
+              <![CDATA[Login  date-24.12.2024 & login  time -11:48]]>
             </line>
             <line>
-              <![CDATA[The process of sending message to a chat group created by attribute is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- sendMessageChatGrouCreatedByAttribute -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:06:55 IST" name="backToHomePage2" finished-at="2024-12-23T19:06:56 IST" duration-ms="1434" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:06:56 IST" name="backToHomePage" finished-at="2024-12-23T19:06:58 IST" duration-ms="1398" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="sendMessageChatGrouCreatedByResource()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:06:58 IST" name="sendMessageChatGrouCreatedByResource" finished-at="2024-12-23T19:07:16 IST" duration-ms="18596" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of sending message to a chat group created by Resource is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of sending message to a chat group created by Resource is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- sendMessageChatGrouCreatedByResource -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:07:16 IST" name="backToHomePage2" finished-at="2024-12-23T19:07:18 IST" duration-ms="1486" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:07:18 IST" name="backToHomePage" finished-at="2024-12-23T19:07:19 IST" duration-ms="1519" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="sendMessageChatGrouCreatedByFirefighter()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:07:19 IST" name="sendMessageChatGrouCreatedByFirefighter" finished-at="2024-12-23T19:07:38 IST" duration-ms="19005" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of sending message to a chat group created by Firefighter is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of sending message to a chat group created by Firefighter is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- sendMessageChatGrouCreatedByFirefighter -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:07:38 IST" name="backToHomePage2" finished-at="2024-12-23T19:07:40 IST" duration-ms="1351" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:07:40 IST" name="backToHomePage" finished-at="2024-12-23T19:07:41 IST" duration-ms="1252" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="sendMessageChatGrouCreatedByAlarmLoop()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:07:41 IST" name="sendMessageChatGrouCreatedByAlarmLoop" finished-at="2024-12-23T19:07:59 IST" duration-ms="18634" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of sending message to a chat group created by AlarmLoop is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of sending message to a chat group created by AlarmLoop is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- sendMessageChatGrouCreatedByAlarmLoop -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:07:59 IST" name="backToHomePage2" finished-at="2024-12-23T19:08:01 IST" duration-ms="1279" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:08:01 IST" name="backToHomePage" finished-at="2024-12-23T19:08:02 IST" duration-ms="1434" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="detailsAboutScript()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:08:02 IST" name="detailsAboutScript" finished-at="2024-12-23T19:08:05 IST" duration-ms="3002" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[Login  date-23.12.2024 & login  time -14:34]]>
-            </line>
-            <line>
-              <![CDATA[Logout date-23-12-2024 & logout time -14:38]]>
+              <![CDATA[Logout date-24-12-2024 & logout time -11:49]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
           </reporter-output>
         </test-method> <!-- detailsAboutScript -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:08:05 IST" name="backToHomePage2" finished-at="2024-12-23T19:08:06 IST" duration-ms="1123" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:20:01 IST" name="backToHomePage2" finished-at="2024-12-24T16:20:02 IST" duration-ms="1395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:08:06 IST" name="logOut" finished-at="2024-12-23T19:08:10 IST" duration-ms="3976" status="PASS">
+        <test-method is-config="true" signature="logOut()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:20:02 IST" name="logOut" finished-at="2024-12-24T16:20:06 IST" duration-ms="3922" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout sucessfully.]]>
@@ -422,14 +302,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:08:10 IST" name="AfterTest" finished-at="2024-12-23T19:08:11 IST" duration-ms="769" status="PASS">
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:20:06 IST" name="AfterTest" finished-at="2024-12-24T16:20:06 IST" duration-ms="291" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Refresh the URL before successfully closing the browser.]]>
             </line>
           </reporter-output>
         </test-method> <!-- AfterTest -->
-        <test-method is-config="true" signature="AfterSute()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-23T19:08:11 IST" name="AfterSute" finished-at="2024-12-23T19:08:11 IST" duration-ms="253" status="PASS">
+        <test-method is-config="true" signature="AfterSute()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@2d901eb0]" started-at="2024-12-24T16:20:06 IST" name="AfterSute" finished-at="2024-12-24T16:20:06 IST" duration-ms="218" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser close sucessfully.]]>

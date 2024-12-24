@@ -8,16 +8,13 @@
        <methods>
 				<include name="userDetails"  />
 	     	
-		    			<include name="createChatgroupByAttribute"  /> 
-			<include name="createChatgroupByResource"  /> 
-			<include name="createChatgroupByFirefighter"  /> 
-			<include name="createChatgroupByAlarmloop"  /> 
-			
-			
-				<include name="sendMessageChatGrouCreatedByAttribute"  /> 
-			<include name="sendMessageChatGrouCreatedByResource"  /> 
-			<include name="sendMessageChatGrouCreatedByFirefighter"  /> 
-			<include name="sendMessageChatGrouCreatedByAlarmLoop"  />
+		     
+ 
+             <include name="createResource"  /> 
+		     <include name="createAlamLoop"  /> 
+            <include name="createAlamTemplate"  /> 
+             <include name="addEventCategory"  /> 
+		 
 			
 			
 			 <include name="detailsAboutScript"  />  

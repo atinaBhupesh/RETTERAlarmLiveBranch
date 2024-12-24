@@ -132,6 +132,7 @@ public class n_addUsers extends  B_baseClass {
 			act.sendKeys(stUEmail).perform();
 			act.sendKeys(Keys.TAB).perform();
 			Thread.sleep(1000);
+			System.out.println(stUEmail);
 			
 			
 			

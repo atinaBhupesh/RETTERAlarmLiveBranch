@@ -73,7 +73,7 @@ public class q_checkList extends  B_baseClass {
 			checkListT.click();
 		}
 		
-		else if (BranchNameB.equals("1"))
+		else if (BranchNameB.equals("3"))
 		{
 			checkListD.click();
 			

@@ -328,7 +328,9 @@ public class r_permissionGroup {
 		case "2":
 			act.sendKeys("d").perform();
 			break;
-			
+		case "3":
+			act.sendKeys(Keys.ARROW_DOWN).build().perform();
+			break;
 			
 		
 		}
@@ -340,7 +342,7 @@ public class r_permissionGroup {
 		
 		
 		
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).perform();
 		Thread.sleep(1000);
 

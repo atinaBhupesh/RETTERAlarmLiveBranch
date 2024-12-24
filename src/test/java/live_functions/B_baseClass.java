@@ -313,6 +313,19 @@ public class B_baseClass {
 			St2N = sheet.getRow(8).getCell(3).getStringCellValue();
 
 			st2V1 = sheet.getRow(9).getCell(3).getStringCellValue();
+			
+			dailyVehicleEmailId1 = sheet.getRow(10).getCell(3).getStringCellValue();
+			dailyVehicleEmailId2 = sheet.getRow(11).getCell(3).getStringCellValue();
+			
+			st1Atti = sheet.getRow(12).getCell(3).getStringCellValue();
+			st1Recs = sheet.getRow(13).getCell(3).getStringCellValue();
+			
+			 stUEmail =sheet.getRow(14).getCell(3).getStringCellValue();
+			 ff1UEmail =sheet.getRow(15).getCell(3).getStringCellValue();
+			 ff2UEmail =sheet.getRow(16).getCell(3).getStringCellValue();
+			
+			
+			
 
 		}
 
