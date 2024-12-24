@@ -807,8 +807,9 @@ Thread.sleep(1000);
 		
 			
 			Reporter.log("Chat group number-" + i + " is deleted sucessfully.", true);
-		
+	 		Thread.sleep(2000);
 		driver.navigate().refresh();
+		
 		
     	   }
     	   

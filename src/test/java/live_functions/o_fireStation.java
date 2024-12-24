@@ -146,6 +146,7 @@ public class o_fireStation extends  B_baseClass {
 		deleteStation.click();
 		Thread.sleep(5000);
 		deleteYes.click();
+		Thread.sleep(2000);
 		driver.navigate().refresh();
 		
 		Reporter.log("Fire station number-"+i, true);

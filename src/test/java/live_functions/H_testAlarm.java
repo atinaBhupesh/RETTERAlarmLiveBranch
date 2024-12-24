@@ -863,6 +863,7 @@ public class H_testAlarm extends B_baseClass
 	
 			Reporter.log("Test alarm number-" + i + " deleted sucessfully from list-testing branch.", true);
 			driver.navigate().refresh();
+			Thread.sleep(2000);
 		
 
 		}
@@ -887,7 +888,7 @@ public class H_testAlarm extends B_baseClass
 			deleteAlarm.click();
 			Thread.sleep(5000);
 			deleteYes1.click();
-			Thread.sleep(2000);
+		
 			Reporter.log("Test alarm number-" + i + " deleted sucessfully from overview-testing branch.", true);
 			driver.navigate().refresh();
 			Thread.sleep(2000);

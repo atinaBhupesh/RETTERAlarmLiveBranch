@@ -243,6 +243,22 @@ public class p_vehicleUser extends  B_baseClass {
 				
 				act.sendKeys("BG_d1st04").perform();
 				break;
+				
+				
+	case "3":
+				
+				
+				act.sendKeys("BG_bh1st1v").perform();
+				break;
+				
+				
+				
+				
+				
+				
+				
+				
+				
 			
 			}
 			
@@ -256,9 +272,11 @@ public class p_vehicleUser extends  B_baseClass {
 			deleteStation.click();
 			Thread.sleep(5000);
 			deleteYes.click();
+			Thread.sleep(3000);
 			driver.navigate().refresh();
 			
 			Reporter.log("vehicle number-"+i, true);
+		
 			
 			}
 		}

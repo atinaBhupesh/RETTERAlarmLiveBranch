@@ -132,7 +132,7 @@ public class n_addUsers extends  B_baseClass {
 			act.sendKeys(stUEmail).perform();
 			act.sendKeys(Keys.TAB).perform();
 			Thread.sleep(1000);
-			System.out.println(stUEmail);
+		
 			
 			
 			
@@ -423,8 +423,9 @@ public class n_addUsers extends  B_baseClass {
 			yesPlease.click();
 			Thread.sleep(2000);
 			Reporter.log("User number-" + i + " is deleted sucessfully.", true);
-			Thread.sleep(2000);driver.navigate().refresh();
 			Thread.sleep(2000);
+			driver.navigate().refresh();
+			
 					}
 			
 			

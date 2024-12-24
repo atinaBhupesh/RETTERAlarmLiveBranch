@@ -202,7 +202,7 @@ public class t_stormAlarm  extends B_baseClass{
 				
 				else if (BranchNameB.equals("3"))
 				{
-					act.sendKeys("BH1ST02R1").build().perform();
+					act.sendKeys("BH1ST2R1").build().perform();
 					Thread.sleep(2000);
 					
 				}

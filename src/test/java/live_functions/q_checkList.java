@@ -178,6 +178,7 @@ public void deleteCheckLis (WebDriver driver, String BranchNameB) throws Throwab
 		act.sendKeys("BG").perform();
 		Thread.sleep(2000);
 		searchButton.click();
+		Thread.sleep(2000);
 		delete.click();
 		Thread.sleep(5000);
 	   	deleteYes.click();

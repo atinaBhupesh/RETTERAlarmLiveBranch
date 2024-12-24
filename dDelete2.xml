@@ -13,8 +13,8 @@
 						
 						
 						
-							<include name="deleteARFromHistory" />
-				<include name="deleteARFromList" />
+							<include name="deleteVehicleUser" />
+				
 						
 						
 						
