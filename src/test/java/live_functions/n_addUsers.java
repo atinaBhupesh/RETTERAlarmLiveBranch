@@ -34,6 +34,10 @@ public class n_addUsers extends  B_baseClass {
 		 @FindBy(xpath="//input[@placeholder=\"Select Department\"]")private WebElement departmentField;
 	     @FindBy(xpath="//span[@id=\"select2-ffSDepartmetnBox-container\"]")private WebElement mainDepartmentField;
 		 @FindBy(xpath="(//input[@placeholder=\"Select Fire Station\"])[2]")private WebElement stationField;
+		 
+	
+		 
+		 
 		 @FindBy(xpath="//button[@id=\"actionSubmit\"]")private WebElement saveUserRole;
 		 @FindBy(xpath="//a[@id=\"specialshowdisplayviewgroup\"]")private WebElement specialGroupPermission;
 		 @FindBy(xpath="//input[@id=\"additional_info\"]")private WebElement permssionAdditional_info;
@@ -55,12 +59,12 @@ public class n_addUsers extends  B_baseClass {
 		 @FindBy(xpath="//input[@placeholder=\"Please select firestation.\"]")private WebElement resourceStationFiled;
 		@FindBy(xpath="//input[@placeholder=\"Please select resource.\"]")private WebElement resourceField;
 		 @FindBy(xpath="//button[@id=\"addSubmit\"]")private WebElement saveResource;
-		 
+		 @FindBy(xpath="	//input[@placeholder=\"Select Fire Station\"]")private WebElement stationField2;
 		 
 		 @FindBy(xpath="//a[text()=\"Finish\"]")private WebElement finishAddUserProcess;
 		
 		 
-		// @FindBy(xpath="")private WebElement ;
+		
 		// @FindBy(xpath="")private WebElement ;
 		// @FindBy(xpath="")private WebElement ;
 		// @FindBy(xpath="")private WebElement ;
@@ -136,33 +140,7 @@ public class n_addUsers extends  B_baseClass {
 			
 			
 			
-//			userNameField.click();
-//			Thread.sleep(1000);
-//			act.sendKeys("ghatole").perform();
-//			Thread.sleep(1000);
-//			userLastNameField.click();
-//			Thread.sleep(1000);
-//			act.sendKeys("NewStUser").perform();
-//			Thread.sleep(1000);
-//			
-//			
-//
-//			
-//			country.click();
-//			Thread.sleep(1000);
-//			
-//			act.sendKeys("india").perform();
-//			Thread.sleep(2000);
-//			
-//			act.sendKeys(Keys.DOWN).sendKeys(Keys.ENTER).build().perform();
-//	
-//			
-//		Select se= new Select(selectLang);
-//		se.selectByVisibleText("English");
-//		
-//		userPasswordField.click();
-//		act.sendKeys("Qwerty@123").perform();
-		
+			
 		Thread.sleep(4000);		
 		saveBasicDetails.click();
 		
@@ -201,9 +179,10 @@ public class n_addUsers extends  B_baseClass {
 		
 		
 		Reporter.log("user details", true);
-		Reporter.log("User first name >"+"ghatole",true);
-		Reporter.log("User last name > NewStUser", true);
-		Reporter.log("User mail id > ghatole.NewStUser@atpl.in",  true);
+		Reporter.log("User first name > RojDev",true);
+		Reporter.log("User last name > StUser1", true);
+		Reporter.log("User mail id > "+stUEmail,  true);
+		Reporter.log("  ", true);
 		
 		
 		//userList.click();
@@ -215,29 +194,166 @@ public class n_addUsers extends  B_baseClass {
 		}
 		
 		
-		public void addfireFighterForStation06 (WebDriver driver,String dateDDMMYY,String gTimeHHMM, String deptName,String St1N,String st1Atti,String st1Recs,	String ff1UEmail, String ff2UEmail, String BranchNameB) throws Throwable
+		
+		public void addMultyRoleUserForStation06 (WebDriver driver,String dateDDMMYY,String gTimeHHMM, String deptName,String St1N,String MRUserEmail, String BranchNameB) throws Throwable
 		{
 			Actions act = new Actions(driver);
 			
-			for (int i=1;i<=2;i++)
-			{
-				int L=i;
+		
+			
+			createNew.click();
+			Thread.sleep(1000);
+            emailField.click();
+            Thread.sleep(1000);
+			act.sendKeys(MRUserEmail).perform();
+			act.sendKeys(Keys.TAB).perform();
+			Thread.sleep(1000);
+		
+			
+			
+			
+			
+		Thread.sleep(4000);		
+		saveBasicDetails.click();
+		
+		Reporter.log("basic detailas save successfully.",true );
+		
+		Thread.sleep(2000);	
+		
+		userFireStation.click();
+		Thread.sleep(2000);		
+		
+		departmerntFieldForStationUser.click();
+		act.sendKeys(deptName).perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(2000);
+	
+		stationFieldForStationUser.click();
+		act.sendKeys(St1N).build().perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+	
+		
+	
+	
+		
+		
+		Thread.sleep(2000);	
+		
+		userFireFighter.click();
+		
+			
+		Thread.sleep(2000);			
+		departmentField.click();
+		act.sendKeys(deptName).perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(2000);
+		
+		stationField2.click();
+		act.sendKeys(St1N).perform();
+//	    act.sendKeys(dateDDMMYY).sendKeys(gTimeHHMM).build().perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		saveUserRole.click();
+		
+		Reporter.log("user role save successfully.",true );
+		
+		specialGroupPermission.click();
+		permssionAdditional_info.click();
+		Thread.sleep(500);
+		permssionAvaibility_dashboard.click();
+		Thread.sleep(500);
+		permssionAlarm_permission_in_app.click();
+		Thread.sleep(500);
+		selectAllPermission.click();
+		updatespecialGroupPermission.click();
+		Thread.sleep(500);
+		permissionOk.click();
+		Thread.sleep(500);
+		savePermission.click();
+		
+		Reporter.log("permission save successfully.",true );
+		
+		attributeTab.click();
+		Thread.sleep(500);
+		atrriDepartmentField.click();
+		act.sendKeys(deptName).perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(2000);
+		attributeFiled.click();
+		Thread.sleep(2000);
+		act.sendKeys(st1Atti).perform();
+		Thread.sleep(3000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(2000);
+		saveAttribute.click();
+		
+		
+		atrriContinue.click();
+		Reporter.log("adding atrribute successfully.",true );
+		
+		resourceDepartmentFiled.click();
+		act.sendKeys(deptName).perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(2000);
+		resourceStationFiled.click();
+		act.sendKeys(St1N).perform();
+//		act.sendKeys(dateDDMMYY).sendKeys(gTimeHHMM).build().perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(2000);
+		resourceField.click();
+		act.sendKeys(st1Recs).perform();
+		Thread.sleep(500);
+		act.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(500);
+		saveResource.click();
+		Reporter.log("adding resource successfully.",true );
+		
+		
+		finishAddUserProcess.click();
+		
+		
+		
+		Reporter.log("user details", true);
+		Reporter.log("User first name > RojDev",true);
+		Reporter.log("User last name > MRuser1", true);
+		Reporter.log("User mail id > "+MRUserEmail,  true);
+		Reporter.log("  ", true);
+		
+		
+		//userList.click();
+		Thread.sleep(2000);driver.navigate().refresh();
+			
+		
+			
+
+		}
+		
+		
+		
+		
+		
+		
+		
+		public void addfireFighter1ForStation06 (WebDriver driver,String dateDDMMYY,String gTimeHHMM, String deptName,String St1N,String st1Atti,String st1Recs,	String ff1UEmail, String ff2UEmail, String BranchNameB) throws Throwable
+		{
+			Actions act = new Actions(driver);
+			
+			
+			
 				createNew.click();
 				Thread.sleep(2000);
 				emailField.click();
 				
-				if (L==1)
-				{
-					act.sendKeys(ff1UEmail).perform();
-					
-				}
 				
-				
-				else if (L==2)
-				{
-					act.sendKeys(ff2UEmail).perform();
+			act.sendKeys(ff1UEmail).perform();
 					
-				}
+				
 				
 			
 				
@@ -390,9 +506,15 @@ public class n_addUsers extends  B_baseClass {
 		
 		
 		Reporter.log("user details", true);
-		Reporter.log("User first name > ghatole", true);
-		Reporter.log("User last name > ff-"+i, true);
-		Reporter.log("User mail id > dghatole.ff"+i+"@atpl.in", true);
+		Reporter.log("User first name > RojDev",true);
+		Reporter.log("User last name > FF1", true);
+		
+		
+			Reporter.log("User mail id > "+ff1UEmail,  true);
+			
+	
+			
+	
 		Reporter.log("  ", true);
 		
 		//userList.click();
@@ -401,7 +523,204 @@ public class n_addUsers extends  B_baseClass {
 		
 			}
 
-		}
+		
+		
+		public void addfireFighter2ForStation06 (WebDriver driver,String dateDDMMYY,String gTimeHHMM, String deptName,String St1N,String st1Atti,String st1Recs,	String ff1UEmail, String ff2UEmail, String BranchNameB) throws Throwable
+		{
+			Actions act = new Actions(driver);
+			
+		
+			
+				createNew.click();
+				Thread.sleep(2000);
+				emailField.click();
+				
+			
+			
+					act.sendKeys(ff2UEmail).perform();
+					
+				
+				
+			
+				
+			
+			act.sendKeys(Keys.TAB).perform();
+			Thread.sleep(1000);
+			
+//			userNameField.click();
+//			Thread.sleep(1000);
+//			
+//			act.sendKeys("ghatole").perform();
+//			Thread.sleep(1000);
+//			
+//			
+//			
+//			
+//	
+//			userLastNameField.click();
+//			Thread.sleep(1000);
+//			
+//			act.sendKeys("ff"+i).perform();
+//			Thread.sleep(1000);
+//			
+//			
+//
+//			
+//			country.click();
+//	
+//			
+//			act.sendKeys("india").perform();
+//			Thread.sleep(2000);
+//			
+//			act.sendKeys(Keys.DOWN).sendKeys(Keys.ENTER).build().perform();
+//	
+//			
+//		Select se= new Select(selectLang);
+//		se.selectByVisibleText("English");
+//		
+//		userPasswordField.click();
+//		act.sendKeys("Qwerty@123").perform();
+		
+		saveBasicDetails.click();
+		Reporter.log("basic detailas save successfully.",true );
+		
+		Thread.sleep(2000);	
+		
+		userFireFighter.click();
+		
+			
+		Thread.sleep(2000);			
+		departmentField.click();
+		act.sendKeys(deptName).perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(2000);
+		mainDepartmentField.click();
+		act.sendKeys(deptName).perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(2000);
+		stationField.click();
+		act.sendKeys(St1N).perform();
+//	    act.sendKeys(dateDDMMYY).sendKeys(gTimeHHMM).build().perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		saveUserRole.click();
+		
+		Reporter.log("user role save successfully.",true );
+		
+		specialGroupPermission.click();
+		permssionAdditional_info.click();
+		Thread.sleep(500);
+		permssionAvaibility_dashboard.click();
+		Thread.sleep(500);
+		permssionAlarm_permission_in_app.click();
+		Thread.sleep(500);
+		selectAllPermission.click();
+		updatespecialGroupPermission.click();
+		Thread.sleep(500);
+		permissionOk.click();
+		Thread.sleep(500);
+		savePermission.click();
+		
+		Reporter.log("permission save successfully.",true );
+		
+		attributeTab.click();
+		Thread.sleep(500);
+		atrriDepartmentField.click();
+		act.sendKeys(deptName).perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(2000);
+		attributeFiled.click();
+		act.sendKeys(st1Atti).perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(2000);
+		saveAttribute.click();
+		
+		
+		atrriContinue.click();
+		Reporter.log("adding atrribute successfully.",true );
+		
+		resourceDepartmentFiled.click();
+		act.sendKeys(deptName).perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(2000);
+		resourceStationFiled.click();
+		act.sendKeys(St1N).perform();
+//		act.sendKeys(dateDDMMYY).sendKeys(gTimeHHMM).build().perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(2000);
+		resourceField.click();
+		act.sendKeys(st1Recs).perform();
+		Thread.sleep(500);
+		act.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(500);
+		saveResource.click();
+		Reporter.log("adding resource successfully.",true );
+		
+		
+		finishAddUserProcess.click();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		Reporter.log("user details", true);
+		Reporter.log("User first name > RojDev",true);
+		Reporter.log("User last name > FF1", true);
+		
+		
+		
+		
+	
+			Reporter.log("User mail id > "+ff2UEmail,  true);
+			
+
+		Reporter.log("  ", true);
+		
+		//userList.click();
+		Thread.sleep(2000);driver.navigate().refresh();
+			
+		
+			}
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		public void deletfireFighter (WebDriver driver, String BranchNameB) throws Throwable
 		{
@@ -423,7 +742,7 @@ public class n_addUsers extends  B_baseClass {
 			yesPlease.click();
 			Thread.sleep(2000);
 			Reporter.log("User number-" + i + " is deleted sucessfully.", true);
-			Thread.sleep(2000);
+			
 			driver.navigate().refresh();
 			
 					}

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Dec 24 17:42:10 IST 2024</td>
+<td>Started on:</td><td>Sat Jan 04 13:34:36 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>79 seconds (79094 ms)</td>
+<tr><td>Total time:</td><td>183 seconds (183312 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,26 +76,24 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='live_functions.AAA_testClass_delete.deleteVehicleUser()'><b>deleteVehicleUser</b><br>Test class: live_functions.AAA_testClass_delete<br/>
-<a href="#Output-2030294088" onClick='toggleBox("Output-2030294088", this, "Show output", "Hide output");'>Show output</a>
+<td title='live_functions.A_testClass_dailyCheckPointList.createTestAlarmByAttributeRecursiveWeekly()'><b>createTestAlarmByAttributeRecursiveWeekly</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1955566523" onClick='toggleBox("Output-1955566523", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2030294088" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2030294088">
+<a href="#Output-1955566523" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1955566523">
  <br/>
-The process of delete vehicle is started.<br/>
-vehicle number-1<br/>
-vehicle number-2<br/>
+The process of creating a test alarm by fire fighter with remindar recursive > weekly is started.<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//i[@class=&quot;fa fa-trash-o&quot;])[1]&quot;}
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=131.0.6778.205)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7fbb98ed0741635ca579bb191c61f986, findElement {value=(//i[@class=&quot;fa fa-trash-o&quot;])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63192}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63192/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7fbb98ed0741635ca579bb191c61f986
+Command: [cc1dbb1c744d3145e5b70a9c824c7fab, clickElement {id=f.7C60C2FF7C634FD0CB04BDC0D1D34286.d.81E478374A99780EC2D54BF75E8E1776.e.24889}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51217}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51217/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (cc1dbb1c744d3145e5b70a9c824c7fab)] -&gt; xpath: //a[@href=&quot;http://development.retteralarm.de/admin/TestAlarms/test_list&quot;]]
+Session ID: cc1dbb1c744d3145e5b70a9c824c7fab
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
@@ -103,26 +101,23 @@ Session ID: 7fbb98ed0741635ca579bb191c61f986
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-	at live_functions.p_vehicleUser.deleteVehicleUser(p_vehicleUser.java:272)
-	at live_functions.AAA_testClass_delete.deleteVehicleUser(AAA_testClass_delete.java:270)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at live_functions.H_testAlarm.testAlarmCommon(H_testAlarm.java:197)
+	at live_functions.A_testClass_dailyCheckPointList.createTestAlarmByAttributeRecursiveWeekly(A_testClass_dailyCheckPointList.java:866)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2030294088", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2030294088'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//i[@class=&quot;fa fa-trash-o&quot;])[1]&quot;}
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1955566523", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1955566523'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=131.0.6778.205)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7fbb98ed0741635ca579bb191c61f986, findElement {value=(//i[@class=&quot;fa fa-trash-o&quot;])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63192}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63192/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7fbb98ed0741635ca579bb191c61f986
+Command: [cc1dbb1c744d3145e5b70a9c824c7fab, clickElement {id=f.7C60C2FF7C634FD0CB04BDC0D1D34286.d.81E478374A99780EC2D54BF75E8E1776.e.24889}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51217}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51217/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (cc1dbb1c744d3145e5b70a9c824c7fab)] -&gt; xpath: //a[@href=&quot;http://development.retteralarm.de/admin/TestAlarms/test_list&quot;]]
+Session ID: cc1dbb1c744d3145e5b70a9c824c7fab
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -135,15 +130,15 @@ Session ID: 7fbb98ed0741635ca579bb191c61f986
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-	at live_functions.p_vehicleUser.deleteVehicleUser(p_vehicleUser.java:272)
-	at live_functions.AAA_testClass_delete.deleteVehicleUser(AAA_testClass_delete.java:270)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at live_functions.H_testAlarm.testAlarmCommon(H_testAlarm.java:197)
+	at live_functions.A_testClass_dailyCheckPointList.createTestAlarmByAttributeRecursiveWeekly(A_testClass_dailyCheckPointList.java:866)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -173,8 +168,8 @@ Session ID: 7fbb98ed0741635ca579bb191c61f986
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>48</td>
-<td>live_functions.AAA_testClass_delete@17f62e33</td></tr>
+<td>12</td>
+<td>live_functions.A_testClass_dailyCheckPointList@48bb62</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -185,34 +180,98 @@ Session ID: 7fbb98ed0741635ca579bb191c61f986
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='live_functions.AAA_testClass_delete.userDetails()'><b>userDetails</b><br>Test class: live_functions.AAA_testClass_delete<br/>
-<a href="#Output-2034411604" onClick='toggleBox("Output-2034411604", this, "Show output", "Hide output");'>Show output</a>
+<td title='live_functions.A_testClass_dailyCheckPointList.detailsAboutScript()'><b>detailsAboutScript</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1543105131" onClick='toggleBox("Output-1543105131", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2034411604" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2034411604">
+<a href="#Output-1543105131" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1543105131">
  <br/>
-live department user # bhupesh.dept_dev@atpl.in # log in sucessfully<br/>
+Login  date-04.01.2025 & login  time -09:04<br/>
+Logout date-04-01-2025 & logout time -09:07<br/>
  <br/>
 </div>
 </td>
 <td></td>
-<td>0</td>
-<td>live_functions.AAA_testClass_delete@17f62e33</td></tr>
+<td>3</td>
+<td>live_functions.A_testClass_dailyCheckPointList@48bb62</td></tr>
 <tr>
-<td title='live_functions.AAA_testClass_delete.detailsAboutScript()'><b>detailsAboutScript</b><br>Test class: live_functions.AAA_testClass_delete<br/>
-<a href="#Output-233309087" onClick='toggleBox("Output-233309087", this, "Show output", "Hide output");'>Show output</a>
+<td title='live_functions.A_testClass_dailyCheckPointList.createTestAlarmByAttributeRecursiveMontlyDateWise()'><b>createTestAlarmByAttributeRecursiveMontlyDateWise</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-204339470" onClick='toggleBox("Output-204339470", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-233309087" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-233309087">
+<a href="#Output-204339470" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-204339470">
  <br/>
-Login  date-24.12.2024 & login  time -13:12<br/>
-Logout date-24-12-2024 & logout time -13:13<br/>
+The process of creating a test alarm by alarm loop 2 with remindar recursive > monthly > date wise is started.<br/>
+test alarm created for >04.01.2025-09:13<br/>
+The process of creating a test alarm by alarm loop 2 with remindar recursive > monthly > date wise is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>30</td>
+<td>live_functions.A_testClass_dailyCheckPointList@48bb62</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.testAlarmByRecursiveMonthlyDayWise()'><b>testAlarmByRecursiveMonthlyDayWise</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1974701110" onClick='toggleBox("Output-1974701110", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1974701110" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1974701110">
+ <br/>
+The process of creating a test alarm by alarm loop 1 with remindar recirsive > monthly > day wise is started.<br/>
+test alarm created for >04.01.2025-09:13<br/>
+The process of creating a test alarm by alarm loop 2 with remindar recirsive > monthly > day wise is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>30</td>
+<td>live_functions.A_testClass_dailyCheckPointList@48bb62</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createTestAlarmByAttributeRecursivedaily()'><b>createTestAlarmByAttributeRecursivedaily</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1069131391" onClick='toggleBox("Output-1069131391", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1069131391" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1069131391">
+ <br/>
+The process of creating a test alarm by resource with remindar recursive > daily is started.<br/>
+test alarm created for >04.01.2025-09:13<br/>
+The process of creating a test alarm by resource with remindar recursive > daily is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>30</td>
+<td>live_functions.A_testClass_dailyCheckPointList@48bb62</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createTestAlarmByAttributeOneTime()'><b>createTestAlarmByAttributeOneTime</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-424106351" onClick='toggleBox("Output-424106351", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-424106351" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-424106351">
+ <br/>
+The process of creating a test alarm by attribute with remindar one time is started.<br/>
+test alarm created for >04.01.2025-09:15<br/>
+The process of creating a test alarm by attribute with remindar one time is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>47</td>
+<td>live_functions.A_testClass_dailyCheckPointList@48bb62</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.userDetails()'><b>userDetails</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-371156515" onClick='toggleBox("Output-371156515", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-371156515" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-371156515">
+ <br/>
+Department user # bhupesh.dept_dev@atpl.in # log in sucessfully<br/>
  <br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>live_functions.AAA_testClass_delete@17f62e33</td></tr>
+<td>live_functions.A_testClass_dailyCheckPointList@48bb62</td></tr>
 </table><p>
 </body>
 </html>

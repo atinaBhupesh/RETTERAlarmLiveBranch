@@ -155,7 +155,7 @@ public class F_information extends B_baseClass {
 		act.sendKeys("Manewada graound, Nagpur").build().perform();
 		act.sendKeys(Keys.TAB).build().perform();
 		act.sendKeys("BG-Information created by attribute checking.").build().perform();
-		act.sendKeys(Keys.PAGE_DOWN).build().perform();
+//		act.sendKeys(Keys.PAGE_DOWN).build().perform();
 //		uplod.click();
 //		Thread.sleep(2000);
 //		
@@ -441,7 +441,7 @@ switch (BranchNameB) {
 //		Reporter.log("The total available information or event count is-"+z+" in the list for delate.",true);
 
 		for (int i = 1; i <= 200; i++) {
-
+			Thread.sleep(2000);
 			searchField.click();
 			act.sendKeys("BG").build().perform();
 			searchButton.click();
@@ -449,10 +449,10 @@ switch (BranchNameB) {
 			delete.click();
 			Thread.sleep(5000);
 			deleteYes.click();
+			Thread.sleep(2000);
 			Reporter.log("information number-" + i + " is deleted sucessfully.", true);
 			driver.navigate().refresh();	
-			Thread.sleep(3000);
-			
+		
 			
 
 		}

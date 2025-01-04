@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Hello,3 branch deleting process has started.-24.12.2024>13:12]]>
+      <![CDATA[Hello, Daily check point checking process of 3 has started.-04.01.2025>09:08]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[Todays is 1 Saturday of this month.]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -11,31 +17,13 @@
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[live department user # bhupesh.dept_dev@atpl.in # log in sucessfully]]>
+      <![CDATA[The process of creating a test alarm by fire fighter with remindar recursive > weekly is started.]]>
     </line>
     <line>
-      <![CDATA[ ]]>
+      <![CDATA[test alarm created for >04.01.2025-09:15]]>
     </line>
     <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of delete vehicle is started.]]>
-    </line>
-    <line>
-      <![CDATA[vehicle number-1]]>
-    </line>
-    <line>
-      <![CDATA[vehicle number-2]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[Login  date-24.12.2024 & login  time -13:12]]>
-    </line>
-    <line>
-      <![CDATA[Logout date-24-12-2024 & logout time -13:13]]>
+      <![CDATA[The process of creating a test alarm by fire fighter with remindar recursive > weekly is complete.]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -47,171 +35,72 @@
       <![CDATA[ ]]>
     </line>
     <line>
+      <![CDATA[Refresh the URL before successfully closing the browser.]]>
+    </line>
+    <line>
       <![CDATA[Browser close sucessfully.]]>
     </line>
     <line>
       <![CDATA[ ]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-12-24T17:42:10 IST" name="Suite" finished-at="2024-12-24T17:43:29 IST" duration-ms="79094">
+  <suite started-at="2025-01-04T13:38:11 IST" name="Failed suite [Suite]" finished-at="2025-01-04T13:39:00 IST" duration-ms="48363">
     <groups>
     </groups>
-    <test started-at="2024-12-24T17:42:10 IST" name="Test" finished-at="2024-12-24T17:43:29 IST" duration-ms="79094">
-      <class name="live_functions.AAA_testClass_delete">
-        <test-method is-config="true" signature="lounchBrowser()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-24T17:42:10 IST" name="lounchBrowser" finished-at="2024-12-24T17:42:23 IST" duration-ms="13170" status="PASS">
+    <test started-at="2025-01-04T13:38:11 IST" name="Test(failed)" finished-at="2025-01-04T13:39:00 IST" duration-ms="48363">
+      <class name="live_functions.A_testClass_dailyCheckPointList">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@48bb62]" started-at="2025-01-04T13:37:57 IST" name="BeforeSuite" finished-at="2025-01-04T13:38:11 IST" duration-ms="14267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@48bb62]" started-at="2025-01-04T13:38:11 IST" name="BeforeTest" finished-at="2025-01-04T13:38:16 IST" duration-ms="4540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method is-config="true" signature="lounchBrowser()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@48bb62]" started-at="2025-01-04T13:38:16 IST" name="lounchBrowser" finished-at="2025-01-04T13:38:16 IST" duration-ms="121" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Hello,3 branch deleting process has started.-24.12.2024>13:12]]>
+              <![CDATA[Hello, Daily check point checking process of 3 has started.-04.01.2025>09:08]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[Todays is 1 Saturday of this month.]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
           </reporter-output>
         </test-method> <!-- lounchBrowser -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-24T17:42:23 IST" name="backToHomePage" finished-at="2024-12-24T17:42:27 IST" duration-ms="4037" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@48bb62]" started-at="2025-01-04T13:38:16 IST" name="backToHomePage" finished-at="2025-01-04T13:38:19 IST" duration-ms="2844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="userDetails()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-24T17:42:27 IST" name="userDetails" finished-at="2024-12-24T17:42:27 IST" duration-ms="5" status="PASS">
+        <test-method signature="createTestAlarmByAttributeRecursiveWeekly()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@48bb62]" started-at="2025-01-04T13:38:19 IST" name="createTestAlarmByAttributeRecursiveWeekly" finished-at="2025-01-04T13:38:54 IST" duration-ms="35241" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ ]]>
             </line>
             <line>
-              <![CDATA[live department user # bhupesh.dept_dev@atpl.in # log in sucessfully]]>
+              <![CDATA[The process of creating a test alarm by fire fighter with remindar recursive > weekly is started.]]>
+            </line>
+            <line>
+              <![CDATA[test alarm created for >04.01.2025-09:15]]>
+            </line>
+            <line>
+              <![CDATA[The process of creating a test alarm by fire fighter with remindar recursive > weekly is complete.]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- userDetails -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-24T17:42:27 IST" name="backToHomePage2" finished-at="2024-12-24T17:42:29 IST" duration-ms="2153" status="PASS">
+        </test-method> <!-- createTestAlarmByAttributeRecursiveWeekly -->
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@48bb62]" started-at="2025-01-04T13:38:54 IST" name="backToHomePage2" finished-at="2025-01-04T13:38:55 IST" duration-ms="1243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-24T17:42:29 IST" name="backToHomePage" finished-at="2024-12-24T17:42:32 IST" duration-ms="2208" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="deleteVehicleUser()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-24T17:42:32 IST" name="deleteVehicleUser" finished-at="2024-12-24T17:43:20 IST" duration-ms="48550" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
-  (Session info: chrome=131.0.6778.205)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7fbb98ed0741635ca579bb191c61f986, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63192}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63192/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7fbb98ed0741635ca579bb191c61f986]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
-  (Session info: chrome=131.0.6778.205)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7fbb98ed0741635ca579bb191c61f986, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63192}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63192/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7fbb98ed0741635ca579bb191c61f986
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-at live_functions.p_vehicleUser.deleteVehicleUser(p_vehicleUser.java:272)
-at live_functions.AAA_testClass_delete.deleteVehicleUser(AAA_testClass_delete.java:270)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of delete vehicle is started.]]>
-            </line>
-            <line>
-              <![CDATA[vehicle number-1]]>
-            </line>
-            <line>
-              <![CDATA[vehicle number-2]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- deleteVehicleUser -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-24T17:43:20 IST" name="backToHomePage2" finished-at="2024-12-24T17:43:22 IST" duration-ms="1620" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-24T17:43:22 IST" name="backToHomePage" finished-at="2024-12-24T17:43:23 IST" duration-ms="1616" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="detailsAboutScript()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-24T17:43:23 IST" name="detailsAboutScript" finished-at="2024-12-24T17:43:23 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[Login  date-24.12.2024 & login  time -13:12]]>
-            </line>
-            <line>
-              <![CDATA[Logout date-24-12-2024 & logout time -13:13]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- detailsAboutScript -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-24T17:43:23 IST" name="backToHomePage2" finished-at="2024-12-24T17:43:25 IST" duration-ms="1528" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:live_functions.AAA_testClass_delete@17f62e33]" started-at="2024-12-24T17:43:25 IST" name="logOut" finished-at="2024-12-24T17:43:29 IST" duration-ms="4152" status="PASS">
+        <test-method is-config="true" signature="logOut()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@48bb62]" started-at="2025-01-04T13:38:55 IST" name="logOut" finished-at="2025-01-04T13:38:59 IST" duration-ms="4048" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout sucessfully.]]>
@@ -219,6 +108,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[ ]]>
             </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@48bb62]" started-at="2025-01-04T13:38:59 IST" name="AfterTest" finished-at="2025-01-04T13:39:00 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Refresh the URL before successfully closing the browser.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method is-config="true" signature="AfterSute()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@48bb62]" started-at="2025-01-04T13:39:00 IST" name="AfterSute" finished-at="2025-01-04T13:39:00 IST" duration-ms="104" status="PASS">
+          <reporter-output>
             <line>
               <![CDATA[Browser close sucessfully.]]>
             </line>
@@ -226,8 +126,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[ ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- logOut -->
-      </class> <!-- live_functions.AAA_testClass_delete -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- AfterSute -->
+      </class> <!-- live_functions.A_testClass_dailyCheckPointList -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
 </testng-results>

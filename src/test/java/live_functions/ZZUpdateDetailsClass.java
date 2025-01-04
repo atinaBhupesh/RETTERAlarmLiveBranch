@@ -5,7 +5,7 @@ import org.testng.Assert;
 public class ZZUpdateDetailsClass {
 	
 	public static void main(String[] args) {
-		System.out.println("update-24 Dec 2024 -02");
+		System.out.println("update-04/01/2025-01");
 		
 		
 	}

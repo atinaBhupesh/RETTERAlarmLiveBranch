@@ -672,6 +672,7 @@ public class j_calendarEvent extends B_baseClass {
 			Thread.sleep(2000);
 
 			EventByAttribute.click();
+			Thread.sleep(2000);
 			deleteEvent.click();
 			Alert a = driver.switchTo().alert();
 			Thread.sleep(5000);
@@ -711,6 +712,7 @@ public class j_calendarEvent extends B_baseClass {
 			Thread.sleep(2000);
 			Actions act = new Actions(driver);
 			EventByResource.click();
+			Thread.sleep(2000);
 			deleteEvent.click();
 			Alert a = driver.switchTo().alert();
 			Thread.sleep(5000);
@@ -745,16 +747,17 @@ public class j_calendarEvent extends B_baseClass {
 		Thread.sleep(2000);
 		
 
-		int z = availableDataCount1day.size();
-		Reporter.log(
-				"The total available calendar event created by fire fighter count is-" + z + " in the list for delate.",
-				true);
+//		int z = availableDataCount1day.size();
+//		Reporter.log(
+//				"The total available calendar event created by fire fighter count is-" + z + " in the list for delate.",
+//				true);
 
-		for (int i = 1; i <= z; i++) {
+		for (int i = 1; i <= 100; i++) {
 			// monthButton.click();
 			Thread.sleep(2000);
 			Actions act = new Actions(driver);
 			EventByFirefighter.click();
+			Thread.sleep(2000);
 			deleteEvent.click();
 			Alert a = driver.switchTo().alert();
 			Thread.sleep(5000);

@@ -804,10 +804,10 @@ Thread.sleep(1000);
     	   delete.click();
     		Thread.sleep(5000);
 			deleteYes.click();
-		
+			Thread.sleep(2000);
 			
 			Reporter.log("Chat group number-" + i + " is deleted sucessfully.", true);
-	 		Thread.sleep(2000);
+	 	
 		driver.navigate().refresh();
 		
 		

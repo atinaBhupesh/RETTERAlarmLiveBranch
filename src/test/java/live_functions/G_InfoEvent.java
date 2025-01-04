@@ -449,6 +449,7 @@ public class G_InfoEvent extends B_baseClass {
 		act.sendKeys("BG-info event-full day created by resource checking.").build().perform();
 		act.sendKeys(Keys.PAGE_DOWN).build().perform();
 		userTypeResource.click();
+		Thread.sleep(1500);
 		selectAllCheckBox.click();
 		act.sendKeys(Keys.PAGE_DOWN).build().perform();
 		selectAllCheckBox.click();

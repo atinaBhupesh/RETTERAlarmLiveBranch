@@ -9,11 +9,18 @@
 				<include name="userDetails"  />
 	     	
 		     
- 
-			 <include name="addVehicleUserForStation06"  />
-		   
-		 
-			
+	 
+
+			 
+         	<include name="createTestAlarmByAttributeOneTime"  />
+        	<include name="createTestAlarmByAttributeRecursivedaily"  />
+        	<include name="createTestAlarmByAttributeRecursiveWeekly"  />
+        	<include name="testAlarmByRecursiveMonthlyDayWise"  />
+        	<include name="createTestAlarmByAttributeRecursiveMontlyDateWise"  /> 
+					
+		
+	
+
 			
 			 <include name="detailsAboutScript"  />  
       </methods>

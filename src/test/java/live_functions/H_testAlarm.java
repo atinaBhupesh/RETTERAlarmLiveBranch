@@ -937,7 +937,7 @@ public class H_testAlarm extends B_baseClass
 	
 	
 	
-	public void deactiveTestAlarms(WebDriver driver, String date, String BranchNameB) throws Throwable {
+	public void deactiveTestAlarmsFromOverview(WebDriver driver, String date, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 		Select se = new Select(alarmLength);
 		se.selectByVisibleText("100");
@@ -964,14 +964,47 @@ public class H_testAlarm extends B_baseClass
 			Reporter.log("Alarm number-" + i + " is deleted sucessfully.", true);
 			Thread.sleep(2000);
 		   driver.navigate().refresh();
-		   Thread.sleep(1000);;
+		   Thread.sleep(1000);
 			
 		   
 
 		}
 		
+	}
 		
 		
+		public void deactiveMonthlyTestAlarmsFromOverview(WebDriver driver, String date, String BranchNameB) throws Throwable {
+			Actions act = new Actions(driver);
+			Select se = new Select(alarmLength);
+			se.selectByVisibleText("100");
+			Thread.sleep(2000);
+		
+			int z=availableDataCount.size();
+		
+//			Reporter.log("The total available test alarms count is-"+z+" in the overview for deactive.",true);
+
+			for (int i = 1; i <= 100; i++) {
+				searchField.click();
+				
+				act.sendKeys("Bhupesh").build().perform();
+				
+				searchButton.click();
+				Thread.sleep(2000);
+			
+				
+				
+				deactiveAlarm.click();
+				Thread.sleep(5000);
+				changeStatusYes.click();
+				Thread.sleep(1000);
+				Reporter.log("Alarm number-" + i + " is deleted sucessfully.", true);
+				Thread.sleep(2000);
+			   driver.navigate().refresh();
+			   Thread.sleep(1000);;
+				
+			   
+
+			}
 		
 		
 		

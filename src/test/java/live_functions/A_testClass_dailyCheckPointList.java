@@ -670,13 +670,36 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		
 	}
 	
+	
 	@Test
 
-	public void addFirefighterForNewStation06() throws Throwable {
+	public void addMultyRoleUserForStation06() throws Throwable {
+		Reporter.log(" ", true);
+		Reporter.log("The process of add multy role user is started.", true);
+		ff.commonForAddUers(driver,BranchNameB);
+	    ff.addMultyRoleUserForStation06( driver, dateDDMMYY, gTimeHHMM,  deptName, St1N, MRUserEmail,  BranchNameB);
+	    newStationUser=ff.newStationUser;
+		
+		
+		Reporter.log("The process of add station uers is complete.", true);
+		Reporter.log(" ", true);
+		Thread.sleep(3000);
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	@Test
+
+	public void addFirefighter1ForNewStation06() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of add fire fighter is started.", true);
 		ff.commonForAddUers(driver,BranchNameB);
-		ff.addfireFighterForStation06(driver, dateDDMMYY, gTimeHHMM,deptName,St1N, st1Atti, st1Recs,ff1UEmail,ff2UEmail,BranchNameB);
+		ff.addfireFighter1ForStation06(driver, dateDDMMYY, gTimeHHMM,deptName,St1N, st1Atti, st1Recs,ff1UEmail,ff2UEmail,BranchNameB);
 		
 		
 		Reporter.log("The process of add fire fighter is complete.", true);
@@ -684,6 +707,26 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 		Thread.sleep(3000);
 		
 	}
+	
+	
+	@Test
+
+	public void addFirefighter2ForNewStation06() throws Throwable {
+		Reporter.log(" ", true);
+		Reporter.log("The process of add fire fighter is started.", true);
+		ff.commonForAddUers(driver,BranchNameB);
+		ff.addfireFighter2ForStation06(driver, dateDDMMYY, gTimeHHMM,deptName,St1N, st1Atti, st1Recs,ff1UEmail,ff2UEmail,BranchNameB);
+		
+		
+		Reporter.log("The process of add fire fighter is complete.", true);
+		Reporter.log(" ", true);
+		Thread.sleep(3000);
+		
+	}
+	
+	
+	
+	
 	
 	
 	

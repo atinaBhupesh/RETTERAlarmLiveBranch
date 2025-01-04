@@ -180,9 +180,9 @@ public void deleteCheckLis (WebDriver driver, String BranchNameB) throws Throwab
 		searchButton.click();
 		Thread.sleep(2000);
 		delete.click();
-		Thread.sleep(5000);
-	   	deleteYes.click();
 		Thread.sleep(2000);
+	   	deleteYes.click();
+		Thread.sleep(5000);
 			
 			Reporter.log("Check list number-" + i + " is deleted sucessfully.", true);
 		

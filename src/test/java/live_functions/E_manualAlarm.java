@@ -1241,7 +1241,7 @@ public class E_manualAlarm extends B_baseClass
 		act.moveToElement(attachFile).click().build().perform();
 		Thread.sleep(1000);
 
-		StringSelection ss = new StringSelection("C:\\Users\\BHUPESH\\Desktop\\New folder\\FireFighter.png");
+		StringSelection ss = new StringSelection("C:\\Users\\BHUPESH\\Desktop\\New folder\\Sample Image\\0.98mb.JPG");
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
 
 		Robot rc = new Robot();
@@ -1469,7 +1469,7 @@ public class E_manualAlarm extends B_baseClass
 //				act.sendKeys("BG").build().perform();
 //
 //				searchButton.click();
-//				Thread.sleep(3000);
+				Thread.sleep(2000);
 
 				delete.click();
 				Thread.sleep(5000);

@@ -39,6 +39,7 @@ public class B_baseClass {
 	String stUEmail ;
 	String ff1UEmail ;
 	String ff2UEmail ;
+	String MRUserEmail;
 
 			
 	
@@ -323,6 +324,8 @@ public class B_baseClass {
 			 stUEmail =sheet.getRow(14).getCell(3).getStringCellValue();
 			 ff1UEmail =sheet.getRow(15).getCell(3).getStringCellValue();
 			 ff2UEmail =sheet.getRow(16).getCell(3).getStringCellValue();
+			 MRUserEmail =sheet.getRow(17).getCell(3).getStringCellValue();
+			 
 			
 			
 			

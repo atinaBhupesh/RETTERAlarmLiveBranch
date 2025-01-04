@@ -13,15 +13,16 @@
 						
 						
 						
-							<include name="deleteVehicleUser" />
+						
+				
 				
 						
-						
+							<include name="deactiveMonthlyTestAlarmFromOverview" />
 						
 						
 			<exclude name="deactiveManualAlarm" />
 			<exclude name="deleteTestAlarmFromOverview_monthly" />
-
+			<exclude name="deactiveMonthlyTestAlarmFromOverview" />
 				<include name="detailsAboutScript" />
 
 			</methods>
