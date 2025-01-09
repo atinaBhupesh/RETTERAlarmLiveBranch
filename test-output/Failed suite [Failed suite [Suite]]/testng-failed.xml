@@ -9,11 +9,11 @@
           <include name="backToHomePage2"/>
           <include name="BeforeSuite"/>
           <include name="AfterTest"/>
-          <include name="addFirefighterForNewStation06"/>
           <include name="backToHomePage"/>
           <include name="BeforeTest"/>
-          <include name="lounchBrowser"/>
+          <include name="addFirefighter1ForNewStation06"/>
           <include name="AfterSute"/>
+          <include name="lounchBrowser"/>
         </methods>
       </class> <!-- live_functions.A_testClass_dailyCheckPointList -->
     </classes>

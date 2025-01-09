@@ -9,7 +9,7 @@
       
 			<include name="userDetails"  />
 			 
-			
+			<include name="sendmessageToApiAlarmUser"  />
 			 	 
 			<include name="createManualAlarmByAttribute"  />
 			<include name="createManualAlarmByResource"  />
@@ -71,27 +71,28 @@
 			<include name="createChatgroupByResource"  /> 
 			<include name="createChatgroupByFirefighter"  /> 
 			<include name="createChatgroupByAlarmloop"  /> 
+			
+			<include name="sendMessageChatGrouCreatedByAttribute"  /> 
+			<include name="sendMessageChatGrouCreatedByResource"  /> 
+			<include name="sendMessageChatGrouCreatedByFirefighter"  /> 
+			<include name="sendMessageChatGrouCreatedByAlarmLoop"  />
 		
-			
-			<include name="createNormalCheckList"  />
-			<include name="createAlarmCheckList"  />
-			
-			
+		
 			<include name="SendmessagetoARUsers"  />
 			<include name="sendmessageToinfoUsers"/>"
 			<include name="sendmessageToinfoEventUsers"/>
 		
 			<include name="sendmessageToTestAlarmUsers"  />
 			
-			<include name="sendMessageChatGrouCreatedByAttribute"  /> 
-			<include name="sendMessageChatGrouCreatedByResource"  /> 
-			<include name="sendMessageChatGrouCreatedByFirefighter"  /> 
-			<include name="sendMessageChatGrouCreatedByAlarmLoop"  />
+			
 			
 			 <include name="addStationUserForStation06"/>
 			 <include name="addFirefighter1ForNewStation06"/>
 			  <include name="addFirefighter2ForNewStation06"/>
 			 <include name="addVehicleUserForStation06"  />
+			 
+			 <include name="createNormalCheckList"  />
+			<include name="createAlarmCheckList"  />
 					
 			
             <include name="createPermissionGroupDefaultStation"  />

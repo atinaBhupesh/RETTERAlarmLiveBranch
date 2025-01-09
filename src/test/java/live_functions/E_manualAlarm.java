@@ -1237,6 +1237,102 @@ public class E_manualAlarm extends B_baseClass
 
 		sendmessageButton.click();
 
+//		Thread.sleep(1000);
+//		act.moveToElement(attachFile).click().build().perform();
+//		Thread.sleep(1000);
+//
+//		StringSelection ss = new StringSelection("C:\\Users\\BHUPESH\\Desktop\\New folder\\Sample Image\\0.98mb.JPG");
+//		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
+//
+//		Robot rc = new Robot();
+//		Thread.sleep(2000);
+//		rc.keyPress(KeyEvent.VK_CONTROL);
+//		rc.keyPress(KeyEvent.VK_V);
+//		Thread.sleep(2000);
+//		rc.keyRelease(KeyEvent.VK_CONTROL);
+//		rc.keyRelease(KeyEvent.VK_V);
+//		Thread.sleep(2000);
+//		rc.keyPress(KeyEvent.VK_ENTER);
+//		rc.keyRelease(KeyEvent.VK_ENTER);
+//		Thread.sleep(2000);
+//
+//		writemessageField.click();
+//
+//		act.sendKeys("image-alarm users").build().perform();
+//		Thread.sleep(2000);
+//		sendmessageButton.click();
+//		Reporter.log("image attached properly", true);
+//
+//		Thread.sleep(1000);
+//		act.moveToElement(attachFile).click().build().perform();
+//		Thread.sleep(1000);
+//
+//		StringSelection ss1 = new StringSelection("C:\\Users\\BHUPESH\\Desktop\\New folder\\Automation Test.pdf");
+//		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss1, null);
+//
+//		Thread.sleep(2000);
+//		rc.keyPress(KeyEvent.VK_CONTROL);
+//		rc.keyPress(KeyEvent.VK_V);
+//		Thread.sleep(2000);
+//		rc.keyRelease(KeyEvent.VK_CONTROL);
+//		rc.keyRelease(KeyEvent.VK_V);
+//		Thread.sleep(2000);
+//		rc.keyPress(KeyEvent.VK_ENTER);
+//		rc.keyRelease(KeyEvent.VK_ENTER);
+//		Thread.sleep(2000);
+//
+//		writemessageField.click();
+//
+//		act.sendKeys("pdf-alarm users").build().perform();
+//		Thread.sleep(2000);
+//		sendmessageButton.click();
+//		Reporter.log("pdf attached properly", true);
+//
+//		Thread.sleep(1000);
+//		act.moveToElement(attachFile).click().build().perform();
+//		Thread.sleep(1000);
+//
+//		StringSelection ss2 = new StringSelection("C:\\Users\\BHUPESH\\Desktop\\New folder\\Notes.docx");
+//		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss2, null);
+//
+//		Thread.sleep(2000);
+//		rc.keyPress(KeyEvent.VK_CONTROL);
+//		rc.keyPress(KeyEvent.VK_V);
+//		Thread.sleep(2000);
+//		rc.keyRelease(KeyEvent.VK_CONTROL);
+//		rc.keyRelease(KeyEvent.VK_V);
+//		Thread.sleep(2000);
+//		rc.keyPress(KeyEvent.VK_ENTER);
+//		rc.keyRelease(KeyEvent.VK_ENTER);
+//		Thread.sleep(2000);
+//
+//		writemessageField.click();
+//
+//		act.sendKeys("word file -alarm users").build().perform();
+//		Thread.sleep(2000);
+//		sendmessageButton.click();
+//		Reporter.log("word file attached properly", true);
+
+	}
+	
+	
+	public void sendmessageToApiAlarmUser(WebDriver driver, String date, String BranchNameB) throws Throwable {
+		Actions act = new Actions(driver);
+
+		searchField.click();
+
+		act.sendKeys("BG-EX LP API Alarm Email v2-St 06 from 07").build().perform();
+
+		searchButton.click();
+		Thread.sleep(2000);
+		chatOptions.click();
+
+		writemessageField.click();
+
+		act.sendKeys("message-Api alarm users").build().perform();
+
+		sendmessageButton.click();
+
 		Thread.sleep(1000);
 		act.moveToElement(attachFile).click().build().perform();
 		Thread.sleep(1000);

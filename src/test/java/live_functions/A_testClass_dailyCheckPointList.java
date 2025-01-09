@@ -1005,6 +1005,19 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 
 	@Test
 
+	public void sendmessageToApiAlarmUser() throws Throwable {
+		Reporter.log(" ", true);
+		Reporter.log("The Process of send message to user is started.", true);
+		ma.manualAlarmCommon(driver, BranchNameB);
+		ma.sendmessageToApiAlarmUser(driver, date2, date);
+		Reporter.log("The Process of send message to user is complete.", true);
+		Reporter.log(" ", true);
+		Thread.sleep(3000);
+	}
+	
+	
+	@Test
+
 	public void extendAlarmToSecondStation() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of extend alarm is started.", true);

@@ -11,13 +11,8 @@
 		     
 	 
 
-			 
-         	<include name="createTestAlarmByAttributeOneTime"  />
-        	<include name="createTestAlarmByAttributeRecursivedaily"  />
-        	<include name="createTestAlarmByAttributeRecursiveWeekly"  />
-        	<include name="testAlarmByRecursiveMonthlyDayWise"  />
-        	<include name="createTestAlarmByAttributeRecursiveMontlyDateWise"  /> 
-					
+		
+       		    <include name="sendmessageToAlarmUser"/>
 		
 	
 
