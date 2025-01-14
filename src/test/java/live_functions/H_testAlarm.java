@@ -580,7 +580,7 @@ public class H_testAlarm extends B_baseClass
 	
 	
 	
-	public void testAlarmByRecursiveDaily(WebDriver driver, String date , String gTimeA9min,  String today,String deptName,String St1N,String St1V1, String St1V2 ,  String BranchNameB)
+	public void testAlarmByRecursiveDaily(WebDriver driver, String date , String gTimeA5min,  String today,String deptName,String St1N,String St1V1, String St1V2 ,  String BranchNameB)
 			throws Throwable {
 		Actions act = new Actions(driver);
 
@@ -602,7 +602,7 @@ public class H_testAlarm extends B_baseClass
 		Thread.sleep(2000);
 		testAlartitlefield.click();
 		
-		act.sendKeys("BG-Test-Daily wise-Resource-" + date+" "+gTimeA9min).build().perform();
+		act.sendKeys("BG-Test-Daily wise-Resource-" + date+" "+gTimeA5min).build().perform();
 		
 		testAlarmDescriptionField.click();
 		
@@ -622,7 +622,7 @@ public class H_testAlarm extends B_baseClass
 		recursiveDailyTime.click();
 		
 		act.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).build().perform();
-		act.sendKeys(gTimeA9min).build().perform();
+		act.sendKeys(gTimeA5min).build().perform();
 		act.sendKeys(Keys.ENTER).build().perform();
 		
 		userTypeResource.click();
@@ -678,7 +678,7 @@ public class H_testAlarm extends B_baseClass
 	
 
 		driver.navigate().refresh();
-		Reporter.log("test alarm created for >"+ date+"-"+gTimeA9min,true);
+		Reporter.log("test alarm created for >"+ date+"-"+gTimeA5min,true);
 		
 	
 
@@ -692,7 +692,7 @@ public class H_testAlarm extends B_baseClass
 
 	
 
-	public void testAlarmByOnetime(WebDriver driver, String date, String gTimeA11min, String today,String deptName,String St1N,String St1V1, String St1V2 , String BranchNameB) throws Throwable {
+	public void testAlarmByOnetime(WebDriver driver, String date, String gTimeA3min, String today,String deptName,String St1N,String St1V1, String St1V2 , String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
@@ -713,7 +713,7 @@ public class H_testAlarm extends B_baseClass
 		Thread.sleep(2000);
 		testAlartitlefield.click();
 		
-		act.sendKeys("BG-Test-One time-Attribute-" + date+" "+gTimeA11min).build().perform();
+		act.sendKeys("BG-Test-One time-Attribute-" + date+" "+gTimeA3min).build().perform();
 		
 		testAlarmDescriptionField.click();
 		
@@ -743,7 +743,7 @@ public class H_testAlarm extends B_baseClass
 		
 		act.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).build().perform();
 		
-		act.sendKeys(gTimeA11min).build().perform();
+		act.sendKeys(gTimeA3min).build().perform();
 		
 	
 	
@@ -809,7 +809,7 @@ public class H_testAlarm extends B_baseClass
 	
 
 		driver.navigate().refresh();
-		Reporter.log("test alarm created for >"+ date+"-"+gTimeA11min,true);
+		Reporter.log("test alarm created for >"+ date+"-"+gTimeA3min,true);
 		
 	
 		

@@ -238,6 +238,7 @@ public class AAAAA_timeClasss {
 
 		germanyTimeAfter3Minutes = germanDateTimeAfter3Minutes.format(timeFormatter);
 		germanyTimeAfter5Minutes =germanDateTimeAfter5Minutes.format(timeFormatter);
+		
 		germanyTimeAfter7Minutes = germanDateTimeAfter7Minutes.format(timeFormatter);
 		germanyTimeAfter22Minutes = germanDateTimeAfter22Minutes.format(timeFormatter);
 		germanyTimeAfter82Minutes = germanDateTimeAfter82Minutes.format(timeFormatter);

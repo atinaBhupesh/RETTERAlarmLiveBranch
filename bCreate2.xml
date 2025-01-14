@@ -10,12 +10,15 @@
 	     	
 		     
 	 
-
-		
-       		    <include name="sendmessageToAlarmUser"/>
-		
 	
-
+          	  
+			
+		   <include name="createAvailabilityRequestSendImmediat"  />
+			<include name="createAvailabilityRequestSendSchedule"  />
+			<include name="createAvailabilityRequestSendRecursive"  />
+			<include name="createAvailabilityRequestSendMultipleDays"  />
+			  
+			
 			
 			 <include name="detailsAboutScript"  />  
       </methods>

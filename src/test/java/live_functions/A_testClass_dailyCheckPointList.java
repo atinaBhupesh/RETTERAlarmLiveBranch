@@ -823,12 +823,12 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void createTestAlarmByAttributeOneTime() throws Throwable {
 	
 	tmc.catchTime2(driver);
-	gTimeA3min =tmc.germanyTimeAfter3Minutes;
-
+//	gTimeA3min =tmc.germanyTimeAfter3Minutes;
+	gTimeA5min = tmc.germanyTimeAfter5Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a test alarm by attribute with remindar one time is started.",true);
 		ta.testAlarmCommon(driver,BranchNameB);
-		ta.testAlarmByOnetime(driver,  date,  gTimeA11min,  today, deptName, St1N, St1V1,  St1V2 ,BranchNameB);
+		ta.testAlarmByOnetime(driver,  date,  gTimeA5min,  today, deptName, St1N, St1V1,  St1V2 ,BranchNameB);
 
 		Reporter.log("The process of creating a test alarm by attribute with remindar one time is complete.",true);
 		Reporter.log(" ", true);
@@ -847,7 +847,7 @@ gTimeA5min = tmc.germanyTimeAfter5Minutes;
 	Reporter.log(" ", true);
 	Reporter.log("The process of creating a test alarm by resource with remindar recursive > daily is started.",true);
 	ta.testAlarmCommon(driver,BranchNameB);
-	ta.testAlarmByRecursiveDaily(driver,  date ,  gTimeA9min,   today, deptName, St1N, St1V1,  St1V2 ,   BranchNameB);
+	ta.testAlarmByRecursiveDaily(driver,  date ,  gTimeA5min,   today, deptName, St1N, St1V1,  St1V2 ,   BranchNameB);
 
 	Reporter.log("The process of creating a test alarm by resource with remindar recursive > daily is complete.",true);
 	Reporter.log(" ", true);
@@ -859,12 +859,12 @@ gTimeA5min = tmc.germanyTimeAfter5Minutes;
 
 public void createTestAlarmByAttributeRecursiveWeekly() throws Throwable {
 tmc.catchTime2(driver);
-gTimeA7min = tmc.germanyTimeAfter7Minutes;
-
+//gTimeA7min = tmc.germanyTimeAfter7Minutes;
+gTimeA5min = tmc.germanyTimeAfter5Minutes;
 	Reporter.log(" ", true);
 	Reporter.log("The process of creating a test alarm by fire fighter with remindar recursive > weekly is started.",true);
 	ta.testAlarmCommon(driver,BranchNameB);
-	ta.testAlarmByRecursiveWeekly(driver,   date ,  gTimeA7min,  today , deptName, St1N, St1V1,  St1V2,  BranchNameB);
+	ta.testAlarmByRecursiveWeekly(driver,   date ,  gTimeA5min,  today , deptName, St1N, St1V1,  St1V2,  BranchNameB);
 
 	Reporter.log("The process of creating a test alarm by fire fighter with remindar recursive > weekly is complete.",true);
 	Reporter.log(" ", true);
@@ -879,12 +879,12 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 	public void testAlarmByRecursiveMonthlyDayWise() throws Throwable {
 	
 		tmc.catchTime2(driver);
-		gTimeA7min = tmc.germanyTimeAfter7Minutes;
-
+//		gTimeA7min = tmc.germanyTimeAfter7Minutes;
+		gTimeA5min = tmc.germanyTimeAfter5Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a test alarm by alarm loop 1 with remindar recirsive > monthly > day wise is started.",true);
 		ta.testAlarmCommon(driver,BranchNameB);
-		ta.testAlarmByRecursiveMonthlyDayWise(driver,  date ,  gTimeA7min,  dayCount, today,  deptName, St1N, St1V1,  St1V2,  BranchNameB);
+		ta.testAlarmByRecursiveMonthlyDayWise(driver,  date ,  gTimeA5min,  dayCount, today,  deptName, St1N, St1V1,  St1V2,  BranchNameB);
 	
 		Reporter.log("The process of creating a test alarm by alarm loop 2 with remindar recirsive > monthly > day wise is complete.",true);
 		Reporter.log(" ", true);
@@ -904,6 +904,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 
 		tmc.catchTime2(driver);
 		gTimeA11min = tmc.germanyTimeAfter11Minutes;
+		gTimeA5min = tmc.germanyTimeAfter5Minutes;
 
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a test alarm by alarm loop 2 with remindar recursive > monthly > date wise is started.",true);
