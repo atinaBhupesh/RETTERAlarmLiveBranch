@@ -9,16 +9,8 @@
 				<include name="userDetails"  />
 	     	
 		     
-	 
-	
-          	  
-			
-		   <include name="createAvailabilityRequestSendImmediat"  />
-			<include name="createAvailabilityRequestSendSchedule"  />
-			<include name="createAvailabilityRequestSendRecursive"  />
-			<include name="createAvailabilityRequestSendMultipleDays"  />
-			  
-			
+		<include name="createManualAlarmByEscalationResource"/> 
+		
 			
 			 <include name="detailsAboutScript"  />  
       </methods>

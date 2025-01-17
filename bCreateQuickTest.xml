@@ -9,6 +9,7 @@
 				<include name="userDetails"  />
 	     	
 	     	
+	      
 	   	 	
 			
 			<include name="createManualAlarmByAttribute"  />
@@ -25,9 +26,7 @@
 			
 			<include name="sendmessageToAlarmUser"/>
 			
-			
-			
-	      	<include name="createTestAlarmByAttributeOneTime"  />
+				<include name="createTestAlarmByAttributeOneTime"  />
       		<include name="createInfoEventByAttributeSchedule"  /> 
 			<include name="cretecalendarEventAttributeSchedule"  /> 
 			<include name="createAvailabilityRequestSendImmediat"  />
@@ -39,6 +38,7 @@
 			<include name="sendMessageChatGrouCreatedByAttribute"  /> 
 			<include name="sendmessageToinfoUsers"/>"
 			<include name="sendmessageToinfoEventUsers"/>
+			
 		
 			 <include name="detailsAboutScript"  /> 
       </methods>

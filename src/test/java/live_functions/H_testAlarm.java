@@ -631,9 +631,9 @@ public class H_testAlarm extends B_baseClass
 		
 		selectAllCheckBox.click();
 
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		selectAllCheckBox.click();
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		
 		
 		

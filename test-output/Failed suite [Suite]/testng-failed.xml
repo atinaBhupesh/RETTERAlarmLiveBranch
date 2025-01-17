@@ -7,14 +7,11 @@
         <methods>
           <include name="logOut"/>
           <include name="backToHomePage2"/>
-          <include name="createTestAlarmByAttributeRecursivedaily"/>
+          <include name="SendmessagetoARUsers"/>
           <include name="BeforeSuite"/>
-          <include name="detailsAboutScript"/>
           <include name="AfterTest"/>
           <include name="backToHomePage"/>
           <include name="BeforeTest"/>
-          <include name="cretecalendarEventFirefighterSchedule"/>
-          <include name="cretecalendarEventResourceSchedule"/>
           <include name="AfterSute"/>
           <include name="lounchBrowser"/>
         </methods>
