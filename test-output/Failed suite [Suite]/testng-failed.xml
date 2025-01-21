@@ -7,11 +7,11 @@
         <methods>
           <include name="logOut"/>
           <include name="backToHomePage2"/>
-          <include name="SendmessagetoARUsers"/>
           <include name="BeforeSuite"/>
           <include name="AfterTest"/>
           <include name="backToHomePage"/>
           <include name="BeforeTest"/>
+          <include name="createPermissionGroupDefaultStation"/>
           <include name="AfterSute"/>
           <include name="lounchBrowser"/>
         </methods>

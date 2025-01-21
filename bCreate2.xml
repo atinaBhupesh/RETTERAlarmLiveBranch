@@ -9,9 +9,16 @@
 				<include name="userDetails"  />
 	     	
 		     
-		<include name="createManualAlarmByEscalationResource"/> 
+	
 		
+		    <include name="createInfoEventByAttribute"/>
+			<include name="createInfoEventByResource"/>
+			<include name="createInfoEventByFirefighter"/>
 			
+			
+		
+				 
+         
 			 <include name="detailsAboutScript"  />  
       </methods>
     </classes>

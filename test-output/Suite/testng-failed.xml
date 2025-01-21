@@ -7,27 +7,28 @@
         <methods>
           <include name="lounchBrowser"/>
           <include name="backToHomePage2"/>
+          <include name="deleteManualAlarm"/>
+          <include name="deleteARFromHistory"/>
+          <include name="deletePermissionGroup"/>
+          <include name="logOut"/>
+          <include name="deleteFireStation"/>
+          <include name="deleteInfoEvent"/>
+          <include name="deleteCalendarEventCreatedByResource"/>
+          <include name="deleteCalendarEventCreatedByAttribute"/>
+          <include name="deleteUers"/>
           <include name="deleteAlarmTemplate"/>
           <include name="deleteCheckList"/>
-          <include name="deleteManualAlarm"/>
           <include name="deleteVehicleUser"/>
           <include name="deleteTestAlarmFromList"/>
           <include name="deleteChatGroup"/>
           <include name="backToHomePage"/>
-          <include name="deleteARFromHistory"/>
-          <include name="deletePermissionGroup"/>
           <include name="deactiveTestAlarmFromOverview"/>
+          <include name="deactiveManualAlarm"/>
           <include name="deleteARFromList"/>
           <include name="deleteCalendarEventCreatedByFirefighter"/>
           <include name="deleteAlarmLoop"/>
-          <include name="logOut"/>
-          <include name="deleteFireStation"/>
-          <include name="deleteInfoEvent"/>
           <include name="deleteResource"/>
-          <include name="deleteCalendarEventCreatedByResource"/>
-          <include name="deleteCalendarEventCreatedByAttribute"/>
           <include name="deleteAttribute"/>
-          <include name="deleteUers"/>
           <include name="deleteEventCategory"/>
           <include name="deleteTestAlarmFromOverview"/>
         </methods>

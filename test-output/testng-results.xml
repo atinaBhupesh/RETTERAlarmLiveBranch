@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="23" passed="2" failed="21" skipped="0">
+<testng-results ignored="0" total="24" passed="2" failed="22" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Hello,1 branch deleting process has started.-16.01.2025>15:27]]>
+      <![CDATA[Hello,2 branch deleting process has started.-21.01.2025>07:37]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -11,10 +11,43 @@
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[live department user # 6039-DE-andrew-deptu-2 # log in sucessfully]]>
+      <![CDATA[live department user # 914-IN-U11-U011-1 # log in sucessfully]]>
     </line>
     <line>
       <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[The process of deactive a manual alarm is started.]]>
+    </line>
+    <line>
+      <![CDATA[Alarm number-1 is deactive sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Alarm number-2 is deactive sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Alarm number-3 is deactive sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Alarm number-4 is deactive sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Alarm number-5 is deactive sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Alarm number-6 is deactive sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Alarm number-7 is deactive sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Alarm number-8 is deactive sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Alarm number-9 is deactive sucessfully.]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -24,6 +57,15 @@
     </line>
     <line>
       <![CDATA[Alarm number-1 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Alarm number-2 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Alarm number-3 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Alarm number-4 is deleted sucessfully.]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -38,90 +80,6 @@
       <![CDATA[Alarm number-2 is deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[Alarm number-3 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-4 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-5 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-6 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-7 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-8 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-9 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-10 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-11 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-12 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-13 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-14 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-15 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-16 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-17 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-18 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-19 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-20 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-21 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-22 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-23 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-24 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-25 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-26 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-27 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-28 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-29 is deleted successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Alarm number-30 is deleted successfully.]]>
-    </line>
-    <line>
       <![CDATA[ ]]>
     </line>
     <line>
@@ -134,6 +92,12 @@
       <![CDATA[Test alarm number-2 deleted sucessfully from overview-testing branch.]]>
     </line>
     <line>
+      <![CDATA[Test alarm number-3 deleted sucessfully from overview-testing branch.]]>
+    </line>
+    <line>
+      <![CDATA[Test alarm number-4 deleted sucessfully from overview-testing branch.]]>
+    </line>
+    <line>
       <![CDATA[ ]]>
     </line>
     <line>
@@ -144,6 +108,15 @@
     </line>
     <line>
       <![CDATA[Test alarm number-2 deleted sucessfully from list-testing branch.]]>
+    </line>
+    <line>
+      <![CDATA[Test alarm number-3 deleted sucessfully from list-testing branch.]]>
+    </line>
+    <line>
+      <![CDATA[Test alarm number-4 deleted sucessfully from list-testing branch.]]>
+    </line>
+    <line>
+      <![CDATA[Test alarm number-5 deleted sucessfully from list-testing branch.]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -161,6 +134,36 @@
       <![CDATA[information number-3 is deleted sucessfully.]]>
     </line>
     <line>
+      <![CDATA[information number-4 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[information number-5 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[information number-6 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[information number-7 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[information number-8 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[information number-9 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[information number-10 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[information number-11 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[information number-12 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[information number-13 is deleted sucessfully.]]>
+    </line>
+    <line>
       <![CDATA[ ]]>
     </line>
     <line>
@@ -176,10 +179,16 @@
       <![CDATA[The process of delete calendar event by resource is started.]]>
     </line>
     <line>
+      <![CDATA[Calendar event create created by resource no-1 deleted successfully.]]>
+    </line>
+    <line>
       <![CDATA[ ]]>
     </line>
     <line>
       <![CDATA[The process of delete calendar event by firefighter is started.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by firefighter no-1 deleted successfully.]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -191,6 +200,15 @@
       <![CDATA[Availability request number-1 deleted sucessfully from histry-testing branch.]]>
     </line>
     <line>
+      <![CDATA[Availability request number-2 deleted sucessfully from histry-testing branch.]]>
+    </line>
+    <line>
+      <![CDATA[Availability request number-3 deleted sucessfully from histry-testing branch.]]>
+    </line>
+    <line>
+      <![CDATA[Availability request number-4 deleted sucessfully from histry-testing branch.]]>
+    </line>
+    <line>
       <![CDATA[ ]]>
     </line>
     <line>
@@ -198,6 +216,21 @@
     </line>
     <line>
       <![CDATA[Availability request number-1 deleted sucessfully from list-testing branch.]]>
+    </line>
+    <line>
+      <![CDATA[Availability request number-2 deleted sucessfully from list-testing branch.]]>
+    </line>
+    <line>
+      <![CDATA[Availability request number-3 deleted sucessfully from list-testing branch.]]>
+    </line>
+    <line>
+      <![CDATA[Availability request number-4 deleted sucessfully from list-testing branch.]]>
+    </line>
+    <line>
+      <![CDATA[Availability request number-5 deleted sucessfully from list-testing branch.]]>
+    </line>
+    <line>
+      <![CDATA[Availability request number-6 deleted sucessfully from list-testing branch.]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -209,10 +242,55 @@
       <![CDATA[Chat group number-1 is deleted sucessfully.]]>
     </line>
     <line>
+      <![CDATA[Chat group number-2 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Chat group number-3 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Chat group number-4 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Chat group number-5 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Chat group number-6 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Chat group number-7 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Chat group number-8 is deleted sucessfully.]]>
+    </line>
+    <line>
       <![CDATA[ ]]>
     </line>
     <line>
       <![CDATA[The process of delete check list is started.]]>
+    </line>
+    <line>
+      <![CDATA[Check list number-1 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Check list number-2 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Check list number-3 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Check list number-4 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Check list number-5 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Check list number-6 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Check list number-7 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[Check list number-8 is deleted sucessfully.]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -227,10 +305,25 @@
       <![CDATA[The process of delete alarm loop is started.]]>
     </line>
     <line>
+      <![CDATA[Alarm loop no-1 deleted successfully]]>
+    </line>
+    <line>
+      <![CDATA[Alarm loop no-2 deleted successfully]]>
+    </line>
+    <line>
       <![CDATA[ ]]>
     </line>
     <line>
       <![CDATA[The process of delete user is started.]]>
+    </line>
+    <line>
+      <![CDATA[User number-1 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[User number-2 is deleted sucessfully.]]>
+    </line>
+    <line>
+      <![CDATA[User number-3 is deleted sucessfully.]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -239,16 +332,34 @@
       <![CDATA[The process of delete resource is started.]]>
     </line>
     <line>
+      <![CDATA[Resource number-1 deleted successfully]]>
+    </line>
+    <line>
+      <![CDATA[Resource number-2 deleted successfully]]>
+    </line>
+    <line>
       <![CDATA[ ]]>
     </line>
     <line>
       <![CDATA[The process of deleting attribute is started.]]>
     </line>
     <line>
+      <![CDATA[Attribute number1 deleted successfully]]>
+    </line>
+    <line>
+      <![CDATA[Attribute number2 deleted successfully]]>
+    </line>
+    <line>
       <![CDATA[ ]]>
     </line>
     <line>
       <![CDATA[The process of delete vehicle is started.]]>
+    </line>
+    <line>
+      <![CDATA[vehicle number-1]]>
+    </line>
+    <line>
+      <![CDATA[vehicle number-2]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -263,19 +374,31 @@
       <![CDATA[The process of delete alarm template is started.]]>
     </line>
     <line>
+      <![CDATA[Template No-1 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Template No-2 deleted successfully.]]>
+    </line>
+    <line>
       <![CDATA[ ]]>
     </line>
     <line>
       <![CDATA[The process of delete event category is started.]]>
     </line>
     <line>
+      <![CDATA[ Event category number-1 delete successfully deleted.]]>
+    </line>
+    <line>
+      <![CDATA[ Event category number-2 delete successfully deleted.]]>
+    </line>
+    <line>
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[Login  date-16.01.2025 & login  time -15:27]]>
+      <![CDATA[Login  date-21.01.2025 & login  time -07:37]]>
     </line>
     <line>
-      <![CDATA[Logout date-16-01-2025 & logout time -15:44]]>
+      <![CDATA[Logout date-21-01-2025 & logout time -08:05]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -293,47 +416,47 @@
       <![CDATA[ ]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-01-16T19:57:44 IST" name="Suite" finished-at="2025-01-16T20:14:24 IST" duration-ms="1000316">
+  <suite started-at="2025-01-21T12:07:41 IST" name="Suite" finished-at="2025-01-21T12:35:40 IST" duration-ms="1679050">
     <groups>
     </groups>
-    <test started-at="2025-01-16T19:57:44 IST" name="Test" finished-at="2025-01-16T20:14:24 IST" duration-ms="1000316">
+    <test started-at="2025-01-21T12:07:41 IST" name="Test" finished-at="2025-01-21T12:35:40 IST" duration-ms="1679050">
       <class name="live_functions.AAA_testClass_delete">
-        <test-method is-config="true" signature="lounchBrowser()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T19:57:44 IST" name="lounchBrowser" finished-at="2025-01-16T19:57:55 IST" duration-ms="11080" status="PASS">
+        <test-method is-config="true" signature="lounchBrowser()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:07:41 IST" name="lounchBrowser" finished-at="2025-01-21T12:07:57 IST" duration-ms="16626" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Hello,1 branch deleting process has started.-16.01.2025>15:27]]>
+              <![CDATA[Hello,2 branch deleting process has started.-21.01.2025>07:37]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
           </reporter-output>
         </test-method> <!-- lounchBrowser -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T19:57:55 IST" name="backToHomePage" finished-at="2025-01-16T19:58:00 IST" duration-ms="4491" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:07:57 IST" name="backToHomePage" finished-at="2025-01-21T12:08:01 IST" duration-ms="3080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="userDetails()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T19:58:00 IST" name="userDetails" finished-at="2025-01-16T19:58:00 IST" duration-ms="3" status="PASS">
+        <test-method signature="userDetails()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:08:01 IST" name="userDetails" finished-at="2025-01-21T12:08:01 IST" duration-ms="3" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ ]]>
             </line>
             <line>
-              <![CDATA[live department user # 6039-DE-andrew-deptu-2 # log in sucessfully]]>
+              <![CDATA[live department user # 914-IN-U11-U011-1 # log in sucessfully]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
           </reporter-output>
         </test-method> <!-- userDetails -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T19:58:00 IST" name="backToHomePage2" finished-at="2025-01-16T19:58:03 IST" duration-ms="2856" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:08:01 IST" name="backToHomePage2" finished-at="2025-01-21T12:08:02 IST" duration-ms="1666" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T19:58:03 IST" name="backToHomePage" finished-at="2025-01-16T19:58:05 IST" duration-ms="2583" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:08:02 IST" name="backToHomePage" finished-at="2025-01-21T12:08:04 IST" duration-ms="1688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deactiveTestAlarmFromOverview()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T19:58:05 IST" name="deactiveTestAlarmFromOverview" finished-at="2025-01-16T19:58:43 IST" duration-ms="37829" status="FAIL">
+        <test-method signature="deactiveManualAlarm()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:08:04 IST" name="deactiveManualAlarm" finished-at="2025-01-21T12:10:33 IST" duration-ms="149470" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()="Active"])[1]"}
@@ -342,9 +465,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//span[text()="Active"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//span[text()="Active"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()="Active"])[1]"}
@@ -353,9 +476,128 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//span[text()="Active"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//span[text()="Active"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at live_functions.E_manualAlarm.deactiveManualAlarms(E_manualAlarm.java:1462)
+at live_functions.AAA_testClass_delete.deactiveManualAlarm(AAA_testClass_delete.java:429)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[The process of deactive a manual alarm is started.]]>
+            </line>
+            <line>
+              <![CDATA[Alarm number-1 is deactive sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Alarm number-2 is deactive sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Alarm number-3 is deactive sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Alarm number-4 is deactive sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Alarm number-5 is deactive sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Alarm number-6 is deactive sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Alarm number-7 is deactive sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Alarm number-8 is deactive sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Alarm number-9 is deactive sucessfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deactiveManualAlarm -->
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:10:33 IST" name="backToHomePage2" finished-at="2025-01-21T12:10:35 IST" duration-ms="1480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage2 -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:10:35 IST" name="backToHomePage" finished-at="2025-01-21T12:10:37 IST" duration-ms="1974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="deactiveTestAlarmFromOverview()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:10:37 IST" name="deactiveTestAlarmFromOverview" finished-at="2025-01-21T12:11:52 IST" duration-ms="75529" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()="Active"])[1]"}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//span[text()="Active"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()="Active"])[1]"}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//span[text()="Active"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -418,39 +660,48 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[Alarm number-1 is deleted sucessfully.]]>
             </line>
+            <line>
+              <![CDATA[Alarm number-2 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Alarm number-3 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Alarm number-4 is deleted sucessfully.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- deactiveTestAlarmFromOverview -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T19:58:43 IST" name="backToHomePage2" finished-at="2025-01-16T19:58:44 IST" duration-ms="1318" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:11:52 IST" name="backToHomePage2" finished-at="2025-01-21T12:11:54 IST" duration-ms="1947" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T19:58:44 IST" name="backToHomePage" finished-at="2025-01-16T19:58:46 IST" duration-ms="2168" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:11:54 IST" name="backToHomePage" finished-at="2025-01-21T12:11:56 IST" duration-ms="2045" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deleteManualAlarm()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T19:58:46 IST" name="deleteManualAlarm" finished-at="2025-01-16T20:04:20 IST" duration-ms="333419" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="deleteManualAlarm()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:11:56 IST" name="deleteManualAlarm" finished-at="2025-01-21T12:12:26 IST" duration-ms="29208" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
+              <![CDATA[element click intercepted: Element <button class="btn btn-sm btn-success action...DT" id="dt_actionSearch">Search</button> is not clickable at point (1844, 150). Other element would receive the click: <div class="modal-backdrop fade"></div>
   (Session info: chrome=131.0.6778.266)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, clickElement {id=f.753F3B4FCA97502349C60296098C922A.d.25562AC84223B61DA5D509841507BEB2.e.243}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ec5c87a7421bb2019d66e07de4e5c20d)] -> xpath: //button[@id="dt_actionSearch"]]
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="btn btn-sm btn-success action...DT" id="dt_actionSearch">Search</button> is not clickable at point (1844, 150). Other element would receive the click: <div class="modal-backdrop fade"></div>
   (Session info: chrome=131.0.6778.266)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, clickElement {id=f.753F3B4FCA97502349C60296098C922A.d.25562AC84223B61DA5D509841507BEB2.e.243}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ec5c87a7421bb2019d66e07de4e5c20d)] -> xpath: //button[@id="dt_actionSearch"]]
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -463,14 +714,14 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-at live_functions.E_manualAlarm.deleteAlarms(E_manualAlarm.java:1521)
+at live_functions.E_manualAlarm.deleteAlarms(E_manualAlarm.java:1518)
 at live_functions.AAA_testClass_delete.deleteManualAlarm(AAA_testClass_delete.java:442)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -502,7 +753,7 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
             <line>
               <![CDATA[ ]]>
@@ -516,101 +767,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[Alarm number-2 is deleted successfully.]]>
             </line>
-            <line>
-              <![CDATA[Alarm number-3 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-4 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-5 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-6 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-7 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-8 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-9 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-10 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-11 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-12 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-13 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-14 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-15 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-16 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-17 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-18 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-19 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-20 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-21 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-22 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-23 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-24 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-25 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-26 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-27 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-28 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-29 is deleted successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Alarm number-30 is deleted successfully.]]>
-            </line>
           </reporter-output>
         </test-method> <!-- deleteManualAlarm -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:04:20 IST" name="backToHomePage2" finished-at="2025-01-16T20:04:21 IST" duration-ms="1580" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:12:26 IST" name="backToHomePage2" finished-at="2025-01-21T12:12:28 IST" duration-ms="2160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:04:21 IST" name="backToHomePage" finished-at="2025-01-16T20:04:24 IST" duration-ms="2603" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:12:28 IST" name="backToHomePage" finished-at="2025-01-21T12:12:30 IST" duration-ms="2021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deleteTestAlarmFromOverview()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:04:24 IST" name="deleteTestAlarmFromOverview" finished-at="2025-01-16T20:05:31 IST" duration-ms="67238" status="FAIL">
+        <test-method signature="deleteTestAlarmFromOverview()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:12:30 IST" name="deleteTestAlarmFromOverview" finished-at="2025-01-21T12:14:09 IST" duration-ms="98733" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class="fa fa-trash-o"]"}
@@ -619,9 +786,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=//i[@class="fa fa-trash-o"], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=//i[@class="fa fa-trash-o"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class="fa fa-trash-o"]"}
@@ -630,9 +797,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=//i[@class="fa fa-trash-o"], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=//i[@class="fa fa-trash-o"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -698,17 +865,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[Test alarm number-2 deleted sucessfully from overview-testing branch.]]>
             </line>
+            <line>
+              <![CDATA[Test alarm number-3 deleted sucessfully from overview-testing branch.]]>
+            </line>
+            <line>
+              <![CDATA[Test alarm number-4 deleted sucessfully from overview-testing branch.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- deleteTestAlarmFromOverview -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:05:31 IST" name="backToHomePage2" finished-at="2025-01-16T20:05:33 IST" duration-ms="1424" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:14:09 IST" name="backToHomePage2" finished-at="2025-01-21T12:14:10 IST" duration-ms="1736" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:05:33 IST" name="backToHomePage" finished-at="2025-01-16T20:05:35 IST" duration-ms="2611" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:14:10 IST" name="backToHomePage" finished-at="2025-01-21T12:14:12 IST" duration-ms="1498" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deleteTestAlarmFromList()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:05:35 IST" name="deleteTestAlarmFromList" finished-at="2025-01-16T20:06:22 IST" duration-ms="46840" status="FAIL">
+        <test-method signature="deleteTestAlarmFromList()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:14:12 IST" name="deleteTestAlarmFromList" finished-at="2025-01-21T12:15:46 IST" duration-ms="94141" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class="fa fa-trash-o"]"}
@@ -717,9 +890,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=//i[@class="fa fa-trash-o"], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=//i[@class="fa fa-trash-o"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class="fa fa-trash-o"]"}
@@ -728,9 +901,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=//i[@class="fa fa-trash-o"], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=//i[@class="fa fa-trash-o"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -796,17 +969,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[Test alarm number-2 deleted sucessfully from list-testing branch.]]>
             </line>
+            <line>
+              <![CDATA[Test alarm number-3 deleted sucessfully from list-testing branch.]]>
+            </line>
+            <line>
+              <![CDATA[Test alarm number-4 deleted sucessfully from list-testing branch.]]>
+            </line>
+            <line>
+              <![CDATA[Test alarm number-5 deleted sucessfully from list-testing branch.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- deleteTestAlarmFromList -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:06:22 IST" name="backToHomePage2" finished-at="2025-01-16T20:06:24 IST" duration-ms="1326" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:15:46 IST" name="backToHomePage2" finished-at="2025-01-21T12:15:47 IST" duration-ms="1374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:06:24 IST" name="backToHomePage" finished-at="2025-01-16T20:06:26 IST" duration-ms="2592" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:15:47 IST" name="backToHomePage" finished-at="2025-01-21T12:15:50 IST" duration-ms="2324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deleteInfoEvent()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:06:26 IST" name="deleteInfoEvent" finished-at="2025-01-16T20:07:24 IST" duration-ms="57612" status="FAIL">
+        <test-method signature="deleteInfoEvent()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:15:50 IST" name="deleteInfoEvent" finished-at="2025-01-21T12:19:08 IST" duration-ms="198833" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -815,9 +997,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -826,9 +1008,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -897,17 +1079,47 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[information number-3 is deleted sucessfully.]]>
             </line>
+            <line>
+              <![CDATA[information number-4 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[information number-5 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[information number-6 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[information number-7 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[information number-8 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[information number-9 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[information number-10 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[information number-11 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[information number-12 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[information number-13 is deleted sucessfully.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- deleteInfoEvent -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:07:24 IST" name="backToHomePage2" finished-at="2025-01-16T20:07:25 IST" duration-ms="1430" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:19:08 IST" name="backToHomePage2" finished-at="2025-01-21T12:19:10 IST" duration-ms="1526" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:07:25 IST" name="backToHomePage" finished-at="2025-01-16T20:07:28 IST" duration-ms="2373" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:19:10 IST" name="backToHomePage" finished-at="2025-01-21T12:19:12 IST" duration-ms="1715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deleteCalendarEventCreatedByAttribute()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:07:28 IST" name="deleteCalendarEventCreatedByAttribute" finished-at="2025-01-16T20:08:05 IST" duration-ms="37893" status="FAIL">
+        <test-method signature="deleteCalendarEventCreatedByAttribute()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:19:12 IST" name="deleteCalendarEventCreatedByAttribute" finished-at="2025-01-21T12:19:48 IST" duration-ms="36286" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()="General : BG-1 min reminder calendar event."])[1]"}
@@ -916,9 +1128,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//span[text()="General : BG-1 min reminder calendar event."])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//span[text()="General : BG-1 min reminder calendar event."])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()="General : BG-1 min reminder calendar event."])[1]"}
@@ -927,9 +1139,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//span[text()="General : BG-1 min reminder calendar event."])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//span[text()="General : BG-1 min reminder calendar event."])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -994,15 +1206,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- deleteCalendarEventCreatedByAttribute -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:08:05 IST" name="backToHomePage2" finished-at="2025-01-16T20:08:07 IST" duration-ms="1228" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:19:48 IST" name="backToHomePage2" finished-at="2025-01-21T12:19:49 IST" duration-ms="1371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:08:07 IST" name="backToHomePage" finished-at="2025-01-16T20:08:09 IST" duration-ms="2260" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:19:49 IST" name="backToHomePage" finished-at="2025-01-21T12:19:51 IST" duration-ms="1639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deleteCalendarEventCreatedByResource()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:08:09 IST" name="deleteCalendarEventCreatedByResource" finished-at="2025-01-16T20:08:30 IST" duration-ms="21051" status="FAIL">
+        <test-method signature="deleteCalendarEventCreatedByResource()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:19:51 IST" name="deleteCalendarEventCreatedByResource" finished-at="2025-01-21T12:20:26 IST" duration-ms="35211" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()="General : BG-1 hrs calendar event."])[1]"}
@@ -1011,9 +1223,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//span[text()="General : BG-1 hrs calendar event."])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//span[text()="General : BG-1 hrs calendar event."])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()="General : BG-1 hrs calendar event."])[1]"}
@@ -1022,9 +1234,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//span[text()="General : BG-1 hrs calendar event."])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//span[text()="General : BG-1 hrs calendar event."])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1084,17 +1296,20 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[The process of delete calendar event by resource is started.]]>
             </line>
+            <line>
+              <![CDATA[Calendar event create created by resource no-1 deleted successfully.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- deleteCalendarEventCreatedByResource -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:08:30 IST" name="backToHomePage2" finished-at="2025-01-16T20:08:31 IST" duration-ms="1424" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:20:26 IST" name="backToHomePage2" finished-at="2025-01-21T12:20:28 IST" duration-ms="1777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:08:31 IST" name="backToHomePage" finished-at="2025-01-16T20:08:34 IST" duration-ms="2652" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:20:28 IST" name="backToHomePage" finished-at="2025-01-21T12:20:30 IST" duration-ms="2127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deleteCalendarEventCreatedByFirefighter()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:08:34 IST" name="deleteCalendarEventCreatedByFirefighter" finished-at="2025-01-16T20:08:55 IST" duration-ms="21157" status="FAIL">
+        <test-method signature="deleteCalendarEventCreatedByFirefighter()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:20:30 IST" name="deleteCalendarEventCreatedByFirefighter" finished-at="2025-01-21T12:21:05 IST" duration-ms="34980" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()="General : BG-1 day calendar event by."])[1]"}
@@ -1103,9 +1318,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//span[text()="General : BG-1 day calendar event by."])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//span[text()="General : BG-1 day calendar event by."])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()="General : BG-1 day calendar event by."])[1]"}
@@ -1114,9 +1329,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//span[text()="General : BG-1 day calendar event by."])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//span[text()="General : BG-1 day calendar event by."])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1176,17 +1391,20 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[The process of delete calendar event by firefighter is started.]]>
             </line>
+            <line>
+              <![CDATA[Calendar event create created by firefighter no-1 deleted successfully.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- deleteCalendarEventCreatedByFirefighter -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:08:55 IST" name="backToHomePage2" finished-at="2025-01-16T20:08:57 IST" duration-ms="1350" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:21:05 IST" name="backToHomePage2" finished-at="2025-01-21T12:21:07 IST" duration-ms="1805" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:08:57 IST" name="backToHomePage" finished-at="2025-01-16T20:08:59 IST" duration-ms="2585" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:21:07 IST" name="backToHomePage" finished-at="2025-01-21T12:21:08 IST" duration-ms="1562" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deleteARFromHistory()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:08:59 IST" name="deleteARFromHistory" finished-at="2025-01-16T20:09:50 IST" duration-ms="50695" status="FAIL">
+        <test-method signature="deleteARFromHistory()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:21:08 IST" name="deleteARFromHistory" finished-at="2025-01-21T12:23:19 IST" duration-ms="130619" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -1195,9 +1413,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -1206,9 +1424,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1271,17 +1489,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[Availability request number-1 deleted sucessfully from histry-testing branch.]]>
             </line>
+            <line>
+              <![CDATA[Availability request number-2 deleted sucessfully from histry-testing branch.]]>
+            </line>
+            <line>
+              <![CDATA[Availability request number-3 deleted sucessfully from histry-testing branch.]]>
+            </line>
+            <line>
+              <![CDATA[Availability request number-4 deleted sucessfully from histry-testing branch.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- deleteARFromHistory -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:09:50 IST" name="backToHomePage2" finished-at="2025-01-16T20:09:51 IST" duration-ms="1301" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:23:19 IST" name="backToHomePage2" finished-at="2025-01-21T12:23:21 IST" duration-ms="1458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:09:51 IST" name="backToHomePage" finished-at="2025-01-16T20:09:53 IST" duration-ms="2272" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:23:21 IST" name="backToHomePage" finished-at="2025-01-21T12:23:23 IST" duration-ms="2277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deleteARFromList()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:09:53 IST" name="deleteARFromList" finished-at="2025-01-16T20:10:25 IST" duration-ms="31259" status="FAIL">
+        <test-method signature="deleteARFromList()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:23:23 IST" name="deleteARFromList" finished-at="2025-01-21T12:25:19 IST" duration-ms="115920" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -1290,9 +1517,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -1301,9 +1528,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1366,17 +1593,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[Availability request number-1 deleted sucessfully from list-testing branch.]]>
             </line>
+            <line>
+              <![CDATA[Availability request number-2 deleted sucessfully from list-testing branch.]]>
+            </line>
+            <line>
+              <![CDATA[Availability request number-3 deleted sucessfully from list-testing branch.]]>
+            </line>
+            <line>
+              <![CDATA[Availability request number-4 deleted sucessfully from list-testing branch.]]>
+            </line>
+            <line>
+              <![CDATA[Availability request number-5 deleted sucessfully from list-testing branch.]]>
+            </line>
+            <line>
+              <![CDATA[Availability request number-6 deleted sucessfully from list-testing branch.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- deleteARFromList -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:10:25 IST" name="backToHomePage2" finished-at="2025-01-16T20:10:26 IST" duration-ms="1468" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:25:19 IST" name="backToHomePage2" finished-at="2025-01-21T12:25:20 IST" duration-ms="1532" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:10:26 IST" name="backToHomePage" finished-at="2025-01-16T20:10:29 IST" duration-ms="2854" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:25:20 IST" name="backToHomePage" finished-at="2025-01-21T12:25:22 IST" duration-ms="1915" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deleteChatGroup()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:10:29 IST" name="deleteChatGroup" finished-at="2025-01-16T20:10:55 IST" duration-ms="26195" status="FAIL">
+        <test-method signature="deleteChatGroup()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:25:22 IST" name="deleteChatGroup" finished-at="2025-01-21T12:27:07 IST" duration-ms="105271" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -1385,9 +1627,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -1396,9 +1638,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1461,17 +1703,38 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[Chat group number-1 is deleted sucessfully.]]>
             </line>
+            <line>
+              <![CDATA[Chat group number-2 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Chat group number-3 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Chat group number-4 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Chat group number-5 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Chat group number-6 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Chat group number-7 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Chat group number-8 is deleted sucessfully.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- deleteChatGroup -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:10:55 IST" name="backToHomePage2" finished-at="2025-01-16T20:10:57 IST" duration-ms="1377" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:27:07 IST" name="backToHomePage2" finished-at="2025-01-21T12:27:09 IST" duration-ms="1521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:10:57 IST" name="backToHomePage" finished-at="2025-01-16T20:10:59 IST" duration-ms="2341" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:27:09 IST" name="backToHomePage" finished-at="2025-01-21T12:27:11 IST" duration-ms="1688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deleteCheckList()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:10:59 IST" name="deleteCheckList" finished-at="2025-01-16T20:11:15 IST" duration-ms="16209" status="FAIL">
+        <test-method signature="deleteCheckList()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:27:11 IST" name="deleteCheckList" finished-at="2025-01-21T12:29:09 IST" duration-ms="117904" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -1480,9 +1743,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -1491,9 +1754,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1553,17 +1816,41 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[The process of delete check list is started.]]>
             </line>
+            <line>
+              <![CDATA[Check list number-1 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Check list number-2 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Check list number-3 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Check list number-4 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Check list number-5 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Check list number-6 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Check list number-7 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[Check list number-8 is deleted sucessfully.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- deleteCheckList -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:11:15 IST" name="backToHomePage2" finished-at="2025-01-16T20:11:17 IST" duration-ms="1475" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:29:09 IST" name="backToHomePage2" finished-at="2025-01-21T12:29:10 IST" duration-ms="1402" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:11:17 IST" name="backToHomePage" finished-at="2025-01-16T20:11:19 IST" duration-ms="2576" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:29:10 IST" name="backToHomePage" finished-at="2025-01-21T12:29:12 IST" duration-ms="1857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deletePermissionGroup()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:11:19 IST" name="deletePermissionGroup" finished-at="2025-01-16T20:11:34 IST" duration-ms="14849" status="FAIL">
+        <test-method signature="deletePermissionGroup()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:29:12 IST" name="deletePermissionGroup" finished-at="2025-01-21T12:29:26 IST" duration-ms="14411" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -1572,9 +1859,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -1583,9 +1870,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1647,15 +1934,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- deletePermissionGroup -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:11:34 IST" name="backToHomePage2" finished-at="2025-01-16T20:11:35 IST" duration-ms="1390" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:29:26 IST" name="backToHomePage2" finished-at="2025-01-21T12:29:28 IST" duration-ms="1408" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:11:35 IST" name="backToHomePage" finished-at="2025-01-16T20:11:38 IST" duration-ms="2296" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:29:28 IST" name="backToHomePage" finished-at="2025-01-21T12:29:29 IST" duration-ms="1493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deleteAlarmLoop()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:11:38 IST" name="deleteAlarmLoop" finished-at="2025-01-16T20:11:54 IST" duration-ms="16755" status="FAIL">
+        <test-method signature="deleteAlarmLoop()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:29:29 IST" name="deleteAlarmLoop" finished-at="2025-01-21T12:30:12 IST" duration-ms="43045" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -1664,9 +1951,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -1675,9 +1962,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1737,17 +2024,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[The process of delete alarm loop is started.]]>
             </line>
+            <line>
+              <![CDATA[Alarm loop no-1 deleted successfully]]>
+            </line>
+            <line>
+              <![CDATA[Alarm loop no-2 deleted successfully]]>
+            </line>
           </reporter-output>
         </test-method> <!-- deleteAlarmLoop -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:11:54 IST" name="backToHomePage2" finished-at="2025-01-16T20:11:56 IST" duration-ms="1228" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:30:12 IST" name="backToHomePage2" finished-at="2025-01-21T12:30:14 IST" duration-ms="1626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:11:56 IST" name="backToHomePage" finished-at="2025-01-16T20:11:58 IST" duration-ms="2636" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:30:14 IST" name="backToHomePage" finished-at="2025-01-21T12:30:15 IST" duration-ms="1635" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deleteUers()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:11:58 IST" name="deleteUers" finished-at="2025-01-16T20:12:15 IST" duration-ms="16884" status="FAIL">
+        <test-method signature="deleteUers()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:30:15 IST" name="deleteUers" finished-at="2025-01-21T12:31:24 IST" duration-ms="68693" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -1756,9 +2049,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -1767,9 +2060,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1829,17 +2122,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[The process of delete user is started.]]>
             </line>
+            <line>
+              <![CDATA[User number-1 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[User number-2 is deleted sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[User number-3 is deleted sucessfully.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- deleteUers -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:12:15 IST" name="backToHomePage2" finished-at="2025-01-16T20:12:17 IST" duration-ms="1513" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:31:24 IST" name="backToHomePage2" finished-at="2025-01-21T12:31:26 IST" duration-ms="1647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:12:17 IST" name="backToHomePage" finished-at="2025-01-16T20:12:20 IST" duration-ms="3030" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:31:26 IST" name="backToHomePage" finished-at="2025-01-21T12:31:28 IST" duration-ms="2029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deleteResource()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:12:20 IST" name="deleteResource" finished-at="2025-01-16T20:12:35 IST" duration-ms="15661" status="FAIL">
+        <test-method signature="deleteResource()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:31:28 IST" name="deleteResource" finished-at="2025-01-21T12:32:05 IST" duration-ms="37506" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -1848,9 +2150,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -1859,9 +2161,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1921,17 +2223,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[The process of delete resource is started.]]>
             </line>
+            <line>
+              <![CDATA[Resource number-1 deleted successfully]]>
+            </line>
+            <line>
+              <![CDATA[Resource number-2 deleted successfully]]>
+            </line>
           </reporter-output>
         </test-method> <!-- deleteResource -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:12:35 IST" name="backToHomePage2" finished-at="2025-01-16T20:12:37 IST" duration-ms="1488" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:32:05 IST" name="backToHomePage2" finished-at="2025-01-21T12:32:07 IST" duration-ms="2093" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:12:37 IST" name="backToHomePage" finished-at="2025-01-16T20:12:40 IST" duration-ms="2747" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:32:07 IST" name="backToHomePage" finished-at="2025-01-21T12:32:09 IST" duration-ms="1597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deleteAttribute()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:12:40 IST" name="deleteAttribute" finished-at="2025-01-16T20:12:55 IST" duration-ms="15029" status="FAIL">
+        <test-method signature="deleteAttribute()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:32:09 IST" name="deleteAttribute" finished-at="2025-01-21T12:32:49 IST" duration-ms="39927" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -1940,9 +2248,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -1951,9 +2259,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at jdk.internal.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -2012,17 +2320,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[The process of deleting attribute is started.]]>
             </line>
+            <line>
+              <![CDATA[Attribute number1 deleted successfully]]>
+            </line>
+            <line>
+              <![CDATA[Attribute number2 deleted successfully]]>
+            </line>
           </reporter-output>
         </test-method> <!-- deleteAttribute -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:12:55 IST" name="backToHomePage2" finished-at="2025-01-16T20:12:56 IST" duration-ms="1619" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:32:49 IST" name="backToHomePage2" finished-at="2025-01-21T12:32:51 IST" duration-ms="1636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:12:56 IST" name="backToHomePage" finished-at="2025-01-16T20:12:59 IST" duration-ms="2587" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:32:51 IST" name="backToHomePage" finished-at="2025-01-21T12:32:52 IST" duration-ms="1921" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deleteVehicleUser()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:12:59 IST" name="deleteVehicleUser" finished-at="2025-01-16T20:13:15 IST" duration-ms="16391" status="FAIL">
+        <test-method signature="deleteVehicleUser()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:32:52 IST" name="deleteVehicleUser" finished-at="2025-01-21T12:33:43 IST" duration-ms="50088" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -2031,9 +2345,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -2042,9 +2356,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at jdk.internal.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -2103,17 +2417,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[The process of delete vehicle is started.]]>
             </line>
+            <line>
+              <![CDATA[vehicle number-1]]>
+            </line>
+            <line>
+              <![CDATA[vehicle number-2]]>
+            </line>
           </reporter-output>
         </test-method> <!-- deleteVehicleUser -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:13:15 IST" name="backToHomePage2" finished-at="2025-01-16T20:13:17 IST" duration-ms="1263" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:33:43 IST" name="backToHomePage2" finished-at="2025-01-21T12:33:44 IST" duration-ms="1424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:13:17 IST" name="backToHomePage" finished-at="2025-01-16T20:13:19 IST" duration-ms="2603" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:33:44 IST" name="backToHomePage" finished-at="2025-01-21T12:33:46 IST" duration-ms="1784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deleteFireStation()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:13:19 IST" name="deleteFireStation" finished-at="2025-01-16T20:13:30 IST" duration-ms="11097" status="FAIL">
+        <test-method signature="deleteFireStation()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:33:46 IST" name="deleteFireStation" finished-at="2025-01-21T12:33:57 IST" duration-ms="11072" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class="form-control input-sm"]"}
@@ -2122,9 +2442,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=//input[@class="form-control input-sm"], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=//input[@class="form-control input-sm"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class="form-control input-sm"]"}
@@ -2133,9 +2453,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=//input[@class="form-control input-sm"], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=//input[@class="form-control input-sm"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at jdk.internal.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -2196,15 +2516,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- deleteFireStation -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:13:30 IST" name="backToHomePage2" finished-at="2025-01-16T20:13:32 IST" duration-ms="1413" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:33:57 IST" name="backToHomePage2" finished-at="2025-01-21T12:33:58 IST" duration-ms="1470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:13:32 IST" name="backToHomePage" finished-at="2025-01-16T20:13:34 IST" duration-ms="2422" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:33:58 IST" name="backToHomePage" finished-at="2025-01-21T12:34:00 IST" duration-ms="1609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deleteAlarmTemplate()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:13:34 IST" name="deleteAlarmTemplate" finished-at="2025-01-16T20:13:49 IST" duration-ms="15376" status="FAIL">
+        <test-method signature="deleteAlarmTemplate()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:34:00 IST" name="deleteAlarmTemplate" finished-at="2025-01-21T12:34:42 IST" duration-ms="42200" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -2213,9 +2533,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -2224,9 +2544,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at jdk.internal.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -2285,17 +2605,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[The process of delete alarm template is started.]]>
             </line>
+            <line>
+              <![CDATA[Template No-1 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Template No-2 deleted successfully.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- deleteAlarmTemplate -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:13:49 IST" name="backToHomePage2" finished-at="2025-01-16T20:13:51 IST" duration-ms="1314" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:34:42 IST" name="backToHomePage2" finished-at="2025-01-21T12:34:44 IST" duration-ms="1426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:13:51 IST" name="backToHomePage" finished-at="2025-01-16T20:13:53 IST" duration-ms="2108" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:34:44 IST" name="backToHomePage" finished-at="2025-01-21T12:34:45 IST" duration-ms="1727" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="deleteEventCategory()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:13:53 IST" name="deleteEventCategory" finished-at="2025-01-16T20:14:13 IST" duration-ms="20323" status="FAIL">
+        <test-method signature="deleteEventCategory()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:34:45 IST" name="deleteEventCategory" finished-at="2025-01-21T12:35:31 IST" duration-ms="45890" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -2304,9 +2630,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18]]>
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//i[@class="fa fa-trash-o"])[1]"}
@@ -2315,9 +2641,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e941f57c38a7b1d4841e71219a15f18, findElement {value=(//i[@class="fa fa-trash-o"])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e941f57c38a7b1d4841e71219a15f18
+Command: [ec5c87a7421bb2019d66e07de4e5c20d, findElement {using=xpath, value=(//i[@class="fa fa-trash-o"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53740/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec5c87a7421bb2019d66e07de4e5c20d
 at jdk.internal.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -2376,37 +2702,43 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[The process of delete event category is started.]]>
             </line>
+            <line>
+              <![CDATA[ Event category number-1 delete successfully deleted.]]>
+            </line>
+            <line>
+              <![CDATA[ Event category number-2 delete successfully deleted.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- deleteEventCategory -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:14:13 IST" name="backToHomePage2" finished-at="2025-01-16T20:14:15 IST" duration-ms="1280" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:35:31 IST" name="backToHomePage2" finished-at="2025-01-21T12:35:33 IST" duration-ms="1542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:14:15 IST" name="backToHomePage" finished-at="2025-01-16T20:14:17 IST" duration-ms="2486" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:35:33 IST" name="backToHomePage" finished-at="2025-01-21T12:35:34 IST" duration-ms="1597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="detailsAboutScript()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:14:17 IST" name="detailsAboutScript" finished-at="2025-01-16T20:14:17 IST" duration-ms="1" status="PASS">
+        <test-method signature="detailsAboutScript()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:35:34 IST" name="detailsAboutScript" finished-at="2025-01-21T12:35:34 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ ]]>
             </line>
             <line>
-              <![CDATA[Login  date-16.01.2025 & login  time -15:27]]>
+              <![CDATA[Login  date-21.01.2025 & login  time -07:37]]>
             </line>
             <line>
-              <![CDATA[Logout date-16-01-2025 & logout time -15:44]]>
+              <![CDATA[Logout date-21-01-2025 & logout time -08:05]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
           </reporter-output>
         </test-method> <!-- detailsAboutScript -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:14:17 IST" name="backToHomePage2" finished-at="2025-01-16T20:14:19 IST" duration-ms="2265" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:35:34 IST" name="backToHomePage2" finished-at="2025-01-21T12:35:36 IST" duration-ms="1251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-16T20:14:19 IST" name="logOut" finished-at="2025-01-16T20:14:24 IST" duration-ms="5164" status="PASS">
+        <test-method is-config="true" signature="logOut()[pri:0, instance:live_functions.AAA_testClass_delete@19e4653c]" started-at="2025-01-21T12:35:36 IST" name="logOut" finished-at="2025-01-21T12:35:40 IST" duration-ms="4307" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout sucessfully.]]>

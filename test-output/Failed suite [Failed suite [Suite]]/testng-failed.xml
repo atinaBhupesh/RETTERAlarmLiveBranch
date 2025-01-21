@@ -11,7 +11,7 @@
           <include name="AfterTest"/>
           <include name="backToHomePage"/>
           <include name="BeforeTest"/>
-          <include name="addFirefighter1ForNewStation06"/>
+          <include name="createPermissionGroupDefaultStation"/>
           <include name="AfterSute"/>
           <include name="lounchBrowser"/>
         </methods>

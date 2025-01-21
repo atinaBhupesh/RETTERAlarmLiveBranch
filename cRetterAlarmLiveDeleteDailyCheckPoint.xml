@@ -8,7 +8,7 @@
 				<include name="userDetails" />
 
 
-				<exclude name="deactiveManualAlarm" />
+				<include name="deactiveManualAlarm" />
 
 				<include name="deactiveTestAlarmFromOverview" />
 

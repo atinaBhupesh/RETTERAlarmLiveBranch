@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jan 16 19:54:15 IST 2025</td>
+<td>Started on:</td><td>Tue Jan 21 11:35:25 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>91 seconds (91423 ms)</td>
+<tr><td>Total time:</td><td>107 seconds (107281 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,24 +76,25 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.SendmessagetoARUsers()'><b>SendmessagetoARUsers</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1368128912" onClick='toggleBox("Output-1368128912", this, "Show output", "Hide output");'>Show output</a>
+<td title='live_functions.A_testClass_dailyCheckPointList.createPermissionGroupDefaultStation()'><b>createPermissionGroupDefaultStation</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1043980539" onClick='toggleBox("Output-1043980539", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1368128912" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1368128912">
+<a href="#Output-1043980539" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1043980539">
  <br/>
-The process of send message to availability request users is started.<br/>
+The process of creating permission group for default station is started.<br/>
+BG-Station defalult permission group-2101070530-1<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[text()=&quot;Chat&quot;])[1]&quot;}
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;checkbox&quot; class=&quot;select_checkbox a_s_c_12 s_c_12&quot; name=&quot;data[Menu][22][PerAssign][add_per]&quot; value=&quot;1&quot;&gt; is not clickable at point (1463, 731). Other element would receive the click: &lt;td class=&quot;right td_wrap&quot;&gt;...&lt;/td&gt;
   (Session info: chrome=131.0.6778.266)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fc817e3a0a4c8dc2f3bcc664547537da, findElement {value=(//a[text()=&quot;Chat&quot;])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63222}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63222/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fc817e3a0a4c8dc2f3bcc664547537da
+Command: [8019fd225b4a2f41eee479e9a3c7471f, clickElement {id=f.4AF02D82DAA71B0DB46E1075B9EE7700.d.21F5002AE7EF4473254A28B69CE4C459.e.47071}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52322/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8019fd225b4a2f41eee479e9a3c7471f)] -&gt; xpath: //input[@name=&quot;data[Menu][22][PerAssign][add_per]&quot;]]
+Session ID: 8019fd225b4a2f41eee479e9a3c7471f
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
@@ -101,26 +102,23 @@ Session ID: fc817e3a0a4c8dc2f3bcc664547537da
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at live_functions.I_availabilityRequest.messageToARUser(I_availabilityRequest.java:676)
-	at live_functions.A_testClass_dailyCheckPointList.SendmessagetoARUsers(A_testClass_dailyCheckPointList.java:1238)
+	at live_functions.r_permissionGroup.createPrmissionGroup(r_permissionGroup.java:385)
+	at live_functions.A_testClass_dailyCheckPointList.createPermissionGroupDefaultStation(A_testClass_dailyCheckPointList.java:355)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1368128912", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1368128912'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[text()=&quot;Chat&quot;])[1]&quot;}
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1043980539", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1043980539'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;checkbox&quot; class=&quot;select_checkbox a_s_c_12 s_c_12&quot; name=&quot;data[Menu][22][PerAssign][add_per]&quot; value=&quot;1&quot;&gt; is not clickable at point (1463, 731). Other element would receive the click: &lt;td class=&quot;right td_wrap&quot;&gt;...&lt;/td&gt;
   (Session info: chrome=131.0.6778.266)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fc817e3a0a4c8dc2f3bcc664547537da, findElement {value=(//a[text()=&quot;Chat&quot;])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63222}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63222/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fc817e3a0a4c8dc2f3bcc664547537da
+Command: [8019fd225b4a2f41eee479e9a3c7471f, clickElement {id=f.4AF02D82DAA71B0DB46E1075B9EE7700.d.21F5002AE7EF4473254A28B69CE4C459.e.47071}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52322/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8019fd225b4a2f41eee479e9a3c7471f)] -&gt; xpath: //input[@name=&quot;data[Menu][22][PerAssign][add_per]&quot;]]
+Session ID: 8019fd225b4a2f41eee479e9a3c7471f
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -133,15 +131,15 @@ Session ID: fc817e3a0a4c8dc2f3bcc664547537da
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at live_functions.I_availabilityRequest.messageToARUser(I_availabilityRequest.java:676)
-	at live_functions.A_testClass_dailyCheckPointList.SendmessagetoARUsers(A_testClass_dailyCheckPointList.java:1238)
+	at live_functions.r_permissionGroup.createPrmissionGroup(r_permissionGroup.java:385)
+	at live_functions.A_testClass_dailyCheckPointList.createPermissionGroupDefaultStation(A_testClass_dailyCheckPointList.java:355)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -171,7 +169,7 @@ Session ID: fc817e3a0a4c8dc2f3bcc664547537da
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>15</td>
+<td>34</td>
 <td>live_functions.A_testClass_dailyCheckPointList@353352b6</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -183,34 +181,35 @@ Session ID: fc817e3a0a4c8dc2f3bcc664547537da
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createAvailabilityRequestSendImmediat()'><b>createAvailabilityRequestSendImmediat</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1445384588" onClick='toggleBox("Output-1445384588", this, "Show output", "Hide output");'>Show output</a>
+<td title='live_functions.A_testClass_dailyCheckPointList.createInformationByAttribute()'><b>createInformationByAttribute</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-73878928" onClick='toggleBox("Output-73878928", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1445384588" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1445384588">
+<a href="#Output-73878928" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-73878928">
  <br/>
-The process of create availability request > send imediate is started.<br/>
-The process of create availability request > send imediate is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>28</td>
-<td>live_functions.A_testClass_dailyCheckPointList@353352b6</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createManualAlarmByResource()'><b>createManualAlarmByResource</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-455036946" onClick='toggleBox("Output-455036946", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-455036946" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-455036946">
- <br/>
-The process of creating a manual alarm by resource is started.<br/>
-The process of creating a manual alarm by resource is complete.<br/>
+The process of creating information by attribute is started.<br/>
+The process of creating information by attribute is complete.<br/>
  <br/>
 </div>
 </td>
 <td></td>
 <td>24</td>
+<td>live_functions.A_testClass_dailyCheckPointList@353352b6</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createAvailabilityRequestSendSchedule()'><b>createAvailabilityRequestSendSchedule</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-345607713" onClick='toggleBox("Output-345607713", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-345607713" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-345607713">
+ <br/>
+The process of create availability request > schedule is started.<br/>
+Availability request schedule>21.01.2025-07:12<br/>
+The process of create availability request > schedule is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
 <td>live_functions.A_testClass_dailyCheckPointList@353352b6</td></tr>
 </table><p>
 </body>
