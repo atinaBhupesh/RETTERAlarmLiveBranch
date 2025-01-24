@@ -944,6 +944,29 @@ gTimeA5min = tmc.germanyTimeAfter5Minutes;
 		
 	}
 
+	
+
+	@Test
+
+	public void createLowPriorityManualAlarmByResource() throws Throwable {
+		Reporter.log(" ", true);
+		Reporter.log("The process of creating a low priority manual alarm by resource is started.", true);
+		ma.manualAlarmCommon(driver,BranchNameB);
+		ma.manualAlarmLowPriorityByResource( driver, date,  deptName,  St1N,  St1V1,  St1V2,  BranchNameB);
+		Reporter.log("The process of creating a low priority manual alarm by resource is complete.", true);
+		Reporter.log(" ", true);
+		Thread.sleep(3000);
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	@Test
 
 	public void createManualAlarmByFireFighte() throws Throwable {
@@ -979,6 +1002,8 @@ gTimeA5min = tmc.germanyTimeAfter5Minutes;
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
 	}
+	
+	
 	
 	@Test
 

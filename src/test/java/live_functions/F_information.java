@@ -338,7 +338,7 @@ switch (BranchNameB) {
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		fireStationField.click();
 		act.sendKeys(stName1).build().perform();
 		Thread.sleep(2000);

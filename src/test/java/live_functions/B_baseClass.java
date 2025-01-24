@@ -61,10 +61,17 @@ public class B_baseClass {
 			
 			System.out.println("*****you have selected live branch*****");
 		}
+	
+	else if (branchName.equals("1.5")) {
+		
+		System.out.println("*****you have selected testing branch*****");
+	}
+	
 		else if (branchName.equals("2")) {
 			
 			System.out.println("*****you have selected testing branch*****");
 		}
+	
 
         else if (branchName.equals("3")) {
 			
@@ -201,6 +208,7 @@ public class B_baseClass {
 		XSSFWorkbook wb = new XSSFWorkbook(ipt);
 
 		XSSFSheet sheet = wb.getSheetAt(0);
+		
 
 		if (BranchNameB.equals("1"))
 
@@ -244,6 +252,45 @@ public class B_baseClass {
 			
 
 		}
+		
+		
+		
+		else if (BranchNameB.equals("1.5"))
+
+		{
+			System.out.println("Well come to RETTERAlarm Live branch without department.");
+//	     	JavascriptExecutor js = (JavascriptExecutor) driver;
+//			js.executeScript("alert( 'Well come to RETTERAlarm Live branch.');");
+//			Thread.sleep(1000);
+
+			String liveBranchUrl = sheet.getRow(1).getCell(1).getStringCellValue();
+			driver.get(liveBranchUrl);
+
+			userName = sheet.getRow(2).getCell(4).getStringCellValue();
+
+			password = "123456";
+
+		
+
+			St1N = sheet.getRow(5).getCell(4).getStringCellValue();
+			
+			St1V1 = sheet.getRow(6).getCell(4).getStringCellValue();
+			St1V2 = sheet.getRow(7).getCell(4).getStringCellValue();
+			
+			
+			
+
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		else if (BranchNameB.equals("2"))
 		
 		{

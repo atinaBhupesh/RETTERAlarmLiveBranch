@@ -23,8 +23,7 @@ public class E_manualAlarm extends B_baseClass
 
 	String BranchNameB3 =BranchNameB;
 
-	@FindBy(xpath = "//span[text()=\"Alarm\"]")
-	private WebElement manualAlarmModule;
+	@FindBy(xpath = "//span[text()=\"Alarm\"]")private WebElement manualAlarmModule;
 	@FindBy(xpath = "//a[@href=\"http://live.retteralarm.de/admin/Alarms/index\"]")
 	private WebElement manageAlarmL;
 	@FindBy(xpath = "//a[@href=\"http://testing.retteralarm.de/admin/Alarms/index\"]")
@@ -143,10 +142,11 @@ public class E_manualAlarm extends B_baseClass
 	@FindBy(xpath="//input[@value=\"22759\"]")private WebElement bhupeshDev;
     @FindBy(xpath="//input[@value=\"850\"]")private WebElement BH1ST04Esc;
 	@FindBy(xpath="//input[@value=\"10881\"]")private WebElement BH1A1;
+	
+	@FindBy(xpath="//span[@id=\"select2-select2Users-container\"]")private WebElement stationWd;
  
-	// @FindBy(xpath="")private WebElement ;
-	// @FindBy(xpath="")private WebElement ;
-	// @FindBy(xpath="")private WebElement ;
+	@FindBy(xpath="//input[@value=\"3529\"]")private WebElement robertR1;
+	@FindBy(xpath="//input[@value=\"24819\"]")private WebElement robertfF1;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -191,17 +191,17 @@ public class E_manualAlarm extends B_baseClass
 		Thread.sleep(2000);
 		
 		
-		if  (BranchNameB.equals("1"))
+		if  (BranchNameB.equals("1" ) || BranchNameB.equals("1.5" ))
 		{
 		manageAlarmL.click();
 		}
 		
-		else if (BranchNameB.equals("2"))
+		else if (BranchNameB.equals("2")||BranchNameB.equals("2.5"))
 		{
 			manageAlarmT.click();
 		}
 		
-		else if (BranchNameB.equals("3"))
+		else if (BranchNameB.equals("3")||BranchNameB.equals("3.5"))
 		{
 			manageAlarmD.click();
 			
@@ -375,7 +375,6 @@ public class E_manualAlarm extends B_baseClass
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		fireStationField.click();
-
 		act.sendKeys(St2N).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
@@ -654,17 +653,43 @@ public class E_manualAlarm extends B_baseClass
 
 		createNewButton.click();
 
-		fireDepartmentField.click();
+		
 
-		act.sendKeys(deptName).build().perform();
-		Thread.sleep(2000);
-		act.sendKeys(Keys.ENTER).build().perform();
-		Thread.sleep(2000);
-		fireStationField.click();
+		
+		
+		if  (BranchNameB.equals("1")||BranchNameB.equals("2")||BranchNameB.equals("3"))
+		{
+			fireDepartmentField.click();
+			act.sendKeys(deptName).build().perform();
+			Thread.sleep(2000);
+			act.sendKeys(Keys.ENTER).build().perform();
+			Thread.sleep(2000);
+			
+			fireStationField.click();
 
-		act.sendKeys(st1N).build().perform();
-		Thread.sleep(2000);
-		act.sendKeys(Keys.ENTER).build().perform();
+			act.sendKeys(st1N).build().perform();
+			Thread.sleep(2000);
+			act.sendKeys(Keys.ENTER).build().perform();
+		}
+		
+		else if (BranchNameB.equals("1.5")||BranchNameB.equals("2.5")||BranchNameB.equals("3.5"))
+		{
+			System.out.println("hello");
+			
+			stationWd.click();
+
+			act.sendKeys(st1N).build().perform();
+			Thread.sleep(2000);
+			act.sendKeys(Keys.ENTER).build().perform();
+
+			
+		}
+		
+	
+		
+		
+		
+		
 
 		titlefield.click();
 
@@ -686,6 +711,11 @@ public class E_manualAlarm extends B_baseClass
 		if  (BranchNameB.equals("1"))
 		{
 			ADST06R2.click();
+		}
+		
+		else if (BranchNameB.equals("1.5"))
+		{
+			robertR1.click();
 		}
 		
 		else if (BranchNameB.equals("2"))
@@ -719,18 +749,38 @@ public class E_manualAlarm extends B_baseClass
 
 		createNewButton.click();
 
-		fireDepartmentField.click();
 
-		act.sendKeys(deptName).build().perform();
-		Thread.sleep(2000);
-		act.sendKeys(Keys.ENTER).build().perform();
-		Thread.sleep(2000);
-		fireStationField.click();
+		if  (BranchNameB.equals("1")||BranchNameB.equals("2")||BranchNameB.equals("3"))
+		{
+			fireDepartmentField.click();
+			act.sendKeys(deptName).build().perform();
+			Thread.sleep(2000);
+			act.sendKeys(Keys.ENTER).build().perform();
+			Thread.sleep(2000);
+			
+			fireStationField.click();
 
-		act.sendKeys(St1N).build().perform();
-		Thread.sleep(2000);
-		act.sendKeys(Keys.ENTER).build().perform();
-		Thread.sleep(2000);
+			act.sendKeys(St1N).build().perform();
+			Thread.sleep(2000);
+			act.sendKeys(Keys.ENTER).build().perform();
+		}
+		
+		else if (BranchNameB.equals("1.5")||BranchNameB.equals("2.5")||BranchNameB.equals("3.5"))
+		{
+		
+			
+			stationWd.click();
+
+			act.sendKeys(St1N).build().perform();
+			Thread.sleep(2000);
+			act.sendKeys(Keys.ENTER).build().perform();
+
+			
+		}
+		
+		
+		
+		
 		titlefield.click();
 
 		act.sendKeys("BG-manual alarm by firefighter-" + date).build().perform();
@@ -772,6 +822,11 @@ public class E_manualAlarm extends B_baseClass
 			Thread.sleep(1000);
 //			bhupeshLive2.click();
 //			Thread.sleep(1000);
+		}
+		
+		else if (BranchNameB.equals("1.5"))
+		{
+			robertfF1.click();
 		}
 		
 		else if (BranchNameB.equals("2"))
@@ -892,6 +947,109 @@ public class E_manualAlarm extends B_baseClass
 
 	}
 
+	
+	public void manualAlarmLowPriorityByResource(WebDriver driver, String date, String deptName, String St1N, String St1V1, String St1V2, String BranchNameB) throws Throwable {
+		Actions act = new Actions(driver);
+
+		createNewButton.click();
+
+		
+
+		
+		
+		if  (BranchNameB.equals("1")||BranchNameB.equals("2")||BranchNameB.equals("3"))
+		{
+			fireDepartmentField.click();
+			act.sendKeys(deptName).build().perform();
+			Thread.sleep(2000);
+			act.sendKeys(Keys.ENTER).build().perform();
+			Thread.sleep(2000);
+			
+			fireStationField.click();
+
+			act.sendKeys(St1N).build().perform();
+			Thread.sleep(2000);
+			act.sendKeys(Keys.ENTER).build().perform();
+		}
+		
+		else if (BranchNameB.equals("1.5")||BranchNameB.equals("2.5")||BranchNameB.equals("3.5"))
+		{
+			System.out.println("hello");
+			
+			stationWd.click();
+
+			act.sendKeys(St1N).build().perform();
+			Thread.sleep(2000);
+			act.sendKeys(Keys.ENTER).build().perform();
+
+			
+		}
+		
+	
+		
+		
+		
+		
+
+		titlefield.click();
+
+		act.sendKeys("BG-low priority manual alarm by resource-" + date).build().perform();
+
+		descriptionField.click();
+
+		act.sendKeys("BG-low priority manual alarm by resource checking.").build().perform();
+
+		userTypeResource.click();
+		Thread.sleep(2000);
+		selectAllCheckBox.click();
+		Thread.sleep(2000);
+		selectAllCheckBox.click();
+
+		
+		
+
+		if  (BranchNameB.equals("1"))
+		{
+			ADST06R2.click();
+		}
+		
+		else if (BranchNameB.equals("1.5"))
+		{
+			robertR1.click();
+		}
+		
+		else if (BranchNameB.equals("2"))
+		{
+			D1ST04R2.click();
+		}
+		
+		else if (BranchNameB.equals("3"))
+		{
+			BH1St2R1.click();
+			
+		}
+		
+		
+		lowPriorityCheckBox.click();
+		Thread.sleep(500);
+		adressFeild.click();
+
+		act.sendKeys("YES Hospital, Plot no. 1 & 1A, Dighori Flyover Square, Dighori, Nagpur, Maharashtra 440017")
+				.build().perform();
+
+		dragMarkerOnMapCheckBox.click();
+
+		grenrateAlarmButton.click();
+		alarmYesButton.click();
+
+
+	
+	}
+	
+	
+	
+	
+	
 	public void manualAlarmByNewFireFighter(WebDriver driver, String dateDDMMYY, String gTimeHHMM,String BranchNameB ) throws Throwable {
 		Actions act = new Actions(driver);
 
@@ -1225,7 +1383,21 @@ public class E_manualAlarm extends B_baseClass
 
 		searchField.click();
 
-		act.sendKeys("BG-low priority manual alarm by attribute").build().perform();
+		
+		
+		if  (BranchNameB.equals("1")||BranchNameB.equals("2")||BranchNameB.equals("3") )
+		{
+			act.sendKeys("BG-low priority manual alarm by attribute").build().perform();
+			
+		}
+		
+		else if (BranchNameB.equals("1.5")||BranchNameB.equals("2.5")||BranchNameB.equals("3.5"))
+		{
+			act.sendKeys("	BG-low priority manual alarm by resource").build().perform();
+		}
+		
+		
+	
 
 		searchButton.click();
 		Thread.sleep(2000);
@@ -1420,17 +1592,17 @@ public class E_manualAlarm extends B_baseClass
 		Thread.sleep(2000);
 		
 		
-		if  (BranchNameB.equals("1"))
+		if  (BranchNameB.equals("1") || BranchNameB.equals("1.5"))
 		{
 		manageAlarmL.click();
 		}
 		
-		else if (BranchNameB.equals("2"))
+		else if (BranchNameB.equals("2")||BranchNameB.equals("2.5"))
 		{
 			manageAlarmT.click();
 		}
 		
-		else if (BranchNameB.equals("3"))
+		else if (BranchNameB.equals("3")||BranchNameB.equals("3.5"))
 		{
 			manageAlarmD.click();
 			
@@ -1485,17 +1657,17 @@ public class E_manualAlarm extends B_baseClass
 		Thread.sleep(2000);
 		
 		
-		if  (BranchNameB.equals("1"))
+		if  (BranchNameB.equals("1")||BranchNameB.equals("1.5"))
 		{
 		manageAlarmL.click();
 		}
 		
-		else if (BranchNameB.equals("2"))
+		else if (BranchNameB.equals("2")||BranchNameB.equals("2.5"))
 		{
 			manageAlarmT.click();
 		}
 		
-		else if (BranchNameB.equals("3"))
+		else if (BranchNameB.equals("3")||BranchNameB.equals("3.5"))
 		{
 			manageAlarmD.click();
 			
@@ -1543,12 +1715,12 @@ public class E_manualAlarm extends B_baseClass
 			Thread.sleep(2000);
 			
 			
-			 if (BranchNameB.equals("2"))
+			 if (BranchNameB.equals("2")||BranchNameB.equals("2.5"))
 			{
 				manageAlarmT.click();
 			}
 			
-			else if (BranchNameB.equals("3"))
+			else if (BranchNameB.equals("3")||BranchNameB.equals("3.5"))
 			{
 				manageAlarmD.click();
 				

@@ -9,15 +9,9 @@
 				<include name="userDetails"  />
 	     	
 		     
-	
-		
-		    <include name="createInfoEventByAttribute"/>
-			<include name="createInfoEventByResource"/>
-			<include name="createInfoEventByFirefighter"/>
-			
-			
-		
-				 
+  <include name="addStationUserForStation06"/>
+			 <include name="addFirefighter1ForNewStation06"/>
+			  <include name="addFirefighter2ForNewStation06"/>
          
 			 <include name="detailsAboutScript"  />  
       </methods>

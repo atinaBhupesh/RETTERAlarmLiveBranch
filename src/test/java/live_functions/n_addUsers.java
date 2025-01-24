@@ -593,6 +593,8 @@ public class n_addUsers extends  B_baseClass {
 		departmentField.click();
 		act.sendKeys(deptName).perform();
 		Thread.sleep(2000);
+		
+		
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		mainDepartmentField.click();
@@ -600,6 +602,7 @@ public class n_addUsers extends  B_baseClass {
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
+		
 		stationField.click();
 		act.sendKeys(St1N).perform();
 //	    act.sendKeys(dateDDMMYY).sendKeys(gTimeHHMM).build().perform();
