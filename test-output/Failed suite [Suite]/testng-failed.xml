@@ -5,14 +5,14 @@
     <classes>
       <class name="live_functions.A_testClass_dailyCheckPointList">
         <methods>
-          <include name="addFirefighter2ForNewStation06"/>
           <include name="logOut"/>
           <include name="backToHomePage2"/>
           <include name="BeforeSuite"/>
           <include name="AfterTest"/>
           <include name="backToHomePage"/>
           <include name="BeforeTest"/>
-          <include name="addFirefighter1ForNewStation06"/>
+          <include name="sendmessageToAlarmUser"/>
+          <include name="createAvailabilityRequestSendImmediat"/>
           <include name="AfterSute"/>
           <include name="lounchBrowser"/>
         </methods>

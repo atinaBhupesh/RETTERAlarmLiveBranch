@@ -10,7 +10,8 @@
 			<include name="userDetails"  />
 			 
 			
-			 
+		<include name="sendmessageToApiAlarmUser"  />
+        		 
 			<include name="createManualAlarmByAttribute"  />
 			<include name="createManualAlarmByResource"  />
 			<include name="createManualAlarmByFireFighte"  />
@@ -30,7 +31,6 @@
 			
 		
         	<include name="testAlarmByRecursiveMonthlyDayWise"  />
-        	
 			
 			
 			

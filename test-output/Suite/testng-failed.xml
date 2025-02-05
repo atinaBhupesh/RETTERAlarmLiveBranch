@@ -5,14 +5,16 @@
     <classes>
       <class name="live_functions.A_testClass_dailyCheckPointList">
         <methods>
-          <include name="addFirefighter2ForNewStation06"/>
           <include name="logOut"/>
+          <include name="cretecalendarEventAttributeSchedule"/>
           <include name="backToHomePage2"/>
           <include name="BeforeSuite"/>
           <include name="detailsAboutScript"/>
           <include name="AfterTest"/>
           <include name="backToHomePage"/>
           <include name="BeforeTest"/>
+          <include name="cretecalendarEventFirefighterSchedule"/>
+          <include name="cretecalendarEventResourceSchedule"/>
           <include name="AfterSute"/>
           <include name="lounchBrowser"/>
         </methods>

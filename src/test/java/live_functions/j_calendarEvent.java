@@ -146,8 +146,8 @@ public class j_calendarEvent extends B_baseClass {
 	@FindBy(xpath="//input[@value=\"22759\"]")private WebElement bhupeshDev;
 	
 	
-	// @FindBy(xpath="")private WebElement ;
-		// @FindBy(xpath="")private WebElement ;
+	 @FindBy(xpath="//span[@class='fc-title' and contains(text(), 'BG')]")private WebElement calEvent;
+	@FindBy(xpath="//button[text()=\"Today\"]")private WebElement todayButton;
 		// @FindBy(xpath="")private WebElement ;
 		// @FindBy(xpath="")private WebElement
 	// @FindBy(xpath="")private WebElement ;
@@ -226,7 +226,7 @@ public class j_calendarEvent extends B_baseClass {
 
 		eventTitleField.click();
 
-		act.sendKeys("BG-1 min reminder calendar event.").build().perform();
+		act.sendKeys("BG-1 min reminder calendar event."+gCurrntTime).build().perform();
 
 		eventDescriptionField.click();
 
@@ -363,7 +363,7 @@ public class j_calendarEvent extends B_baseClass {
 
 		eventTitleField.click();
 
-		act.sendKeys("BG-1 hrs calendar event.").build().perform();
+		act.sendKeys("BG-1 hrs calendar event.-"+gCurrntTime).build().perform();
 
 		eventDescriptionField.click();
 
@@ -506,7 +506,7 @@ public class j_calendarEvent extends B_baseClass {
 
 		eventTitleField.click();
 
-		act.sendKeys("BG-1 day calendar event by.").build().perform();
+		act.sendKeys("BG-1 day calendar event by."+gCurrntTime).build().perform();
 
 		eventDescriptionField.click();
 
@@ -645,6 +645,53 @@ public class j_calendarEvent extends B_baseClass {
 
 	}
 
+	public void deletecalendarEventAll(WebDriver driver,String BranchNameB) throws Throwable {
+
+		Thread.sleep(2000);
+		if  (BranchNameB.equals("1"))
+		{
+			calendarL.click();
+		}
+		
+		else if (BranchNameB.equals("2"))
+		{
+			calendarT.click();
+		}
+		
+		else if (BranchNameB.equals("3"))
+		{
+			calendarD.click();
+			
+		}
+		Thread.sleep(2000);
+//		int z = availableDataCount1min.size();
+//		Reporter.log("The total available calendar event created by attribute count is-" + z + " in the list for delate.",true);
+
+		for (int i = 1; i <= 100; i++) {
+			// monthButton.click();
+			
+//			todayButton.click();
+//			Thread.sleep(4000);
+
+			calEvent.click();
+			Thread.sleep(2000);
+			deleteEvent.click();
+			Alert a = driver.switchTo().alert();
+			Thread.sleep(5000);
+			a.accept();
+
+			Thread.sleep(3000);
+			driver.navigate().refresh();
+			Reporter.log("Calendar event create created by attribute no-" + i + " deleted successfully.", true);
+
+		}
+
+	
+	}
+	
+	
+	
+	
 	public void deletecalendarEventByAttribute(WebDriver driver,String BranchNameB) throws Throwable {
 
 		Thread.sleep(2000);

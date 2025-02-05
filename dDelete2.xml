@@ -13,8 +13,8 @@
 						
 						
 						
-				<include name="deleteUers" />
-						<include name="deleteVehicleUser" />
+				<include name="deleteCalendarEventAll" />
+						
 						
 						
 			<exclude name="deactiveManualAlarm" />

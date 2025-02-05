@@ -55,7 +55,7 @@
 
 				<include name="deleteEventCategory" />
 
-
+				<exclude name="deleteCalendarEventAll" />
 				<exclude name="deleteAllManualAlarm" />
 				<exclude name="deactiveManualAlarm" />
 				<exclude name="deleteTestAlarmFromOverview_monthly" />

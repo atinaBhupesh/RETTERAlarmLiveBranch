@@ -134,7 +134,7 @@ public class F_information extends B_baseClass {
 
 	}
 
-	public void createInformationByAttribute(WebDriver driver,String deptName,String stName1, String BranchNameB) throws Throwable {
+	public void createInformationByAttribute(WebDriver driver,String gCurrntTime, String deptName,String stName1, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 		createNewButton.click();
 		fireDepartmentField.click();
@@ -150,7 +150,7 @@ public class F_information extends B_baseClass {
 		Select se = new Select(selectType);
 		se.selectByVisibleText("Information");
 		titleField.click();
-		act.sendKeys("BG-Information created by attribute.").build().perform();
+		act.sendKeys("BG-Information created by attribute."+gCurrntTime).build().perform();
 		loacationField.click();
 		act.sendKeys("Manewada graound, Nagpur").build().perform();
 		act.sendKeys(Keys.TAB).build().perform();
@@ -211,7 +211,7 @@ public class F_information extends B_baseClass {
 
 	}
 
-	public void createInformationByResource(WebDriver driver,String deptName,String stName1,String BranchNameB) throws Throwable {
+	public void createInformationByResource(WebDriver driver,String gCurrntTime, String deptName,String stName1,String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
@@ -228,7 +228,7 @@ public class F_information extends B_baseClass {
 		Select se = new Select(selectType);
 		se.selectByVisibleText("Information");
 		titleField.click();
-		act.sendKeys("BG-Information created by resource.").build().perform();
+		act.sendKeys("BG-Information created by resource."+gCurrntTime).build().perform();
 		loacationField.click();
 		act.sendKeys("Manewada graound, Nagpur").build().perform();
 		act.sendKeys(Keys.TAB).build().perform();
@@ -269,7 +269,7 @@ public class F_information extends B_baseClass {
 
 	}
 
-	public void createInformationByfireFighter(WebDriver driver,String deptName,String stName1,String BranchNameB) throws Throwable {
+	public void createInformationByfireFighter(WebDriver driver,String gCurrntTime, String deptName,String stName1,String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
@@ -286,7 +286,7 @@ public class F_information extends B_baseClass {
 		Select se = new Select(selectType);
 		se.selectByVisibleText("Information");
 		titleField.click();
-		act.sendKeys("BG-Information created by firefighter.").build().perform();
+		act.sendKeys("BG-Information created by firefighter."+gCurrntTime).build().perform();
 		loacationField.click();
 		act.sendKeys("Manewada graound, Nagpur").build().perform();
 		act.sendKeys(Keys.TAB).build().perform();

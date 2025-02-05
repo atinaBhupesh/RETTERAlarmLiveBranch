@@ -8,8 +8,26 @@
       
       
 			<include name="userDetails"  />
-		
-		
+			
+			
+			
+				<include name="sendmessageToApiAlarmUser"  />
+
+		<include name="createManualAlarmByAttribute"  />
+			<include name="createManualAlarmByResource"  />
+			<include name="createManualAlarmByFireFighte"  />
+			<include name="createManualAlarmByEscalationResource"/> 
+			<include name="createLowPriorityManualAlarmByAttribute"  />
+			<include name="createLowPriorityManualAlarmByResource"  /> 
+			<include name="extendAlarmToSecondStation"/>
+			<include name="createStormAlarm"/> 
+			
+			<include name="extendAlarmFrom07To06ByAttribute"  /> 
+			<include name="extendLowPriorityAlarmFrom07To06ByAttribute"  />
+			<include name="lowPriorityAlarmWithEscalationResource"  /> 
+			  
+			  
+		    <include name="sendmessageToAlarmUser"/>
 		    
 		  
 			
@@ -95,7 +113,7 @@
 			<include name="cretecalendarEventFirefighterSchedule"  /> 
 		 
 			
-
+ 
 			
 			
 			

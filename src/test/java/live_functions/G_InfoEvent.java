@@ -94,7 +94,7 @@ public class G_InfoEvent extends B_baseClass {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void createEventByAttributeSchedule(WebDriver driver, String date, String gTimeA7min, String gTimeA22min,String deptName,String stName1,String BranchNameB)
+	public void createEventByAttributeSchedule(WebDriver driver, String date,String gCurrntTime, String gTimeA7min, String gTimeA22min,String deptName,String stName1,String BranchNameB)
 			throws Throwable {
 		Actions act = new Actions(driver);
 
@@ -133,7 +133,7 @@ public class G_InfoEvent extends B_baseClass {
 		enabldSendPush.click();
 		act.sendKeys(Keys.PAGE_DOWN).build().perform();
 		titleField.click();
-		act.sendKeys("BG-info event schedule-atrribute-reminder>1 min").build().perform();
+		act.sendKeys("BG-info event schedule-atrribute-R>1 min-"+gCurrntTime).build().perform();
 		loacationField.click();
 		act.sendKeys("Manewada graound, Nagpur").build().perform();
 		act.sendKeys(Keys.TAB).build().perform();
@@ -172,7 +172,7 @@ public class G_InfoEvent extends B_baseClass {
 	
 	}
 
-	public void createEventByResourceSchedule(WebDriver driver, String date, String gTimeA67min, String gTimeA82min,String deptName,String stName1,String BranchNameB)
+	public void createEventByResourceSchedule(WebDriver driver, String date, String germanycurrentTime,String gTimeA67min, String gTimeA82min,String deptName,String stName1,String BranchNameB)
 			throws Throwable {
 		Actions act = new Actions(driver);
 
@@ -211,7 +211,7 @@ public class G_InfoEvent extends B_baseClass {
 		enabldSendPush.click();
 		act.sendKeys(Keys.PAGE_DOWN).build().perform();
 		titleField.click();
-		act.sendKeys("BG-info event schedule-resource-reminder>1 hours").build().perform();
+		act.sendKeys("BG-info event schedule-resource-R>1 hr -"+germanycurrentTime).build().perform();
 		loacationField.click();
 		act.sendKeys("Manewada graound, Nagpur").build().perform();
 		act.sendKeys(Keys.TAB).build().perform();
@@ -254,7 +254,7 @@ public class G_InfoEvent extends B_baseClass {
 	
 	}
 
-	public void createEventByFireFightrSchedule(WebDriver driver, String date2, String gTimeA7min, String gTimeA22min,String deptName,String stName1,String BranchNameB)
+	public void createEventByFireFightrSchedule(WebDriver driver, String date2,String gCurrntTime, String gTimeA7min, String gTimeA22min,String deptName,String stName1,String BranchNameB)
 			throws Throwable {
 		Actions act = new Actions(driver);
 		createNewButton.click();
@@ -292,7 +292,7 @@ public class G_InfoEvent extends B_baseClass {
 		enabldSendPush.click();
 		act.sendKeys(Keys.PAGE_DOWN).build().perform();
 		titleField.click();
-		act.sendKeys("BG-info event schedule-firefighter-reminder>1 day").build().perform();
+		act.sendKeys("BG-info event schedule-firefighter-R>1 day+"+gCurrntTime).build().perform();
 		loacationField.click();
 		act.sendKeys("Manewada graound, Nagpur").build().perform();
 		act.sendKeys(Keys.TAB).build().perform();

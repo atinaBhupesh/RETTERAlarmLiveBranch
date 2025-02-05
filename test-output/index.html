@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-skipped">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,  2 skipped,  3 passed</span>
+                    <span class="method-stats">14 methods, 1 failed,  3 skipped,  10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="cretecalendarEventAttributeSchedule">cretecalendarEventAttributeSchedule</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -103,7 +117,12 @@
                     <div class="method-list-content skipped suite-Suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="addFirefighter2ForNewStation06">addFirefighter2ForNewStation06</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="cretecalendarEventFirefighterSchedule">cretecalendarEventFirefighterSchedule</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="cretecalendarEventResourceSchedule">cretecalendarEventResourceSchedule</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -122,12 +141,47 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="addFirefighter1ForNewStation06">addFirefighter1ForNewStation06</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="createInfoEventByAttribute">createInfoEventByAttribute</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="addStationUserForStation06">addStationUserForStation06</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="createInfoEventByAttributeSchedule">createInfoEventByAttributeSchedule</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="createInfoEventByFighterSchedule">createInfoEventByFighterSchedule</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="createInfoEventByFirefighter">createInfoEventByFirefighter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="createInfoEventByResource">createInfoEventByResource</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="createInfoEventByResourceSchedule">createInfoEventByResourceSchedule</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="createInformationByAttribute">createInformationByAttribute</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="createInformationByFirefighter">createInformationByFirefighter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="live_functions.A_testClass_dailyCheckPointList" class="method navigator-link" hash-for-method="createInformationByResource">createInformationByResource</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -147,6 +201,46 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">live_functions.A_testClass_dailyCheckPointList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cretecalendarEventAttributeSchedule">
+                  </a> <!-- cretecalendarEventAttributeSchedule -->
+                  <span class="method-name">cretecalendarEventAttributeSchedule</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=132.0.6834.160)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [217d325b22a9b77774afbc8f0109ff6f, clickElement {id=f.1DEBFE983DD5FD2480C7746E9FA757BF.d.CB347B11011BC4F01FD3CEEB97EF53B9.e.1741}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62298/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (217d325b22a9b77774afbc8f0109ff6f)] -&gt; xpath: //span[@id=&quot;select2-selectFireDepartment-container&quot;]]
+Session ID: 217d325b22a9b77774afbc8f0109ff6f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at live_functions.j_calendarEvent.calendarEventByAttributeSchedul(j_calendarEvent.java:193)
+	at live_functions.A_testClass_dailyCheckPointList.cretecalendarEventAttributeSchedule(A_testClass_dailyCheckPointList.java:1293)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
@@ -155,18 +249,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addFirefighter2ForNewStation06">
-                  </a> <!-- addFirefighter2ForNewStation06 -->
-                  <span class="method-name">addFirefighter2ForNewStation06</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@src=&quot;/img/logoicon.png&quot;]&quot;}
-  (Session info: chrome=131.0.6778.267)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+                  <a name="cretecalendarEventFirefighterSchedule">
+                  </a> <!-- cretecalendarEventFirefighterSchedule -->
+                  <span class="method-name">cretecalendarEventFirefighterSchedule</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;img src=&quot;/img/logoicon.png&quot; alt=&quot;&quot;&gt; is not clickable at point (75, 26). Other element would receive the click: &lt;div id=&quot;calendarModal&quot; class=&quot;modal fade in&quot; role=&quot;dialog&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=132.0.6834.160)
 Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [818e697838dbba78e7143035424a5c3e, findElement {using=xpath, value=//img[@src=&quot;/img/logoicon.png&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.267, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 131.0.6778.267, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 818e697838dbba78e7143035424a5c3e
+Command: [217d325b22a9b77774afbc8f0109ff6f, clickElement {id=f.1DEBFE983DD5FD2480C7746E9FA757BF.d.CB347B11011BC4F01FD3CEEB97EF53B9.e.1743}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62298/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (217d325b22a9b77774afbc8f0109ff6f)] -&gt; xpath: //img[@src=&quot;/img/logoicon.png&quot;]]
+Session ID: 217d325b22a9b77774afbc8f0109ff6f
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
@@ -174,17 +268,46 @@ Session ID: 818e697838dbba78e7143035424a5c3e
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
 	at live_functions.D_homePage.backToHomePage(D_homePage.java:35)
-	at live_functions.A_testClass_dailyCheckPointList.backToHomePage(A_testClass_dailyCheckPointList.java:230)
+	at live_functions.A_testClass_dailyCheckPointList.backToHomePage2(A_testClass_dailyCheckPointList.java:1419)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cretecalendarEventResourceSchedule">
+                  </a> <!-- cretecalendarEventResourceSchedule -->
+                  <span class="method-name">cretecalendarEventResourceSchedule</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;img src=&quot;/img/logoicon.png&quot; alt=&quot;&quot;&gt; is not clickable at point (75, 26). Other element would receive the click: &lt;div id=&quot;calendarModal&quot; class=&quot;modal fade in&quot; role=&quot;dialog&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=132.0.6834.160)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [217d325b22a9b77774afbc8f0109ff6f, clickElement {id=f.1DEBFE983DD5FD2480C7746E9FA757BF.d.CB347B11011BC4F01FD3CEEB97EF53B9.e.1743}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62298/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (217d325b22a9b77774afbc8f0109ff6f)] -&gt; xpath: //img[@src=&quot;/img/logoicon.png&quot;]]
+Session ID: 217d325b22a9b77774afbc8f0109ff6f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at live_functions.D_homePage.backToHomePage(D_homePage.java:35)
+	at live_functions.A_testClass_dailyCheckPointList.backToHomePage2(A_testClass_dailyCheckPointList.java:1419)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 40 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -193,15 +316,15 @@ Session ID: 818e697838dbba78e7143035424a5c3e
                   <a name="detailsAboutScript">
                   </a> <!-- detailsAboutScript -->
                   <span class="method-name">detailsAboutScript</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@src=&quot;/img/logoicon.png&quot;]&quot;}
-  (Session info: chrome=131.0.6778.267)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;img src=&quot;/img/logoicon.png&quot; alt=&quot;&quot;&gt; is not clickable at point (75, 26). Other element would receive the click: &lt;div id=&quot;calendarModal&quot; class=&quot;modal fade in&quot; role=&quot;dialog&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=132.0.6834.160)
 Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [818e697838dbba78e7143035424a5c3e, findElement {using=xpath, value=//img[@src=&quot;/img/logoicon.png&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.267, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54005}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54005/devtoo..., se:cdpVersion: 131.0.6778.267, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 818e697838dbba78e7143035424a5c3e
+Command: [217d325b22a9b77774afbc8f0109ff6f, clickElement {id=f.1DEBFE983DD5FD2480C7746E9FA757BF.d.CB347B11011BC4F01FD3CEEB97EF53B9.e.1743}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62298/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (217d325b22a9b77774afbc8f0109ff6f)] -&gt; xpath: //img[@src=&quot;/img/logoicon.png&quot;]]
+Session ID: 217d325b22a9b77774afbc8f0109ff6f
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
@@ -209,17 +332,14 @@ Session ID: 818e697838dbba78e7143035424a5c3e
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
 	at live_functions.D_homePage.backToHomePage(D_homePage.java:35)
-	at live_functions.A_testClass_dailyCheckPointList.backToHomePage(A_testClass_dailyCheckPointList.java:230)
+	at live_functions.A_testClass_dailyCheckPointList.backToHomePage2(A_testClass_dailyCheckPointList.java:1419)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames
+... Removed 40 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -233,16 +353,65 @@ Session ID: 818e697838dbba78e7143035424a5c3e
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addFirefighter1ForNewStation06">
-                  </a> <!-- addFirefighter1ForNewStation06 -->
-                  <span class="method-name">addFirefighter1ForNewStation06</span>
+                  <a name="createInfoEventByAttribute">
+                  </a> <!-- createInfoEventByAttribute -->
+                  <span class="method-name">createInfoEventByAttribute</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="addStationUserForStation06">
-                  </a> <!-- addStationUserForStation06 -->
-                  <span class="method-name">addStationUserForStation06</span>
+                  <a name="createInfoEventByAttributeSchedule">
+                  </a> <!-- createInfoEventByAttributeSchedule -->
+                  <span class="method-name">createInfoEventByAttributeSchedule</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createInfoEventByFighterSchedule">
+                  </a> <!-- createInfoEventByFighterSchedule -->
+                  <span class="method-name">createInfoEventByFighterSchedule</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createInfoEventByFirefighter">
+                  </a> <!-- createInfoEventByFirefighter -->
+                  <span class="method-name">createInfoEventByFirefighter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createInfoEventByResource">
+                  </a> <!-- createInfoEventByResource -->
+                  <span class="method-name">createInfoEventByResource</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createInfoEventByResourceSchedule">
+                  </a> <!-- createInfoEventByResourceSchedule -->
+                  <span class="method-name">createInfoEventByResourceSchedule</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createInformationByAttribute">
+                  </a> <!-- createInformationByAttribute -->
+                  <span class="method-name">createInformationByAttribute</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createInformationByFirefighter">
+                  </a> <!-- createInformationByFirefighter -->
+                  <span class="method-name">createInformationByFirefighter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createInformationByResource">
+                  </a> <!-- createInformationByResource -->
+                  <span class="method-name">createInformationByResource</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -269,9 +438,18 @@ Session ID: 818e697838dbba78e7143035424a5c3e
       &lt;class name=&quot;live_functions.A_testClass_dailyCheckPointList&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;userDetails&quot;/&gt;
-          &lt;include name=&quot;addStationUserForStation06&quot;/&gt;
-          &lt;include name=&quot;addFirefighter1ForNewStation06&quot;/&gt;
-          &lt;include name=&quot;addFirefighter2ForNewStation06&quot;/&gt;
+          &lt;include name=&quot;createInfoEventByAttributeSchedule&quot;/&gt;
+          &lt;include name=&quot;createInfoEventByResourceSchedule&quot;/&gt;
+          &lt;include name=&quot;createInfoEventByFighterSchedule&quot;/&gt;
+          &lt;include name=&quot;createInformationByAttribute&quot;/&gt;
+          &lt;include name=&quot;createInformationByResource&quot;/&gt;
+          &lt;include name=&quot;createInformationByFirefighter&quot;/&gt;
+          &lt;include name=&quot;createInfoEventByAttribute&quot;/&gt;
+          &lt;include name=&quot;createInfoEventByResource&quot;/&gt;
+          &lt;include name=&quot;createInfoEventByFirefighter&quot;/&gt;
+          &lt;include name=&quot;cretecalendarEventAttributeSchedule&quot;/&gt;
+          &lt;include name=&quot;cretecalendarEventResourceSchedule&quot;/&gt;
+          &lt;include name=&quot;cretecalendarEventFirefighterSchedule&quot;/&gt;
           &lt;include name=&quot;detailsAboutScript&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- live_functions.A_testClass_dailyCheckPointList --&gt;
@@ -314,32 +492,68 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(14);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addFirefighter1ForNewStation06')
+data.setCell(0, 1, 'createInfoEventByAttribute')
 data.setCell(0, 2, 'live_functions.A_testClass_dailyCheckPointList')
-data.setCell(0, 3, 127626);
+data.setCell(0, 3, 29355);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'addStationUserForStation06')
+data.setCell(1, 1, 'createInfoEventByAttributeSchedule')
 data.setCell(1, 2, 'live_functions.A_testClass_dailyCheckPointList')
-data.setCell(1, 3, 41415);
+data.setCell(1, 3, 29346);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'userDetails')
+data.setCell(2, 1, 'createInfoEventByFirefighter')
 data.setCell(2, 2, 'live_functions.A_testClass_dailyCheckPointList')
-data.setCell(2, 3, 3);
+data.setCell(2, 3, 28917);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'addFirefighter2ForNewStation06')
+data.setCell(3, 1, 'createInfoEventByResource')
 data.setCell(3, 2, 'live_functions.A_testClass_dailyCheckPointList')
-data.setCell(3, 3, 0);
+data.setCell(3, 3, 28033);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'detailsAboutScript')
+data.setCell(4, 1, 'createInfoEventByResourceSchedule')
 data.setCell(4, 2, 'live_functions.A_testClass_dailyCheckPointList')
-data.setCell(4, 3, 0);
+data.setCell(4, 3, 27469);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createInfoEventByFighterSchedule')
+data.setCell(5, 2, 'live_functions.A_testClass_dailyCheckPointList')
+data.setCell(5, 3, 27194);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createInformationByAttribute')
+data.setCell(6, 2, 'live_functions.A_testClass_dailyCheckPointList')
+data.setCell(6, 3, 23635);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createInformationByFirefighter')
+data.setCell(7, 2, 'live_functions.A_testClass_dailyCheckPointList')
+data.setCell(7, 3, 22164);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'cretecalendarEventAttributeSchedule')
+data.setCell(8, 2, 'live_functions.A_testClass_dailyCheckPointList')
+data.setCell(8, 3, 21199);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'createInformationByResource')
+data.setCell(9, 2, 'live_functions.A_testClass_dailyCheckPointList')
+data.setCell(9, 3, 20657);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'userDetails')
+data.setCell(10, 2, 'live_functions.A_testClass_dailyCheckPointList')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'cretecalendarEventResourceSchedule')
+data.setCell(11, 2, 'live_functions.A_testClass_dailyCheckPointList')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'cretecalendarEventFirefighterSchedule')
+data.setCell(12, 2, 'live_functions.A_testClass_dailyCheckPointList')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'detailsAboutScript')
+data.setCell(13, 2, 'live_functions.A_testClass_dailyCheckPointList')
+data.setCell(13, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -351,37 +565,38 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">addFirefighter1ForNewStation06</span>
+              <span class="reporter-method-name">createInformationByResource</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output"> </span>
-                <span class="reporter-method-output">The process of add fire fighter is started.</span>
-                <span class="reporter-method-output">basic detailas save successfully.</span>
-                <span class="reporter-method-output">user role save successfully.</span>
-                <span class="reporter-method-output">permission save successfully.</span>
-                <span class="reporter-method-output">adding atrribute successfully.</span>
-                <span class="reporter-method-output">adding resource successfully.</span>
-                <span class="reporter-method-output">user details</span>
-                <span class="reporter-method-output">User first name > RojDev</span>
-                <span class="reporter-method-output">User last name > FF1</span>
-                <span class="reporter-method-output">User mail id > bhupesh+LiveFirefighter1@atinatechnology.in</span>
-                <span class="reporter-method-output">  </span>
-                <span class="reporter-method-output">The process of add fire fighter is complete.</span>
+                <span class="reporter-method-output">The process of creating information by resource is started.</span>
+                <span class="reporter-method-output">The process of creating information by resource is complete.</span>
                 <span class="reporter-method-output"> </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">addStationUserForStation06</span>
+              <span class="reporter-method-name">createInfoEventByFirefighter</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output"> </span>
-                <span class="reporter-method-output">The process of add station user is started.</span>
-                <span class="reporter-method-output">basic detailas save successfully.</span>
-                <span class="reporter-method-output">adding role save successfully.</span>
-                <span class="reporter-method-output">user details</span>
-                <span class="reporter-method-output">User first name > RojDev</span>
-                <span class="reporter-method-output">User last name > StUser1</span>
-                <span class="reporter-method-output">User mail id > bhupesh+LiveStationUser1@atinatechnology.in</span>
-                <span class="reporter-method-output">  </span>
-                <span class="reporter-method-output">The process of add station uers is complete.</span>
+                <span class="reporter-method-output">The process of create info-event by firefighter is started.</span>
+                <span class="reporter-method-output">The process of create info-event by firefighter is complete.</span>
+                <span class="reporter-method-output"> </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createInformationByFirefighter</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> </span>
+                <span class="reporter-method-output">The process of creating information by firefighter is started.</span>
+                <span class="reporter-method-output">The process of creating information by firefighter is complete.</span>
+                <span class="reporter-method-output"> </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createInfoEventByAttribute</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> </span>
+                <span class="reporter-method-output">The process of create info-event by attribute is started.</span>
+                <span class="reporter-method-output">The process of create info-event by attribute is complete.</span>
                 <span class="reporter-method-output"> </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -389,15 +604,70 @@ return data;
               <span class="reporter-method-name">userDetails</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output"> </span>
-                <span class="reporter-method-output">Department user # 6039-DE-andrew-deptu-2 # log in sucessfully</span>
+                <span class="reporter-method-output">Department user # 914-IN-U11-U011-1 # log in sucessfully</span>
                 <span class="reporter-method-output"> </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createInformationByAttribute</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> </span>
+                <span class="reporter-method-output">The process of creating information by attribute is started.</span>
+                <span class="reporter-method-output">The process of creating information by attribute is complete.</span>
+                <span class="reporter-method-output"> </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createInfoEventByAttributeSchedule</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> </span>
+                <span class="reporter-method-output">The process of create info-event schedule by attribute is started.</span>
+                <span class="reporter-method-output">info-event created for 14:39 to 14:54</span>
+                <span class="reporter-method-output">The process of create info-event schedule by attribute is complete.</span>
+                <span class="reporter-method-output"> </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createInfoEventByResourceSchedule</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> </span>
+                <span class="reporter-method-output">The process of create info-event schedule by resource is started.</span>
+                <span class="reporter-method-output">info-event created for 15:39 to 15:55</span>
+                <span class="reporter-method-output">The process of create info-event schedule by attribute is complete.</span>
+                <span class="reporter-method-output"> </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createInfoEventByResource</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> </span>
+                <span class="reporter-method-output">The process of create info-event by resource is started.</span>
+                <span class="reporter-method-output">The process of create info-event by resource is complete.</span>
+                <span class="reporter-method-output"> </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createInfoEventByFighterSchedule</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> </span>
+                <span class="reporter-method-output">The process of create info-event schedule by firefighter is started.</span>
+                <span class="reporter-method-output">info-event created for 05-02-2025 > 14:40 to 14:55</span>
+                <span class="reporter-method-output">The process of create info-event schedule by firefighter is complete.</span>
+                <span class="reporter-method-output"> </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">cretecalendarEventAttributeSchedule</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> </span>
+                <span class="reporter-method-output">The process of create calendar event by attribute is started.</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">70 ignored methods</span>
+            <span class="header-content">61 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -421,6 +691,8 @@ return data;
                 <br/>
                 <span class="ignored-method-name">sendmessageToTestAlarmUsers</span>
                 <br/>
+                <span class="ignored-method-name">addFirefighter1ForNewStation06</span>
+                <br/>
                 <span class="ignored-method-name">sendmessageToinfoUsers</span>
                 <br/>
                 <span class="ignored-method-name">sendmessageToApiAlarmUser</span>
@@ -431,10 +703,6 @@ return data;
                 <br/>
                 <span class="ignored-method-name">addFireStation</span>
                 <br/>
-                <span class="ignored-method-name">cretecalendarEventResourceSchedule</span>
-                <br/>
-                <span class="ignored-method-name">createInformationByResource</span>
-                <br/>
                 <span class="ignored-method-name">createNewStationMonitorUser</span>
                 <br/>
                 <span class="ignored-method-name">createStormAlarm</span>
@@ -443,21 +711,15 @@ return data;
                 <br/>
                 <span class="ignored-method-name">addResourceForNewStation</span>
                 <br/>
-                <span class="ignored-method-name">createInfoEventByAttribute</span>
-                <br/>
                 <span class="ignored-method-name">createChatGrouForStation06Users</span>
                 <br/>
                 <span class="ignored-method-name">createManualAlarmByAttribute</span>
                 <br/>
-                <span class="ignored-method-name">cretecalendarEventAttributeSchedule</span>
+                <span class="ignored-method-name">addFirefighter2ForNewStation06</span>
                 <br/>
                 <span class="ignored-method-name">createLowPriorityManualAlarmByEscalationResource</span>
                 <br/>
-                <span class="ignored-method-name">createInformationByFirefighter</span>
-                <br/>
                 <span class="ignored-method-name">createAlarmCheckList</span>
-                <br/>
-                <span class="ignored-method-name">createInfoEventByResourceSchedule</span>
                 <br/>
                 <span class="ignored-method-name">createTestAlarmByAttributeOneTime</span>
                 <br/>
@@ -472,8 +734,6 @@ return data;
                 <span class="ignored-method-name">createTestAlarmByAttributeRecursivedaily</span>
                 <br/>
                 <span class="ignored-method-name">testAlarmByRecursiveMonthlyDayWise</span>
-                <br/>
-                <span class="ignored-method-name">cretecalendarEventFirefighterSchedule</span>
                 <br/>
                 <span class="ignored-method-name">createLowPriorityManualAlarmByAttribute</span>
                 <br/>
@@ -515,21 +775,15 @@ return data;
                 <br/>
                 <span class="ignored-method-name">createAvailabilityRequestSendRecursive</span>
                 <br/>
-                <span class="ignored-method-name">createInfoEventByFighterSchedule</span>
-                <br/>
                 <span class="ignored-method-name">createAvailabilityRequestSendMultipleDays</span>
                 <br/>
                 <span class="ignored-method-name">sendMessageChatGrouCreatedByFirefighter</span>
                 <br/>
                 <span class="ignored-method-name">extendAlarmToSecondStation</span>
                 <br/>
-                <span class="ignored-method-name">createInfoEventByFirefighter</span>
-                <br/>
-                <span class="ignored-method-name">createInformationByAttribute</span>
-                <br/>
                 <span class="ignored-method-name">createMonitorInformation02</span>
                 <br/>
-                <span class="ignored-method-name">createInfoEventByAttributeSchedule</span>
+                <span class="ignored-method-name">addStationUserForStation06</span>
                 <br/>
                 <span class="ignored-method-name">sendMessageChatGrouCreatedByAttribute</span>
                 <br/>
@@ -540,8 +794,6 @@ return data;
                 <span class="ignored-method-name">createPermissionGroupDefaultStation</span>
                 <br/>
                 <span class="ignored-method-name">extendAlarmFrom07To06ByAttribute</span>
-                <br/>
-                <span class="ignored-method-name">createInfoEventByResource</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -560,65 +812,171 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">BeforeTest</span>
-                <span class="method-start">7123 ms</span>
+                <span class="method-start">17882 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">lounchBrowser</span>
-                <span class="method-start">12411 ms</span>
+                <span class="method-start">25000 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">backToHomePage</span>
-                <span class="method-start">12545 ms</span>
+                <span class="method-start">25166 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">userDetails</span>
-                <span class="method-start">17081 ms</span>
+                <span class="method-start">28911 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">backToHomePage2</span>
-                <span class="method-start">17088 ms</span>
+                <span class="method-start">28915 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">backToHomePage</span>
-                <span class="method-start">19494 ms</span>
+                <span class="method-start">30963 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">addStationUserForStation06</span>
-                <span class="method-start">21036 ms</span>
+                <span class="method-name">createInfoEventByAttributeSchedule</span>
+                <span class="method-start">33006 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">backToHomePage2</span>
-                <span class="method-start">62453 ms</span>
+                <span class="method-start">62354 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">backToHomePage</span>
-                <span class="method-start">64574 ms</span>
+                <span class="method-start">63918 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">addFirefighter1ForNewStation06</span>
-                <span class="method-start">67374 ms</span>
+                <span class="method-name">createInfoEventByResourceSchedule</span>
+                <span class="method-start">65827 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">backToHomePage2</span>
-                <span class="method-start">195002 ms</span>
+                <span class="method-start">93298 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
+                <span class="method-name">backToHomePage</span>
+                <span class="method-start">94888 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createInfoEventByFighterSchedule</span>
+                <span class="method-start">96489 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">backToHomePage2</span>
+                <span class="method-start">123685 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">backToHomePage</span>
+                <span class="method-start">125146 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createInformationByAttribute</span>
+                <span class="method-start">126800 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">backToHomePage2</span>
+                <span class="method-start">150435 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">backToHomePage</span>
+                <span class="method-start">152080 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createInformationByResource</span>
+                <span class="method-start">153879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">backToHomePage2</span>
+                <span class="method-start">174537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">backToHomePage</span>
+                <span class="method-start">176138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createInformationByFirefighter</span>
+                <span class="method-start">178889 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">backToHomePage2</span>
+                <span class="method-start">201054 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">backToHomePage</span>
+                <span class="method-start">204279 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createInfoEventByAttribute</span>
+                <span class="method-start">245501 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">backToHomePage2</span>
+                <span class="method-start">274857 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">backToHomePage</span>
+                <span class="method-start">276298 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createInfoEventByResource</span>
+                <span class="method-start">278172 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">backToHomePage2</span>
+                <span class="method-start">306207 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">backToHomePage</span>
+                <span class="method-start">307787 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createInfoEventByFirefighter</span>
+                <span class="method-start">309623 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">backToHomePage2</span>
+                <span class="method-start">338541 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">backToHomePage</span>
+                <span class="method-start">340204 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">backToHomePage</span>
-                <span class="method-start">255131 ms</span>
-              </div> <!-- configuration-method before -->
+                <span class="method-name">cretecalendarEventAttributeSchedule</span>
+                <span class="method-start">341935 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">backToHomePage2</span>
-                <span class="method-start">265173 ms</span>
+                <span class="method-start">363136 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">backToHomePage</span>
-                <span class="method-start">265174 ms</span>
+                <span class="method-start">364223 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">backToHomePage2</span>
-                <span class="method-start">265178 ms</span>
+                <span class="method-start">364228 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">backToHomePage</span>
+                <span class="method-start">364230 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">backToHomePage2</span>
+                <span class="method-start">364234 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">backToHomePage</span>
+                <span class="method-start">364237 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">backToHomePage2</span>
+                <span class="method-start">364240 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
