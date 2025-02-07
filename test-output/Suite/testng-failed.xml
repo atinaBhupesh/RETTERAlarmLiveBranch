@@ -3,22 +3,16 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="live_functions.A_testClass_dailyCheckPointList">
+      <class name="live_functions.AAA_testClass_delete">
         <methods>
-          <include name="logOut"/>
-          <include name="cretecalendarEventAttributeSchedule"/>
           <include name="backToHomePage2"/>
-          <include name="BeforeSuite"/>
-          <include name="detailsAboutScript"/>
-          <include name="AfterTest"/>
-          <include name="backToHomePage"/>
-          <include name="BeforeTest"/>
-          <include name="cretecalendarEventFirefighterSchedule"/>
-          <include name="cretecalendarEventResourceSchedule"/>
-          <include name="AfterSute"/>
           <include name="lounchBrowser"/>
+          <include name="logOut"/>
+          <include name="deleteAllBGCalendarEvent"/>
+          <include name="backToHomePage"/>
+          <include name="deleteCalendarEventAll"/>
         </methods>
-      </class> <!-- live_functions.A_testClass_dailyCheckPointList -->
+      </class> <!-- live_functions.AAA_testClass_delete -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

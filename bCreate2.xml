@@ -8,26 +8,25 @@
        <methods>
 				<include name="userDetails"  />
 				
-			<include name="sendmessageToApiAlarmUser"  />
-         	<include name="createInfoEventByAttributeSchedule"  /> 
+	
+			<include name="createInfoEventByAttributeSchedule"  /> 
 			<include name="createInfoEventByResourceSchedule"  /> 
 			<include name="createInfoEventByFighterSchedule"  /> 
 			
-			 <include name="createInformationByAttribute"  />
+
+		    <include name="createInformationByAttribute"  />
 			<include name="createInformationByResource"  />
 			<include name="createInformationByFirefighter"  />
 		
 		    <include name="createInfoEventByAttribute"/>
 			<include name="createInfoEventByResource"/>
 			<include name="createInfoEventByFirefighter"/>
-			
-			
-			   <include name="cretecalendarEventAttributeSchedule"  /> 
+
+
+         <include name="cretecalendarEventAttributeSchedule"  /> 
 			<include name="cretecalendarEventResourceSchedule"  /> 
 			<include name="cretecalendarEventFirefighterSchedule"  /> 
 		 
-
-
 	
 			 <include name="detailsAboutScript"  />  
       </methods>

@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="10" failed="1" skipped="3">
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Hello, Daily check point checking process of 2 has started.-04.02.2025>14:32]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[Todays is 1 Tuesday of this month.]]>
+      <![CDATA[Hello,2 branch deleting process has started.-07.02.2025>14:33]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -17,7 +11,7 @@
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[Department user # 914-IN-U11-U011-1 # log in sucessfully]]>
+      <![CDATA[live department user # 914-IN-U11-U011-1 # log in sucessfully]]>
     </line>
     <line>
       <![CDATA[ ]]>
@@ -26,406 +20,242 @@
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[The process of create info-event schedule by attribute is started.]]>
+      <![CDATA[The process of delete all bg calendar event is started.]]>
     </line>
     <line>
-      <![CDATA[info-event created for 14:39 to 14:54]]>
+      <![CDATA[Calendar event create created by attribute no-1 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[The process of create info-event schedule by attribute is complete.]]>
+      <![CDATA[Calendar event create created by attribute no-2 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[ ]]>
+      <![CDATA[Calendar event create created by attribute no-3 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[ ]]>
+      <![CDATA[Calendar event create created by attribute no-4 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[The process of create info-event schedule by resource is started.]]>
+      <![CDATA[Calendar event create created by attribute no-5 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[info-event created for 15:39 to 15:55]]>
+      <![CDATA[Calendar event create created by attribute no-6 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[The process of create info-event schedule by attribute is complete.]]>
+      <![CDATA[Calendar event create created by attribute no-7 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[ ]]>
+      <![CDATA[Calendar event create created by attribute no-8 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[ ]]>
+      <![CDATA[Calendar event create created by attribute no-9 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[The process of create info-event schedule by firefighter is started.]]>
+      <![CDATA[Calendar event create created by attribute no-10 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[info-event created for 05-02-2025 > 14:40 to 14:55]]>
+      <![CDATA[Calendar event create created by attribute no-11 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[The process of create info-event schedule by firefighter is complete.]]>
+      <![CDATA[Calendar event create created by attribute no-12 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[ ]]>
+      <![CDATA[Calendar event create created by attribute no-13 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[ ]]>
+      <![CDATA[Calendar event create created by attribute no-14 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[The process of creating information by attribute is started.]]>
+      <![CDATA[Calendar event create created by attribute no-15 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[The process of creating information by attribute is complete.]]>
+      <![CDATA[Calendar event create created by attribute no-16 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[ ]]>
+      <![CDATA[Calendar event create created by attribute no-17 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[ ]]>
+      <![CDATA[Calendar event create created by attribute no-18 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[The process of creating information by resource is started.]]>
+      <![CDATA[Calendar event create created by attribute no-19 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[The process of creating information by resource is complete.]]>
+      <![CDATA[Calendar event create created by attribute no-20 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[ ]]>
+      <![CDATA[Calendar event create created by attribute no-21 deleted successfully.]]>
     </line>
     <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of creating information by firefighter is started.]]>
-    </line>
-    <line>
-      <![CDATA[The process of creating information by firefighter is complete.]]>
+      <![CDATA[Calendar event create created by attribute no-22 deleted successfully.]]>
     </line>
     <line>
       <![CDATA[ ]]>
     </line>
     <line>
+      <![CDATA[The process of delete all calendar event.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-1 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-2 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-3 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-4 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-5 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-6 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-7 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-8 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-9 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-10 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-11 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-12 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-13 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-14 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-15 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-16 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-17 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-18 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-19 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-20 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-21 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-22 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-23 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-24 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-25 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-26 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-27 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-28 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-29 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-30 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-31 deleted successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Calendar event create created by attribute no-32 deleted successfully.]]>
+    </line>
+    <line>
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[The process of create info-event by attribute is started.]]>
+      <![CDATA[Login  date-07.02.2025 & login  time -14:33]]>
     </line>
     <line>
-      <![CDATA[The process of create info-event by attribute is complete.]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
+      <![CDATA[Logout date-07-02-2025 & logout time -14:48]]>
     </line>
     <line>
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[The process of create info-event by resource is started.]]>
-    </line>
-    <line>
-      <![CDATA[The process of create info-event by resource is complete.]]>
+      <![CDATA[Logout sucessfully.]]>
     </line>
     <line>
       <![CDATA[ ]]>
     </line>
     <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of create info-event by firefighter is started.]]>
-    </line>
-    <line>
-      <![CDATA[The process of create info-event by firefighter is complete.]]>
+      <![CDATA[Browser close sucessfully.]]>
     </line>
     <line>
       <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[ ]]>
-    </line>
-    <line>
-      <![CDATA[The process of create calendar event by attribute is started.]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-02-04T19:02:34 IST" name="Suite" finished-at="2025-02-04T19:08:21 IST" duration-ms="346368">
+  <suite started-at="2025-02-07T19:03:16 IST" name="Suite" finished-at="2025-02-07T19:19:01 IST" duration-ms="944670">
     <groups>
     </groups>
-    <test started-at="2025-02-04T19:02:34 IST" name="Test" finished-at="2025-02-04T19:08:21 IST" duration-ms="346368">
-      <class name="live_functions.A_testClass_dailyCheckPointList">
-        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:02:16 IST" name="BeforeSuite" finished-at="2025-02-04T19:02:34 IST" duration-ms="17878" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeSuite -->
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:02:34 IST" name="BeforeTest" finished-at="2025-02-04T19:02:41 IST" duration-ms="7107" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeTest -->
-        <test-method is-config="true" signature="lounchBrowser()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:02:41 IST" name="lounchBrowser" finished-at="2025-02-04T19:02:42 IST" duration-ms="158" status="PASS">
+    <test started-at="2025-02-07T19:03:16 IST" name="Test" finished-at="2025-02-07T19:19:01 IST" duration-ms="944670">
+      <class name="live_functions.AAA_testClass_delete">
+        <test-method is-config="true" signature="lounchBrowser()[pri:0, instance:live_functions.AAA_testClass_delete@663c9e7a]" started-at="2025-02-07T19:03:16 IST" name="lounchBrowser" finished-at="2025-02-07T19:03:52 IST" duration-ms="35880" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Hello, Daily check point checking process of 2 has started.-04.02.2025>14:32]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[Todays is 1 Tuesday of this month.]]>
+              <![CDATA[Hello,2 branch deleting process has started.-07.02.2025>14:33]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
           </reporter-output>
         </test-method> <!-- lounchBrowser -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:02:42 IST" name="backToHomePage" finished-at="2025-02-04T19:02:45 IST" duration-ms="3744" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@663c9e7a]" started-at="2025-02-07T19:03:52 IST" name="backToHomePage" finished-at="2025-02-07T19:03:55 IST" duration-ms="3025" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="userDetails()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:02:45 IST" name="userDetails" finished-at="2025-02-04T19:02:45 IST" duration-ms="2" status="PASS">
+        <test-method signature="userDetails()[pri:0, instance:live_functions.AAA_testClass_delete@663c9e7a]" started-at="2025-02-07T19:03:55 IST" name="userDetails" finished-at="2025-02-07T19:03:55 IST" duration-ms="8" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ ]]>
             </line>
             <line>
-              <![CDATA[Department user # 914-IN-U11-U011-1 # log in sucessfully]]>
+              <![CDATA[live department user # 914-IN-U11-U011-1 # log in sucessfully]]>
             </line>
             <line>
               <![CDATA[ ]]>
             </line>
           </reporter-output>
         </test-method> <!-- userDetails -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:02:45 IST" name="backToHomePage2" finished-at="2025-02-04T19:02:47 IST" duration-ms="2047" status="PASS">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@663c9e7a]" started-at="2025-02-07T19:03:55 IST" name="backToHomePage2" finished-at="2025-02-07T19:03:57 IST" duration-ms="1769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:02:47 IST" name="backToHomePage" finished-at="2025-02-04T19:02:49 IST" duration-ms="2042" status="PASS">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@663c9e7a]" started-at="2025-02-07T19:03:57 IST" name="backToHomePage" finished-at="2025-02-07T19:03:59 IST" duration-ms="1757" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="createInfoEventByAttributeSchedule()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:02:49 IST" name="createInfoEventByAttributeSchedule" finished-at="2025-02-04T19:03:19 IST" duration-ms="29346" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of create info-event schedule by attribute is started.]]>
-            </line>
-            <line>
-              <![CDATA[info-event created for 14:39 to 14:54]]>
-            </line>
-            <line>
-              <![CDATA[The process of create info-event schedule by attribute is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createInfoEventByAttributeSchedule -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:03:19 IST" name="backToHomePage2" finished-at="2025-02-04T19:03:20 IST" duration-ms="1564" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:03:20 IST" name="backToHomePage" finished-at="2025-02-04T19:03:22 IST" duration-ms="1909" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="createInfoEventByResourceSchedule()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:03:22 IST" name="createInfoEventByResourceSchedule" finished-at="2025-02-04T19:03:50 IST" duration-ms="27469" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of create info-event schedule by resource is started.]]>
-            </line>
-            <line>
-              <![CDATA[info-event created for 15:39 to 15:55]]>
-            </line>
-            <line>
-              <![CDATA[The process of create info-event schedule by attribute is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createInfoEventByResourceSchedule -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:03:50 IST" name="backToHomePage2" finished-at="2025-02-04T19:03:51 IST" duration-ms="1590" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:03:51 IST" name="backToHomePage" finished-at="2025-02-04T19:03:53 IST" duration-ms="1601" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="createInfoEventByFighterSchedule()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:03:53 IST" name="createInfoEventByFighterSchedule" finished-at="2025-02-04T19:04:20 IST" duration-ms="27194" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of create info-event schedule by firefighter is started.]]>
-            </line>
-            <line>
-              <![CDATA[info-event created for 05-02-2025 > 14:40 to 14:55]]>
-            </line>
-            <line>
-              <![CDATA[The process of create info-event schedule by firefighter is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createInfoEventByFighterSchedule -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:04:20 IST" name="backToHomePage2" finished-at="2025-02-04T19:04:22 IST" duration-ms="1461" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:04:22 IST" name="backToHomePage" finished-at="2025-02-04T19:04:23 IST" duration-ms="1654" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="createInformationByAttribute()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:04:23 IST" name="createInformationByAttribute" finished-at="2025-02-04T19:04:47 IST" duration-ms="23635" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating information by attribute is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating information by attribute is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createInformationByAttribute -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:04:47 IST" name="backToHomePage2" finished-at="2025-02-04T19:04:48 IST" duration-ms="1645" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:04:48 IST" name="backToHomePage" finished-at="2025-02-04T19:04:50 IST" duration-ms="1799" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="createInformationByResource()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:04:50 IST" name="createInformationByResource" finished-at="2025-02-04T19:05:11 IST" duration-ms="20657" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating information by resource is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating information by resource is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createInformationByResource -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:05:11 IST" name="backToHomePage2" finished-at="2025-02-04T19:05:12 IST" duration-ms="1600" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:05:12 IST" name="backToHomePage" finished-at="2025-02-04T19:05:15 IST" duration-ms="2751" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="createInformationByFirefighter()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:05:15 IST" name="createInformationByFirefighter" finished-at="2025-02-04T19:05:37 IST" duration-ms="22164" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating information by firefighter is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of creating information by firefighter is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createInformationByFirefighter -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:05:37 IST" name="backToHomePage2" finished-at="2025-02-04T19:05:41 IST" duration-ms="3225" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:05:41 IST" name="backToHomePage" finished-at="2025-02-04T19:06:22 IST" duration-ms="41222" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="createInfoEventByAttribute()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:06:22 IST" name="createInfoEventByAttribute" finished-at="2025-02-04T19:06:51 IST" duration-ms="29355" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of create info-event by attribute is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of create info-event by attribute is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createInfoEventByAttribute -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:06:51 IST" name="backToHomePage2" finished-at="2025-02-04T19:06:53 IST" duration-ms="1441" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:06:53 IST" name="backToHomePage" finished-at="2025-02-04T19:06:55 IST" duration-ms="1873" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="createInfoEventByResource()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:06:55 IST" name="createInfoEventByResource" finished-at="2025-02-04T19:07:23 IST" duration-ms="28033" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of create info-event by resource is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of create info-event by resource is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createInfoEventByResource -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:07:23 IST" name="backToHomePage2" finished-at="2025-02-04T19:07:24 IST" duration-ms="1579" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:07:24 IST" name="backToHomePage" finished-at="2025-02-04T19:07:26 IST" duration-ms="1836" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="createInfoEventByFirefighter()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:07:26 IST" name="createInfoEventByFirefighter" finished-at="2025-02-04T19:07:55 IST" duration-ms="28917" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-            <line>
-              <![CDATA[The process of create info-event by firefighter is started.]]>
-            </line>
-            <line>
-              <![CDATA[The process of create info-event by firefighter is complete.]]>
-            </line>
-            <line>
-              <![CDATA[ ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createInfoEventByFirefighter -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:07:55 IST" name="backToHomePage2" finished-at="2025-02-04T19:07:57 IST" duration-ms="1663" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:07:57 IST" name="backToHomePage" finished-at="2025-02-04T19:07:58 IST" duration-ms="1731" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="cretecalendarEventAttributeSchedule()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:07:58 IST" name="cretecalendarEventAttributeSchedule" finished-at="2025-02-04T19:08:19 IST" duration-ms="21199" status="FAIL">
+        <test-method signature="deleteAllBGCalendarEvent()[pri:0, instance:live_functions.AAA_testClass_delete@663c9e7a]" started-at="2025-02-07T19:03:59 IST" name="deleteAllBGCalendarEvent" finished-at="2025-02-07T19:10:14 IST" duration-ms="375406" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -433,10 +263,10 @@
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [217d325b22a9b77774afbc8f0109ff6f, clickElement {id=f.1DEBFE983DD5FD2480C7746E9FA757BF.d.CB347B11011BC4F01FD3CEEB97EF53B9.e.1741}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62298/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (217d325b22a9b77774afbc8f0109ff6f)] -> xpath: //span[@id="select2-selectFireDepartment-container"]]
-Session ID: 217d325b22a9b77774afbc8f0109ff6f]]>
+Command: [b16b70e0d9c8566035776d830904e14d, clickElement {id=f.8560B4B618243DBE964DA255A41F765C.d.35159729691AD75B5504E0F11514272D.e.48509}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50513}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50513/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b16b70e0d9c8566035776d830904e14d)] -> xpath: //span[@class='fc-title' and contains(text(), 'BG')]]
+Session ID: b16b70e0d9c8566035776d830904e14d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -444,10 +274,10 @@ Session ID: 217d325b22a9b77774afbc8f0109ff6f]]>
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [217d325b22a9b77774afbc8f0109ff6f, clickElement {id=f.1DEBFE983DD5FD2480C7746E9FA757BF.d.CB347B11011BC4F01FD3CEEB97EF53B9.e.1741}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62298/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (217d325b22a9b77774afbc8f0109ff6f)] -> xpath: //span[@id="select2-selectFireDepartment-container"]]
-Session ID: 217d325b22a9b77774afbc8f0109ff6f
+Command: [b16b70e0d9c8566035776d830904e14d, clickElement {id=f.8560B4B618243DBE964DA255A41F765C.d.35159729691AD75B5504E0F11514272D.e.48509}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50513}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50513/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b16b70e0d9c8566035776d830904e14d)] -> xpath: //span[@class='fc-title' and contains(text(), 'BG')]]
+Session ID: b16b70e0d9c8566035776d830904e14d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -466,9 +296,9 @@ at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-at live_functions.j_calendarEvent.calendarEventByAttributeSchedul(j_calendarEvent.java:193)
-at live_functions.A_testClass_dailyCheckPointList.cretecalendarEventAttributeSchedule(A_testClass_dailyCheckPointList.java:1293)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at live_functions.j_calendarEvent.deletecalendarAllBGEvent(j_calendarEvent.java:724)
+at live_functions.AAA_testClass_delete.deleteAllBGCalendarEvent(AAA_testClass_delete.java:197)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -505,120 +335,107 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[ ]]>
             </line>
             <line>
-              <![CDATA[The process of create calendar event by attribute is started.]]>
+              <![CDATA[The process of delete all bg calendar event is started.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-1 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-2 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-3 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-4 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-5 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-6 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-7 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-8 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-9 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-10 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-11 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-12 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-13 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-14 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-15 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-16 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-17 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-18 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-19 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-20 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-21 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-22 deleted successfully.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- cretecalendarEventAttributeSchedule -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:08:19 IST" name="backToHomePage2" finished-at="2025-02-04T19:08:21 IST" duration-ms="1085" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <img src="/img/logoicon.png" alt=""> is not clickable at point (75, 26). Other element would receive the click: <div id="calendarModal" class="modal fade in" role="dialog" style="display: block;">...</div>
-  (Session info: chrome=132.0.6834.160)
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [217d325b22a9b77774afbc8f0109ff6f, clickElement {id=f.1DEBFE983DD5FD2480C7746E9FA757BF.d.CB347B11011BC4F01FD3CEEB97EF53B9.e.1743}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62298/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (217d325b22a9b77774afbc8f0109ff6f)] -> xpath: //img[@src="/img/logoicon.png"]]
-Session ID: 217d325b22a9b77774afbc8f0109ff6f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img src="/img/logoicon.png" alt=""> is not clickable at point (75, 26). Other element would receive the click: <div id="calendarModal" class="modal fade in" role="dialog" style="display: block;">...</div>
-  (Session info: chrome=132.0.6834.160)
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [217d325b22a9b77774afbc8f0109ff6f, clickElement {id=f.1DEBFE983DD5FD2480C7746E9FA757BF.d.CB347B11011BC4F01FD3CEEB97EF53B9.e.1743}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62298/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (217d325b22a9b77774afbc8f0109ff6f)] -> xpath: //img[@src="/img/logoicon.png"]]
-Session ID: 217d325b22a9b77774afbc8f0109ff6f
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-at live_functions.D_homePage.backToHomePage(D_homePage.java:35)
-at live_functions.A_testClass_dailyCheckPointList.backToHomePage2(A_testClass_dailyCheckPointList.java:1419)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        </test-method> <!-- deleteAllBGCalendarEvent -->
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@663c9e7a]" started-at="2025-02-07T19:10:14 IST" name="backToHomePage2" finished-at="2025-02-07T19:10:16 IST" duration-ms="1658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:08:21 IST" name="backToHomePage" finished-at="2025-02-04T19:08:21 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@663c9e7a]" started-at="2025-02-07T19:10:16 IST" name="backToHomePage" finished-at="2025-02-07T19:10:18 IST" duration-ms="2162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="cretecalendarEventResourceSchedule()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:08:21 IST" name="cretecalendarEventResourceSchedule" finished-at="2025-02-04T19:08:21 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method signature="deleteCalendarEventAll()[pri:0, instance:live_functions.AAA_testClass_delete@663c9e7a]" started-at="2025-02-07T19:10:18 IST" name="deleteCalendarEventAll" finished-at="2025-02-07T19:18:51 IST" duration-ms="513213" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[element click intercepted: Element <img src="/img/logoicon.png" alt=""> is not clickable at point (75, 26). Other element would receive the click: <div id="calendarModal" class="modal fade in" role="dialog" style="display: block;">...</div>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='fc-title' and contains(text(), 'General ')]"}
   (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [217d325b22a9b77774afbc8f0109ff6f, clickElement {id=f.1DEBFE983DD5FD2480C7746E9FA757BF.d.CB347B11011BC4F01FD3CEEB97EF53B9.e.1743}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62298/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (217d325b22a9b77774afbc8f0109ff6f)] -> xpath: //img[@src="/img/logoicon.png"]]
-Session ID: 217d325b22a9b77774afbc8f0109ff6f]]>
+Command: [b16b70e0d9c8566035776d830904e14d, findElement {using=xpath, value=//span[@class='fc-title' and contains(text(), 'General ')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50513}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50513/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b16b70e0d9c8566035776d830904e14d]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img src="/img/logoicon.png" alt=""> is not clickable at point (75, 26). Other element would receive the click: <div id="calendarModal" class="modal fade in" role="dialog" style="display: block;">...</div>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='fc-title' and contains(text(), 'General ')]"}
   (Session info: chrome=132.0.6834.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.17.0', revision: 'e52b1be057*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [217d325b22a9b77774afbc8f0109ff6f, clickElement {id=f.1DEBFE983DD5FD2480C7746E9FA757BF.d.CB347B11011BC4F01FD3CEEB97EF53B9.e.1743}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62298/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (217d325b22a9b77774afbc8f0109ff6f)] -> xpath: //img[@src="/img/logoicon.png"]]
-Session ID: 217d325b22a9b77774afbc8f0109ff6f
+Command: [b16b70e0d9c8566035776d830904e14d, findElement {using=xpath, value=//span[@class='fc-title' and contains(text(), 'General ')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50513}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50513/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b16b70e0d9c8566035776d830904e14d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -631,26 +448,21 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-at live_functions.D_homePage.backToHomePage(D_homePage.java:35)
-at live_functions.A_testClass_dailyCheckPointList.backToHomePage2(A_testClass_dailyCheckPointList.java:1419)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at live_functions.j_calendarEvent.deletecalendarEventAll(j_calendarEvent.java:678)
+at live_functions.AAA_testClass_delete.deleteCalendarEventAll(AAA_testClass_delete.java:182)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
@@ -675,209 +487,157 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[The process of delete all calendar event.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-1 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-2 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-3 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-4 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-5 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-6 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-7 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-8 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-9 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-10 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-11 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-12 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-13 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-14 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-15 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-16 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-17 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-18 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-19 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-20 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-21 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-22 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-23 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-24 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-25 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-26 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-27 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-28 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-29 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-30 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-31 deleted successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Calendar event create created by attribute no-32 deleted successfully.]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- cretecalendarEventResourceSchedule -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:08:21 IST" name="backToHomePage2" finished-at="2025-02-04T19:08:21 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- deleteCalendarEventAll -->
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@663c9e7a]" started-at="2025-02-07T19:18:51 IST" name="backToHomePage2" finished-at="2025-02-07T19:18:53 IST" duration-ms="1419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:08:21 IST" name="backToHomePage" finished-at="2025-02-04T19:08:21 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.AAA_testClass_delete@663c9e7a]" started-at="2025-02-07T19:18:53 IST" name="backToHomePage" finished-at="2025-02-07T19:18:55 IST" duration-ms="1921" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage -->
-        <test-method signature="cretecalendarEventFirefighterSchedule()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:08:21 IST" name="cretecalendarEventFirefighterSchedule" finished-at="2025-02-04T19:08:21 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <img src="/img/logoicon.png" alt=""> is not clickable at point (75, 26). Other element would receive the click: <div id="calendarModal" class="modal fade in" role="dialog" style="display: block;">...</div>
-  (Session info: chrome=132.0.6834.160)
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [217d325b22a9b77774afbc8f0109ff6f, clickElement {id=f.1DEBFE983DD5FD2480C7746E9FA757BF.d.CB347B11011BC4F01FD3CEEB97EF53B9.e.1743}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62298/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (217d325b22a9b77774afbc8f0109ff6f)] -> xpath: //img[@src="/img/logoicon.png"]]
-Session ID: 217d325b22a9b77774afbc8f0109ff6f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img src="/img/logoicon.png" alt=""> is not clickable at point (75, 26). Other element would receive the click: <div id="calendarModal" class="modal fade in" role="dialog" style="display: block;">...</div>
-  (Session info: chrome=132.0.6834.160)
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [217d325b22a9b77774afbc8f0109ff6f, clickElement {id=f.1DEBFE983DD5FD2480C7746E9FA757BF.d.CB347B11011BC4F01FD3CEEB97EF53B9.e.1743}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62298/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (217d325b22a9b77774afbc8f0109ff6f)] -> xpath: //img[@src="/img/logoicon.png"]]
-Session ID: 217d325b22a9b77774afbc8f0109ff6f
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-at live_functions.D_homePage.backToHomePage(D_homePage.java:35)
-at live_functions.A_testClass_dailyCheckPointList.backToHomePage2(A_testClass_dailyCheckPointList.java:1419)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method signature="detailsAboutScript()[pri:0, instance:live_functions.AAA_testClass_delete@663c9e7a]" started-at="2025-02-07T19:18:55 IST" name="detailsAboutScript" finished-at="2025-02-07T19:18:55 IST" duration-ms="2" status="PASS">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cretecalendarEventFirefighterSchedule -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:08:21 IST" name="backToHomePage2" finished-at="2025-02-04T19:08:21 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:08:21 IST" name="backToHomePage" finished-at="2025-02-04T19:08:21 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToHomePage -->
-        <test-method signature="detailsAboutScript()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:08:21 IST" name="detailsAboutScript" finished-at="2025-02-04T19:08:21 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <img src="/img/logoicon.png" alt=""> is not clickable at point (75, 26). Other element would receive the click: <div id="calendarModal" class="modal fade in" role="dialog" style="display: block;">...</div>
-  (Session info: chrome=132.0.6834.160)
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [217d325b22a9b77774afbc8f0109ff6f, clickElement {id=f.1DEBFE983DD5FD2480C7746E9FA757BF.d.CB347B11011BC4F01FD3CEEB97EF53B9.e.1743}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62298/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (217d325b22a9b77774afbc8f0109ff6f)] -> xpath: //img[@src="/img/logoicon.png"]]
-Session ID: 217d325b22a9b77774afbc8f0109ff6f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img src="/img/logoicon.png" alt=""> is not clickable at point (75, 26). Other element would receive the click: <div id="calendarModal" class="modal fade in" role="dialog" style="display: block;">...</div>
-  (Session info: chrome=132.0.6834.160)
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [217d325b22a9b77774afbc8f0109ff6f, clickElement {id=f.1DEBFE983DD5FD2480C7746E9FA757BF.d.CB347B11011BC4F01FD3CEEB97EF53B9.e.1743}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62298/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (217d325b22a9b77774afbc8f0109ff6f)] -> xpath: //img[@src="/img/logoicon.png"]]
-Session ID: 217d325b22a9b77774afbc8f0109ff6f
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-at live_functions.D_homePage.backToHomePage(D_homePage.java:35)
-at live_functions.A_testClass_dailyCheckPointList.backToHomePage2(A_testClass_dailyCheckPointList.java:1419)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[Login  date-07.02.2025 & login  time -14:33]]>
+            </line>
+            <line>
+              <![CDATA[Logout date-07-02-2025 & logout time -14:48]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
           </reporter-output>
         </test-method> <!-- detailsAboutScript -->
-        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:08:21 IST" name="backToHomePage2" finished-at="2025-02-04T19:08:21 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="backToHomePage2()[pri:0, instance:live_functions.AAA_testClass_delete@663c9e7a]" started-at="2025-02-07T19:18:55 IST" name="backToHomePage2" finished-at="2025-02-07T19:18:56 IST" duration-ms="1847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHomePage2 -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:08:21 IST" name="logOut" finished-at="2025-02-04T19:08:21 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="logOut()[pri:0, instance:live_functions.AAA_testClass_delete@663c9e7a]" started-at="2025-02-07T19:18:56 IST" name="logOut" finished-at="2025-02-07T19:19:01 IST" duration-ms="4552" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Logout sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[Browser close sucessfully.]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
           </reporter-output>
         </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:08:21 IST" name="AfterTest" finished-at="2025-02-04T19:08:21 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterTest -->
-        <test-method is-config="true" signature="AfterSute()[pri:0, instance:live_functions.A_testClass_dailyCheckPointList@4681c175]" started-at="2025-02-04T19:08:21 IST" name="AfterSute" finished-at="2025-02-04T19:08:21 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterSute -->
-      </class> <!-- live_functions.A_testClass_dailyCheckPointList -->
+      </class> <!-- live_functions.AAA_testClass_delete -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

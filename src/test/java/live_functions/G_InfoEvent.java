@@ -345,7 +345,7 @@ public class G_InfoEvent extends B_baseClass {
 
 	}
 
-	public void createEventByAttribute(WebDriver driver, String date,String deptName,String stName1,String BranchNameB) throws Throwable {
+	public void createEventByAttribute(WebDriver driver, String date,String gCurrntTime,String deptName,String stName1,String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 		createNewButton.click();
 		fireDepartmentField.click();
@@ -371,7 +371,7 @@ public class G_InfoEvent extends B_baseClass {
 		enabldSendPush.click();
 		act.sendKeys(Keys.PAGE_DOWN).build().perform();
 		titleField.click();
-		act.sendKeys("BG-info event-full day created by attribute.").build().perform();
+		act.sendKeys("BG-info event-full day created by attribute."+gCurrntTime).build().perform();
 		loacationField.click();
 		act.sendKeys("Manewada graound, Nagpur").build().perform();
 		act.sendKeys(Keys.TAB).build().perform();
@@ -416,7 +416,7 @@ public class G_InfoEvent extends B_baseClass {
 
 	}
 
-	public void createEventByResource(WebDriver driver, String date,String deptName,String stName1,String BranchNameB) throws Throwable {
+	public void createEventByResource(WebDriver driver, String date,String gCurrntTime,  String deptNam, String stName1,String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 		createNewButton.click();
 		fireDepartmentField.click();
@@ -442,7 +442,7 @@ public class G_InfoEvent extends B_baseClass {
 		enabldSendPush.click();
 		act.sendKeys(Keys.PAGE_DOWN).build().perform();
 		titleField.click();
-		act.sendKeys("BG-info event-full day created by resource.").build().perform();
+		act.sendKeys("BG-info event-full day created by resource."+gCurrntTime).build().perform();
 		loacationField.click();
 		act.sendKeys("Manewada graound, Nagpur").build().perform();
 		act.sendKeys(Keys.TAB).build().perform();
@@ -490,7 +490,7 @@ case "3" :
 
 	}
 
-	public void createEventByFirefighter(WebDriver driver, String date,String deptName,String stName1,String BranchNameB) throws Throwable {
+	public void createEventByFirefighter(WebDriver driver, String date,String gCurrntTime,String deptName,String stName1,String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 		createNewButton.click();
 		fireDepartmentField.click();
@@ -516,7 +516,7 @@ case "3" :
 		enabldSendPush.click();
 		act.sendKeys(Keys.PAGE_DOWN).build().perform();
 		titleField.click();
-		act.sendKeys("BG-info event-full day created by firefighter.").build().perform();
+		act.sendKeys("BG-info event-full day created by firefighter."+gCurrntTime).build().perform();
 		loacationField.click();
 		act.sendKeys("Manewada graound, Nagpur").build().perform();
 		act.sendKeys(Keys.TAB).build().perform();

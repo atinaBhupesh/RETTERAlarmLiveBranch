@@ -10,13 +10,16 @@
 
 						
 						
+							<include name="deleteAllBGCalendarEvent" />	
+					<include name="deleteCalendarEventAll" />	
+					
+					
+				
 						
-						
-						
-				<include name="deleteCalendarEventAll" />
-						
-						
-						
+				
+				
+				
+				
 			<exclude name="deactiveManualAlarm" />
 			<exclude name="deleteTestAlarmFromOverview_monthly" />
 			<exclude name="deactiveMonthlyTestAlarmFromOverview" />

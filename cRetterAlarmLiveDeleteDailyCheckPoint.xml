@@ -20,9 +20,7 @@
 
 				<include name="deleteInfoEvent" />
 
-				<include name="deleteCalendarEventCreatedByAttribute" />
-				<include name="deleteCalendarEventCreatedByResource" />
-				<include name="deleteCalendarEventCreatedByFirefighter" />
+				<include name="deleteAllBGCalendarEvent" />
 
 				<include name="deleteARFromHistory" />
 				<include name="deleteARFromList" />

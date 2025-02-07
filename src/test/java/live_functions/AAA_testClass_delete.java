@@ -20,7 +20,7 @@ public class AAA_testClass_delete extends B_baseClass {
 
 	String date2;
 	String dateAft2Days;
-	String BranchNameB2;
+	
 
 	
 
@@ -188,44 +188,22 @@ public class AAA_testClass_delete extends B_baseClass {
 	
 	
 	@Test
-	public void deleteCalendarEventCreatedByAttribute() throws Throwable {
+	public void deleteAllBGCalendarEvent() throws Throwable {
 		
 		
 		Reporter.log(" ", true);
-		Reporter.log("The process of delete calendar eventcreated by attribute is started.", true);
+		Reporter.log("The process of delete all bg calendar event is started.", true);
 		ce.calendarEventCommon(driver,BranchNameB);
-		ce.deletecalendarEventByAttribute(driver,BranchNameB);
-		Reporter.log("The process of delete calendar event by attribute is complete.", true);
+		ce.deletecalendarAllBGEvent(driver, BranchNameB);
+		Reporter.log("The process of delete all bg calendar is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
 	}
 	
 	
-	@Test
-	public void deleteCalendarEventCreatedByResource() throws Throwable {
-		
-		
-		Reporter.log(" ", true);
-		Reporter.log("The process of delete calendar event by resource is started.", true);
-		ce.calendarEventCommon(driver,BranchNameB);
-		ce.deletecalendarEventByResource(driver,BranchNameB);
-		Reporter.log("The process of delete calendar event by resource is complete.", true);
-		Reporter.log(" ", true);
-		Thread.sleep(3000);
-	}
+
 	
-	@Test
-	public void deleteCalendarEventCreatedByFirefighter() throws Throwable {
-		
-		
-		Reporter.log(" ", true);
-		Reporter.log("The process of delete calendar event by firefighter is started.", true);
-		ce.calendarEventCommon(driver,BranchNameB);
-		ce.deletecalendarEventByFirefighter(driver,BranchNameB);
-		Reporter.log("The process of delete calendar event is by firefighter complete.", true);
-		Reporter.log(" ", true);
-		Thread.sleep(3000);
-	}
+	
 	
 	
 	@Test
@@ -392,7 +370,7 @@ public class AAA_testClass_delete extends B_baseClass {
 		Reporter.log(" ", true);
 		Reporter.log("The process of deleting a monthly test alarm from overview is started.", true);
 		ta.testAlarmOverviewCommon(driver,BranchNameB);
-		ta.deleteTestAlarmFromOverview_monthly(driver, BranchNameB2);
+		ta.deleteTestAlarmFromOverview_monthly(driver, BranchNameB);
 
 		Reporter.log("The process of deleting a test alarm from overview is complted.", true);
 		Reporter.log(" ", true);

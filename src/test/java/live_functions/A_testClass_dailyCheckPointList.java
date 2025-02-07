@@ -1165,10 +1165,12 @@ gTimeA5min = tmc.germanyTimeAfter5Minutes;
 	@Test
 
 	public void createInfoEventByAttribute() throws Throwable {
+		tmc.catchTime2(driver);
+		gCurrntTime =tmc.germanycurrentTime;
 		Reporter.log(" ", true);
 		Reporter.log("The process of create info-event by attribute is started.", true);
 		ip.infoEventCommon(driver,BranchNameB);
-		ep.createEventByAttribute(driver, date,deptName,St1N,BranchNameB);
+		ep.createEventByAttribute(driver, date,gCurrntTime, deptName,St1N,BranchNameB);
 		Reporter.log("The process of create info-event by attribute is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1177,10 +1179,12 @@ gTimeA5min = tmc.germanyTimeAfter5Minutes;
 	@Test
 
 	public void createInfoEventByResource() throws Throwable {
+		tmc.catchTime2(driver);
+		gCurrntTime =tmc.germanycurrentTime;
 		Reporter.log(" ", true);
 		Reporter.log("The process of create info-event by resource is started.", true);
 		ip.infoEventCommon(driver,BranchNameB);
-		ep.createEventByResource(driver, date,deptName,St1N,BranchNameB);
+		ep.createEventByResource(driver, date,gCurrntTime, deptName,St1N,BranchNameB);
 		Reporter.log("The process of create info-event by resource is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1189,10 +1193,12 @@ gTimeA5min = tmc.germanyTimeAfter5Minutes;
 	@Test
 
 	public void createInfoEventByFirefighter() throws Throwable {
+		tmc.catchTime2(driver);
+		gCurrntTime =tmc.germanycurrentTime;
 		Reporter.log(" ", true);
 		Reporter.log("The process of create info-event by firefighter is started.", true);
 		ip.infoEventCommon(driver,BranchNameB);
-		ep.createEventByFirefighter(driver, date,deptName,St1N,BranchNameB);
+		ep.createEventByFirefighter(driver, date,gCurrntTime, deptName,St1N,BranchNameB);
 		Reporter.log("The process of create info-event by firefighter is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);

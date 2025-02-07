@@ -146,9 +146,11 @@ public class j_calendarEvent extends B_baseClass {
 	@FindBy(xpath="//input[@value=\"22759\"]")private WebElement bhupeshDev;
 	
 	
-	 @FindBy(xpath="//span[@class='fc-title' and contains(text(), 'BG')]")private WebElement calEvent;
+	 @FindBy(xpath="//span[@class='fc-title' and contains(text(), 'General ')]")private WebElement calEvent;
+	 
+	 
 	@FindBy(xpath="//button[text()=\"Today\"]")private WebElement todayButton;
-		// @FindBy(xpath="")private WebElement ;
+		@FindBy(xpath="//span[@class='fc-title' and contains(text(), 'BG')]")private WebElement allBGEvent;
 		// @FindBy(xpath="")private WebElement
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -692,7 +694,7 @@ public class j_calendarEvent extends B_baseClass {
 	
 	
 	
-	public void deletecalendarEventByAttribute(WebDriver driver,String BranchNameB) throws Throwable {
+	public void deletecalendarAllBGEvent(WebDriver driver,String BranchNameB) throws Throwable {
 
 		Thread.sleep(2000);
 		if  (BranchNameB.equals("1"))
@@ -718,7 +720,8 @@ public class j_calendarEvent extends B_baseClass {
 			// monthButton.click();
 			Thread.sleep(2000);
 
-			EventByAttribute.click();
+
+			allBGEvent.click();
 			Thread.sleep(2000);
 			deleteEvent.click();
 			Alert a = driver.switchTo().alert();
@@ -733,89 +736,7 @@ public class j_calendarEvent extends B_baseClass {
 
 	}
 
-	public void deletecalendarEventByResource(WebDriver driver,String BranchNameB) throws Throwable {
-		Thread.sleep(2000);
-		if  (BranchNameB.equals("1"))
-		{
-			calendarL.click();
-		}
-		
-		else if (BranchNameB.equals("2"))
-		{
-			calendarT.click();
-		}
-		
-		else if (BranchNameB.equals("3"))
-		{
-			calendarD.click();
-			
-		}
-		Thread.sleep(2000);
-
-//		int z = availableDataCount1hrs.size();
-//		Reporter.log("The total available calendar event created by resource count is-" + z + " in the list for delate.",true);
-		for (int i = 1; i <= 200; i++) {
-			// monthButton.click();
-			Thread.sleep(2000);
-			Actions act = new Actions(driver);
-			EventByResource.click();
-			Thread.sleep(2000);
-			deleteEvent.click();
-			Alert a = driver.switchTo().alert();
-			Thread.sleep(5000);
-			a.accept();
-
-			Thread.sleep(3000);
-			driver.navigate().refresh();
-			Reporter.log("Calendar event create created by resource no-" + i + " deleted successfully.", true);
-
-		}
-
-	}
-
-	public void deletecalendarEventByFirefighter(WebDriver driver,String BranchNameB) throws Throwable {
-
-		Thread.sleep(2000);
-		if  (BranchNameB.equals("1"))
-		{
-			calendarL.click();
-		}
-		
-		else if (BranchNameB.equals("2"))
-		{
-			calendarT.click();
-		}
-		
-		else if (BranchNameB.equals("3"))
-		{
-			calendarD.click();
-			
-		}
-		Thread.sleep(2000);
-		
-
-//		int z = availableDataCount1day.size();
-//		Reporter.log(
-//				"The total available calendar event created by fire fighter count is-" + z + " in the list for delate.",
-//				true);
-
-		for (int i = 1; i <= 100; i++) {
-			// monthButton.click();
-			Thread.sleep(2000);
-			Actions act = new Actions(driver);
-			EventByFirefighter.click();
-			Thread.sleep(2000);
-			deleteEvent.click();
-			Alert a = driver.switchTo().alert();
-			Thread.sleep(5000);
-			a.accept();
-
-			Thread.sleep(3000);
-			driver.navigate().refresh();
-			Reporter.log("Calendar event create created by firefighter no-" + i + " deleted successfully.", true);
-
-		}
-	}
+	
 
 	public void deleteEventCategory(WebDriver driver,String BranchNameB) throws Throwable {
 Thread.sleep(1000);
