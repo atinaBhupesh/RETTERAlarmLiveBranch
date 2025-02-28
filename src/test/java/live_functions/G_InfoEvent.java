@@ -99,12 +99,15 @@ public class G_InfoEvent extends B_baseClass {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
+		Thread.sleep(2000);
 		fireDepartmentField.click();
+		Thread.sleep(2000);
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		fireStationField.click();
+		Thread.sleep(2000);
 		act.sendKeys(stName1).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
@@ -177,12 +180,15 @@ public class G_InfoEvent extends B_baseClass {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
+		Thread.sleep(2000);
 		fireDepartmentField.click();
+		Thread.sleep(2000);
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		fireStationField.click();
+		Thread.sleep(2000);
 		act.sendKeys(stName1).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
@@ -258,12 +264,15 @@ public class G_InfoEvent extends B_baseClass {
 			throws Throwable {
 		Actions act = new Actions(driver);
 		createNewButton.click();
+		Thread.sleep(2000);
 		fireDepartmentField.click();
+		Thread.sleep(2000);
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		fireStationField.click();
+		Thread.sleep(2000);
 		act.sendKeys(stName1).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
@@ -345,15 +354,18 @@ public class G_InfoEvent extends B_baseClass {
 
 	}
 
-	public void createEventByAttribute(WebDriver driver, String date,String gCurrntTime,String deptName,String stName1,String BranchNameB) throws Throwable {
+	public void createEventByAttribute(WebDriver driver, String date,String gCurrntTime,String deptName ,String stName1,String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 		createNewButton.click();
+		Thread.sleep(2000);
 		fireDepartmentField.click();
+		Thread.sleep(2000);
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		fireStationField.click();
+		Thread.sleep(2000);
 		act.sendKeys(stName1).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
@@ -416,15 +428,18 @@ public class G_InfoEvent extends B_baseClass {
 
 	}
 
-	public void createEventByResource(WebDriver driver, String date,String gCurrntTime,  String deptNam, String stName1,String BranchNameB) throws Throwable {
+	public void createEventByResource(WebDriver driver, String date,String gCurrntTime,  String deptName, String stName1,String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 		createNewButton.click();
+		Thread.sleep(2000);
 		fireDepartmentField.click();
+		Thread.sleep(2000);
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		fireStationField.click();
+		Thread.sleep(2000);
 		act.sendKeys(stName1).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
@@ -493,12 +508,15 @@ case "3" :
 	public void createEventByFirefighter(WebDriver driver, String date,String gCurrntTime,String deptName,String stName1,String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 		createNewButton.click();
+		Thread.sleep(2000);
 		fireDepartmentField.click();
+		Thread.sleep(2000);
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		fireStationField.click();
+		Thread.sleep(2000);
 		act.sendKeys(stName1).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();

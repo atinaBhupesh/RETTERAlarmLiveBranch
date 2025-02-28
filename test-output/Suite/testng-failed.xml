@@ -5,12 +5,12 @@
     <classes>
       <class name="live_functions.AAA_testClass_delete">
         <methods>
+          <include name="deactiveManualAlarm"/>
           <include name="backToHomePage2"/>
           <include name="lounchBrowser"/>
           <include name="logOut"/>
-          <include name="deleteAllBGCalendarEvent"/>
+          <include name="deleteAllManualAlarm"/>
           <include name="backToHomePage"/>
-          <include name="deleteCalendarEventAll"/>
         </methods>
       </class> <!-- live_functions.AAA_testClass_delete -->
     </classes>

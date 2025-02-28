@@ -9,24 +9,9 @@
 				<include name="userDetails"  />
 				
 	
-			<include name="createInfoEventByAttributeSchedule"  /> 
-			<include name="createInfoEventByResourceSchedule"  /> 
-			<include name="createInfoEventByFighterSchedule"  /> 
-			
+			<include name="createMonitorInformation01" />
+			<include name="createMonitorInformation02"  />
 
-		    <include name="createInformationByAttribute"  />
-			<include name="createInformationByResource"  />
-			<include name="createInformationByFirefighter"  />
-		
-		    <include name="createInfoEventByAttribute"/>
-			<include name="createInfoEventByResource"/>
-			<include name="createInfoEventByFirefighter"/>
-
-
-         <include name="cretecalendarEventAttributeSchedule"  /> 
-			<include name="cretecalendarEventResourceSchedule"  /> 
-			<include name="cretecalendarEventFirefighterSchedule"  /> 
-		 
 	
 			 <include name="detailsAboutScript"  />  
       </methods>
