@@ -621,6 +621,20 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	
 	@Test
 
+	public void manualAlarmEclation07to06 () throws Throwable {
+		Reporter.log(" ", true);
+		Reporter.log("The process of creating manual alarm to escalate from station 07 to 06  is started.", true);
+		ma.manualAlarmCommon(driver, BranchNameB);
+		ma.manualAlarmEclation07to06(driver,  date, deptName,  St2N,  BranchNameB);
+		
+		Reporter.log("The process of creating manual alarm to escalate from station 07 to 06 is complete.", true);
+		Reporter.log(" ", true);
+		Thread.sleep(3000);
+		
+	}
+	
+	@Test
+
 	public void addVehicleUserForStation06() throws Throwable {
 		Reporter.log(" ", true);
 		Reporter.log("The process of add new vehicle for station 06 is started.", true);
@@ -1029,6 +1043,25 @@ gTimeA5min = tmc.germanyTimeAfter5Minutes;
 		Thread.sleep(3000);
 	}
 
+	@Test
+
+	public void sendmessageToNewApiAlarmUser() throws Throwable {
+		Reporter.log(" ", true);
+		Reporter.log("The Process of send message to new api alarm user is started.", true);
+		ma.manualAlarmCommon(driver, BranchNameB);
+		ma.sendmessageToNewApiAlarmUser(driver, date2, date);
+		Reporter.log("The Process of send message to new api alarm user is complete.", true);
+		Reporter.log(" ", true);
+		Thread.sleep(3000);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 	@Test
 
 	public void sendmessageToApiAlarmUser() throws Throwable {

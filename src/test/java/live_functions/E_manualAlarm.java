@@ -126,6 +126,7 @@ public class E_manualAlarm extends B_baseClass
 	@FindBy(xpath = "//input[@value=\"18480\"]")private WebElement ADST07A2;
 	@FindBy(xpath = "//input[@value=\"3137\"]")	private WebElement ADST07R2;
 	@FindBy(xpath = "//input[@value=\"27698\"]")private WebElement RahulVbc3;
+	 @FindBy(xpath="//input[@value=\"4555\"]")private WebElement ADST07ERsc06;
 	
 	//Testing
 	@FindBy(xpath="//input[@value=\"2170\"]")private WebElement D1ST04A1;
@@ -147,7 +148,7 @@ public class E_manualAlarm extends B_baseClass
  
 	@FindBy(xpath="//input[@value=\"3529\"]")private WebElement robertR1;
 	@FindBy(xpath="//input[@value=\"24819\"]")private WebElement robertfF1;
-	// @FindBy(xpath="")private WebElement ;
+	
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
 	// @FindBy(xpath="")private WebElement ;
@@ -286,9 +287,9 @@ public class E_manualAlarm extends B_baseClass
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
-
+		Thread.sleep(2000);
 		fireDepartmentField.click();
-
+		Thread.sleep(2000);
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
@@ -326,7 +327,7 @@ public class E_manualAlarm extends B_baseClass
 		Thread.sleep(2000);
 
 		selectAllCheckBox.click();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		selectAllCheckBox.click();
 
 		if  (BranchNameB.equals("1"))
@@ -367,9 +368,9 @@ public class E_manualAlarm extends B_baseClass
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
-
+		Thread.sleep(2000);
 		fireDepartmentField.click();
-
+		Thread.sleep(2000);
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
@@ -502,9 +503,9 @@ public class E_manualAlarm extends B_baseClass
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
-
+		Thread.sleep(2000);
 		fireDepartmentField.click();
-
+		Thread.sleep(2000);
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
@@ -652,7 +653,7 @@ public class E_manualAlarm extends B_baseClass
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
-
+		Thread.sleep(2000);
 		
 
 		
@@ -660,13 +661,14 @@ public class E_manualAlarm extends B_baseClass
 		if  (BranchNameB.equals("1")||BranchNameB.equals("2")||BranchNameB.equals("3"))
 		{
 			fireDepartmentField.click();
+			Thread.sleep(2000);
 			act.sendKeys(deptName).build().perform();
 			Thread.sleep(2000);
 			act.sendKeys(Keys.ENTER).build().perform();
 			Thread.sleep(2000);
 			
 			fireStationField.click();
-
+			Thread.sleep(2000);
 			act.sendKeys(st1N).build().perform();
 			Thread.sleep(2000);
 			act.sendKeys(Keys.ENTER).build().perform();
@@ -1119,15 +1121,15 @@ public class E_manualAlarm extends B_baseClass
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
-
+		Thread.sleep(2000);
 		fireDepartmentField.click();
-
+		Thread.sleep(2000);
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		fireStationField.click();
-
+		Thread.sleep(2000);
 		act.sendKeys(St1N).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
@@ -1141,9 +1143,9 @@ public class E_manualAlarm extends B_baseClass
 		act.sendKeys("BG-manual alarm by escalation resource checking.").build().perform();
 
 		userTypeResource.click();
-
+		Thread.sleep(2000);
 		selectAllCheckBox.click();
-
+		Thread.sleep(2000);
 		selectAllCheckBox.click();
 		
 		
@@ -1226,6 +1228,84 @@ public class E_manualAlarm extends B_baseClass
 		if  (BranchNameB.equals("1"))
 		{
 			ADST06REsc.click();
+		}
+		
+		else if (BranchNameB.equals("2"))
+		{
+			D1ST04Esc.click();
+		}
+		
+		else if (BranchNameB.equals("3"))
+		{
+			BH1ST04Esc.click();
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		lowPriorityCheckBox.click();
+
+		adressFeild.click();
+
+		act.sendKeys("Tapasya Vidya Mandir, 4446+52G, Vinkar Colony, Manewada, Nagpur, Maharashtra 440024").build()
+				.perform();
+
+		dragMarkerOnMapCheckBox.click();
+
+		grenrateAlarmButton.click();
+
+		alarmYesButton.click();
+
+	}
+	
+	
+	public void manualAlarmEclation07to06(WebDriver driver, String date,String deptName, String St2N, String BranchNameB) throws Throwable {
+		Actions act = new Actions(driver);
+
+		createNewButton.click();
+
+		fireDepartmentField.click();
+
+		act.sendKeys(deptName).build().perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(2000);
+		fireStationField.click();
+
+		act.sendKeys(St2N).build().perform();
+		Thread.sleep(2000);
+		act.sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(2000);
+		titlefield.click();
+
+		act.sendKeys("BG-low priority manual alarm by escalation resource-" + date).build().perform();
+
+		descriptionField.click();
+
+		act.sendKeys("BG-low priority manual alarm by escalation checking.").build().perform();
+
+		userTypeResource.click();
+
+		selectAllCheckBox.click();
+
+		selectAllCheckBox.click();
+
+	
+		Thread.sleep(1000);
+		
+		
+		
+		
+		
+		if  (BranchNameB.equals("1"))
+		{
+			ADST07ERsc06.click();
 		}
 		
 		else if (BranchNameB.equals("2"))
@@ -1486,6 +1566,101 @@ public class E_manualAlarm extends B_baseClass
 //		Reporter.log("word file attached properly", true);
 
 	}
+	public void sendmessageToNewApiAlarmUser(WebDriver driver, String date, String BranchNameB) throws Throwable {
+		Actions act = new Actions(driver);
+
+		searchField.click();
+
+		act.sendKeys("BG- New APi low st 06 from 07").build().perform();
+
+		searchButton.click();
+		Thread.sleep(2000);
+		chatOptions.click();
+
+		writemessageField.click();
+
+		act.sendKeys("message-New Api alarm users").build().perform();
+
+		sendmessageButton.click();
+
+		Thread.sleep(1000);
+		act.moveToElement(attachFile).click().build().perform();
+		Thread.sleep(1000);
+
+		StringSelection ss = new StringSelection("C:\\Users\\BHUPESH\\Desktop\\New folder\\Sample Image\\0.98mb.JPG");
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
+
+		Robot rc = new Robot();
+		Thread.sleep(2000);
+		rc.keyPress(KeyEvent.VK_CONTROL);
+		rc.keyPress(KeyEvent.VK_V);
+		Thread.sleep(2000);
+		rc.keyRelease(KeyEvent.VK_CONTROL);
+		rc.keyRelease(KeyEvent.VK_V);
+		Thread.sleep(2000);
+		rc.keyPress(KeyEvent.VK_ENTER);
+		rc.keyRelease(KeyEvent.VK_ENTER);
+		Thread.sleep(2000);
+
+		writemessageField.click();
+
+		act.sendKeys("image-alarm users").build().perform();
+		Thread.sleep(2000);
+		sendmessageButton.click();
+		Reporter.log("image attached properly", true);
+
+		Thread.sleep(1000);
+		act.moveToElement(attachFile).click().build().perform();
+		Thread.sleep(1000);
+
+		StringSelection ss1 = new StringSelection("C:\\Users\\BHUPESH\\Desktop\\New folder\\Automation Test.pdf");
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss1, null);
+
+		Thread.sleep(2000);
+		rc.keyPress(KeyEvent.VK_CONTROL);
+		rc.keyPress(KeyEvent.VK_V);
+		Thread.sleep(2000);
+		rc.keyRelease(KeyEvent.VK_CONTROL);
+		rc.keyRelease(KeyEvent.VK_V);
+		Thread.sleep(2000);
+		rc.keyPress(KeyEvent.VK_ENTER);
+		rc.keyRelease(KeyEvent.VK_ENTER);
+		Thread.sleep(2000);
+
+		writemessageField.click();
+
+		act.sendKeys("pdf-alarm users").build().perform();
+		Thread.sleep(2000);
+		sendmessageButton.click();
+		Reporter.log("pdf attached properly", true);
+
+		Thread.sleep(1000);
+		act.moveToElement(attachFile).click().build().perform();
+		Thread.sleep(1000);
+
+		StringSelection ss2 = new StringSelection("C:\\Users\\BHUPESH\\Desktop\\New folder\\Notes.docx");
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss2, null);
+
+		Thread.sleep(2000);
+		rc.keyPress(KeyEvent.VK_CONTROL);
+		rc.keyPress(KeyEvent.VK_V);
+		Thread.sleep(2000);
+		rc.keyRelease(KeyEvent.VK_CONTROL);
+		rc.keyRelease(KeyEvent.VK_V);
+		Thread.sleep(2000);
+		rc.keyPress(KeyEvent.VK_ENTER);
+		rc.keyRelease(KeyEvent.VK_ENTER);
+		Thread.sleep(2000);
+
+		writemessageField.click();
+
+		act.sendKeys("word file -alarm users").build().perform();
+		Thread.sleep(2000);
+		sendmessageButton.click();
+		Reporter.log("word file attached properly", true);
+
+	}
+	
 	
 	
 	public void sendmessageToApiAlarmUser(WebDriver driver, String date, String BranchNameB) throws Throwable {
@@ -1715,7 +1890,11 @@ public class E_manualAlarm extends B_baseClass
 			Thread.sleep(2000);
 			
 			
-			 if (BranchNameB.equals("2")||BranchNameB.equals("2.5"))
+			if  (BranchNameB.equals("1")||BranchNameB.equals("1.5"))
+			{
+			manageAlarmL.click();
+			}
+			else if (BranchNameB.equals("2")||BranchNameB.equals("2.5"))
 			{
 				manageAlarmT.click();
 			}
@@ -1731,7 +1910,7 @@ public class E_manualAlarm extends B_baseClass
 //			int z = availableDataCount.size();
 //			Reporter.log("The total available manual alarms count is-" + z + " in the list for delete.", true);
 
-			for (int i = 1; i <= 100; i++) {
+			for (int i = 1; i <= 1000; i++) {
 				searchField.click();
 
 //				act.sendKeys("BG").build().perform();

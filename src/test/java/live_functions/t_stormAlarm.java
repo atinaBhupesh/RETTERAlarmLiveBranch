@@ -16,11 +16,12 @@ public class t_stormAlarm  extends B_baseClass{
 		@FindBy(xpath="//a[@href=\"http://development.retteralarm.de/admin/Emergencies/index\"]")private WebElement manageEmergenciesD;
 		
 		@FindBy(xpath="//button[@class=\"btn btn-success\"]")private WebElement createNew;
-		@FindBy(xpath="//span[@class=\"select2-selection__placeholder\"]")private WebElement selectDepartment ;
+		@FindBy(xpath="//span[@id=\"select2-selectFiredepartment-container\"]")private WebElement selectDepartment ;
 		@FindBy(xpath="//span[@class=\"select2-selection select2-selection--multiple\"]")private WebElement selectStation;
 		@FindBy(xpath="//textarea[@id=\"AlarmTitleDe\"]")private WebElement alarmTitle;
 		@FindBy(xpath="//textarea[@id=\"AlarmDescriptionDe\"]")private WebElement alarmDetails;
 		@FindBy(xpath="//input[@id=\"inlineRadio2\"]")private WebElement userTypeResource;
+		@FindBy(xpath = "//input[@value=\"3136\"]")	private WebElement ADST06R2;
 		@FindBy(xpath = "//input[@value=\"3138\"]")private WebElement ADST06REsc;
 		@FindBy(xpath="//textarea[@id=\"AlarmAddress\"]")private WebElement alarmAddress;
 		@FindBy(xpath="//button[@id=\"addSubmit\"]")private WebElement save;
@@ -83,7 +84,9 @@ public class t_stormAlarm  extends B_baseClass{
 				}
 				
 				createNew.click();
+				Thread.sleep(3000);
 				selectDepartment.click();
+				Thread.sleep(2000);
 				act.sendKeys(deptName).build().perform();
 				Thread.sleep(2000);
 				act.sendKeys(Keys.ENTER).build().perform();
@@ -99,7 +102,7 @@ public class t_stormAlarm  extends B_baseClass{
 				
 				alarmDetails.click();
 				
-				act.sendKeys("BG-storm alarm by escalation.").build().perform();
+				act.sendKeys("BG-storm alarm by resource.").build().perform();
 				
 				userTypeResource.click();
 				Thread.sleep(2000);
@@ -118,7 +121,7 @@ public class t_stormAlarm  extends B_baseClass{
 				
 				if  (BranchNameB.equals("1"))
 				{
-					ADST06REsc.click();
+					ADST06R2.click();
 				}
 				
 				else if (BranchNameB.equals("2"))

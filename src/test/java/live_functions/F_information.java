@@ -130,6 +130,7 @@ public class F_information extends B_baseClass {
 			manageInformationD.click();
 			
 		}
+		
 	
 
 	}
@@ -137,6 +138,7 @@ public class F_information extends B_baseClass {
 	public void createInformationByAttribute(WebDriver driver,String gCurrntTime, String deptName,String stName1, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 		createNewButton.click();
+		Thread.sleep(2000);
 		fireDepartmentField.click();
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
@@ -215,6 +217,7 @@ public class F_information extends B_baseClass {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
+		Thread.sleep(2000);
 		fireDepartmentField.click();
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
@@ -273,6 +276,7 @@ public class F_information extends B_baseClass {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
+		Thread.sleep(2000);
 		fireDepartmentField.click();
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
@@ -334,6 +338,7 @@ switch (BranchNameB) {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
+		Thread.sleep(2000);
 		fireDepartmentField.click();
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
@@ -347,11 +352,11 @@ switch (BranchNameB) {
 			Select se = new Select(selectType);
 		se.selectByVisibleText("Information");
     	titleField.click();
-		act.sendKeys("BG-Monitor information for-" + date).build().perform();
+		act.sendKeys("BG-Monitor information-" +gTimeA5min +"-"+gTimeA15min+"["+date+"]" ).build().perform();
 		loacationField.click();
 		act.sendKeys("Manewada graound, Nagpur").build().perform();
 		act.sendKeys(Keys.TAB).build().perform();
-		act.sendKeys("BG-Monitor information for-" + date + " from " + gTimeA5min + " to " + gTimeA15min).build().perform();
+		act.sendKeys("BG-Showing monitor information for "+ stName1+" on "+ date + " from " + gTimeA5min + " to " + gTimeA15min).build().perform();
 		act.sendKeys(Keys.PAGE_DOWN).build().perform();
 		Thread.sleep(1000);
 		userTypeMonitor.click();

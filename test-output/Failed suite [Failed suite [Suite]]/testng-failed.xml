@@ -6,13 +6,12 @@
       <class name="live_functions.A_testClass_dailyCheckPointList">
         <methods>
           <include name="logOut"/>
-          <include name="sendMessageChatGrouCreatedByResource"/>
           <include name="backToHomePage2"/>
           <include name="BeforeSuite"/>
           <include name="AfterTest"/>
           <include name="backToHomePage"/>
           <include name="BeforeTest"/>
-          <include name="addStationUserForStation06"/>
+          <include name="createStormAlarm"/>
           <include name="AfterSute"/>
           <include name="lounchBrowser"/>
         </methods>

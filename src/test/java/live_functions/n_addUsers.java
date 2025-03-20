@@ -64,8 +64,8 @@ public class n_addUsers extends  B_baseClass {
 		 @FindBy(xpath="//a[text()=\"Finish\"]")private WebElement finishAddUserProcess;
 		
 		 
-		
-		// @FindBy(xpath="")private WebElement ;
+			@FindBy(xpath="//div[text()=\"Assign Firefighter\"]")private WebElement SaveBasicDetails;
+	
 		// @FindBy(xpath="")private WebElement ;
 		// @FindBy(xpath="")private WebElement ;
 		// @FindBy(xpath="")private WebElement ;
@@ -86,6 +86,8 @@ public class n_addUsers extends  B_baseClass {
 			 @FindBy(xpath="//button[text()=\"Remove\"]")private WebElement remove;
 			 @FindBy(xpath="//button[text()=\"Yes, Please\"]")private WebElement yesPlease;
 			
+			 
+			 
 		 
 
 		public n_addUsers(WebDriver driver) {
@@ -144,7 +146,19 @@ public class n_addUsers extends  B_baseClass {
 		Thread.sleep(4000);		
 		saveBasicDetails.click();
 		
-		Reporter.log("basic detailas save successfully.",true );
+		if (SaveBasicDetails.isDisplayed())
+		{
+			Reporter.log("Users basic detailas save successfully.",true );
+		}
+		
+		else 
+		
+		{
+			Reporter.log("Users basic detailas not save.",true );
+		}
+		
+		
+	
 		
 		Thread.sleep(2000);	
 		
@@ -216,7 +230,17 @@ public class n_addUsers extends  B_baseClass {
 		Thread.sleep(4000);		
 		saveBasicDetails.click();
 		
-		Reporter.log("basic detailas save successfully.",true );
+		if (SaveBasicDetails.isDisplayed())
+		{
+			Reporter.log("Users basic detailas save successfully.",true );
+		}
+		
+		else 
+		
+		{
+			Reporter.log("Users basic detailas not save.",true );
+		}
+		
 		
 		Thread.sleep(2000);	
 		
@@ -396,7 +420,17 @@ public class n_addUsers extends  B_baseClass {
 //		act.sendKeys("Qwerty@123").perform();
 		
 		saveBasicDetails.click();
-		Reporter.log("basic detailas save successfully.",true );
+		if (SaveBasicDetails.isDisplayed())
+		{
+			Reporter.log("Users basic detailas save successfully.",true );
+		}
+		
+		else 
+		
+		{
+			Reporter.log("Users basic detailas not save.",true );
+		}
+		
 		
 		Thread.sleep(2000);	
 		
@@ -545,7 +579,7 @@ public class n_addUsers extends  B_baseClass {
 				
 			
 			act.sendKeys(Keys.TAB).perform();
-			Thread.sleep(1000);
+			Thread.sleep(3000);
 			
 //			userNameField.click();
 //			Thread.sleep(1000);
@@ -582,7 +616,19 @@ public class n_addUsers extends  B_baseClass {
 //		act.sendKeys("Qwerty@123").perform();
 		
 		saveBasicDetails.click();
-		Reporter.log("basic detailas save successfully.",true );
+		Thread.sleep(4000);	
+		
+		if (SaveBasicDetails.isDisplayed())
+		{
+			Reporter.log("Users basic detailas save successfully.",true );
+		}
+		
+		else 
+		
+		{
+			Reporter.log("Users basic detailas not save.",true );
+		}
+		
 		
 		Thread.sleep(2000);	
 		

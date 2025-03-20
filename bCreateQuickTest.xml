@@ -9,7 +9,8 @@
 				<include name="userDetails"  />
 	     	
 	     	
-	      
+	      	<include name="sendmessageToApiAlarmUser"  />
+	      	<include name="sendmessageToNewApiAlarmUser"  />
 	   	 	
 			
 			<include name="createManualAlarmByAttribute"  />

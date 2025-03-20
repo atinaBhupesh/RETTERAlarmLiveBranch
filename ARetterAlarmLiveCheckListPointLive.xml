@@ -12,6 +12,7 @@
 			
 			
 				<include name="sendmessageToApiAlarmUser"  />
+				<include name="sendmessageToNewApiAlarmUser"  />
 
 			<include name="createManualAlarmByAttribute"  />
 			<include name="createManualAlarmByResource"  />
@@ -74,17 +75,15 @@
 			<include name="createChatgroupByFirefighter"  /> 
 			<include name="createChatgroupByAlarmloop"  /> 
 			
+			
+		
+			<include name="sendmessageToTestAlarmUsers"  />
+			
 			<include name="sendMessageChatGrouCreatedByAttribute"  /> 
 			<include name="sendMessageChatGrouCreatedByResource"  /> 
 			<include name="sendMessageChatGrouCreatedByFirefighter"  /> 
 			<include name="sendMessageChatGrouCreatedByAlarmLoop"  />
 		
-		
-			<include name="SendmessagetoARUsers"  />
-			<include name="sendmessageToinfoUsers"/>"
-			<include name="sendmessageToinfoEventUsers"/>
-		
-			<include name="sendmessageToTestAlarmUsers"  />
 			
 			
 			
@@ -113,6 +112,9 @@
 			<include name="cretecalendarEventFirefighterSchedule"  /> 
 		 
 			
+			<include name="SendmessagetoARUsers"  />
+			<include name="sendmessageToinfoUsers"/>"
+			<include name="sendmessageToinfoEventUsers"/>
  
 			
 			
@@ -123,7 +125,8 @@
 			
 			
 			
-			
+		
+		
 			
 			
 			

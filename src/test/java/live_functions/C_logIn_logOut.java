@@ -8,14 +8,10 @@ import org.openqa.selenium.support.PageFactory;
 
 public class C_logIn_logOut extends B_baseClass {
 
-	@FindBy(xpath = "//input[@id=\"u\"]")
-	private WebElement userNameField;
-	@FindBy(xpath = "//input[@id=\"p\"]")
-	private WebElement passwordField;
-	@FindBy(xpath = "//button[@id=\"addSubmit\"]")
-	private WebElement logInButton;
-	@FindBy(xpath = "//a[@href=\"/admin/users/logout\"]")
-	private WebElement logOutButton;
+	@FindBy(xpath = "//input[@id=\"u\"]")private WebElement userNameField;
+	@FindBy(xpath = "//input[@id=\"p\"]")	private WebElement passwordField;
+	@FindBy(xpath = "//button[@id=\"addSubmit\"]")	private WebElement logInButton;
+	@FindBy(xpath = "//a[@href=\"/admin/users/logout\"]")	private WebElement logOutButton;
 
 	public C_logIn_logOut(WebDriver driver) {
 		PageFactory.initElements(driver, this);

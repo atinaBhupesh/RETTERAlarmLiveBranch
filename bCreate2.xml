@@ -7,12 +7,12 @@
       
        <methods>
 				<include name="userDetails"  />
+		 
 				
 	
-			<include name="createMonitorInformation01" />
-			<include name="createMonitorInformation02"  />
-
-	
+		
+			<include name="manualAlarmEclation07to06"  /> 
+			
 			 <include name="detailsAboutScript"  />  
       </methods>
     </classes>
