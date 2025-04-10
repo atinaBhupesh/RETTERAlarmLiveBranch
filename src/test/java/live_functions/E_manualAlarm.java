@@ -24,12 +24,10 @@ public class E_manualAlarm extends B_baseClass
 	String BranchNameB3 =BranchNameB;
 
 	@FindBy(xpath = "//span[text()=\"Alarm\"]")private WebElement manualAlarmModule;
-	@FindBy(xpath = "//a[@href=\"http://live.retteralarm.de/admin/Alarms/index\"]")
-	private WebElement manageAlarmL;
-	@FindBy(xpath = "//a[@href=\"http://testing.retteralarm.de/admin/Alarms/index\"]")
-	private WebElement manageAlarmT;
-	@FindBy(xpath = "//a[@href=\"http://development.retteralarm.de/admin/Alarms/index\"]")
-	private WebElement manageAlarmD;
+	
+	@FindBy(xpath = "//a[@href=\"http://live.retteralarm.de/admin/Alarms/index\"]")private WebElement manageAlarmL;
+	@FindBy(xpath = "//a[@href=\"http://admin.testing.retteralarm.de/verify-user?returnUrl=/admin/alarm/list\"]")private WebElement manageAlarmT;
+	@FindBy(xpath = "//a[@href=\"http://development.retteralarm.de/admin/Alarms/index\"]")	private WebElement manageAlarmD;
 
 	@FindBy(xpath = "//button[@class=\"btn btn-success\"]")
 	private WebElement createNewButton;
@@ -216,7 +214,7 @@ public class E_manualAlarm extends B_baseClass
 
 		Actions act = new Actions(driver);
 
-		for (int i = 0; i <= 20; i++) {
+		for (int i = 0; i <= 30; i++) {
 			createNewButton.click();
 
 			fireDepartmentField.click();
@@ -1191,9 +1189,9 @@ public class E_manualAlarm extends B_baseClass
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
-
+		Thread.sleep(2000);
 		fireDepartmentField.click();
-
+		Thread.sleep(2000);
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
@@ -1571,7 +1569,7 @@ public class E_manualAlarm extends B_baseClass
 
 		searchField.click();
 
-		act.sendKeys("BG- New APi low st 06 from 07").build().perform();
+		act.sendKeys("BG-EX API E-v2 St 06 from 07 LP").build().perform();
 
 		searchButton.click();
 		Thread.sleep(2000);
@@ -1668,7 +1666,7 @@ public class E_manualAlarm extends B_baseClass
 
 		searchField.click();
 
-		act.sendKeys("BG-EX LP API Alarm Email v2-St 06 from 07").build().perform();
+		act.sendKeys("BG-EX API E-v2 St 06 from 07 LP").build().perform();
 
 		searchButton.click();
 		Thread.sleep(2000);
@@ -1857,8 +1855,7 @@ public class E_manualAlarm extends B_baseClass
 		act.sendKeys("BG").build().perform();
 
 
-//		int z = availableDataCount.size();
-//		Reporter.log("The total available manual alarms count is-" + z + " in the list for delete.", true);
+
 
 		for (int i = 1; i <= 100; i++) {
 			

@@ -9,15 +9,11 @@
 				<include name="userDetails" />
 
 						
-						
-<include name="deactiveMonthlyTestAlarmFromOverview" />
-		
+				<include name="deleteTestAlarmFromOverview_monthly"  /> 
+			
 				
-				<exclude name="deleteAllManualAlarm" />
-			<exclude name="deactiveManualAlarm" />
-			<exclude name="deleteTestAlarmFromOverview_monthly" />
-			<exclude name="deactiveMonthlyTestAlarmFromOverview" />
-				<include name="detailsAboutScript" />
+				
+				
 
 			</methods>
 

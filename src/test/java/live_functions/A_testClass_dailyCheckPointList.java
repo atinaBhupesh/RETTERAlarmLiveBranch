@@ -69,6 +69,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	C_logIn_logOut lp;
 	D_homePage hp;
 	E_manualAlarm ma;
+	E_manualAlarm2 ma2;
 	F_information ip;
 	G_InfoEvent ep;
 	AAAAA_timeClasss tmc;
@@ -135,6 +136,9 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 
 		hp.langChange(driver);
 		ma = new E_manualAlarm(driver);
+		ma2 = new E_manualAlarm2 (driver) ;
+		
+		
 		ip = new F_information(driver);
 		ep = new G_InfoEvent(driver);
 		tmc = new AAAAA_timeClasss();
@@ -227,7 +231,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 
 	@BeforeMethod
 	public void backToHomePage() throws Throwable {
-		hp.backToHomePage(driver);
+		hp.backToHomePage(driver, BranchNameB);
 
 	}
 	@Test
@@ -940,6 +944,7 @@ gTimeA5min = tmc.germanyTimeAfter5Minutes;
 		Reporter.log("The process of creating a manual alarm by attribute is started.", true);
 		ma.manualAlarmCommon(driver,BranchNameB);
 		ma.manualAlarmByAttribute(driver, date, deptName, St1N, St1V1,  St1V2, BranchNameB);
+//		ma2.manualAlarmByAttribute(driver, date, deptName, St1N, St1V1,  St1V2,st01A1, BranchNameB);
 		Reporter.log("The process of creating a manual alarm by attribute is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -952,6 +957,8 @@ gTimeA5min = tmc.germanyTimeAfter5Minutes;
 		Reporter.log("The process of creating a manual alarm by resource is started.", true);
 		ma.manualAlarmCommon(driver,BranchNameB);
 		ma.manualAlarmByResource(driver, date,deptName,St1N, BranchNameB);
+//		ma2.manualAlarmByResource(driver, date,deptName,St1N, st01R1, BranchNameB);
+		
 		Reporter.log("The process of creating a manual alarm by resource is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -987,7 +994,9 @@ gTimeA5min = tmc.germanyTimeAfter5Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a manual alarm by firefighter is started.", true);
 		ma.manualAlarmCommon(driver,BranchNameB);
-		ma.manualAlarmByFireFighter(driver, date,  deptName,  St1N,  St1V1,  St1V2, BranchNameB);
+//		ma.manualAlarmByFireFighter(driver, date,  deptName,  St1N,  St1V1,  St1V2, BranchNameB);
+		
+		
 		Reporter.log("The process of creating a manual alarm by firefighter is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);
@@ -1455,7 +1464,7 @@ gTimeA5min = tmc.germanyTimeAfter5Minutes;
 	@AfterMethod
 
 	public void backToHomePage2() throws Throwable {
-		hp.backToHomePage(driver);
+		hp.backToHomePage(driver,BranchNameB);
 
 	}
 

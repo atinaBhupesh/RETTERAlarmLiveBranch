@@ -11,11 +11,9 @@
           <include name="AfterTest"/>
           <include name="backToHomePage"/>
           <include name="BeforeTest"/>
-          <include name="addFirefighter1ForNewStation06"/>
-          <include name="addStationUserForStation06"/>
-          <include name="sendmessageToApiAlarmUser"/>
-          <include name="AfterSute"/>
+          <include name="createAvailabilityRequestSendImmediat"/>
           <include name="lounchBrowser"/>
+          <include name="AfterSute"/>
         </methods>
       </class> <!-- live_functions.A_testClass_dailyCheckPointList -->
     </classes>

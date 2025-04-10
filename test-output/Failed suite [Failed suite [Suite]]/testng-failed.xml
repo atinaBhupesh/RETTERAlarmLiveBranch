@@ -11,9 +11,10 @@
           <include name="AfterTest"/>
           <include name="backToHomePage"/>
           <include name="BeforeTest"/>
-          <include name="createStormAlarm"/>
-          <include name="AfterSute"/>
+          <include name="addFirefighter1ForNewStation06"/>
+          <include name="sendmessageToAlarmUser"/>
           <include name="lounchBrowser"/>
+          <include name="AfterSute"/>
         </methods>
       </class> <!-- live_functions.A_testClass_dailyCheckPointList -->
     </classes>

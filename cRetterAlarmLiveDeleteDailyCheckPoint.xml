@@ -17,7 +17,6 @@
 				<include name="deleteTestAlarmFromOverview" />
 				<include name="deleteTestAlarmFromList" />
 
-
 				<include name="deleteInfoEvent" />
 
 				<include name="deleteAllBGCalendarEvent" />

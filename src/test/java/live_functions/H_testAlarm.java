@@ -351,9 +351,11 @@ public class H_testAlarm extends B_baseClass
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
-		
+		Thread.sleep(2000);
+
 		fireDepartmentField.click();
-	
+		Thread.sleep(2000);
+
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 	
@@ -464,13 +466,14 @@ public class H_testAlarm extends B_baseClass
 		if  (BranchNameB.equals("1")||BranchNameB.equals("2")||BranchNameB.equals("3"))
 		{
 			fireDepartmentField.click();
+			Thread.sleep(2000);
 			act.sendKeys(deptName).build().perform();
 			Thread.sleep(2000);
 			act.sendKeys(Keys.ENTER).build().perform();
 			Thread.sleep(2000);
 			
 			fireStationField.click();
-
+			Thread.sleep(2000);
 			act.sendKeys(St1N).build().perform();
 			Thread.sleep(2000);
 			act.sendKeys(Keys.ENTER).build().perform();
@@ -605,9 +608,11 @@ public class H_testAlarm extends B_baseClass
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
+		Thread.sleep(2000);
 		if  (BranchNameB.equals("1")||BranchNameB.equals("2")||BranchNameB.equals("3"))
 		{
 			fireDepartmentField.click();
+			Thread.sleep(2000);
 			act.sendKeys(deptName).build().perform();
 			Thread.sleep(2000);
 			act.sendKeys(Keys.ENTER).build().perform();

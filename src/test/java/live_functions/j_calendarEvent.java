@@ -625,7 +625,9 @@ public class j_calendarEvent extends B_baseClass {
 			
 		}
 		addEventCatogery.click();
+		Thread.sleep(1000);
 		SelectDepartment.click();
+		Thread.sleep(1000);
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(1000);
 		act.sendKeys(Keys.ENTER).build().perform();

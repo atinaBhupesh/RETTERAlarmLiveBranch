@@ -108,7 +108,7 @@ public class AAA_testClass_delete extends B_baseClass {
 
 	@BeforeMethod
 	public void backToHomePage() throws Throwable {
-		hp.backToHomePage(driver);
+		hp.backToHomePage(driver, BranchNameB);
 
 	}
 	
@@ -508,7 +508,7 @@ public class AAA_testClass_delete extends B_baseClass {
 	@AfterMethod
 
 	public void backToHomePage2() throws Throwable {
-		hp.backToHomePage(driver);
+		hp.backToHomePage(driver,BranchNameB);
 
 	}
 
