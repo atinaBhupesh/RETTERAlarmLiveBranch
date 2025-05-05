@@ -8,12 +8,10 @@
 				<include name="userDetails" />
 
 
-				<include name="deactiveManualAlarm" />
+				<include name="deleteUers" />
 
-				<include name="deactiveTestAlarmFromOverview" />
-
-				<include name="deleteManualAlarm" />
-
+				<include name="deleteVehicleUser" />
+				
 				<include name="deleteTestAlarmFromOverview" />
 				<include name="deleteTestAlarmFromList" />
 
@@ -34,13 +32,13 @@
 				<include name="deleteAlarmLoop" />
 
 
-				<include name="deleteUers" />
+				
 				
 				<include name="deleteResource" />
 				
 				<include name="deleteAttribute" />
 				
-				<include name="deleteVehicleUser" />
+			
 				
 				<include name="deleteChatGroup" />
 				

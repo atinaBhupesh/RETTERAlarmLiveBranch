@@ -239,8 +239,10 @@ public class H_testAlarm extends B_baseClass
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
+		Thread.sleep(2000);
 		
 		fireDepartmentField.click();
+		Thread.sleep(2000);
 	
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
@@ -740,8 +742,10 @@ public class H_testAlarm extends B_baseClass
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
+		Thread.sleep(2000);
 		
 		fireDepartmentField.click();
+		Thread.sleep(2000);
 	
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);

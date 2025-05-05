@@ -216,9 +216,9 @@ public class E_manualAlarm extends B_baseClass
 
 		for (int i = 0; i <= 30; i++) {
 			createNewButton.click();
-
+			Thread.sleep(2000);
 			fireDepartmentField.click();
-
+			Thread.sleep(2000);
 			act.sendKeys("Andrew").build().perform();
 			Thread.sleep(2000);
 			act.sendKeys(Keys.ENTER).build().perform();
@@ -748,7 +748,7 @@ public class E_manualAlarm extends B_baseClass
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
-
+		Thread.sleep(2000);
 
 		if  (BranchNameB.equals("1")||BranchNameB.equals("2")||BranchNameB.equals("3"))
 		{
@@ -862,9 +862,9 @@ public class E_manualAlarm extends B_baseClass
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
-
+		Thread.sleep(2000);
 		fireDepartmentField.click();
-
+		Thread.sleep(2000);
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
@@ -1054,9 +1054,9 @@ public class E_manualAlarm extends B_baseClass
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
-
+		Thread.sleep(2000);
 		fireDepartmentField.click();
-
+		Thread.sleep(2000);
 		act.sendKeys("bhupesh").build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
@@ -1267,9 +1267,9 @@ public class E_manualAlarm extends B_baseClass
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
-
+		Thread.sleep(2000);
 		fireDepartmentField.click();
-
+		Thread.sleep(2000);
 		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();

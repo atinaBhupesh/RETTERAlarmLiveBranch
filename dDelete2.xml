@@ -9,7 +9,10 @@
 				<include name="userDetails" />
 
 						
-				<include name="deleteTestAlarmFromOverview_monthly"  /> 
+		<include name="deleteUers" />
+
+				<include name="deleteVehicleUser" />
+				
 			
 				
 				

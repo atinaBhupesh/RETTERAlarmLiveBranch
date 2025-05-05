@@ -5,15 +5,20 @@
     <classes>
       <class name="live_functions.A_testClass_dailyCheckPointList">
         <methods>
-          <include name="logOut"/>
-          <include name="backToHomePage2"/>
+          <include name="sendMessageChatGrouCreatedByResource"/>
           <include name="BeforeSuite"/>
-          <include name="AfterTest"/>
+          <include name="addVehicleUserForStation06"/>
           <include name="backToHomePage"/>
           <include name="BeforeTest"/>
           <include name="addFirefighter1ForNewStation06"/>
-          <include name="sendmessageToAlarmUser"/>
           <include name="lounchBrowser"/>
+          <include name="logOut"/>
+          <include name="backToHomePage2"/>
+          <include name="AfterTest"/>
+          <include name="addStationUserForStation06"/>
+          <include name="sendMessageChatGrouCreatedByAlarmLoop"/>
+          <include name="sendMessageChatGrouCreatedByAttribute"/>
+          <include name="sendMessageChatGrouCreatedByFirefighter"/>
           <include name="AfterSute"/>
         </methods>
       </class> <!-- live_functions.A_testClass_dailyCheckPointList -->

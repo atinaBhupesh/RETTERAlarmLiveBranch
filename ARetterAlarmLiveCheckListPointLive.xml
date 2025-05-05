@@ -107,14 +107,16 @@
             <include name="createAlamTemplate"  /> 
              <include name="addEventCategory"  /> 
              
+             	<include name="SendmessagetoARUsers"  />
+			<include name="sendmessageToinfoUsers"/>"
+			<include name="sendmessageToinfoEventUsers"/>
+             
             <include name="cretecalendarEventAttributeSchedule"  /> 
 			<include name="cretecalendarEventResourceSchedule"  /> 
 			<include name="cretecalendarEventFirefighterSchedule"  /> 
 		 
 			
-			<include name="SendmessagetoARUsers"  />
-			<include name="sendmessageToinfoUsers"/>"
-			<include name="sendmessageToinfoEventUsers"/>
+		
  
 			
 			

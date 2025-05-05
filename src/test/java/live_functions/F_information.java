@@ -447,10 +447,10 @@ switch (BranchNameB) {
 
 		for (int i = 1; i <= 200; i++) {
 			Thread.sleep(2000);
-			searchField.click();
-			act.sendKeys("BG").build().perform();
-			searchButton.click();
-			Thread.sleep(2000);
+//			searchField.click();
+//			act.sendKeys("BG").build().perform();
+//			searchButton.click();
+//			Thread.sleep(2000);
 			delete.click();
 			Thread.sleep(5000);
 			deleteYes.click();

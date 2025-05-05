@@ -107,7 +107,6 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void BeforeTest () throws Throwable
 	{
 		lp = new C_logIn_logOut(driver);
-		hp = new D_homePage(driver);
 		
 	
 		
@@ -130,6 +129,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 	public void lounchBrowser() throws Throwable {
 
 	
+		hp = new D_homePage(driver);
 		
 
 		
