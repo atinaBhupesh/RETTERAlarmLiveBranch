@@ -10,19 +10,13 @@
 		 
 		
   
-	
+		<include name="deleteInfoEvent" />
 
 			
 		
 		
 		
 			
-			
-			
-			 <include name="addStationUserForStation06"/>
-			 <include name="addFirefighter1ForNewStation06"/>
-			  <include name="addFirefighter2ForNewStation06"/>
-			 <include name="addVehicleUserForStation06"  />
 			
 			
 			

@@ -39,7 +39,7 @@ public class s_alarmTemplate extends  B_baseClass {
 			 @FindBy(xpath = "//td[contains(text(),\"BG-Template\")]")
 				private List<WebElement> availableDataCount; 
 			 
-			 @FindBy(xpath = "//input[@value=\"15429\"]") private WebElement ADST06A2;
+			 @FindBy(xpath = "//input[@value=\"20516\"]")private WebElement ADST06A2;
 			 
 				@FindBy(xpath="//input[@value=\"2170\"]")private WebElement D1ST04A1;
 			 

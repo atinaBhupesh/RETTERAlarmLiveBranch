@@ -11,9 +11,9 @@
           <include name="AfterTest"/>
           <include name="backToHomePage"/>
           <include name="BeforeTest"/>
-          <include name="createInfoEventByResource"/>
-          <include name="AfterSute"/>
+          <include name="createAlamTemplate"/>
           <include name="lounchBrowser"/>
+          <include name="AfterSute"/>
         </methods>
       </class> <!-- live_functions.A_testClass_dailyCheckPointList -->
     </classes>

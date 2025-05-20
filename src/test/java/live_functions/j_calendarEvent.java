@@ -106,14 +106,10 @@ public class j_calendarEvent extends B_baseClass {
 	@FindBy(xpath = "//button[@id=\"delYes1\"]")
 	private WebElement deleteYes;
 
-	@FindBy(xpath = "//input[@value=\"15429\"]")
-	private WebElement ADST06A2;
-	@FindBy(xpath = "//input[@value=\"3136\"]")
-	private WebElement ADST06R2;
-	@FindBy(xpath = "//input[@value=\"23001\"]")
-	private WebElement jonas3;
-	@FindBy(xpath = "//input[@value=\"22999\"]")
-	private WebElement jonas2;
+	@FindBy(xpath = "//input[@value=\"20516\"]")private WebElement ADST06A2;
+    @FindBy(xpath = "//input[@value=\"4623\"]")private WebElement ADST06R2;
+    @FindBy(xpath = "//input[@value=\"22999\"]")private WebElement jonas2;
+	@FindBy(xpath = "//input[@value=\"23001\"]")private WebElement jonas3;
 //			 @FindBy(xpath = "//input[@value=\"27026\"]")private WebElement bhupeshLive;
 
 

@@ -80,13 +80,11 @@ public class F_information extends B_baseClass {
 	 @FindBy(xpath="//span[contains(text(),\"BG\")]")private List<WebElement> availableDataCount; 
 	
 	//Live
-	@FindBy(xpath = "//input[@value=\"15429\"]")private WebElement ADST06A2;
-	@FindBy(xpath = "//input[@value=\"3136\"]")private WebElement ADST06R2;
-	@FindBy(xpath = "//input[@value=\"22999\"]")private WebElement jonas2;
-	@FindBy(xpath = "//input[@value=\"23001\"]")private WebElement jonas3;
-//	@FindBy(xpath = "//input[@value=\"25512\"]")private WebElement bhupeshLive2;
-	@FindBy(xpath = "//input[@value=\"25626\"]")
-	private WebElement ADST06M1;
+	 @FindBy(xpath = "//input[@value=\"20516\"]")private WebElement ADST06A2;
+	    @FindBy(xpath = "//input[@value=\"4623\"]")private WebElement ADST06R2;
+	    @FindBy(xpath = "//input[@value=\"22999\"]")private WebElement jonas2;
+		@FindBy(xpath = "//input[@value=\"23001\"]")private WebElement jonas3;
+		@FindBy(xpath = "//input[@value=\"25626\"]")private WebElement ADST06M1;
 	
 
 //	 Testing 
@@ -442,15 +440,23 @@ switch (BranchNameB) {
 		}
 	
 		
-//		int z=availableDataCount.size();
+		int z=availableDataCount.size();
 //		Reporter.log("The total available information or event count is-"+z+" in the list for delate.",true);
+		
+		int totalInfo=0;
+		
 
 		for (int i = 1; i <= 200; i++) {
+			if (z==0)
+			{
+				break;
+			}
+			
 			Thread.sleep(2000);
-//			searchField.click();
-//			act.sendKeys("BG").build().perform();
-//			searchButton.click();
-//			Thread.sleep(2000);
+			searchField.click();
+			act.sendKeys("BG").build().perform();
+			searchButton.click();
+			Thread.sleep(2000);
 			delete.click();
 			Thread.sleep(5000);
 			deleteYes.click();

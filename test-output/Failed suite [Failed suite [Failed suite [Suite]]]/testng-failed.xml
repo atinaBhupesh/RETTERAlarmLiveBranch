@@ -11,7 +11,7 @@
           <include name="AfterTest"/>
           <include name="backToHomePage"/>
           <include name="BeforeTest"/>
-          <include name="createAvailabilityRequestSendImmediat"/>
+          <include name="createAlamTemplate"/>
           <include name="lounchBrowser"/>
           <include name="AfterSute"/>
         </methods>
