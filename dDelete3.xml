@@ -49,7 +49,7 @@
 				
 				<include name="deleteFireStation" />
 				
-				<include name="deleteAlarmTemplate" />
+			
 				
 				<include name="deleteEventCategory" />
 

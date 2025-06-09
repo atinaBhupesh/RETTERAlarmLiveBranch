@@ -8,16 +8,42 @@
 
 				<include name="userDetails" />
 
-						
-		<include name="deleteUers" />
 
-				<include name="deleteVehicleUser" />
-				
-			
-						<include name="deleteTestAlarmFromOverview_monthly" />
-				
-				
 
+
+				
+				<include name="deactiveTestAlarmFromOverview" />
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+               <exclude name="deleteAllManualAlarm" />
 			</methods>
 
 

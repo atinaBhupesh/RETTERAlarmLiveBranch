@@ -11,22 +11,20 @@
           <include name="deleteAlarmTemplate"/>
           <include name="deleteVehicleUser"/>
           <include name="deleteCheckList"/>
-          <include name="deleteTestAlarmFromList"/>
           <include name="deleteChatGroup"/>
           <include name="backToHomePage"/>
           <include name="deleteARFromHistory"/>
+          <include name="deleteTestAlarmFromOverview_monthly"/>
+          <include name="deactiveTestAlarmFromOverview"/>
           <include name="deletePermissionGroup"/>
           <include name="deleteARFromList"/>
           <include name="deleteAlarmLoop"/>
-          <include name="detailsAboutScript"/>
           <include name="logOut"/>
           <include name="deleteFireStation"/>
           <include name="deleteInfoEvent"/>
-          <include name="deleteResource"/>
           <include name="deleteAttribute"/>
           <include name="deleteUers"/>
           <include name="deleteEventCategory"/>
-          <include name="deleteTestAlarmFromOverview"/>
         </methods>
       </class> <!-- live_functions.AAA_testClass_delete -->
     </classes>
