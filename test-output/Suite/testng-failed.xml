@@ -3,30 +3,24 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="live_functions.AAA_testClass_delete">
+      <class name="live_functions.A_testClass_dailyCheckPointList">
         <methods>
-          <include name="backToHomePage2"/>
-          <include name="lounchBrowser"/>
-          <include name="deleteAllBGCalendarEvent"/>
-          <include name="deleteAlarmTemplate"/>
-          <include name="deleteVehicleUser"/>
-          <include name="deleteCheckList"/>
-          <include name="deleteChatGroup"/>
+          <include name="createTestAlarmByAttributeRecursiveMontlyDateWise"/>
+          <include name="BeforeSuite"/>
+          <include name="createInfoEventByAttribute"/>
+          <include name="addVehicleUserForStation06"/>
           <include name="backToHomePage"/>
-          <include name="deleteARFromHistory"/>
-          <include name="deleteTestAlarmFromOverview_monthly"/>
-          <include name="deactiveTestAlarmFromOverview"/>
-          <include name="deletePermissionGroup"/>
-          <include name="deleteARFromList"/>
-          <include name="deleteAlarmLoop"/>
+          <include name="BeforeTest"/>
+          <include name="addFirefighter1ForNewStation06"/>
+          <include name="lounchBrowser"/>
+          <include name="addFirefighter2ForNewStation06"/>
           <include name="logOut"/>
-          <include name="deleteFireStation"/>
-          <include name="deleteInfoEvent"/>
-          <include name="deleteAttribute"/>
-          <include name="deleteUers"/>
-          <include name="deleteEventCategory"/>
+          <include name="backToHomePage2"/>
+          <include name="AfterTest"/>
+          <include name="addStationUserForStation06"/>
+          <include name="AfterSute"/>
         </methods>
-      </class> <!-- live_functions.AAA_testClass_delete -->
+      </class> <!-- live_functions.A_testClass_dailyCheckPointList -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
