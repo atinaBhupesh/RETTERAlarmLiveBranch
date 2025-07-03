@@ -11,7 +11,8 @@
 		
   
 	
-
+			<include name="createMonitorInformation01" />
+			<include name="createMonitorInformation02"  />
 			
          	<include name="createTestAlarmByAttributeOneTime"  />
         	<include name="createTestAlarmByAttributeRecursivedaily"  />
@@ -22,8 +23,7 @@
 			
 		
 			
-			<include name="createMonitorInformation01" />
-			<include name="createMonitorInformation02"  />
+		
 		
 			
 			

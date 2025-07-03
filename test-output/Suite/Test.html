@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>40/6/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>42/3/1</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jun 13 12:22:24 IST 2025</td>
+<td>Started on:</td><td>Thu Jul 03 11:49:34 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>2378 seconds (2378834 ms)</td>
+<tr><td>Total time:</td><td>2557 seconds (2557161 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,24 +76,24 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createTestAlarmByAttributeRecursiveMontlyDateWise()'><b>createTestAlarmByAttributeRecursiveMontlyDateWise</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-994084545" onClick='toggleBox("Output-994084545", this, "Show output", "Hide output");'>Show output</a>
+<td title='live_functions.A_testClass_dailyCheckPointList.createInfoEventByAttributeSchedule()'><b>createInfoEventByAttributeSchedule</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-128654041" onClick='toggleBox("Output-128654041", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-994084545" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-994084545">
+<a href="#Output-128654041" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-128654041">
  <br/>
-The process of creating a test alarm by alarm loop 2 with remindar recursive > monthly > date wise is started.<br/>
+The process of create info-event schedule by attribute is started.<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: MicrosoftEdge=137.0.3296.68)
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&quot;selectCheckboxes&quot;]&quot;}
+  (Session info: chrome=138.0.7204.97)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [d2026f7bbaa4e811cd2e6601c61e3d77, clickElement {id=f.2ABC4C5699BCA160FA6CF7512ADFC73D.d.EB3A5D339558748D87F9B9D7F795B283.e.601}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55520}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55520/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (d2026f7bbaa4e811cd2e6601c61e3d77)] -&gt; xpath: //a[@href=&quot;http://live.retteralarm.de/admin/TestAlarms/test_list&quot;]]
-Session ID: d2026f7bbaa4e811cd2e6601c61e3d77
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1411649d0ff843694b85c70ab5d6b9a8, findElement {using=xpath, value=//input[@id=&quot;selectCheckboxes&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50088/devtoo..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1411649d0ff843694b85c70ab5d6b9a8
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
@@ -101,23 +101,26 @@ Session ID: d2026f7bbaa4e811cd2e6601c61e3d77
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at live_functions.H_testAlarm.testAlarmCommon(H_testAlarm.java:188)
-	at live_functions.A_testClass_dailyCheckPointList.createTestAlarmByAttributeRecursiveMontlyDateWise(A_testClass_dailyCheckPointList.java:929)
+	at live_functions.G_InfoEvent.createEventByAttributeSchedule(G_InfoEvent.java:146)
+	at live_functions.A_testClass_dailyCheckPointList.createInfoEventByAttributeSchedule(A_testClass_dailyCheckPointList.java:1165)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace994084545", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace994084545'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: MicrosoftEdge=137.0.3296.68)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace128654041", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace128654041'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&quot;selectCheckboxes&quot;]&quot;}
+  (Session info: chrome=138.0.7204.97)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [d2026f7bbaa4e811cd2e6601c61e3d77, clickElement {id=f.2ABC4C5699BCA160FA6CF7512ADFC73D.d.EB3A5D339558748D87F9B9D7F795B283.e.601}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55520}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55520/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (d2026f7bbaa4e811cd2e6601c61e3d77)] -&gt; xpath: //a[@href=&quot;http://live.retteralarm.de/admin/TestAlarms/test_list&quot;]]
-Session ID: d2026f7bbaa4e811cd2e6601c61e3d77
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1411649d0ff843694b85c70ab5d6b9a8, findElement {using=xpath, value=//input[@id=&quot;selectCheckboxes&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50088/devtoo..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1411649d0ff843694b85c70ab5d6b9a8
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -130,15 +133,15 @@ Session ID: d2026f7bbaa4e811cd2e6601c61e3d77
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at live_functions.H_testAlarm.testAlarmCommon(H_testAlarm.java:188)
-	at live_functions.A_testClass_dailyCheckPointList.createTestAlarmByAttributeRecursiveMontlyDateWise(A_testClass_dailyCheckPointList.java:929)
+	at live_functions.G_InfoEvent.createEventByAttributeSchedule(G_InfoEvent.java:146)
+	at live_functions.A_testClass_dailyCheckPointList.createInfoEventByAttributeSchedule(A_testClass_dailyCheckPointList.java:1165)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -168,417 +171,27 @@ Session ID: d2026f7bbaa4e811cd2e6601c61e3d77
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>12</td>
+<td>33</td>
 <td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
 <tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.addFirefighter2ForNewStation06()'><b>addFirefighter2ForNewStation06</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1183653836" onClick='toggleBox("Output-1183653836", this, "Show output", "Hide output");'>Show output</a>
+<td title='live_functions.A_testClass_dailyCheckPointList.cretecalendarEventFirefighterSchedule()'><b>cretecalendarEventFirefighterSchedule</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1397351183" onClick='toggleBox("Output-1397351183", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1183653836" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1183653836">
+<a href="#Output-1397351183" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1397351183">
  <br/>
-The process of add fire fighter is started.<br/>
+The process of create calendar event by Firefighter is started.<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&quot;Assign Firefighter&quot;]&quot;}
-  (Session info: MicrosoftEdge=137.0.3296.68)
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value=&quot;23001&quot;]&quot;}
+  (Session info: chrome=138.0.7204.97)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [d2026f7bbaa4e811cd2e6601c61e3d77, findElement {using=xpath, value=//div[text()=&quot;Assign Firefighter&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55520}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55520/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d2026f7bbaa4e811cd2e6601c61e3d77
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
-	at live_functions.n_addUsers.addfireFighter2ForStation06(n_addUsers.java:621)
-	at live_functions.A_testClass_dailyCheckPointList.addFirefighter2ForNewStation06(A_testClass_dailyCheckPointList.java:736)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1183653836", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1183653836'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&quot;Assign Firefighter&quot;]&quot;}
-  (Session info: MicrosoftEdge=137.0.3296.68)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [d2026f7bbaa4e811cd2e6601c61e3d77, findElement {using=xpath, value=//div[text()=&quot;Assign Firefighter&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55520}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55520/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d2026f7bbaa4e811cd2e6601c61e3d77
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
-	at live_functions.n_addUsers.addfireFighter2ForStation06(n_addUsers.java:621)
-	at live_functions.A_testClass_dailyCheckPointList.addFirefighter2ForNewStation06(A_testClass_dailyCheckPointList.java:736)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>23</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.addStationUserForStation06()'><b>addStationUserForStation06</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1586007994" onClick='toggleBox("Output-1586007994", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1586007994" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1586007994">
- <br/>
-The process of add station user is started.<br/>
-</div>
-</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&quot;Assign Firefighter&quot;]&quot;}
-  (Session info: MicrosoftEdge=137.0.3296.68)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [d2026f7bbaa4e811cd2e6601c61e3d77, findElement {using=xpath, value=//div[text()=&quot;Assign Firefighter&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55520}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55520/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d2026f7bbaa4e811cd2e6601c61e3d77
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
-	at live_functions.n_addUsers.addStationUserForStation06(n_addUsers.java:149)
-	at live_functions.A_testClass_dailyCheckPointList.addStationUserForStation06(A_testClass_dailyCheckPointList.java:681)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1586007994", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1586007994'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&quot;Assign Firefighter&quot;]&quot;}
-  (Session info: MicrosoftEdge=137.0.3296.68)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [d2026f7bbaa4e811cd2e6601c61e3d77, findElement {using=xpath, value=//div[text()=&quot;Assign Firefighter&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55520}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55520/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d2026f7bbaa4e811cd2e6601c61e3d77
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
-	at live_functions.n_addUsers.addStationUserForStation06(n_addUsers.java:149)
-	at live_functions.A_testClass_dailyCheckPointList.addStationUserForStation06(A_testClass_dailyCheckPointList.java:681)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>22</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.addFirefighter1ForNewStation06()'><b>addFirefighter1ForNewStation06</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1965184021" onClick='toggleBox("Output-1965184021", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1965184021" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1965184021">
- <br/>
-The process of add fire fighter is started.<br/>
-</div>
-</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&quot;Assign Firefighter&quot;]&quot;}
-  (Session info: MicrosoftEdge=137.0.3296.68)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [d2026f7bbaa4e811cd2e6601c61e3d77, findElement {using=xpath, value=//div[text()=&quot;Assign Firefighter&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55520}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55520/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d2026f7bbaa4e811cd2e6601c61e3d77
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
-	at live_functions.n_addUsers.addfireFighter1ForStation06(n_addUsers.java:423)
-	at live_functions.A_testClass_dailyCheckPointList.addFirefighter1ForNewStation06(A_testClass_dailyCheckPointList.java:720)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1965184021", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1965184021'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&quot;Assign Firefighter&quot;]&quot;}
-  (Session info: MicrosoftEdge=137.0.3296.68)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [d2026f7bbaa4e811cd2e6601c61e3d77, findElement {using=xpath, value=//div[text()=&quot;Assign Firefighter&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55520}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55520/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d2026f7bbaa4e811cd2e6601c61e3d77
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
-	at live_functions.n_addUsers.addfireFighter1ForStation06(n_addUsers.java:423)
-	at live_functions.A_testClass_dailyCheckPointList.addFirefighter1ForNewStation06(A_testClass_dailyCheckPointList.java:720)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>17</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createInfoEventByAttribute()'><b>createInfoEventByAttribute</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-330652043" onClick='toggleBox("Output-330652043", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-330652043" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-330652043">
- <br/>
-The process of create info-event by attribute is started.<br/>
-</div>
-</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input name=&quot;data[Information][title_de]&quot; class=&quot;form-control&quot; placeholder=&quot;Enter german title&quot; autocomplete=&quot;off&quot; maxlength=&quot;50&quot; type=&quot;text&quot; id=&quot;InformationTitleDe&quot;&gt; is not clickable at point (1023, 507). Other element would receive the click: &lt;iframe src=&quot;&quot; frameborder=&quot;0&quot; class=&quot;cke_wysiwyg_frame cke_reset&quot; title=&quot;Rich Text Editor, InformationDescriptionDe&quot; aria-describedby=&quot;cke_40&quot; tabindex=&quot;0&quot; allowtransparency=&quot;true&quot; style=&quot;width: 100%; height: 100%;&quot;&gt;&lt;/iframe&gt;
-  (Session info: MicrosoftEdge=137.0.3296.68)
-Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [d2026f7bbaa4e811cd2e6601c61e3d77, clickElement {id=f.2ABC4C5699BCA160FA6CF7512ADFC73D.d.94448E1EB5C2F9174A847DC39FCF8DD7.e.7429}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55520}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55520/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (d2026f7bbaa4e811cd2e6601c61e3d77)] -&gt; xpath: //input[@id=&quot;InformationTitleDe&quot;]]
-Session ID: d2026f7bbaa4e811cd2e6601c61e3d77
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at live_functions.G_InfoEvent.createEventByAttribute(G_InfoEvent.java:385)
-	at live_functions.A_testClass_dailyCheckPointList.createInfoEventByAttribute(A_testClass_dailyCheckPointList.java:1215)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace330652043", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace330652043'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input name=&quot;data[Information][title_de]&quot; class=&quot;form-control&quot; placeholder=&quot;Enter german title&quot; autocomplete=&quot;off&quot; maxlength=&quot;50&quot; type=&quot;text&quot; id=&quot;InformationTitleDe&quot;&gt; is not clickable at point (1023, 507). Other element would receive the click: &lt;iframe src=&quot;&quot; frameborder=&quot;0&quot; class=&quot;cke_wysiwyg_frame cke_reset&quot; title=&quot;Rich Text Editor, InformationDescriptionDe&quot; aria-describedby=&quot;cke_40&quot; tabindex=&quot;0&quot; allowtransparency=&quot;true&quot; style=&quot;width: 100%; height: 100%;&quot;&gt;&lt;/iframe&gt;
-  (Session info: MicrosoftEdge=137.0.3296.68)
-Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [d2026f7bbaa4e811cd2e6601c61e3d77, clickElement {id=f.2ABC4C5699BCA160FA6CF7512ADFC73D.d.94448E1EB5C2F9174A847DC39FCF8DD7.e.7429}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55520}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55520/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (d2026f7bbaa4e811cd2e6601c61e3d77)] -&gt; xpath: //input[@id=&quot;InformationTitleDe&quot;]]
-Session ID: d2026f7bbaa4e811cd2e6601c61e3d77
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at live_functions.G_InfoEvent.createEventByAttribute(G_InfoEvent.java:385)
-	at live_functions.A_testClass_dailyCheckPointList.createInfoEventByAttribute(A_testClass_dailyCheckPointList.java:1215)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>21</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.addVehicleUserForStation06()'><b>addVehicleUserForStation06</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-2042542240" onClick='toggleBox("Output-2042542240", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2042542240" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2042542240">
- <br/>
-The process of add new vehicle for station 06 is started.<br/>
-vehicle Bhupesh+adst06V1newDaily@atinatechnology.in added successfully.<br/>
-</div>
-</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&quot;btn btn-success&quot;]&quot;}
-  (Session info: MicrosoftEdge=137.0.3296.68)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [d2026f7bbaa4e811cd2e6601c61e3d77, findElement {using=xpath, value=//button[@class=&quot;btn btn-success&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55520}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55520/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d2026f7bbaa4e811cd2e6601c61e3d77
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1411649d0ff843694b85c70ab5d6b9a8, findElement {using=xpath, value=//input[@value=&quot;23001&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50088/devtoo..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1411649d0ff843694b85c70ab5d6b9a8
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
@@ -593,19 +206,19 @@ Session ID: d2026f7bbaa4e811cd2e6601c61e3d77
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at live_functions.p_vehicleUser.addVehicleUser(p_vehicleUser.java:89)
-	at live_functions.A_testClass_dailyCheckPointList.addVehicleUserForStation06(A_testClass_dailyCheckPointList.java:647)
+	at live_functions.j_calendarEvent.calendarEventByFirefighterSchedul(j_calendarEvent.java:568)
+	at live_functions.A_testClass_dailyCheckPointList.cretecalendarEventFirefighterSchedule(A_testClass_dailyCheckPointList.java:1375)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2042542240", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2042542240'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&quot;btn btn-success&quot;]&quot;}
-  (Session info: MicrosoftEdge=137.0.3296.68)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1397351183", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1397351183'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value=&quot;23001&quot;]&quot;}
+  (Session info: chrome=138.0.7204.97)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [d2026f7bbaa4e811cd2e6601c61e3d77, findElement {using=xpath, value=//button[@class=&quot;btn btn-success&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55520}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55520/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d2026f7bbaa4e811cd2e6601c61e3d77
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1411649d0ff843694b85c70ab5d6b9a8, findElement {using=xpath, value=//input[@value=&quot;23001&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50088/devtoo..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1411649d0ff843694b85c70ab5d6b9a8
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -625,8 +238,8 @@ Session ID: d2026f7bbaa4e811cd2e6601c61e3d77
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at live_functions.p_vehicleUser.addVehicleUser(p_vehicleUser.java:89)
-	at live_functions.A_testClass_dailyCheckPointList.addVehicleUserForStation06(A_testClass_dailyCheckPointList.java:647)
+	at live_functions.j_calendarEvent.calendarEventByFirefighterSchedul(j_calendarEvent.java:568)
+	at live_functions.A_testClass_dailyCheckPointList.cretecalendarEventFirefighterSchedule(A_testClass_dailyCheckPointList.java:1375)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -656,7 +269,105 @@ Session ID: d2026f7bbaa4e811cd2e6601c61e3d77
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>30</td>
+<td>29</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.cretecalendarEventAttributeSchedule()'><b>cretecalendarEventAttributeSchedule</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-2141972836" onClick='toggleBox("Output-2141972836", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2141972836" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2141972836">
+ <br/>
+The process of create calendar event by attribute is started.<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value=&quot;20516&quot;]&quot;}
+  (Session info: chrome=138.0.7204.97)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1411649d0ff843694b85c70ab5d6b9a8, findElement {using=xpath, value=//input[@value=&quot;20516&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50088/devtoo..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1411649d0ff843694b85c70ab5d6b9a8
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at live_functions.j_calendarEvent.calendarEventByAttributeSchedul(j_calendarEvent.java:284)
+	at live_functions.A_testClass_dailyCheckPointList.cretecalendarEventAttributeSchedule(A_testClass_dailyCheckPointList.java:1341)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2141972836", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2141972836'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value=&quot;20516&quot;]&quot;}
+  (Session info: chrome=138.0.7204.97)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1411649d0ff843694b85c70ab5d6b9a8, findElement {using=xpath, value=//input[@value=&quot;20516&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50088/devtoo..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1411649d0ff843694b85c70ab5d6b9a8
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at live_functions.j_calendarEvent.calendarEventByAttributeSchedul(j_calendarEvent.java:284)
+	at live_functions.A_testClass_dailyCheckPointList.cretecalendarEventAttributeSchedule(A_testClass_dailyCheckPointList.java:1341)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>32</td>
 <td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -668,170 +379,45 @@ Session ID: d2026f7bbaa4e811cd2e6601c61e3d77
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createTestAlarmByAttributeRecursivedaily()'><b>createTestAlarmByAttributeRecursivedaily</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-814300680" onClick='toggleBox("Output-814300680", this, "Show output", "Hide output");'>Show output</a>
+<td title='live_functions.A_testClass_dailyCheckPointList.createInfoEventByResourceSchedule()'><b>createInfoEventByResourceSchedule</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-178838760" onClick='toggleBox("Output-178838760", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-814300680" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-814300680">
+<a href="#Output-178838760" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-178838760">
  <br/>
-The process of creating a test alarm by resource with remindar recursive > daily is started.<br/>
-test alarm created for >13.06.2025-08:59<br/>
-The process of creating a test alarm by resource with remindar recursive > daily is complete.<br/>
+The process of create info-event schedule by resource is started.<br/>
+info-event created for 09:26 to 09:50<br/>
+The process of create info-event schedule by attribute is complete.<br/>
  <br/>
 </div>
 </td>
 <td></td>
-<td>34</td>
+<td>37</td>
 <td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
 <tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createAvailabilityRequestSendRecursive()'><b>createAvailabilityRequestSendRecursive</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1873788332" onClick='toggleBox("Output-1873788332", this, "Show output", "Hide output");'>Show output</a>
+<td title='live_functions.A_testClass_dailyCheckPointList.SendmessagetoARUsers()'><b>SendmessagetoARUsers</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-347607289" onClick='toggleBox("Output-347607289", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1873788332" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1873788332">
+<a href="#Output-347607289" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-347607289">
  <br/>
-The process of create availability request > recursive is started.<br/>
-Availability request recursive >13-06-2025-Friday-09:09<br/>
-The process of create availability request > recursive is complete.<br/>
+The process of send message to availability request users is started.<br/>
+The process of csend message to availability request users is complete.<br/>
  <br/>
 </div>
 </td>
 <td></td>
-<td>21</td>
+<td>13</td>
 <td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
 <tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.sendMessageChatGrouCreatedByFirefighter()'><b>sendMessageChatGrouCreatedByFirefighter</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-503134718" onClick='toggleBox("Output-503134718", this, "Show output", "Hide output");'>Show output</a>
+<td title='live_functions.A_testClass_dailyCheckPointList.createMonitorInformation01()'><b>createMonitorInformation01</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1037242711" onClick='toggleBox("Output-1037242711", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-503134718" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-503134718">
+<a href="#Output-1037242711" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1037242711">
  <br/>
-The process of sending message to a chat group created by Firefighter is started.<br/>
-The process of sending message to a chat group created by Firefighter is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>18</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.CreateAttributeForDepartment()'><b>CreateAttributeForDepartment</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1435791952" onClick='toggleBox("Output-1435791952", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1435791952" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1435791952">
- <br/>
-The process of creating attribute is started.<br/>
-BG:Attri>1306085234>added successfully<br/>
-The process of creating attribute is is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>19</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createNormalCheckList()'><b>createNormalCheckList</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-611295144" onClick='toggleBox("Output-611295144", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-611295144" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-611295144">
- <br/>
-The process of creating normal check list is started.<br/>
-Normal check list number-1 is added sucessfully.<br/>
-Normal check list number-2 is added sucessfully.<br/>
-The process of creating normal check list is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>32</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createInformationByAttribute()'><b>createInformationByAttribute</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1300208435" onClick='toggleBox("Output-1300208435", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1300208435" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1300208435">
- <br/>
-The process of creating information by attribute is started.<br/>
-The process of creating information by attribute is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>26</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createInfoEventByFirefighter()'><b>createInfoEventByFirefighter</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-303790741" onClick='toggleBox("Output-303790741", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-303790741" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-303790741">
- <br/>
-The process of create info-event by firefighter is started.<br/>
-The process of create info-event by firefighter is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>36</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createInformationByFirefighter()'><b>createInformationByFirefighter</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-497983073" onClick='toggleBox("Output-497983073", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-497983073" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-497983073">
- <br/>
-The process of creating information by firefighter is started.<br/>
-The process of creating information by firefighter is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>24</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createAvailabilityRequestSendImmediat()'><b>createAvailabilityRequestSendImmediat</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-535525049" onClick='toggleBox("Output-535525049", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-535525049" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-535525049">
- <br/>
-The process of create availability request > send imediate is started.<br/>
-The process of create availability request > send imediate is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>28</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.cretecalendarEventAttributeSchedule()'><b>cretecalendarEventAttributeSchedule</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1862613655" onClick='toggleBox("Output-1862613655", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1862613655" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1862613655">
- <br/>
-The process of create calendar event by attribute is started.<br/>
-calendar event by attribute from-13-06-2025093559 to 13-06-2025095059<br/>
-The process of create calendar event by attribute is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>28</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createChatgroupByAttribute()'><b>createChatgroupByAttribute</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1144886446" onClick='toggleBox("Output-1144886446", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1144886446" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1144886446">
- <br/>
-The process of creating chat group by attribute is started.<br/>
-The process of creating chat group by attribute is complete.<br/>
+The process of creating information 1 from 08:26 to 08:41 for monitor is started.<br/>
+The process of creating information 1 for monitor is complete.<br/>
  <br/>
 </div>
 </td>
@@ -839,26 +425,11 @@ The process of creating chat group by attribute is complete.<br/>
 <td>29</td>
 <td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
 <tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.sendmessageToTestAlarmUsers()'><b>sendmessageToTestAlarmUsers</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1837939994" onClick='toggleBox("Output-1837939994", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1837939994" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1837939994">
- <br/>
-The process of send message to test alarm user is started<br/>
-The process of send message to test alarm user is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>11</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
 <td title='live_functions.A_testClass_dailyCheckPointList.sendMessageChatGrouCreatedByAlarmLoop()'><b>sendMessageChatGrouCreatedByAlarmLoop</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-808875552" onClick='toggleBox("Output-808875552", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-624931834" onClick='toggleBox("Output-624931834", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-808875552" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-808875552">
+<a href="#Output-624931834" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-624931834">
  <br/>
 The process of sending message to a chat group created by AlarmLoop is started.<br/>
 The process of sending message to a chat group created by AlarmLoop is complete.<br/>
@@ -869,11 +440,155 @@ The process of sending message to a chat group created by AlarmLoop is complete.
 <td>18</td>
 <td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
 <tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.userDetails()'><b>userDetails</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1979325411" onClick='toggleBox("Output-1979325411", this, "Show output", "Hide output");'>Show output</a>
+<td title='live_functions.A_testClass_dailyCheckPointList.createInfoEventByResource()'><b>createInfoEventByResource</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1846806355" onClick='toggleBox("Output-1846806355", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1979325411" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1979325411">
+<a href="#Output-1846806355" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1846806355">
+ <br/>
+The process of create info-event by resource is started.<br/>
+The process of create info-event by resource is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.addVehicleUserForStation06()'><b>addVehicleUserForStation06</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1100988886" onClick='toggleBox("Output-1100988886", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1100988886" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1100988886">
+ <br/>
+The process of add new vehicle for station 06 is started.<br/>
+vehicle Bhupesh+adst06V1newDaily@atinatechnology.in added successfully.<br/>
+vehicle Bhupesh+adst06V2newDaily@atinatechnology.in added successfully.<br/>
+The process of aadd new vehicle for station 06 is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>48</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createInfoEventByFighterSchedule()'><b>createInfoEventByFighterSchedule</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1900120650" onClick='toggleBox("Output-1900120650", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1900120650" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1900120650">
+ <br/>
+The process of create info-event schedule by firefighter is started.<br/>
+info-event created for 04-07-2025 > 08:36 to 08:51<br/>
+The process of create info-event schedule by firefighter is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>39</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createInfoEventByFirefighter()'><b>createInfoEventByFirefighter</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-62415796" onClick='toggleBox("Output-62415796", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-62415796" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-62415796">
+ <br/>
+The process of create info-event by firefighter is started.<br/>
+The process of create info-event by firefighter is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>39</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createAvailabilityRequestSendMultipleDays()'><b>createAvailabilityRequestSendMultipleDays</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1518876102" onClick='toggleBox("Output-1518876102", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1518876102" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1518876102">
+ <br/>
+The process of create availability request > multiple days is started.<br/>
+Availability request recursive >03-07-2025-08:36<br/>
+Availability request recursive >03-07-2025-08:30<br/>
+Availability request recursive >03-07-2025-08:34<br/>
+The process of create availability request > multiple days is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createNormalCheckList()'><b>createNormalCheckList</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-76398493" onClick='toggleBox("Output-76398493", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-76398493" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-76398493">
+ <br/>
+The process of creating normal check list is started.<br/>
+Normal check list number-1 is added sucessfully.<br/>
+Normal check list number-2 is added sucessfully.<br/>
+The process of creating normal check list is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.sendmessageToTestAlarmUsers()'><b>sendmessageToTestAlarmUsers</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-765621171" onClick='toggleBox("Output-765621171", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-765621171" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-765621171">
+ <br/>
+The process of send message to test alarm user is started<br/>
+The process of send message to test alarm user is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createChatgroupByAlarmloop()'><b>createChatgroupByAlarmloop</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-309831329" onClick='toggleBox("Output-309831329", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-309831329" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-309831329">
+ <br/>
+The process of creating chat group by alarm loop is started.<br/>
+The process of creating chat group by alarm loop is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.CreateAttributeForDepartment()'><b>CreateAttributeForDepartment</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-388076729" onClick='toggleBox("Output-388076729", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-388076729" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-388076729">
+ <br/>
+The process of creating attribute is started.<br/>
+BG:Attri>0307081944>added successfully<br/>
+The process of creating attribute is is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.userDetails()'><b>userDetails</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-2050529121" onClick='toggleBox("Output-2050529121", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2050529121" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2050529121">
  <br/>
 Department user # 6039-DE-andrew-deptu-2 # log in sucessfully<br/>
  <br/>
@@ -883,384 +598,26 @@ Department user # 6039-DE-andrew-deptu-2 # log in sucessfully<br/>
 <td>0</td>
 <td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
 <tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.cretecalendarEventFirefighterSchedule()'><b>cretecalendarEventFirefighterSchedule</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-999067991" onClick='toggleBox("Output-999067991", this, "Show output", "Hide output");'>Show output</a>
+<td title='live_functions.A_testClass_dailyCheckPointList.createInfoEventByAttribute()'><b>createInfoEventByAttribute</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-307536845" onClick='toggleBox("Output-307536845", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-999067991" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-999067991">
+<a href="#Output-307536845" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-307536845">
  <br/>
-The process of create calendar event by Firefighter is started.<br/>
-calendar event by firefighter from-14-06-2025093746 to 13-06-2025095246<br/>
-The process of create calendar event by Firefighter is complete.<br/>
+The process of create info-event by attribute is started.<br/>
+The process of create info-event by attribute is complete.<br/>
  <br/>
 </div>
 </td>
 <td></td>
-<td>30</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.sendMessageChatGrouCreatedByResource()'><b>sendMessageChatGrouCreatedByResource</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-907681414" onClick='toggleBox("Output-907681414", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-907681414" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-907681414">
- <br/>
-The process of sending message to a chat group created by Resource is started.<br/>
-The process of sending message to a chat group created by Resource is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>18</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createInfoEventByResource()'><b>createInfoEventByResource</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-81745089" onClick='toggleBox("Output-81745089", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-81745089" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-81745089">
- <br/>
-The process of create info-event by resource is started.<br/>
-The process of create info-event by resource is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>34</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createInformationByResource()'><b>createInformationByResource</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1156790508" onClick='toggleBox("Output-1156790508", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1156790508" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1156790508">
- <br/>
-The process of creating information by resource is started.<br/>
-The process of creating information by resource is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>22</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.sendmessageToinfoEventUsers()'><b>sendmessageToinfoEventUsers</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1668400878" onClick='toggleBox("Output-1668400878", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1668400878" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1668400878">
- <br/>
-The process of send message to info-event users is started.<br/>
-The process of send message to info-event users is started is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>15</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.sendmessageToinfoUsers()'><b>sendmessageToinfoUsers</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-569105801" onClick='toggleBox("Output-569105801", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-569105801" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-569105801">
- <br/>
-The process of send message to information users is started.<br/>
-The process of send message to information users is started is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>11</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createChatgroupByResource()'><b>createChatgroupByResource</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1514502817" onClick='toggleBox("Output-1514502817", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1514502817" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1514502817">
- <br/>
-The process of creating chat group by resource is started.<br/>
-The process of creating chat group by resource is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>23</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.testAlarmByRecursiveMonthlyDayWise()'><b>testAlarmByRecursiveMonthlyDayWise</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-838301585" onClick='toggleBox("Output-838301585", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-838301585" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-838301585">
- <br/>
-The process of creating a test alarm by alarm loop 1 with remindar recirsive > monthly > day wise is started.<br/>
-test alarm created for >13.06.2025-09:01<br/>
-The process of creating a test alarm by alarm loop 2 with remindar recirsive > monthly > day wise is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>35</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.sendMessageChatGrouCreatedByAttribute()'><b>sendMessageChatGrouCreatedByAttribute</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1502143342" onClick='toggleBox("Output-1502143342", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1502143342" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1502143342">
- <br/>
-The process of sending message to a chat group created by attribute is started.<br/>
-The process of sending message to a chat group created by attribute is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>19</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.detailsAboutScript()'><b>detailsAboutScript</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1464633898" onClick='toggleBox("Output-1464633898", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1464633898" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1464633898">
- <br/>
-Login  date-13-06-2025 & login  time -09:28<br/>
-Logout date-13-06-2025 & logout time -09:31<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>3</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createChatgroupByFirefighter()'><b>createChatgroupByFirefighter</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1701351424" onClick='toggleBox("Output-1701351424", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1701351424" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1701351424">
- <br/>
-The process of creating chat group by fire fightr is started.<br/>
-The process of creating chat group by fire fightr is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>19</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createMonitorInformation01()'><b>createMonitorInformation01</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-39642165" onClick='toggleBox("Output-39642165", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-39642165" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-39642165">
- <br/>
-The process of creating information 1 from 08:59 to 09:14 for monitor is started.<br/>
-The process of creating information 1 for monitor is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>29</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createChatgroupByAlarmloop()'><b>createChatgroupByAlarmloop</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1629432053" onClick='toggleBox("Output-1629432053", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1629432053" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1629432053">
- <br/>
-The process of creating chat group by alarm loop is started.<br/>
-The process of creating chat group by alarm loop is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>22</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createInfoEventByResourceSchedule()'><b>createInfoEventByResourceSchedule</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1656194780" onClick='toggleBox("Output-1656194780", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1656194780" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1656194780">
- <br/>
-The process of create info-event schedule by resource is started.<br/>
-info-event created for 09:59 to 10:23<br/>
-The process of create info-event schedule by attribute is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>35</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createAvailabilityRequestSendMultipleDays()'><b>createAvailabilityRequestSendMultipleDays</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-305989654" onClick='toggleBox("Output-305989654", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-305989654" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-305989654">
- <br/>
-The process of create availability request > multiple days is started.<br/>
-Availability request recursive >13-06-2025-09:09<br/>
-Availability request recursive >13-06-2025-09:03<br/>
-Availability request recursive >13-06-2025-09:07<br/>
-The process of create availability request > multiple days is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>21</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.addEventCategory()'><b>addEventCategory</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-960275543" onClick='toggleBox("Output-960275543", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-960275543" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-960275543">
- <br/>
-The process of adding new event category is started.<br/>
- BG-EventCategoty-1306_085234 added successfully.<br/>
-The process of new event category is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>23</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createTestAlarmByAttributeOneTime()'><b>createTestAlarmByAttributeOneTime</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1127174687" onClick='toggleBox("Output-1127174687", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1127174687" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1127174687">
- <br/>
-The process of creating a test alarm by attribute with remindar one time is started.<br/>
-test alarm created for >13.06.2025-08:58<br/>
-The process of creating a test alarm by attribute with remindar one time is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>49</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createInfoEventByAttributeSchedule()'><b>createInfoEventByAttributeSchedule</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1241827956" onClick='toggleBox("Output-1241827956", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1241827956" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1241827956">
- <br/>
-The process of create info-event schedule by attribute is started.<br/>
-info-event created for 09:07 to 09:22<br/>
-The process of create info-event schedule by attribute is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>33</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.SendmessagetoARUsers()'><b>SendmessagetoARUsers</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1498855782" onClick='toggleBox("Output-1498855782", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1498855782" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1498855782">
- <br/>
-The process of send message to availability request users is started.<br/>
-The process of csend message to availability request users is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>14</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.cretecalendarEventResourceSchedule()'><b>cretecalendarEventResourceSchedule</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1045721700" onClick='toggleBox("Output-1045721700", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1045721700" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1045721700">
- <br/>
-The process of create calendar event by resource is started.<br/>
-calendar event by attribute from-13-06-2025103653 to 13-06-2025105753<br/>
-The process of create calendar event by resource is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>27</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createMonitorInformation02()'><b>createMonitorInformation02</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-130922492" onClick='toggleBox("Output-130922492", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-130922492" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-130922492">
- <br/>
-The process of creating information 2 from 09:07 to 09:22 for monitor is started.<br/>
-The process of creating information 2 for monitor is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>29</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createInfoEventByFighterSchedule()'><b>createInfoEventByFighterSchedule</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-557640526" onClick='toggleBox("Output-557640526", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-557640526" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-557640526">
- <br/>
-The process of create info-event schedule by firefighter is started.<br/>
-info-event created for 14-06-2025 > 09:09 to 09:24<br/>
-The process of create info-event schedule by firefighter is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>35</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createTestAlarmByAttributeRecursiveWeekly()'><b>createTestAlarmByAttributeRecursiveWeekly</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-1276761134" onClick='toggleBox("Output-1276761134", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1276761134" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1276761134">
- <br/>
-The process of creating a test alarm by fire fighter with remindar recursive > weekly is started.<br/>
-test alarm created for >13.06.2025-09:00<br/>
-The process of creating a test alarm by fire fighter with remindar recursive > weekly is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>38</td>
-<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
-<tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createAvailabilityRequestSendSchedule()'><b>createAvailabilityRequestSendSchedule</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-879001432" onClick='toggleBox("Output-879001432", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-879001432" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-879001432">
- <br/>
-The process of create availability request > schedule is started.<br/>
-Availability request schedule>13-06-2025-09:09<br/>
-The process of create availability request > schedule is complete.<br/>
- <br/>
-</div>
-</td>
-<td></td>
-<td>21</td>
+<td>31</td>
 <td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
 <tr>
 <td title='live_functions.A_testClass_dailyCheckPointList.createAlarmCheckList()'><b>createAlarmCheckList</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-688964526" onClick='toggleBox("Output-688964526", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-754836900" onClick='toggleBox("Output-754836900", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-688964526" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-688964526">
+<a href="#Output-754836900" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-754836900">
  <br/>
 The process of creating alarm check list is started.<br/>
 Alarm check list number-1 is added sucessfully.<br/>
@@ -1273,21 +630,483 @@ The process of creating alarm check list is complete.<br/>
 <td>32</td>
 <td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
 <tr>
-<td title='live_functions.A_testClass_dailyCheckPointList.createPermissionGroupDefaultStation()'><b>createPermissionGroupDefaultStation</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
-<a href="#Output-937024294" onClick='toggleBox("Output-937024294", this, "Show output", "Hide output");'>Show output</a>
+<td title='live_functions.A_testClass_dailyCheckPointList.testAlarmByRecursiveMonthlyDayWise()'><b>testAlarmByRecursiveMonthlyDayWise</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1772319741" onClick='toggleBox("Output-1772319741", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-937024294" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-937024294">
+<a href="#Output-1772319741" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1772319741">
  <br/>
-The process of creating permission group for default station is started.<br/>
-BG-Station defalult permission group-1306085234-1<br/>
-BG-Station defalult permission group-1306085234-2<br/>
-The process of creating permission group for default station is complete.<br/>
+The process of creating a test alarm by alarm loop 1 with remindar recirsive > monthly > day wise is started.<br/>
+test alarm created for >03.07.2025-08:30<br/>
+The process of creating a test alarm by alarm loop 2 with remindar recirsive > monthly > day wise is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createAvailabilityRequestSendImmediat()'><b>createAvailabilityRequestSendImmediat</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-279811533" onClick='toggleBox("Output-279811533", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-279811533" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-279811533">
+ <br/>
+The process of create availability request > send imediate is started.<br/>
+The process of create availability request > send imediate is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createTestAlarmByAttributeRecursiveMontlyDateWise()'><b>createTestAlarmByAttributeRecursiveMontlyDateWise</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1729992636" onClick='toggleBox("Output-1729992636", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1729992636" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1729992636">
+ <br/>
+The process of creating a test alarm by alarm loop 2 with remindar recursive > monthly > date wise is started.<br/>
+test alarm created for >03.07.2025-08:26<br/>
+The process of creating a test alarm by alarm loop 2 with remindar recursive > monthly > date wise is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>35</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createChatgroupByFirefighter()'><b>createChatgroupByFirefighter</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1087422449" onClick='toggleBox("Output-1087422449", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1087422449" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1087422449">
+ <br/>
+The process of creating chat group by fire fightr is started.<br/>
+The process of creating chat group by fire fightr is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.sendMessageChatGrouCreatedByFirefighter()'><b>sendMessageChatGrouCreatedByFirefighter</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-261979455" onClick='toggleBox("Output-261979455", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-261979455" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-261979455">
+ <br/>
+The process of sending message to a chat group created by Firefighter is started.<br/>
+The process of sending message to a chat group created by Firefighter is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createTestAlarmByAttributeRecursivedaily()'><b>createTestAlarmByAttributeRecursivedaily</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1439003682" onClick='toggleBox("Output-1439003682", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1439003682" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1439003682">
+ <br/>
+The process of creating a test alarm by resource with remindar recursive > daily is started.<br/>
+test alarm created for >03.07.2025-08:28<br/>
+The process of creating a test alarm by resource with remindar recursive > daily is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.sendmessageToinfoUsers()'><b>sendmessageToinfoUsers</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-829579093" onClick='toggleBox("Output-829579093", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-829579093" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-829579093">
+ <br/>
+The process of send message to information users is started.<br/>
+The process of send message to information users is started is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createAvailabilityRequestSendRecursive()'><b>createAvailabilityRequestSendRecursive</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1885172464" onClick='toggleBox("Output-1885172464", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1885172464" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1885172464">
+ <br/>
+The process of create availability request > recursive is started.<br/>
+Availability request recursive >03-07-2025-Thursday-08:36<br/>
+The process of create availability request > recursive is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createChatgroupByAttribute()'><b>createChatgroupByAttribute</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1829553277" onClick='toggleBox("Output-1829553277", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1829553277" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1829553277">
+ <br/>
+The process of creating chat group by attribute is started.<br/>
+The process of creating chat group by attribute is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.sendMessageChatGrouCreatedByResource()'><b>sendMessageChatGrouCreatedByResource</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-362157351" onClick='toggleBox("Output-362157351", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-362157351" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-362157351">
+ <br/>
+The process of sending message to a chat group created by Resource is started.<br/>
+The process of sending message to a chat group created by Resource is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.addFirefighter2ForNewStation06()'><b>addFirefighter2ForNewStation06</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1237113101" onClick='toggleBox("Output-1237113101", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1237113101" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1237113101">
+ <br/>
+The process of add fire fighter 2nd is started.<br/>
+Users basic detailas save successfully.<br/>
+user role save successfully.<br/>
+permission save successfully.<br/>
+adding atrribute successfully.<br/>
+adding resource successfully.<br/>
+user details<br/>
+User first name > RojDev<br/>
+User last name > FF1<br/>
+User mail id > bhupesh+LiveFirefighter20@atinatechnology.in<br/>
+  <br/>
+The process of add fire fighter is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>77</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createTestAlarmByAttributeOneTime()'><b>createTestAlarmByAttributeOneTime</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-370356001" onClick='toggleBox("Output-370356001", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-370356001" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-370356001">
+ <br/>
+The process of creating a test alarm by attribute with remindar one time is started.<br/>
+test alarm created for >03.07.2025-08:27<br/>
+The process of creating a test alarm by attribute with remindar one time is complete.<br/>
  <br/>
 </div>
 </td>
 <td></td>
 <td>49</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.addEventCategory()'><b>addEventCategory</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-383389929" onClick='toggleBox("Output-383389929", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-383389929" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-383389929">
+ <br/>
+The process of adding new event category is started.<br/>
+ BG-EventCategoty-0307_081944 added successfully.<br/>
+The process of new event category is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.cretecalendarEventResourceSchedule()'><b>cretecalendarEventResourceSchedule</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1318577508" onClick='toggleBox("Output-1318577508", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1318577508" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1318577508">
+ <br/>
+The process of create calendar event by resource is started.<br/>
+calendar event by attribute from-03-07-2025100700 to 03-07-2025102800<br/>
+The process of create calendar event by resource is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createInformationByResource()'><b>createInformationByResource</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-925150096" onClick='toggleBox("Output-925150096", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-925150096" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-925150096">
+ <br/>
+The process of creating information by resource is started.<br/>
+The process of creating information by resource is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createInformationByFirefighter()'><b>createInformationByFirefighter</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1376696824" onClick='toggleBox("Output-1376696824", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1376696824" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1376696824">
+ <br/>
+The process of creating information by firefighter is started.<br/>
+The process of creating information by firefighter is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createInformationByAttribute()'><b>createInformationByAttribute</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-820961432" onClick='toggleBox("Output-820961432", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-820961432" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-820961432">
+ <br/>
+The process of creating information by attribute is started.<br/>
+The process of creating information by attribute is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.sendMessageChatGrouCreatedByAttribute()'><b>sendMessageChatGrouCreatedByAttribute</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1698990386" onClick='toggleBox("Output-1698990386", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1698990386" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1698990386">
+ <br/>
+The process of sending message to a chat group created by attribute is started.<br/>
+The process of sending message to a chat group created by attribute is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createChatgroupByResource()'><b>createChatgroupByResource</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-869928877" onClick='toggleBox("Output-869928877", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-869928877" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-869928877">
+ <br/>
+The process of creating chat group by resource is started.<br/>
+The process of creating chat group by resource is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.addFirefighter1ForNewStation06()'><b>addFirefighter1ForNewStation06</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-825426756" onClick='toggleBox("Output-825426756", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-825426756" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-825426756">
+ <br/>
+The process of add fire fighter is started.<br/>
+Users basic detailas save successfully.<br/>
+user role save successfully.<br/>
+permission save successfully.<br/>
+adding atrribute successfully.<br/>
+adding resource successfully.<br/>
+user details<br/>
+User first name > RojDev<br/>
+User last name > FF1<br/>
+User mail id > bhupesh+LiveFirefighter1@atinatechnology.in<br/>
+  <br/>
+The process of add fire fighter is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>70</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createTestAlarmByAttributeRecursiveWeekly()'><b>createTestAlarmByAttributeRecursiveWeekly</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-280541440" onClick='toggleBox("Output-280541440", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-280541440" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-280541440">
+ <br/>
+The process of creating a test alarm by fire fighter with remindar recursive > weekly is started.<br/>
+test alarm created for >03.07.2025-08:29<br/>
+The process of creating a test alarm by fire fighter with remindar recursive > weekly is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>39</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createPermissionGroupDefaultStation()'><b>createPermissionGroupDefaultStation</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-235208892" onClick='toggleBox("Output-235208892", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-235208892" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-235208892">
+ <br/>
+The process of creating permission group for default station is started.<br/>
+BG-Station defalult permission group-0307081944-1<br/>
+BG-Station defalult permission group-0307081944-2<br/>
+The process of creating permission group for default station is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>53</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createMonitorInformation02()'><b>createMonitorInformation02</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-2078992278" onClick='toggleBox("Output-2078992278", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2078992278" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2078992278">
+ <br/>
+The process of creating information 2 from 08:34 to 08:49 for monitor is started.<br/>
+The process of creating information 2 for monitor is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.createAvailabilityRequestSendSchedule()'><b>createAvailabilityRequestSendSchedule</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1900380536" onClick='toggleBox("Output-1900380536", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1900380536" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1900380536">
+ <br/>
+The process of create availability request > schedule is started.<br/>
+Availability request schedule>03-07-2025-08:36<br/>
+The process of create availability request > schedule is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.sendmessageToinfoEventUsers()'><b>sendmessageToinfoEventUsers</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-882530788" onClick='toggleBox("Output-882530788", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-882530788" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-882530788">
+ <br/>
+The process of send message to info-event users is started.<br/>
+The process of send message to info-event users is started is complete.<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.detailsAboutScript()'><b>detailsAboutScript</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-1777365519" onClick='toggleBox("Output-1777365519", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1777365519" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1777365519">
+ <br/>
+Login  date-03-07-2025 & login  time -08:59<br/>
+Logout date-03-07-2025 & logout time -09:01<br/>
+ <br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='live_functions.A_testClass_dailyCheckPointList.addStationUserForStation06()'><b>addStationUserForStation06</b><br>Test class: live_functions.A_testClass_dailyCheckPointList<br/>
+<a href="#Output-669519098" onClick='toggleBox("Output-669519098", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-669519098" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-669519098">
+ <br/>
+The process of add station user is started.<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Skipping test: User already exists in another station.
+	at live_functions.n_addUsers.addStationUserForStation06(n_addUsers.java:149)
+	at live_functions.A_testClass_dailyCheckPointList.addStationUserForStation06(A_testClass_dailyCheckPointList.java:681)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace669519098", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace669519098'><pre>org.testng.SkipException: Skipping test: User already exists in another station.
+	at live_functions.n_addUsers.addStationUserForStation06(n_addUsers.java:149)
+	at live_functions.A_testClass_dailyCheckPointList.addStationUserForStation06(A_testClass_dailyCheckPointList.java:681)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>9</td>
 <td>live_functions.A_testClass_dailyCheckPointList@402c4085</td></tr>
 </table><p>
 </body>

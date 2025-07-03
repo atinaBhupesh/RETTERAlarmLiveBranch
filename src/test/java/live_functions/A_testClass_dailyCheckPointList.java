@@ -731,7 +731,7 @@ public class A_testClass_dailyCheckPointList extends B_baseClass {
 
 	public void addFirefighter2ForNewStation06() throws Throwable {
 		Reporter.log(" ", true);
-		Reporter.log("The process of add fire fighter is started.", true);
+		Reporter.log("The process of add fire fighter 2nd is started.", true);
 		ff.commonForAddUers(driver,BranchNameB);
 		ff.addfireFighter2ForStation06(driver, dateDDMMYY, gTimeHHMM,deptName,St1N, st1Atti, st1Recs,ff1UEmail,ff2UEmail,BranchNameB);
 		

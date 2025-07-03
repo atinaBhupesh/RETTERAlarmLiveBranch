@@ -10,6 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
+import org.testng.SkipException;
 
 public class n_addUsers extends  B_baseClass {
 	
@@ -66,7 +67,7 @@ public class n_addUsers extends  B_baseClass {
 		 
 			@FindBy(xpath="//div[text()=\"Assign Firefighter\"]")private WebElement SaveBasicDetails;
 	
-		// @FindBy(xpath="")private WebElement ;
+	
 		// @FindBy(xpath="")private WebElement ;
 		// @FindBy(xpath="")private WebElement ;
 		 @FindBy(xpath="//a[@href=\"/admin/Users\"]")private WebElement userList;
@@ -87,8 +88,8 @@ public class n_addUsers extends  B_baseClass {
 			 @FindBy(xpath="//button[text()=\"Yes, Please\"]")private WebElement yesPlease;
 			
 			 
-			 
-		 
+			 @FindBy(xpath="//label[@id=\"UserAlarmEmail-error\"]")private WebElement userError;
+			//label[@id="UserAlarmEmail-error"]
 
 		public n_addUsers(WebDriver driver) {
 			PageFactory.initElements(driver, this);
@@ -142,6 +143,14 @@ public class n_addUsers extends  B_baseClass {
 			
 			
 			
+		if (userError.isDisplayed()) {
+			System.out.println();
+			System.out.println(">>>>Skipping test: User already exists in another station.<<<<<");
+		    throw new SkipException("Skipping test: User already exists in another station.");
+		}
+			
+			
+		else {	
 			
 		Thread.sleep(4000);		
 		saveBasicDetails.click();
@@ -201,7 +210,7 @@ public class n_addUsers extends  B_baseClass {
 		
 		//userList.click();
 		Thread.sleep(2000);driver.navigate().refresh();
-			
+		}
 		
 			
 
@@ -224,8 +233,17 @@ public class n_addUsers extends  B_baseClass {
 			Thread.sleep(1000);
 		
 			
-			
-			
+				
+				
+			if (userError.isDisplayed()) {
+				System.out.println();
+				System.out.println(">>>>Skipping test: User already exists in another station.<<<<<");
+			    throw new SkipException("Skipping test: User already exists in another station.");
+			}
+				
+				
+			else {			
+		
 			
 		Thread.sleep(4000);		
 		saveBasicDetails.click();
@@ -358,7 +376,7 @@ public class n_addUsers extends  B_baseClass {
 
 		}
 		
-		
+		}
 		
 		
 		
@@ -376,14 +394,12 @@ public class n_addUsers extends  B_baseClass {
 				
 				
 			act.sendKeys(ff1UEmail).perform();
-					
-				
-				
-			
-				
-			
 			act.sendKeys(Keys.TAB).perform();
-			Thread.sleep(1000);
+			Thread.sleep(2000);
+			
+		
+				
+//			
 			
 //			userNameField.click();
 //			Thread.sleep(1000);
@@ -418,6 +434,8 @@ public class n_addUsers extends  B_baseClass {
 //		
 //		userPasswordField.click();
 //		act.sendKeys("Qwerty@123").perform();
+				
+				
 		
 		saveBasicDetails.click();
 		if (SaveBasicDetails.isDisplayed())
@@ -555,7 +573,10 @@ public class n_addUsers extends  B_baseClass {
 		Thread.sleep(2000);driver.navigate().refresh();
 			
 		
+		
 			}
+		
+//			}
 
 		
 		
@@ -580,6 +601,9 @@ public class n_addUsers extends  B_baseClass {
 			
 			act.sendKeys(Keys.TAB).perform();
 			Thread.sleep(3000);
+			
+			
+			
 			
 //			userNameField.click();
 //			Thread.sleep(1000);
@@ -755,6 +779,7 @@ public class n_addUsers extends  B_baseClass {
 		
 		//userList.click();
 		Thread.sleep(2000);driver.navigate().refresh();
+			
 			
 		
 			}

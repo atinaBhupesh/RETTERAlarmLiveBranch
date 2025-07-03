@@ -11,9 +11,7 @@
 
 
 
-				
-				<include name="deactiveTestAlarmFromOverview" />
-	
+					<include name="deleteUers" />
 	
 	
 	

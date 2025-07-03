@@ -9,119 +9,17 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Failed suite [Suite]</th></tr>
-<tr><td><a href="#t0">Test(failed)</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">352,905</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test(failed)</a></td><td class="num">3</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">256,780</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Failed suite [Suite]</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test(failed) &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">live_functions.A_testClass_dailyCheckPointList</td><td><a href="#m0">addFirefighter1ForNewStation06</a></td><td rowspan="1">1749801166577</td><td rowspan="1">19514</td></tr><tr class="failedeven"><td><a href="#m1">addFirefighter2ForNewStation06</a></td><td rowspan="1">1749801215901</td><td rowspan="1">25425</td></tr><tr class="failedeven"><td><a href="#m2">addStationUserForStation06</a></td><td rowspan="1">1749801266784</td><td rowspan="1">21779</td></tr><tr class="failedeven"><td><a href="#m3">addVehicleUserForStation06</a></td><td rowspan="1">1749801105257</td><td rowspan="1">32516</td></tr><tr><th colspan="4">Test(failed) &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">live_functions.A_testClass_dailyCheckPointList</td><td><a href="#m4">createInfoEventByAttribute</a></td><td rowspan="1">1749801042778</td><td rowspan="1">34409</td></tr><tr class="passedeven"><td><a href="#m5">createTestAlarmByAttributeRecursiveMontlyDateWise</a></td><td rowspan="1">1749800973884</td><td rowspan="1">40654</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Failed suite [Suite]</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test(failed) &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">live_functions.A_testClass_dailyCheckPointList</td><td><a href="#m0">addStationUserForStation06</a></td><td rowspan="1">1751529872033</td><td rowspan="1">10573</td></tr><tr><th colspan="4">Test(failed) &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">live_functions.A_testClass_dailyCheckPointList</td><td><a href="#m1">createInfoEventByAttributeSchedule</a></td><td rowspan="1">1751529770082</td><td rowspan="1">73699</td></tr><tr class="passedeven"><td><a href="#m2">cretecalendarEventAttributeSchedule</a></td><td rowspan="1">1751529717352</td><td rowspan="1">27759</td></tr><tr class="passedeven"><td><a href="#m3">cretecalendarEventFirefighterSchedule</a></td><td rowspan="1">1751529908136</td><td rowspan="1">29132</td></tr></tbody>
 </table>
-<h2>Test(failed)</h2><h3 id="m0">live_functions.A_testClass_dailyCheckPointList#addFirefighter1ForNewStation06</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"> <br/>The process of add fire fighter is started.</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&quot;Assign Firefighter&quot;]&quot;}
-  (Session info: MicrosoftEdge=137.0.3296.68)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [2a71d6853b89af2f1fd82a635a5cc259, findElement {using=xpath, value=//div[text()=&quot;Assign Firefighter&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57097}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57097/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2a71d6853b89af2f1fd82a635a5cc259
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
-	at live_functions.n_addUsers.addfireFighter1ForStation06(n_addUsers.java:423)
-	at live_functions.A_testClass_dailyCheckPointList.addFirefighter1ForNewStation06(A_testClass_dailyCheckPointList.java:720)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">live_functions.A_testClass_dailyCheckPointList#addFirefighter2ForNewStation06</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"> <br/>The process of add fire fighter is started.</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&quot;Assign Firefighter&quot;]&quot;}
-  (Session info: MicrosoftEdge=137.0.3296.68)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [2a71d6853b89af2f1fd82a635a5cc259, findElement {using=xpath, value=//div[text()=&quot;Assign Firefighter&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57097}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57097/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2a71d6853b89af2f1fd82a635a5cc259
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
-	at live_functions.n_addUsers.addfireFighter2ForStation06(n_addUsers.java:621)
-	at live_functions.A_testClass_dailyCheckPointList.addFirefighter2ForNewStation06(A_testClass_dailyCheckPointList.java:736)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">live_functions.A_testClass_dailyCheckPointList#addStationUserForStation06</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"> <br/>The process of add station user is started.</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&quot;Assign Firefighter&quot;]&quot;}
-  (Session info: MicrosoftEdge=137.0.3296.68)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [2a71d6853b89af2f1fd82a635a5cc259, findElement {using=xpath, value=//div[text()=&quot;Assign Firefighter&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57097}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57097/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2a71d6853b89af2f1fd82a635a5cc259
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
+<h2>Test(failed)</h2><h3 id="m0">live_functions.A_testClass_dailyCheckPointList#addStationUserForStation06</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"> <br/>The process of add station user is started.</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping test: User already exists in another station.
 	at live_functions.n_addUsers.addStationUserForStation06(n_addUsers.java:149)
 	at live_functions.A_testClass_dailyCheckPointList.addStationUserForStation06(A_testClass_dailyCheckPointList.java:681)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">live_functions.A_testClass_dailyCheckPointList#addVehicleUserForStation06</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"> <br/>The process of add new vehicle for station 06 is started.<br/>vehicle Bhupesh+adst06V1newDaily@atinatechnology.in added successfully.</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&quot;btn btn-success&quot;]&quot;}
-  (Session info: MicrosoftEdge=137.0.3296.68)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [2a71d6853b89af2f1fd82a635a5cc259, findElement {using=xpath, value=//button[@class=&quot;btn btn-success&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57097}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57097/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2a71d6853b89af2f1fd82a635a5cc259
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at live_functions.p_vehicleUser.addVehicleUser(p_vehicleUser.java:89)
-	at live_functions.A_testClass_dailyCheckPointList.addVehicleUserForStation06(A_testClass_dailyCheckPointList.java:647)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">live_functions.A_testClass_dailyCheckPointList#createInfoEventByAttribute</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"> <br/>The process of create info-event by attribute is started.<br/>The process of create info-event by attribute is complete.<br/> </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">live_functions.A_testClass_dailyCheckPointList#createTestAlarmByAttributeRecursiveMontlyDateWise</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"> <br/>The process of creating a test alarm by alarm loop 2 with remindar recursive > monthly > date wise is started.<br/>test alarm created for >13.06.2025-09:56<br/>The process of creating a test alarm by alarm loop 2 with remindar recursive > monthly > date wise is complete.<br/> </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">live_functions.A_testClass_dailyCheckPointList#createInfoEventByAttributeSchedule</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"> <br/>The process of create info-event schedule by attribute is started.<br/>info-event created for 10:09 to 10:24<br/>The process of create info-event schedule by attribute is complete.<br/> </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">live_functions.A_testClass_dailyCheckPointList#cretecalendarEventAttributeSchedule</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"> <br/>The process of create calendar event by attribute is started.<br/>calendar event by attribute from-03.07.2025100857 to 03.07.2025102357<br/>The process of create calendar event by attribute is complete.<br/> </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">live_functions.A_testClass_dailyCheckPointList#cretecalendarEventFirefighterSchedule</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"> <br/>The process of create calendar event by Firefighter is started.<br/>calendar event by firefighter from-04-07-2025101208 to 03-07-2025102708<br/>The process of create calendar event by Firefighter is complete.<br/> </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -12,7 +12,10 @@
 
 				<include name="deleteVehicleUser" />
 				
-				<include name="deactiveTestAlarmFromOverview" />
+				<include name="deleteTestAlarmFromOverview_monthly" />
+				
+				<include name="deleteTestAlarmFromOverview" />
+				<include name="deleteTestAlarmFromList" />
 
 				<include name="deleteInfoEvent" />
 
@@ -44,7 +47,7 @@
 				
 				<include name="deleteFireStation" />
 				
-				<include name="deleteAlarmTemplate" />
+
 				
 				<include name="deleteEventCategory" />
 
