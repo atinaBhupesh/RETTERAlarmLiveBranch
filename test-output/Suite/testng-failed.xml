@@ -5,18 +5,38 @@
     <classes>
       <class name="live_functions.A_testClass_dailyCheckPointList">
         <methods>
-          <include name="logOut"/>
-          <include name="backToHomePage2"/>
-          <include name="cretecalendarEventAttributeSchedule"/>
-          <include name="BeforeSuite"/>
-          <include name="AfterTest"/>
-          <include name="createInfoEventByAttributeSchedule"/>
+          <include name="sendmessageToinfoEventUsers"/>
           <include name="backToHomePage"/>
-          <include name="BeforeTest"/>
+          <include name="addFirefighter1ForNewStation06"/>
+          <include name="createChatgroupByResource"/>
+          <include name="createNormalCheckList"/>
+          <include name="addFirefighter2ForNewStation06"/>
+          <include name="backToHomePage2"/>
+          <include name="AfterTest"/>
+          <include name="sendmessageToTestAlarmUsers"/>
           <include name="addStationUserForStation06"/>
           <include name="cretecalendarEventFirefighterSchedule"/>
-          <include name="lounchBrowser"/>
+          <include name="createPermissionGroupDefaultStation"/>
+          <include name="sendMessageChatGrouCreatedByFirefighter"/>
           <include name="AfterSute"/>
+          <include name="sendMessageChatGrouCreatedByResource"/>
+          <include name="cretecalendarEventAttributeSchedule"/>
+          <include name="SendmessagetoARUsers"/>
+          <include name="CreateAttributeForDepartment"/>
+          <include name="BeforeSuite"/>
+          <include name="addVehicleUserForStation06"/>
+          <include name="BeforeTest"/>
+          <include name="createChatgroupByFirefighter"/>
+          <include name="addEventCategory"/>
+          <include name="cretecalendarEventResourceSchedule"/>
+          <include name="createAlarmCheckList"/>
+          <include name="lounchBrowser"/>
+          <include name="logOut"/>
+          <include name="sendmessageToinfoUsers"/>
+          <include name="createChatgroupByAlarmloop"/>
+          <include name="detailsAboutScript"/>
+          <include name="sendMessageChatGrouCreatedByAlarmLoop"/>
+          <include name="sendMessageChatGrouCreatedByAttribute"/>
         </methods>
       </class> <!-- live_functions.A_testClass_dailyCheckPointList -->
     </classes>

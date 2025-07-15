@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)(failed)">
+<suite name="Failed suite [Failed suite [Failed suite [Suite]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)(failed)(failed)">
     <classes>
       <class name="live_functions.A_testClass_dailyCheckPointList">
         <methods>
-          <include name="logOut"/>
-          <include name="backToHomePage2"/>
           <include name="BeforeSuite"/>
-          <include name="AfterTest"/>
           <include name="backToHomePage"/>
           <include name="BeforeTest"/>
-          <include name="addStationUserForStation06"/>
+          <include name="addFirefighter1ForNewStation06"/>
           <include name="lounchBrowser"/>
+          <include name="createNormalCheckList"/>
+          <include name="logOut"/>
+          <include name="backToHomePage2"/>
+          <include name="AfterTest"/>
+          <include name="addStationUserForStation06"/>
+          <include name="createPermissionGroupDefaultStation"/>
+          <include name="sendMessageChatGrouCreatedByAlarmLoop"/>
+          <include name="sendMessageChatGrouCreatedByAttribute"/>
+          <include name="sendMessageChatGrouCreatedByFirefighter"/>
           <include name="AfterSute"/>
         </methods>
       </class> <!-- live_functions.A_testClass_dailyCheckPointList -->
     </classes>
-  </test> <!-- Test(failed)(failed) -->
-</suite> <!-- Failed suite [Failed suite [Suite]] -->
+  </test> <!-- Test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->

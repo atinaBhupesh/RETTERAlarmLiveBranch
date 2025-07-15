@@ -8,18 +8,219 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Failed suite [Suite]</th></tr>
-<tr><td><a href="#t0">Test(failed)</a></td><td class="num">3</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">256,780</td><td></td><td></td></tr>
+<tr><th colspan="8">Failed suite [Failed suite [Suite]]</th></tr>
+<tr><td><a href="#t0">Test(failed)(failed)</a></td><td class="num">0</td><td class="num attn">6</td><td class="num">0</td><td class="num attn">1</td><td class="num">99,850</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Failed suite [Suite]</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test(failed) &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">live_functions.A_testClass_dailyCheckPointList</td><td><a href="#m0">addStationUserForStation06</a></td><td rowspan="1">1751529872033</td><td rowspan="1">10573</td></tr><tr><th colspan="4">Test(failed) &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">live_functions.A_testClass_dailyCheckPointList</td><td><a href="#m1">createInfoEventByAttributeSchedule</a></td><td rowspan="1">1751529770082</td><td rowspan="1">73699</td></tr><tr class="passedeven"><td><a href="#m2">cretecalendarEventAttributeSchedule</a></td><td rowspan="1">1751529717352</td><td rowspan="1">27759</td></tr><tr class="passedeven"><td><a href="#m3">cretecalendarEventFirefighterSchedule</a></td><td rowspan="1">1751529908136</td><td rowspan="1">29132</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Failed suite [Failed suite [Suite]]</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test(failed)(failed) &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">live_functions.A_testClass_dailyCheckPointList</td><td><a href="#m0">backToHomePage</a></td><td rowspan="1">1752570259623</td><td rowspan="1">20338</td></tr><tr><th colspan="4">Test(failed)(failed) &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">live_functions.A_testClass_dailyCheckPointList</td><td><a href="#m1">addFirefighter1ForNewStation06</a></td><td rowspan="1">1752570228725</td><td rowspan="1">18661</td></tr><tr><th colspan="4">Test(failed)(failed) &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="14">live_functions.A_testClass_dailyCheckPointList</td><td><a href="#m2">AfterSute</a></td><td rowspan="1">1752570280038</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">AfterTest</a></td><td rowspan="1">1752570279995</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">backToHomePage</a></td><td rowspan="5">1752570279975</td><td rowspan="5">0</td></tr><tr class="skippedeven"><td><a href="#m5">backToHomePage</a></td></tr><tr class="skippedeven"><td><a href="#m6">backToHomePage</a></td></tr><tr class="skippedeven"><td><a href="#m7">backToHomePage</a></td></tr><tr class="skippedeven"><td><a href="#m8">backToHomePage</a></td></tr><tr class="skippedeven"><td><a href="#m9">backToHomePage2</a></td><td rowspan="6">1752570279992</td><td rowspan="6">0</td></tr><tr class="skippedeven"><td><a href="#m10">backToHomePage2</a></td></tr><tr class="skippedeven"><td><a href="#m11">backToHomePage2</a></td></tr><tr class="skippedeven"><td><a href="#m12">backToHomePage2</a></td></tr><tr class="skippedeven"><td><a href="#m13">backToHomePage2</a></td></tr><tr class="skippedeven"><td><a href="#m14">backToHomePage2</a></td></tr><tr class="skippedeven"><td><a href="#m15">logOut</a></td><td rowspan="1">1752570279993</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test(failed)(failed) &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="6">live_functions.A_testClass_dailyCheckPointList</td><td><a href="#m16">addStationUserForStation06</a></td><td rowspan="1">1752570279970</td><td rowspan="1">1</td></tr><tr class="skippedeven"><td><a href="#m17">createNormalCheckList</a></td><td rowspan="1">1752570279965</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m18">createPermissionGroupDefaultStation</a></td><td rowspan="1">1752570279976</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m19">sendMessageChatGrouCreatedByAlarmLoop</a></td><td rowspan="1">1752570279980</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m20">sendMessageChatGrouCreatedByAttribute</a></td><td rowspan="1">1752570279987</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m21">sendMessageChatGrouCreatedByFirefighter</a></td><td rowspan="1">1752570279991</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Test(failed)</h2><h3 id="m0">live_functions.A_testClass_dailyCheckPointList#addStationUserForStation06</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"> <br/>The process of add station user is started.</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping test: User already exists in another station.
-	at live_functions.n_addUsers.addStationUserForStation06(n_addUsers.java:149)
-	at live_functions.A_testClass_dailyCheckPointList.addStationUserForStation06(A_testClass_dailyCheckPointList.java:681)
+<h2>Test(failed)(failed)</h2><h3 id="m0">live_functions.A_testClass_dailyCheckPointList#backToHomePage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=138.0.7204.101)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28782f7e348bf0d9d95ad2f6bf8ffd2a, clickElement {id=f.AEE38BD1312A43F2B649BD7D183728E5.d.900A22AB6F8F8E166300057E39C18F0C.e.23579}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55427}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55427/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (28782f7e348bf0d9d95ad2f6bf8ffd2a)] -&gt; xpath: //a[@href=&quot;http://live.retteralarm.de/admin/dashboard/index&quot;]]
+Session ID: 28782f7e348bf0d9d95ad2f6bf8ffd2a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at live_functions.D_homePage.backToHomePage(D_homePage.java:51)
+	at live_functions.A_testClass_dailyCheckPointList.backToHomePage(A_testClass_dailyCheckPointList.java:234)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">live_functions.A_testClass_dailyCheckPointList#createInfoEventByAttributeSchedule</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"> <br/>The process of create info-event schedule by attribute is started.<br/>info-event created for 10:09 to 10:24<br/>The process of create info-event schedule by attribute is complete.<br/> </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">live_functions.A_testClass_dailyCheckPointList#cretecalendarEventAttributeSchedule</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"> <br/>The process of create calendar event by attribute is started.<br/>calendar event by attribute from-03.07.2025100857 to 03.07.2025102357<br/>The process of create calendar event by attribute is complete.<br/> </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">live_functions.A_testClass_dailyCheckPointList#cretecalendarEventFirefighterSchedule</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"> <br/>The process of create calendar event by Firefighter is started.<br/>calendar event by firefighter from-04-07-2025101208 to 03-07-2025102708<br/>The process of create calendar event by Firefighter is complete.<br/> </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">live_functions.A_testClass_dailyCheckPointList#addFirefighter1ForNewStation06</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"> <br/>The process of add fire fighter is started.</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&quot;Assign Firefighter&quot;]&quot;}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28782f7e348bf0d9d95ad2f6bf8ffd2a, findElement {using=xpath, value=//div[text()=&quot;Assign Firefighter&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55427}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55427/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28782f7e348bf0d9d95ad2f6bf8ffd2a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
+	at live_functions.n_addUsers.addfireFighter1ForStation06(n_addUsers.java:441)
+	at live_functions.A_testClass_dailyCheckPointList.addFirefighter1ForNewStation06(A_testClass_dailyCheckPointList.java:720)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">live_functions.A_testClass_dailyCheckPointList#AfterSute</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">live_functions.A_testClass_dailyCheckPointList#AfterTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">live_functions.A_testClass_dailyCheckPointList#backToHomePage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">live_functions.A_testClass_dailyCheckPointList#backToHomePage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">live_functions.A_testClass_dailyCheckPointList#backToHomePage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">live_functions.A_testClass_dailyCheckPointList#backToHomePage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">live_functions.A_testClass_dailyCheckPointList#backToHomePage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">live_functions.A_testClass_dailyCheckPointList#backToHomePage2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">live_functions.A_testClass_dailyCheckPointList#backToHomePage2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">live_functions.A_testClass_dailyCheckPointList#backToHomePage2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">live_functions.A_testClass_dailyCheckPointList#backToHomePage2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">live_functions.A_testClass_dailyCheckPointList#backToHomePage2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">live_functions.A_testClass_dailyCheckPointList#backToHomePage2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">live_functions.A_testClass_dailyCheckPointList#logOut</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">live_functions.A_testClass_dailyCheckPointList#addStationUserForStation06</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=138.0.7204.101)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28782f7e348bf0d9d95ad2f6bf8ffd2a, clickElement {id=f.AEE38BD1312A43F2B649BD7D183728E5.d.900A22AB6F8F8E166300057E39C18F0C.e.23579}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55427}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55427/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (28782f7e348bf0d9d95ad2f6bf8ffd2a)] -&gt; xpath: //a[@href=&quot;http://live.retteralarm.de/admin/dashboard/index&quot;]]
+Session ID: 28782f7e348bf0d9d95ad2f6bf8ffd2a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at live_functions.D_homePage.backToHomePage(D_homePage.java:51)
+	at live_functions.A_testClass_dailyCheckPointList.backToHomePage(A_testClass_dailyCheckPointList.java:234)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">live_functions.A_testClass_dailyCheckPointList#createNormalCheckList</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=138.0.7204.101)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28782f7e348bf0d9d95ad2f6bf8ffd2a, clickElement {id=f.AEE38BD1312A43F2B649BD7D183728E5.d.900A22AB6F8F8E166300057E39C18F0C.e.23579}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55427}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55427/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (28782f7e348bf0d9d95ad2f6bf8ffd2a)] -&gt; xpath: //a[@href=&quot;http://live.retteralarm.de/admin/dashboard/index&quot;]]
+Session ID: 28782f7e348bf0d9d95ad2f6bf8ffd2a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at live_functions.D_homePage.backToHomePage(D_homePage.java:51)
+	at live_functions.A_testClass_dailyCheckPointList.backToHomePage(A_testClass_dailyCheckPointList.java:234)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">live_functions.A_testClass_dailyCheckPointList#createPermissionGroupDefaultStation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=138.0.7204.101)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28782f7e348bf0d9d95ad2f6bf8ffd2a, clickElement {id=f.AEE38BD1312A43F2B649BD7D183728E5.d.900A22AB6F8F8E166300057E39C18F0C.e.23579}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55427}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55427/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (28782f7e348bf0d9d95ad2f6bf8ffd2a)] -&gt; xpath: //a[@href=&quot;http://live.retteralarm.de/admin/dashboard/index&quot;]]
+Session ID: 28782f7e348bf0d9d95ad2f6bf8ffd2a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at live_functions.D_homePage.backToHomePage(D_homePage.java:51)
+	at live_functions.A_testClass_dailyCheckPointList.backToHomePage(A_testClass_dailyCheckPointList.java:234)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">live_functions.A_testClass_dailyCheckPointList#sendMessageChatGrouCreatedByAlarmLoop</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=138.0.7204.101)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28782f7e348bf0d9d95ad2f6bf8ffd2a, clickElement {id=f.AEE38BD1312A43F2B649BD7D183728E5.d.900A22AB6F8F8E166300057E39C18F0C.e.23579}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55427}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55427/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (28782f7e348bf0d9d95ad2f6bf8ffd2a)] -&gt; xpath: //a[@href=&quot;http://live.retteralarm.de/admin/dashboard/index&quot;]]
+Session ID: 28782f7e348bf0d9d95ad2f6bf8ffd2a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at live_functions.D_homePage.backToHomePage(D_homePage.java:51)
+	at live_functions.A_testClass_dailyCheckPointList.backToHomePage(A_testClass_dailyCheckPointList.java:234)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">live_functions.A_testClass_dailyCheckPointList#sendMessageChatGrouCreatedByAttribute</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=138.0.7204.101)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28782f7e348bf0d9d95ad2f6bf8ffd2a, clickElement {id=f.AEE38BD1312A43F2B649BD7D183728E5.d.900A22AB6F8F8E166300057E39C18F0C.e.23579}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55427}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55427/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (28782f7e348bf0d9d95ad2f6bf8ffd2a)] -&gt; xpath: //a[@href=&quot;http://live.retteralarm.de/admin/dashboard/index&quot;]]
+Session ID: 28782f7e348bf0d9d95ad2f6bf8ffd2a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at live_functions.D_homePage.backToHomePage(D_homePage.java:51)
+	at live_functions.A_testClass_dailyCheckPointList.backToHomePage(A_testClass_dailyCheckPointList.java:234)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">live_functions.A_testClass_dailyCheckPointList#sendMessageChatGrouCreatedByFirefighter</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=138.0.7204.101)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28782f7e348bf0d9d95ad2f6bf8ffd2a, clickElement {id=f.AEE38BD1312A43F2B649BD7D183728E5.d.900A22AB6F8F8E166300057E39C18F0C.e.23579}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\BHUPESH\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55427}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55427/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (28782f7e348bf0d9d95ad2f6bf8ffd2a)] -&gt; xpath: //a[@href=&quot;http://live.retteralarm.de/admin/dashboard/index&quot;]]
+Session ID: 28782f7e348bf0d9d95ad2f6bf8ffd2a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at live_functions.D_homePage.backToHomePage(D_homePage.java:51)
+	at live_functions.A_testClass_dailyCheckPointList.backToHomePage(A_testClass_dailyCheckPointList.java:234)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

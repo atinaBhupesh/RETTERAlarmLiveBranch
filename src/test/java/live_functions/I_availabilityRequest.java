@@ -193,14 +193,14 @@ public class I_availabilityRequest extends B_baseClass {
 	}
 
 	public void ARSendImmediate(WebDriver driver,String date, String date2, String gTimeA7min, String dateAft2Days,
-			String gTimeA22min, String deptName, String BranchNameB) throws Throwable {
+			String gTimeA22min, String deptName, String germanycurrentTime, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
 	
 		ARTitle.click();
 
-		act.sendKeys("BG-AR > one time > immediate-"+date).build().perform();
+		act.sendKeys("BG-AR > one time > immediate-"+date+"_"+germanycurrentTime).build().perform();
 
 		Select se = new Select(ARType);
 		se.selectByVisibleText("One time");
@@ -434,12 +434,12 @@ public class I_availabilityRequest extends B_baseClass {
 	}
 
 	public void ARRecursivee(WebDriver driver,String date, String today, String gTimeA7min, String gTimeA22min, String dayAf2day,
-			String dayAf4day,String deptName, String BranchNameB) throws Throwable {
+			String dayAf4day,String deptName, String germanycurrentTime, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
 		ARTitle.click();
-		act.sendKeys("BG-AR > recursive-"+ date).build().perform();
+		act.sendKeys("BG-AR > recursive-"+ date+"_"+  germanycurrentTime).build().perform();
 
 		Select se = new Select(ARType);
 		se.selectByVisibleText("Recursive");
@@ -541,12 +541,12 @@ switch (BranchNameB) {
 	}
 
 	public void ARSendMultiple(WebDriver driver,String date, String gTimeA7min, String gTimeA9min, String gTimeA11min,
-			String dayAf2day, String dayAf4day, String gTimeA22min,String deptName, String BranchNameB) throws Throwable {
+			String dayAf2day, String dayAf4day, String gTimeA22min,String deptName, String germanycurrentTime, String BranchNameB) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
 		ARTitle.click();
-		act.sendKeys("BG-AR > multiple days-"+date).build().perform();
+		act.sendKeys("BG-AR > multiple days-"+date+"_" +germanycurrentTime).build().perform();
 
 		Select se = new Select(ARType);
 		se.selectByVisibleText("Multiple days");
